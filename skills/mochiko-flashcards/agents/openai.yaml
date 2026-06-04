@@ -1,0 +1,7 @@
+interface:
+  display_name: "Mochiko Flashcards"
+  short_description: "Generate Mochi flashcards with Mochiko"
+  default_prompt: "Use $mochiko-flashcards to generate flashcards from these source phrases; ask for the target language, deck target, tags, and whether to write to Mochi if they are not provided."
+
+policy:
+  allow_implicit_invocation: true

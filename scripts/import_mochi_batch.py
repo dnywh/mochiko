@@ -112,7 +112,7 @@ def main() -> None:
     parser.add_argument(
         "--apply",
         action="store_true",
-        help="Reserved for a future direct Mochi API/MCP backend. Currently refused.",
+        help="Write to Mochi via the official API. Requires MOCHI_API_KEY.",
     )
     args = parser.parse_args()
 

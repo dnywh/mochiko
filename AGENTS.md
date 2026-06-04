@@ -2,20 +2,73 @@
 
 ## Project Overview
 
-Mochiko preserves source assets and scripts for generating language-learning decks in Mochi. It currently contains a Spanish pilot, but copy, structure, and implementation should stay language-general because German will likely be added next.
+Mochiko is a playbook and toolbench for generating language-learning flashcards for Mochi. It preserves reusable instructions, source artefacts, templates, and scripts while Mochi remains the source of truth for imported cards.
 
-The goal is not to bulk-generate cards blindly. Generate small previews, inspect them, then import a small pilot into Mochi.
+The repo currently contains Spanish pilot material, but structure, copy, and tooling should stay language-general because German is planned next.
 
 ## Current Mochi State
 
 - Parent Spanish deck: `Spanish` (`khnMj1gA`)
-- Pilot deck already created: `Frequency 001-020` (`MNmR28ru`)
-- Original template: `Language with Audio` (`NzSvxUDF`)
-- Recommended new template for future Spanish imports: `Mochiko Language with Audio` (`tq51slCp`)
+- Wild Spanish deck: `Wild` (`bxo7vr1h`)
+- Spanish frequency deck: `Frequency 001-020` (`MNmR28ru`)
+- Spanish frequency deck: `Frequency 021-040` (`juLri2Ke`)
+- Spanish numbers deck: `Numbers 010-032` (`cGTBD2MJ`)
+- Original Spanish template: `Language with Audio` (`NzSvxUDF`)
+- Recommended Spanish template: `Mochiko Language with Audio` (`tq51slCp`)
 - Superseded v2 template: `Language with Audio v2 Inline` (`KHhX0rbi`)
-- A first attempted v2 template also exists: `Language with Audio v2` (`rdCJTaM9`), but avoid it because the MCP-created `Audio` field did not preserve the original speech source linkage.
+- Avoid first attempted v2 template: `Language with Audio v2` (`rdCJTaM9`)
 
-Do not create more Mochi cards or decks unless the user explicitly asks.
+Do not create Mochi cards or decks unless the user explicitly asks.
+
+## Workflow Policy
+
+- Read `README.md` and `docs/flashcard-workflow.md` before changing card-generation behaviour.
+- Formal decks belong in committed source files under `languages/<language-code>/`.
+- Frequency lists, number lists, and structured drills are formal decks.
+- Wild captures are normally reviewed in chat and written directly to Mochi with MCP/API tools; do not create one-off wild CSVs unless the user asks.
+- Keep generated previews committed only when they are useful review artefacts for formal/reproducible decks.
+- Keep scratch files, installed packages, and ad hoc experiments under `work/`.
+
+## Language Defaults
+
+- Spanish (`es`): aim for general Latin American Spanish unless the user asks for a regional variant.
+- German (`de`): planned but not configured; choose deck IDs, template, register, and source material before generating or importing German cards.
+- Keep reusable docs language-general. Put language-specific rules in clearly labelled sections.
+
+## Card Generation Rules
+
+- Each generated card sentence must contain exactly one cloze pair: `{{target}}`.
+- Avoid initial-position clozes when practical because Mochi renders hidden terms as line breaks in AI prompts.
+- Prefer short, natural beginner sentences over isolated words.
+- For function words, use simple contexts that make the target learnable.
+- For formal CSV rows, `word` must match the exact clozed text, except for normal capitalisation.
+- Preview generated rows before importing to Mochi.
+
+## Template Rules
+
+- Use `tq51slCp` for current Spanish imports unless the user chooses another template.
+- Mochi `<ai>...</ai>` contents must be single-line. Do not put literal newlines inside an `<ai>` tag.
+- Keep template source aligned with `templates/mochiko_language_with_audio.md`.
+- Hidden-term explanations should bold the hidden term once at the start and should not repeat the same term after the colon.
+
+## Mochi Import Rules
+
+Use `create_card` with:
+
+- `content`: empty string
+- `template-id`: `tq51slCp` for current Spanish imports unless the user chooses another template
+- `fields.name.value`: the cloze sentence
+- `manual-tags`: tag names without `#`
+
+Example tags:
+
+```json
+["frequency", "generated", "rank-001-020"]
+```
+
+For updates, Mochi's `update_card` `manual-tags` field overwrites the full manual tag list, so include every tag that should remain.
+
+Use `scripts/import_mochi_batch.py` for formal CSV imports. It previews by default. Direct API writes require `--apply` and `MOCHI_API_KEY`.
 
 ## Setup Commands
 
@@ -31,60 +84,17 @@ Regenerate the current Spanish preview:
 PYTHONPATH=work/python-packages python3 scripts/generate_spanish_frequency_pilot.py
 ```
 
-Generate the next Spanish frequency batch:
+Regenerate the imported Spanish 21-40 frequency batch:
 
 ```sh
 PYTHONPATH=work/python-packages python3 scripts/generate_spanish_frequency_batches.py --start-rank 21 --end-rank 40
 ```
 
-## Code And Data Conventions
+Dry-run a formal CSV batch:
 
-- Keep language assets under `languages/<language-code>/`.
-- Keep reusable import/generation scripts under `scripts/`.
-- Keep Mochi template prompt source under `templates/`.
-- Keep generated previews committed when they are useful review artefacts.
-- Keep scratch files, installed packages, and ad hoc experiments under `work/`.
-- Use clear frequency-batch names such as `frequency_001_020.csv` and Mochi deck names such as `Frequency 001-020`.
-
-## Card Generation Rules
-
-- Each generated card sentence must contain exactly one cloze pair: `{{target}}`.
-- Avoid initial-position clozes when possible because Mochi renders hidden terms as line breaks in AI prompts and that can confuse term identification.
-- Prefer short, natural beginner sentences over isolated words.
-- For function words, use simple contexts that make the target learnable.
-- Preview generated rows before importing to Mochi.
-- More Spanish frequency cards are a natural next step after one successful test card on `tq51slCp`.
-- `languages/es/frequency_021_040.csv` has already been generated and inspected locally. Do not import it until the user asks.
-
-## Template Rules
-
-- Mochi `<ai>...</ai>` contents must be single-line. Do not put literal newlines inside an `<ai>` tag.
-- Keep template source aligned with `templates/mochiko_language_with_audio.md`.
-- The current working v2 prompt was edited in Mochi and confirmed by the user on one test client card.
-- Hidden-term explanations should bold the hidden term once at the start and should not repeat the same term after the colon.
-
-## Mochi Import Rules
-
-Use `create_card` with:
-
-- `content`: empty string
-- `template-id`: `tq51slCp` for future Spanish frequency decks unless the user chooses another template
-- `fields.name.value`: the cloze sentence
-- `manual-tags`: tag names without `#`
-
-Example tags:
-
-```json
-["frequency", "generated", "rank-001-020"]
+```sh
+python3 scripts/import_mochi_batch.py languages/es/numbers_010_032.csv --deck-id cGTBD2MJ
 ```
-
-`update_card` with `manual-tags` overwrites the full manual tag list, so include every tag that should remain.
-
-Use `scripts/import_mochi_batch.py` for imports. It previews by default. Direct API writes require `--apply` and `MOCHI_API_KEY`.
-
-## AI-Credit Caution
-
-Changing Mochi `<ai>` prompt text can cause cache misses and spend AI credits when cards render. Prefer creating a separate v2 template, testing one card, then using it only for future decks. Avoid bulk re-rendering old cards immediately after prompt changes.
 
 ## User Preferences
 

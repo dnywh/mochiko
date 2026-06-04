@@ -1,0 +1,24 @@
+rank,word,sentence,tags
+10,diez,Quiero {{diez}} mangos.,numbers;generated;range-010-032
+11,once,Ella quiere {{once}} flores.,numbers;generated;range-010-032
+12,doce,Él tiene {{doce}} pesos.,numbers;generated;range-010-032
+13,trece,Hay {{trece}} sillas.,numbers;generated;range-010-032
+14,catorce,Veo {{catorce}} casas.,numbers;generated;range-010-032
+15,quince,Necesito {{quince}} platos.,numbers;generated;range-010-032
+16,dieciséis,Compramos {{dieciséis}} tortillas.,numbers;generated;range-010-032
+17,diecisiete,Tengo {{diecisiete}} tarjetas.,numbers;generated;range-010-032
+18,dieciocho,Hay {{dieciocho}} mesas.,numbers;generated;range-010-032
+19,diecinueve,Ella vende {{diecinueve}} limones.,numbers;generated;range-010-032
+20,veinte,Quiero {{veinte}} tacos.,numbers;generated;range-010-032
+21,veintiún,Él tiene {{veintiún}} libros.,numbers;generated;range-010-032
+22,veintidós,Veo {{veintidós}} vasos.,numbers;generated;range-010-032
+23,veintitrés,Hay {{veintitrés}} personas.,numbers;generated;range-010-032
+24,veinticuatro,Compramos {{veinticuatro}} naranjas.,numbers;generated;range-010-032
+25,veinticinco,Necesito {{veinticinco}} pesos.,numbers;generated;range-010-032
+26,veintiséis,Ella tiene {{veintiséis}} fotos.,numbers;generated;range-010-032
+27,veintisiete,Veo {{veintisiete}} coches.,numbers;generated;range-010-032
+28,veintiocho,Hay {{veintiocho}} puertas.,numbers;generated;range-010-032
+29,veintinueve,Compramos {{veintinueve}} manzanas.,numbers;generated;range-010-032
+30,treinta,Quiero {{treinta}} pesos.,numbers;generated;range-010-032
+31,treinta y un,Él tiene {{treinta y un}} años.,numbers;generated;range-010-032
+32,treinta y dos,Hay {{treinta y dos}} cartas.,numbers;generated;range-010-032
