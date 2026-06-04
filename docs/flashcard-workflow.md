@@ -115,8 +115,10 @@ Mochi `<ai>...</ai>` contents must stay on one line. Changing prompt text can ca
 
 Hidden-term explanations should bold the hidden term once at the start and avoid repeating it after the colon.
 
-## Repo-Shared Skill
+## Repo-Shared Agent Skill
 
-The portable Codex skill lives at `skills/mochiko-flashcards/`.
+The portable agent skill lives at `skills/mochiko-flashcards/`. See `README.md` for Codex installation instructions.
 
-The skill should stay concise and point back to this workflow doc. Update the skill when the workflow changes in a way that future agents need to know before generating or importing cards.
+The skill entrypoint should stay concise and include only the operating rules needed to find the right context. Its bundled `references/flashcard-workflow.md` should be a compact portable subset of this document, not a full duplicate.
+
+For agents that do not support Codex-style skills, use `skills/mochiko-flashcards/SKILL.md` and `skills/mochiko-flashcards/references/flashcard-workflow.md` as project instructions.

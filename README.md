@@ -22,13 +22,7 @@ Spanish is the current pilot language. German is a planned future language, so r
 
 See [docs/flashcard-workflow.md](docs/flashcard-workflow.md) for the canonical workflow.
 
-- Formal decks such as frequency lists, number ranges, and structured drills should be committed under `languages/<language-code>/` and imported through reusable tooling.
-- Wild captures should usually be normalised, reviewed in chat, and imported directly to Mochi. Do not add one-off wild CSVs unless the user asks to preserve source files.
-- Every generated card should use exactly one cloze pair, for example:
-
-```text
-Soy {{de}} Perú.
-```
+At a high level, formal/reusable decks live in this repo under `languages/<language-code>/`, while wild captures are usually reviewed in chat and imported directly to Mochi.
 
 ## Repo Layout
 
@@ -39,7 +33,7 @@ Soy {{de}} Perú.
 - `scripts/import_mochi_batch.py` - reusable CSV-to-Mochi preview/import helper.
 - `templates/mochiko_language_with_audio.md` - source for the recommended Mochiko template.
 - `docs/flashcard-workflow.md` - detailed workflow and guardrails.
-- `skills/mochiko-flashcards/` - repo-shared Codex skill for portable agent guidance.
+- `skills/mochiko-flashcards/` - repo-shared agent skill for portable guidance in Codex and similar AI coding tools.
 
 Future German formal sources should live under `languages/de/` after German deck IDs, template decisions, language defaults, and source material are chosen.
 
@@ -63,15 +57,31 @@ Generate a specific Spanish frequency batch:
 PYTHONPATH=work/python-packages python3 scripts/generate_spanish_frequency_batches.py --start-rank 21 --end-rank 40
 ```
 
+## Installing The Agent Skill
+
+The repo-shared skill lives at `skills/mochiko-flashcards/`. In Codex, install it by symlinking the repo copy into your skills directory, then restart Codex:
+
+```sh
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+ln -sfn "$PWD/skills/mochiko-flashcards" \
+  "${CODEX_HOME:-$HOME/.codex}/skills/mochiko-flashcards"
+```
+
+Using a symlink keeps the installed skill aligned with repo updates. On another machine, clone this repo, run the same commands from the repo root, then restart Codex.
+
+The skill includes `skills/mochiko-flashcards/references/flashcard-workflow.md` so the installed copy remains useful even when the full repo docs are not beside it. When an agent is working inside this repo, it should prefer the live repo docs if they differ from the bundled reference.
+
+For other agent tools, use `skills/mochiko-flashcards/SKILL.md` as the portable operating guide. If the tool does not support Codex-style skills directly, add that file and `skills/mochiko-flashcards/references/flashcard-workflow.md` to the agent's project instructions or context.
+
 ## Importing Formal CSV Batches
 
-Preview Mochi `create_card` payloads without writing:
+Preview a formal CSV batch without writing:
 
 ```sh
 python3 scripts/import_mochi_batch.py languages/es/frequency_021_040.csv --jsonl-output outputs/mochi_create_card_frequency_021_040.jsonl
 ```
 
-Import with the official Mochi API only after review:
+Import with the official Mochi API only after review and an explicit write request:
 
 ```sh
 export MOCHI_API_KEY=...
@@ -94,15 +104,6 @@ Useful source material for expanding the project, especially German:
 - [General Service List](https://en.wikipedia.org/wiki/General_Service_List)
 - [`625-words-fluent-forever-output.csv`](https://github.com/kelvinn/the-625-list/blob/master/625-words-fluent-forever-output.csv)
 
-## Template And AI-Credit Notes
+## Template Notes
 
-`templates/mochiko_language_with_audio.md` matches the recommended live Mochi template `Mochiko Language with Audio` (`tq51slCp`). It uses inline speech blocks for both slow and fast audio because the exposed Mochi `create_template` tool did not preserve the original template's speech-field `source` setting when creating `rdCJTaM9`.
-
-Mochi `<ai>...</ai>` component contents must stay on a single line. Multi-line `<ai>` contents can break formatting or rendering. Keep line breaks outside the `<ai>` tag only.
-
-Changing a template AI prompt can cause cached AI components to miss and regenerate when cards render. Treat this as credit-spending until verified otherwise. Safer options:
-
-- Create or use a separate v2 template and test it with one card.
-- Use the v2 template only for future generated decks.
-- Avoid bulk re-rendering or reviewing old cards immediately after prompt changes.
-- Keep old template IDs and generated CSVs so cards can be traced back to their source prompt.
+`templates/mochiko_language_with_audio.md` matches the recommended live Mochi template `Mochiko Language with Audio` (`tq51slCp`). See [docs/flashcard-workflow.md](docs/flashcard-workflow.md) for template and AI-credit guardrails.
