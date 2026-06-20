@@ -1,0 +1,19 @@
+rank,word,sentence,tags
+33,treinta y tres,Tengo {{treinta y tres}} correos.,numbers;generated;range-033-050
+34,treinta y cuatro,Esperamos {{treinta y cuatro}} minutos.,numbers;generated;range-033-050
+35,treinta y cinco,Necesito {{treinta y cinco}} copias.,numbers;generated;range-033-050
+36,treinta y seis,La caja pesa {{treinta y seis}} kilos.,numbers;generated;range-033-050
+37,treinta y siete,Compré {{treinta y siete}} boletos.,numbers;generated;range-033-050
+38,treinta y ocho,Hay {{treinta y ocho}} asientos.,numbers;generated;range-033-050
+39,treinta y nueve,La cuenta es de {{treinta y nueve}} pesos.,numbers;generated;range-033-050
+40,cuarenta,Faltan {{cuarenta}} días.,numbers;generated;range-033-050
+41,cuarenta y un,El hotel tiene {{cuarenta y un}} pisos.,numbers;generated;range-033-050
+42,cuarenta y dos,Leí {{cuarenta y dos}} páginas.,numbers;generated;range-033-050
+43,cuarenta y tres,Trae {{cuarenta y tres}} vasos.,numbers;generated;range-033-050
+44,cuarenta y cuatro,Guardé {{cuarenta y cuatro}} fotos.,numbers;generated;range-033-050
+45,cuarenta y cinco,El viaje dura {{cuarenta y cinco}} minutos.,numbers;generated;range-033-050
+46,cuarenta y seis,Vimos {{cuarenta y seis}} casas.,numbers;generated;range-033-050
+47,cuarenta y siete,Hay {{cuarenta y siete}} nombres en la lista.,numbers;generated;range-033-050
+48,cuarenta y ocho,Compramos {{cuarenta y ocho}} botellas.,numbers;generated;range-033-050
+49,cuarenta y nueve,El paquete trae {{cuarenta y nueve}} piezas.,numbers;generated;range-033-050
+50,cincuenta,Quiero {{cincuenta}} pesos.,numbers;generated;range-033-050

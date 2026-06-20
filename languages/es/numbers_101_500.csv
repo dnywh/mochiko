@@ -1,0 +1,11 @@
+rank,word,sentence,tags
+101,ciento uno,El número de reserva es {{ciento uno}}.,numbers;generated;range-101-500
+125,ciento veinticinco,La cuenta llegó a {{ciento veinticinco}}.,numbers;generated;range-101-500
+150,ciento cincuenta,El marcador dice {{ciento cincuenta}}.,numbers;generated;range-101-500
+200,doscientos,El código termina en {{doscientos}}.,numbers;generated;range-101-500
+238,doscientos treinta y ocho,La sala tiene el número {{doscientos treinta y ocho}}.,numbers;generated;range-101-500
+300,trescientos,El recibo muestra {{trescientos}}.,numbers;generated;range-101-500
+347,trescientos cuarenta y siete,La página marcada es {{trescientos cuarenta y siete}}.,numbers;generated;range-101-500
+400,cuatrocientos,El total subió a {{cuatrocientos}}.,numbers;generated;range-101-500
+456,cuatrocientos cincuenta y seis,La clave temporal es {{cuatrocientos cincuenta y seis}}.,numbers;generated;range-101-500
+500,quinientos,El límite es {{quinientos}}.,numbers;generated;range-101-500

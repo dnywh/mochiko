@@ -13,6 +13,7 @@ Spanish is the current pilot language. German is a planned future language, so r
 - Spanish frequency deck: `Frequency 001-020` (`MNmR28ru`)
 - Spanish frequency deck: `Frequency 021-040` (`juLri2Ke`)
 - Spanish numbers deck: `Numbers 010-032` (`cGTBD2MJ`)
+- Spanish numbers deck: `Numbers 033-050` (`Q2GwUS77`)
 - Recommended Spanish template: `Mochiko Language with Audio` (`tq51slCp`)
 - Original Spanish template: `Language with Audio` (`NzSvxUDF`)
 - Superseded v2 template: `Language with Audio v2 Inline` (`KHhX0rbi`)
@@ -29,6 +30,7 @@ At a high level, formal/reusable decks live in this repo under `languages/<langu
 - `languages/es/frequency_001_020.csv` - Spanish frequency source for ranks 1-20.
 - `languages/es/frequency_021_040.csv` - Spanish frequency source for ranks 21-40.
 - `languages/es/numbers_010_032.csv` - Spanish number source for 10-32.
+- `languages/es/numbers_033_050.csv` - Spanish number source for 33-50.
 - `scripts/generate_spanish_frequency_batches.py` - Spanish frequency batch generator.
 - `scripts/import_mochi_batch.py` - reusable CSV-to-Mochi preview/import helper.
 - `templates/mochiko_language_with_audio.md` - source for the recommended Mochiko template.
@@ -69,9 +71,9 @@ ln -sfn "$PWD/skills/mochiko-flashcards" \
 
 Using a symlink keeps the installed skill aligned with repo updates. On another machine, clone this repo, run the same commands from the repo root, then restart Codex.
 
-The skill includes `skills/mochiko-flashcards/references/flashcard-workflow.md` so the installed copy remains useful even when the full repo docs are not beside it. When an agent is working inside this repo, it should prefer the live repo docs if they differ from the bundled reference.
+The skill includes `skills/mochiko-flashcards/references/portable-workflow.md` so the installed copy remains useful even when the full repo docs are not beside it. When an agent is working inside this repo, it should prefer the live repo docs if they differ from the bundled reference.
 
-For other agent tools, use `skills/mochiko-flashcards/SKILL.md` as the portable operating guide. If the tool does not support Codex-style skills directly, add that file and `skills/mochiko-flashcards/references/flashcard-workflow.md` to the agent's project instructions or context.
+For other agent tools, use `skills/mochiko-flashcards/SKILL.md` as the portable operating guide. If the tool does not support Codex-style skills directly, add that file and `skills/mochiko-flashcards/references/portable-workflow.md` to the agent's project instructions or context.
 
 ## Importing Formal CSV Batches
 

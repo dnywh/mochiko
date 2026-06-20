@@ -9,9 +9,9 @@ metadata:
 
 Use this skill when an AI coding agent is asked to create, review, preview, or import language-learning flashcards through Mochiko.
 
-Before producing cards or changing workflow behaviour, read the bundled reference:
+Before producing cards or changing workflow behaviour, read the bundled portable reference:
 
-- `references/flashcard-workflow.md`
+- `references/portable-workflow.md`
 
 If running inside a Mochiko repo checkout, also inspect the live repo docs:
 

@@ -84,11 +84,13 @@ python3 scripts/import_mochi_batch.py languages/es/numbers_010_032.csv \
 Use this for messy lists captured from signs, restaurants, transport, conversations, or daily life.
 
 1. Preserve the user's intent and context.
-2. Normalise into useful beginner-friendly target-language sentences.
-3. Keep regional terms when they are likely what the user is hearing, but otherwise prefer the language default.
-4. Present an in-chat preview when practical.
-5. Write directly to the requested Mochi deck with MCP/API tools only when the user explicitly asks.
-6. Do not create repo CSVs for wild batches unless the user asks to preserve source files.
+2. Check the target wild deck before proposing new cards. Compare proposed cloze targets, unclozed sentence text, and obvious concept equivalents against current cards in the deck or wild-tagged set.
+3. If a duplicate or near-duplicate exists, skip the new card and tell the user which existing card covers it, for example: `You already have {{sobre}}: El vaso está {{sobre}} la mesa.`
+4. Normalise non-duplicate captures into useful beginner-friendly target-language sentences.
+5. Keep regional terms when they are likely what the user is hearing, but otherwise prefer the language default.
+6. Present an in-chat preview when practical.
+7. Write directly to the requested Mochi deck with MCP/API tools only when the user explicitly asks.
+8. Do not create repo CSVs for wild batches unless the user asks to preserve source files.
 
 Direct MCP `create_card` payload shape:
 
@@ -119,6 +121,6 @@ Hidden-term explanations should bold the hidden term once at the start and avoid
 
 The portable agent skill lives at `skills/mochiko-flashcards/`. See `README.md` for Codex installation instructions.
 
-The skill entrypoint should stay concise and include only the operating rules needed to find the right context. Its bundled `references/flashcard-workflow.md` should be a compact portable subset of this document, not a full duplicate.
+The skill entrypoint should stay concise and include only the operating rules needed to find the right context. Its bundled `references/portable-workflow.md` should be a compact portable subset of this document, not a full duplicate.
 
-For agents that do not support Codex-style skills, use `skills/mochiko-flashcards/SKILL.md` and `skills/mochiko-flashcards/references/flashcard-workflow.md` as project instructions.
+For agents that do not support Codex-style skills, use `skills/mochiko-flashcards/SKILL.md` and `skills/mochiko-flashcards/references/portable-workflow.md` as project instructions.

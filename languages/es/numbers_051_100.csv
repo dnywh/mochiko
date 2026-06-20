@@ -1,0 +1,11 @@
+rank,word,sentence,tags
+51,cincuenta y uno,Vi {{cincuenta y uno}} mensajes.,numbers;generated;range-051-100
+57,cincuenta y siete,La fila tiene {{cincuenta y siete}} personas.,numbers;generated;range-051-100
+63,sesenta y tres,Pagué {{sesenta y tres}} pesos.,numbers;generated;range-051-100
+68,sesenta y ocho,Hay {{sesenta y ocho}} sillas.,numbers;generated;range-051-100
+72,setenta y dos,Leí {{setenta y dos}} páginas.,numbers;generated;range-051-100
+79,setenta y nueve,Esperamos {{setenta y nueve}} minutos.,numbers;generated;range-051-100
+86,ochenta y seis,El paquete trae {{ochenta y seis}} piezas.,numbers;generated;range-051-100
+91,noventa y un,El edificio tiene {{noventa y un}} pisos.,numbers;generated;range-051-100
+94,noventa y cuatro,Guardé {{noventa y cuatro}} fotos.,numbers;generated;range-051-100
+100,cien,Necesito {{cien}} copias.,numbers;generated;range-051-100
