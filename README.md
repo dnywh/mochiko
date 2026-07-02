@@ -6,7 +6,7 @@ It keeps durable instructions, templates, scripts, and formal source artefacts i
 
 Spanish is the current pilot language. German is a planned future language, so reusable copy and tooling should stay language-general unless it is explicitly documenting Spanish.
 
-## Current Mochi State
+## Current Mochi state
 
 - Parent Spanish deck: `Spanish` (`khnMj1gA`)
 - Wild Spanish deck: `Wild` (`bxo7vr1h`)
@@ -25,13 +25,14 @@ See [docs/flashcard-workflow.md](docs/flashcard-workflow.md) for the canonical w
 
 At a high level, formal/reusable decks live in this repo under `languages/<language-code>/`, while wild captures are usually reviewed in chat and imported directly to Mochi.
 
-## Repo Layout
+## Repo layout
 
 - `languages/es/frequency_001_020.csv` - Spanish frequency source for ranks 1-20.
 - `languages/es/frequency_021_040.csv` - Spanish frequency source for ranks 21-40.
 - `languages/es/numbers_010_032.csv` - Spanish number source for 10-32.
 - `languages/es/numbers_033_050.csv` - Spanish number source for 33-50.
 - `scripts/generate_spanish_frequency_batches.py` - Spanish frequency batch generator.
+- `scripts/daily_spanish_frequency.py` - daily Spanish frequency automation runner.
 - `scripts/import_mochi_batch.py` - reusable CSV-to-Mochi preview/import helper.
 - `templates/mochiko_language_with_audio.md` - source for the recommended Mochiko template.
 - `docs/flashcard-workflow.md` - detailed workflow and guardrails.
@@ -59,7 +60,15 @@ Generate a specific Spanish frequency batch:
 PYTHONPATH=work/python-packages python3 scripts/generate_spanish_frequency_batches.py --start-rank 21 --end-rank 40
 ```
 
-## Installing The Agent Skill
+Show the next scheduled Spanish frequency ranks:
+
+```sh
+PYTHONPATH=work/python-packages python3 scripts/daily_spanish_frequency.py
+```
+
+The daily runner uses `wordfreq.top_n_list("es", N)` for rank order, starts after the existing frequency ranks 1-40, and stops at rank 500 unless the cap is intentionally changed. The scheduled Codex task supplies five new natural Latin American Spanish cloze sentences, then runs the same script with `--sentences-json` and `--apply`.
+
+## Installing the agent skill
 
 The repo-shared skill lives at `skills/mochiko-flashcards/`. In Codex, install it by symlinking the repo copy into your skills directory, then restart Codex:
 
@@ -75,7 +84,7 @@ The skill includes `skills/mochiko-flashcards/references/portable-workflow.md` s
 
 For other agent tools, use `skills/mochiko-flashcards/SKILL.md` as the portable operating guide. If the tool does not support Codex-style skills directly, add that file and `skills/mochiko-flashcards/references/portable-workflow.md` to the agent's project instructions or context.
 
-## Importing Formal CSV Batches
+## Importing formal CSV batches
 
 Preview a formal CSV batch without writing:
 
@@ -96,7 +105,7 @@ python3 scripts/import_mochi_batch.py languages/es/frequency_021_040.csv \
 
 The importer uses Mochi's `POST /cards` API and Basic auth with the API key as the username. The JSONL output is only a review or handoff artefact; Mochi cannot import it directly.
 
-## Source Material
+## Source material
 
 The current Spanish frequency batches use `wordfreq` to rank common Spanish terms, with manually authored beginner sentences around those terms.
 
@@ -106,6 +115,6 @@ Useful source material for expanding the project, especially German:
 - [General Service List](https://en.wikipedia.org/wiki/General_Service_List)
 - [`625-words-fluent-forever-output.csv`](https://github.com/kelvinn/the-625-list/blob/master/625-words-fluent-forever-output.csv)
 
-## Template Notes
+## Template notes
 
 `templates/mochiko_language_with_audio.md` matches the recommended live Mochi template `Mochiko Language with Audio` (`tq51slCp`). See [docs/flashcard-workflow.md](docs/flashcard-workflow.md) for template and AI-credit guardrails.

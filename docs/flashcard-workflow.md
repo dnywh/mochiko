@@ -1,4 +1,4 @@
-# Mochiko Flashcard Workflow
+# Mochiko flashcard workflow
 
 Mochiko supports two related workflows:
 
@@ -7,7 +7,7 @@ Mochiko supports two related workflows:
 
 Use this document as the working playbook. Keep `README.md` high level and keep `AGENTS.md` focused on operating rules for future agents.
 
-## Universal Card Rules
+## Universal card rules
 
 - Write one target-language sentence per card.
 - Use exactly one cloze pair: `{{target}}`.
@@ -17,7 +17,7 @@ Use this document as the working playbook. Keep `README.md` high level and keep 
 - For function words, choose simple contexts that make the target learnable.
 - Preview cards before writing to Mochi.
 
-## Language Defaults
+## Language defaults
 
 ### Spanish (`es`)
 
@@ -41,7 +41,7 @@ Before importing German cards, decide and document:
 
 Keep German files under `languages/de/` once they exist.
 
-## Formal Deck Workflow
+## Formal deck workflow
 
 Use this for frequency lists, number ranges, verb drills, themed lists, and other repeatable exercises.
 
@@ -63,6 +63,22 @@ Use this for frequency lists, number ranges, verb drills, themed lists, and othe
 5. Preview with `scripts/import_mochi_batch.py`.
 6. Import only after review and only when the user explicitly asks for a write.
 
+### Scheduled Spanish frequency workflow
+
+The daily Spanish frequency automation is an explicit exception to the usual manual preview-before-import rule. It uses `wordfreq.top_n_list("es", N)` as the source of truth for rank order, continues after the existing frequency ranks 1-40, and writes five new cards per run until the approved cap rank is reached.
+
+The scheduled run must:
+
+- use general Latin American Spanish
+- generate ranks in strict order
+- keep rolling 20-card formal decks, for example `Frequency 041-060`
+- validate one cloze pair per sentence before writing
+- use parent deck `khnMj1gA` and template `tq51slCp`
+- require `MOCHI_API_KEY` before any write
+- stop when rank 500 is complete unless the cap is intentionally raised
+
+Use `scripts/daily_spanish_frequency.py` for this workflow. Running it without sentence input prints the next ranks. Running it with `--sentences-json` validates a proposed five-card slice. Running it with `--apply` writes to Mochi, creates the rolling deck when needed, and appends the source rows after a successful write.
+
 Preview example:
 
 ```sh
@@ -79,7 +95,7 @@ python3 scripts/import_mochi_batch.py languages/es/numbers_010_032.csv \
   --apply
 ```
 
-## Wild Capture Workflow
+## Wild capture workflow
 
 Use this for messy lists captured from signs, restaurants, transport, conversations, or daily life.
 
@@ -109,7 +125,7 @@ Direct MCP `create_card` payload shape:
 }
 ```
 
-## Template Notes
+## Template notes
 
 `templates/mochiko_language_with_audio.md` is the source for the recommended Spanish template.
 
@@ -117,7 +133,7 @@ Mochi `<ai>...</ai>` contents must stay on one line. Changing prompt text can ca
 
 Hidden-term explanations should bold the hidden term once at the start and avoid repeating it after the colon.
 
-## Repo-Shared Agent Skill
+## Repo-shared agent skill
 
 The portable agent skill lives at `skills/mochiko-flashcards/`. See `README.md` for Codex installation instructions.
 
