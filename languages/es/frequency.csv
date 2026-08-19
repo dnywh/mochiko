@@ -1,0 +1,173 @@
+rank,word,sentence,tags
+1,de,Soy {{de}} Perú.,frequency;generated;rank-001-020
+2,la,Veo {{la}} casa.,frequency;generated;rank-001-020
+3,que,Sé {{que}} puedes.,frequency;generated;rank-001-020
+4,el,Leo {{el}} libro.,frequency;generated;rank-001-020
+5,en,Vivo {{en}} Lima.,frequency;generated;rank-001-020
+6,y,Ana {{y}} Luis comen.,frequency;generated;rank-001-020
+7,a,Voy {{a}} casa.,frequency;generated;rank-001-020
+8,los,Veo {{los}} niños.,frequency;generated;rank-001-020
+9,no,Yo {{no}} quiero café.,frequency;generated;rank-001-020
+10,un,Tengo {{un}} perro.,frequency;generated;rank-001-020
+11,se,Ella {{se}} lava las manos.,frequency;generated;rank-001-020
+12,por,Camino {{por}} el parque.,frequency;generated;rank-001-020
+13,es,Madrid {{es}} grande.,frequency;generated;rank-001-020
+14,del,Vengo {{del}} mercado.,frequency;generated;rank-001-020
+15,las,Veo {{las}} flores rojas.,frequency;generated;rank-001-020
+16,con,Estudio {{con}} Marta.,frequency;generated;rank-001-020
+17,una,Quiero {{una}} manzana.,frequency;generated;rank-001-020
+18,para,Este regalo es {{para}} ti.,frequency;generated;rank-001-020
+19,lo,No {{lo}} entiendo.,frequency;generated;rank-001-020
+20,su,Veo {{su}} casa pequeña.,frequency;generated;rank-001-020
+21,al,Voy {{al}} parque.,frequency;generated;rank-021-040
+22,como,Trabajo {{como}} maestro.,frequency;generated;rank-021-040
+23,me,Ella {{me}} llama.,frequency;generated;rank-021-040
+24,más,Quiero {{más}} agua.,frequency;generated;rank-021-040
+25,si,Voy {{si}} puedo.,frequency;generated;rank-021-040
+26,pero,"Quiero ir, {{pero}} no puedo.",frequency;generated;rank-021-040
+27,te,Yo {{te}} veo.,frequency;generated;rank-021-040
+28,o,Quiero té {{o}} café.,frequency;generated;rank-021-040
+29,mi,Esta es {{mi}} casa.,frequency;generated;rank-021-040
+30,le,Yo {{le}} doy agua.,frequency;generated;rank-021-040
+31,este,Uso {{este}} lápiz.,frequency;generated;rank-021-040
+32,sus,Veo {{sus}} libros.,frequency;generated;rank-021-040
+33,esta,Vivo en {{esta}} ciudad.,frequency;generated;rank-021-040
+34,todo,Leo {{todo}} el día.,frequency;generated;rank-021-040
+35,ya,Ella {{ya}} llegó.,frequency;generated;rank-021-040
+36,ha,Ella {{ha}} comido.,frequency;generated;rank-021-040
+37,cuando,Llámame {{cuando}} llegues.,frequency;generated;rank-021-040
+38,yo,Lo hago {{yo}}.,frequency;generated;rank-021-040
+39,ser,Quiero {{ser}} médico.,frequency;generated;rank-021-040
+40,son,Ellos {{son}} amigos.,frequency;generated;rank-021-040
+41,sin,Tomo té {{sin}} azúcar.,frequency;generated;rank-041-060
+42,hay,En mi bolsa {{hay}} pan.,frequency;generated;rank-041-060
+43,está,Mi casa {{está}} cerca.,frequency;generated;rank-041-060
+44,fue,Ayer {{fue}} lunes.,frequency;generated;rank-041-060
+45,tu,Me gusta {{tu}} camisa.,frequency;generated;rank-041-060
+46,muy,La sopa está {{muy}} caliente.,frequency;generated;rank-041-060
+47,sobre,El libro está {{sobre}} la mesa.,frequency;generated;rank-041-060
+48,también,Yo {{también}} quiero agua.,frequency;generated;rank-041-060
+49,todos,Los niños están {{todos}} aquí.,frequency;generated;rank-041-060
+50,eso,No entiendo {{eso}} todavía.,frequency;generated;rank-041-060
+51,tiene,Mi casa {{tiene}} patio.,frequency;generated;rank-041-060
+52,nos,El perro {{nos}} sigue.,frequency;generated;rank-041-060
+53,porque,No voy {{porque}} llueve.,frequency;generated;rank-041-060
+54,qué,No sé {{qué}} quieres.,frequency;generated;rank-041-060
+55,así,No hables {{así}} aquí.,frequency;generated;rank-041-060
+56,años,Mi abuelo tiene ochenta {{años}}.,frequency;generated;rank-041-060
+57,dos,"Quiero {{dos}} tacos, por favor.",frequency;generated;rank-041-060
+58,bien,Hoy me siento {{bien}}.,frequency;generated;rank-041-060
+59,entre,El gato duerme {{entre}} las sillas.,frequency;generated;rank-041-060
+60,puede,Mi hermana {{puede}} venir hoy.,frequency;generated;rank-041-060
+61,desde,Trabajo aquí {{desde}} mayo.,frequency;generated;rank-061-080
+62,hasta,Camino {{hasta}} la escuela.,frequency;generated;rank-061-080
+63,hacer,Quiero {{hacer}} la cena.,frequency;generated;rank-061-080
+64,ahora,Vamos {{ahora}} mismo.,frequency;generated;rank-061-080
+65,era,Antes {{era}} más caro.,frequency;generated;rank-061-080
+66,esto,No entiendo {{esto}} todavía.,frequency;generated;rank-061-080
+67,vez,Tal {{vez}} vuelvo mañana.,frequency;generated;rank-061-080
+68,hace,Mi padre {{hace}} café.,frequency;generated;rank-061-080
+69,nada,Hoy no quiero {{nada}}.,frequency;generated;rank-061-080
+70,ni,No canta {{ni}} baila.,frequency;generated;rank-061-080
+71,donde,La casa {{donde}} vivo es pequeña.,frequency;generated;rank-061-080
+72,parte,Mi casa está en otra {{parte}}.,frequency;generated;rank-061-080
+73,solo,Hoy quiero estar {{solo}}.,frequency;generated;rank-061-080
+74,algo,Quiero comer {{algo}} ahora.,frequency;generated;rank-061-080
+75,tiempo,Hoy tengo {{tiempo}} libre.,frequency;generated;rank-061-080
+76,día,Hoy es un {{día}} lindo.,frequency;generated;rank-061-080
+77,uno,Solo quiero {{uno}}.,frequency;generated;rank-061-080
+78,mejor,Ahora me siento {{mejor}}.,frequency;generated;rank-061-080
+79,mucho,Ella estudia {{mucho}} aquí.,frequency;generated;rank-061-080
+80,tan,No es {{tan}} caro.,frequency;generated;rank-061-080
+81,ver,Quiero {{ver}} el mar.,frequency;generated;rank-081-100
+82,vida,Mi {{vida}} cambia hoy.,frequency;generated;rank-081-100
+83,e,Estudio historia {{e}} inglés.,frequency;generated;rank-081-100
+84,ese,Quiero {{ese}} libro.,frequency;generated;rank-081-100
+85,han,Ellos {{han}} llegado hoy.,frequency;generated;rank-081-100
+86,mismo,Llevo el {{mismo}} abrigo.,frequency;generated;rank-081-100
+87,siempre,Ella llega {{siempre}} temprano.,frequency;generated;rank-081-100
+88,tengo,Hoy {{tengo}} clase.,frequency;generated;rank-081-100
+89,cada,Caminamos {{cada}} mañana.,frequency;generated;rank-081-100
+90,después,Salimos {{después}} de comer.,frequency;generated;rank-081-100
+91,están,Mis llaves {{están}} aquí.,frequency;generated;rank-081-100
+92,gente,Hay mucha {{gente}} aquí.,frequency;generated;rank-081-100
+93,esa,Quiero {{esa}} camisa.,frequency;generated;rank-081-100
+94,estado,El parque está en buen {{estado}}.,frequency;generated;rank-081-100
+95,estoy,Ahora {{estoy}} en casa.,frequency;generated;rank-081-100
+96,mundo,Ella conoce el {{mundo}}.,frequency;generated;rank-081-100
+97,va,Mi hermano {{va}} al trabajo.,frequency;generated;rank-081-100
+98,año,Este {{año}} estudio español.,frequency;generated;rank-081-100
+99,les,Yo {{les}} doy agua.,frequency;generated;rank-081-100
+100,mas,"Quiero ir, {{mas}} no puedo.",frequency;generated;rank-081-100
+101,otro,Quiero {{otro}} café.,frequency;generated;rank-101-120
+102,otros,Los {{otros}} niños juegan afuera.,frequency;generated;rank-101-120
+103,gracias,Muchas {{gracias}} por tu ayuda.,frequency;generated;rank-101-120
+104,otra,Necesito {{otra}} silla.,frequency;generated;rank-101-120
+105,cosas,Tengo muchas {{cosas}} que hacer.,frequency;generated;rank-101-120
+106,gran,Es una {{gran}} idea.,frequency;generated;rank-101-120
+107,menos,Hoy tengo {{menos}} trabajo.,frequency;generated;rank-101-120
+108,nunca,Ella {{nunca}} llega tarde.,frequency;generated;rank-101-120
+109,personas,Hay cinco {{personas}} aquí.,frequency;generated;rank-101-120
+110,tanto,No necesito {{tanto}} dinero.,frequency;generated;rank-101-120
+111,antes,Llegué {{antes}} que tú.,frequency;generated;rank-101-120
+112,poco,Tengo {{poco}} tiempo.,frequency;generated;rank-101-120
+113,sea,Espero que {{sea}} fácil.,frequency;generated;rank-101-120
+114,había,Antes {{había}} un parque aquí.,frequency;generated;rank-101-120
+115,tener,Quiero {{tener}} un perro.,frequency;generated;rank-101-120
+116,trabajo,Tengo mucho {{trabajo}} hoy.,frequency;generated;rank-101-120
+117,durante,Leo {{durante}} el viaje.,frequency;generated;rank-101-120
+118,ellos,Ana va con {{ellos}}.,frequency;generated;rank-101-120
+119,lugar,Este es un buen {{lugar}}.,frequency;generated;rank-101-120
+120,creo,También {{creo}} que sí.,frequency;generated;rank-101-120
+121,cómo,No sé {{cómo}} llegar.,frequency;generated;rank-121-140
+122,hecho,Ya he {{hecho}} la tarea.,frequency;generated;rank-121-140
+123,quiero,Yo {{quiero}} agua fría.,frequency;generated;rank-121-140
+124,sólo,Tengo {{sólo}} diez pesos.,frequency;generated;rank-121-140
+125,aunque,"Voy, {{aunque}} estoy cansado.",frequency;generated;rank-121-140
+126,contra,No tengo nada {{contra}} ti.,frequency;generated;rank-121-140
+127,cuenta,La {{cuenta}} está en la mesa.,frequency;generated;rank-121-140
+128,decir,Quiero {{decir}} algo.,frequency;generated;rank-121-140
+129,gobierno,El {{gobierno}} anunció un cambio.,frequency;generated;rank-121-140
+130,país,Este {{país}} es muy grande.,frequency;generated;rank-121-140
+131,soy,Yo {{soy}} estudiante.,frequency;generated;rank-121-140
+132,todas,Ella conoce {{todas}} las respuestas.,frequency;generated;rank-121-140
+133,casa,Mi {{casa}} es pequeña.,frequency;generated;rank-121-140
+134,estos,Quiero {{estos}} zapatos.,frequency;generated;rank-121-140
+135,forma,Esa {{forma}} es un círculo.,frequency;generated;rank-121-140
+136,he,Yo {{he}} comido pan.,frequency;generated;rank-121-140
+137,nuevo,Tengo un libro {{nuevo}}.,frequency;generated;rank-121-140
+138,sido,Ha {{sido}} un buen día.,frequency;generated;rank-121-140
+139,él,Voy con {{él}}.,frequency;generated;rank-121-140
+140,aquí,Mi casa está {{aquí}}.,frequency;generated;rank-121-140
+141,ella,Vivo con {{ella}}.,frequency;generated;rank-141-160
+142,estas,Quiero {{estas}} flores.,frequency;generated;rank-141-160
+143,sí,Ella dijo que {{sí}}.,frequency;generated;rank-141-160
+144,estaba,La puerta {{estaba}} abierta.,frequency;generated;rank-141-160
+145,estar,Quiero {{estar}} contigo.,frequency;generated;rank-141-160
+146,hoy,Trabajo {{hoy}}.,frequency;generated;rank-141-160
+147,tienen,Ellos {{tienen}} hambre.,frequency;generated;rank-141-160
+148,alguien,Hay {{alguien}} afuera.,frequency;generated;rank-141-160
+149,dice,Ella {{dice}} la verdad.,frequency;generated;rank-141-160
+150,quien,Ella es {{quien}} llama.,frequency;generated;rank-141-160
+151,toda,Leí {{toda}} la carta.,frequency;generated;rank-141-160
+152,tres,Tengo {{tres}} libros.,frequency;generated;rank-141-160
+153,voy,Yo {{voy}} al mercado.,frequency;generated;rank-141-160
+154,caso,Este {{caso}} es sencillo.,frequency;generated;rank-141-160
+155,días,Trabajo cinco {{días}}.,frequency;generated;rank-141-160
+156,momento,Espera un {{momento}}.,frequency;generated;rank-141-160
+157,bueno,Este café está {{bueno}}.,frequency;generated;rank-141-160
+158,ciudad,Vivo en esta {{ciudad}}.,frequency;generated;rank-141-160
+159,mis,Estos son {{mis}} libros.,frequency;generated;rank-141-160
+160,nuestro,Este es {{nuestro}} hotel.,frequency;generated;rank-141-160
+161,luego,Nos vemos {{luego}}.,frequency;generated;rank-161-180
+162,nacional,Este museo es {{nacional}}.,frequency;generated;rank-161-180
+163,parece,Todo {{parece}} fácil.,frequency;generated;rank-161-180
+164,nuestra,Esta es {{nuestra}} casa.,frequency;generated;rank-161-180
+165,poder,Quiero {{poder}} ayudarte.,frequency;generated;rank-161-180
+166,pueden,Ellos {{pueden}} venir hoy.,frequency;generated;rank-161-180
+167,pues,"Me voy, {{pues}} ya es tarde.",frequency;generated;rank-161-180
+168,verdad,Es {{verdad}} lo que dices.,frequency;generated;rank-161-180
+169,historia,Ella cuenta una {{historia}} corta.,frequency;generated;rank-161-180
+170,mientras,Te llamo {{mientras}} camino.,frequency;generated;rank-161-180
+171,nadie,No hay {{nadie}} en casa.,frequency;generated;rank-161-180
+172,nueva,Ella tiene una mochila {{nueva}}.,frequency;generated;rank-161-180

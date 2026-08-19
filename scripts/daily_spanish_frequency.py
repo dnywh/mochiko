@@ -4,32 +4,51 @@ import csv
 import json
 import os
 import tomllib
+from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib import request
 from urllib.error import HTTPError
 
-from wordfreq import top_n_list
+from spanish_frequency import top_spanish_words
 
 
 LANGUAGE = "es"
 LANGUAGE_DIR = Path("languages") / LANGUAGE
+SOURCE_PATH = LANGUAGE_DIR / "frequency.csv"
 WORK_DIR = Path("work")
 STATE_PATH = WORK_DIR / "daily_spanish_frequency_state.json"
 DEFAULT_API_BASE = "https://app.mochi.cards/api"
-DEFAULT_PARENT_DECK_ID = "khnMj1gA"
+DEFAULT_DECK_ID = "K7f2W8MO"
 DEFAULT_TEMPLATE_ID = "tq51slCp"
 DEFAULT_DAILY_LIMIT = 5
 DEFAULT_CAP_RANK = 500
-ROLLING_DECK_SIZE = 20
+RANK_TAG_SIZE = 20
 INITIAL_COMPLETED_RANK = 40
 FIELDNAMES = ["rank", "word", "sentence", "tags"]
+
+
+def repo_env_value(name: str) -> str | None:
+    env_path = Path(__file__).resolve().parent.parent / ".env"
+    if not env_path.exists():
+        return None
+    for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        key, separator, value = line.partition("=")
+        if separator and key.removeprefix("export ").strip() == name:
+            return value.strip().strip("\"'")
+    return None
 
 
 def mochi_api_key() -> str | None:
     env_key = os.environ.get("MOCHI_API_KEY")
     if env_key:
         return env_key
+    repo_key = repo_env_value("MOCHI_API_KEY")
+    if repo_key:
+        return repo_key
     config_path = Path(os.environ.get("CODEX_HOME", Path.home() / ".codex")) / "config.toml"
     if not config_path.exists():
         return None
@@ -92,6 +111,32 @@ def flatten_items(response: dict | list) -> list[dict]:
     return []
 
 
+def parse_api_date(value: dict | None) -> datetime | None:
+    if not isinstance(value, dict):
+        return None
+    raw = value.get("date")
+    if not isinstance(raw, str):
+        return None
+    return datetime.fromisoformat(raw.replace("Z", "+00:00"))
+
+
+def parse_api_day(value: dict | None):
+    parsed = parse_api_date(value)
+    if not parsed:
+        return None
+    return parsed.date()
+
+
+def parse_state_date(value: str | None) -> datetime | None:
+    if not isinstance(value, str):
+        return None
+    try:
+        parsed = datetime.fromisoformat(value)
+    except ValueError:
+        return None
+    return parsed if parsed.tzinfo else parsed.astimezone()
+
+
 def load_state() -> dict:
     if not STATE_PATH.exists():
         return {"decks": {}}
@@ -110,22 +155,13 @@ def write_state(state: dict) -> None:
 
 def rolling_range(rank: int) -> tuple[int, int]:
     zero_based = rank - INITIAL_COMPLETED_RANK - 1
-    start = INITIAL_COMPLETED_RANK + (zero_based // ROLLING_DECK_SIZE) * ROLLING_DECK_SIZE + 1
-    end = start + ROLLING_DECK_SIZE - 1
+    start = (
+        INITIAL_COMPLETED_RANK
+        + (zero_based // RANK_TAG_SIZE) * RANK_TAG_SIZE
+        + 1
+    )
+    end = start + RANK_TAG_SIZE - 1
     return start, end
-
-
-def batch_filename(start_rank: int, end_rank: int) -> str:
-    return f"frequency_{start_rank:03d}_{end_rank:03d}.csv"
-
-
-def deck_name(start_rank: int, end_rank: int) -> str:
-    return f"Frequency {start_rank:03d}-{end_rank:03d}"
-
-
-def csv_path_for_rank(rank: int) -> Path:
-    start, end = rolling_range(rank)
-    return LANGUAGE_DIR / batch_filename(start, end)
 
 
 def tags_for_rank(rank: int) -> str:
@@ -137,28 +173,124 @@ def parse_tags(raw: str) -> list[str]:
     return [tag.strip() for tag in raw.split(";") if tag.strip()]
 
 
-def read_csv_rows(path: Path) -> list[dict[str, str]]:
-    if not path.exists():
+def read_source_rows() -> list[dict[str, str]]:
+    if not SOURCE_PATH.exists():
         return []
-    with path.open(newline="", encoding="utf-8") as f:
+    with SOURCE_PATH.open(newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
 
-def write_csv_rows(path: Path, rows: list[dict[str, str]]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
+def write_source_rows(rows: list[dict[str, str]]) -> None:
+    SOURCE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with SOURCE_PATH.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=FIELDNAMES, lineterminator="\n")
         writer.writeheader()
         writer.writerows(sorted(rows, key=lambda row: int(row["rank"])))
 
 
 def existing_source_ranks() -> set[int]:
-    ranks: set[int] = set()
-    for path in LANGUAGE_DIR.glob("frequency_*.csv"):
-        for row in read_csv_rows(path):
-            if row.get("rank"):
-                ranks.add(int(row["rank"]))
-    return ranks
+    return {
+        int(row["rank"])
+        for row in read_source_rows()
+        if row.get("rank")
+    }
+
+
+def iter_cards(api_base: str, api_key: str, deck_id: str | None = None) -> list[dict]:
+    cards: list[dict] = []
+    bookmark = None
+    seen_bookmarks: set[str] = set()
+    while True:
+        query = {"limit": "100"}
+        if deck_id:
+            query["deck-id"] = deck_id
+        if bookmark:
+            query["bookmark"] = bookmark
+        path = f"cards/?{urlencode(query)}"
+        response = request_json(api_base, path, api_key)
+        page_items = flatten_items(response)
+        cards.extend(page_items)
+        next_bookmark = response.get("bookmark") if isinstance(response, dict) else None
+        if next_bookmark in (None, "", "nil"):
+            return cards
+        if next_bookmark == bookmark or next_bookmark in seen_bookmarks:
+            return cards
+        if not page_items:
+            return cards
+        seen_bookmarks.add(next_bookmark)
+        bookmark = next_bookmark
+
+
+def review_within_hours(card: dict, since: datetime) -> bool:
+    since_day = since.date()
+    reviews = card.get("reviews")
+    if not isinstance(reviews, list):
+        return False
+    for review in reviews:
+        review_day = parse_api_day(review.get("date") if isinstance(review, dict) else None)
+        if review_day and review_day >= since_day:
+            return True
+    return False
+
+
+def recent_activity_snapshot(
+    api_base: str,
+    api_key: str,
+    recent_study_hours: int,
+) -> dict[str, int | bool | str | None]:
+    now = datetime.now().astimezone()
+    study_since = now - timedelta(hours=recent_study_hours)
+    day_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    recent_study = False
+    created_today = 0
+    latest_review_day = None
+    review_count = 0
+
+    for card in iter_cards(api_base, api_key):
+        created_at = parse_api_date(card.get("created-at"))
+        if created_at and created_at.astimezone(now.tzinfo) >= day_start:
+            created_today += 1
+        reviews = card.get("reviews")
+        if not isinstance(reviews, list):
+            continue
+        for review in reviews:
+            review_count += 1
+            review_day = parse_api_day(review.get("date") if isinstance(review, dict) else None)
+            if not review_day:
+                continue
+            if latest_review_day is None or review_day > latest_review_day:
+                latest_review_day = review_day
+            if not recent_study and review_day >= study_since.date():
+                recent_study = True
+
+    return {
+        "created_today": created_today,
+        "recent_study": recent_study,
+        "latest_review_day": latest_review_day.isoformat() if latest_review_day else None,
+        "review_count": review_count,
+    }
+
+
+def observe_review_count_increase(
+    state: dict,
+    review_count: int,
+    recent_study_hours: int,
+    now: datetime,
+) -> bool:
+    activity_state = state.setdefault("activity", {})
+    previous_count = activity_state.get("review_count")
+    observed_at = parse_state_date(activity_state.get("review_count_increased_at"))
+
+    if isinstance(previous_count, int) and review_count > previous_count:
+        observed_at = now
+        activity_state["review_count_increased_at"] = now.isoformat()
+
+    activity_state["review_count"] = review_count
+    write_state(state)
+
+    if not observed_at:
+        return False
+    return observed_at >= now - timedelta(hours=recent_study_hours)
 
 
 def next_ranks(limit: int, cap_rank: int) -> list[int]:
@@ -170,7 +302,7 @@ def next_ranks(limit: int, cap_rank: int) -> list[int]:
 
 
 def frequency_words(cap_rank: int) -> dict[int, str]:
-    return {rank: word for rank, word in enumerate(top_n_list(LANGUAGE, cap_rank), start=1)}
+    return {rank: word for rank, word in enumerate(top_spanish_words(cap_rank), start=1)}
 
 
 def load_sentence_rows(path: Path) -> list[dict[str, str]]:
@@ -193,7 +325,7 @@ def load_sentence_rows(path: Path) -> list[dict[str, str]]:
 
 
 def validate_sentence(word: str, sentence: str) -> None:
-    markers = ["{{" + word + "}}", "{{" + word.capitalize() + "}}"]
+    markers = {"{{" + word + "}}", "{{" + word.capitalize() + "}}"}
     total = sum(sentence.count(marker) for marker in markers)
     if total != 1:
         raise ValueError(f"{word!r} must appear as exactly one cloze in {sentence!r}")
@@ -233,46 +365,6 @@ def build_payload(row: dict[str, str], deck_id: str, template_id: str) -> dict:
     }
 
 
-def find_deck_by_name(api_base: str, api_key: str, name: str, parent_id: str) -> str | None:
-    try:
-        response = request_json(api_base, "decks/", api_key)
-    except RuntimeError:
-        return None
-    for deck in flatten_items(response):
-        if deck.get("name") == name and deck.get("parent-id") == parent_id:
-            deck_id = deck.get("id")
-            if isinstance(deck_id, str):
-                return deck_id
-    return None
-
-
-def ensure_deck(
-    api_base: str,
-    api_key: str,
-    state: dict,
-    start_rank: int,
-    end_rank: int,
-    parent_deck_id: str,
-) -> str:
-    name = deck_name(start_rank, end_rank)
-    state_key = f"{start_rank:03d}-{end_rank:03d}"
-    known_id = state["decks"].get(state_key)
-    if known_id:
-        return known_id
-    found_id = find_deck_by_name(api_base, api_key, name, parent_deck_id)
-    if found_id:
-        state["decks"][state_key] = found_id
-        write_state(state)
-        return found_id
-    created = post_json(api_base, "decks/", api_key, {"name": name, "parent-id": parent_deck_id})
-    deck_id = created.get("id")
-    if not deck_id:
-        raise RuntimeError(f"Create deck response did not include an id: {created}")
-    state["decks"][state_key] = deck_id
-    write_state(state)
-    return deck_id
-
-
 def card_sentence(card: dict) -> str | None:
     fields = card.get("fields")
     if isinstance(fields, dict):
@@ -284,60 +376,54 @@ def card_sentence(card: dict) -> str | None:
 
 def existing_deck_sentences(api_base: str, api_key: str, deck_id: str) -> set[str]:
     sentences: set[str] = set()
-    bookmark = None
-    while True:
-        query = {"deck-id": deck_id, "limit": "100"}
-        if bookmark:
-            query["bookmark"] = bookmark
-        path = f"cards/?{urlencode(query)}"
-        response = request_json(api_base, path, api_key)
-        for card in flatten_items(response):
-            sentence = card_sentence(card)
-            if sentence:
-                sentences.add(sentence)
-        bookmark = response.get("bookmark") if isinstance(response, dict) else None
-        if not bookmark:
-            return sentences
+    for card in iter_cards(api_base, api_key, deck_id=deck_id):
+        sentence = card_sentence(card)
+        if sentence:
+            sentences.add(sentence)
+    return sentences
 
 
 def append_source_rows(rows: list[dict[str, str]]) -> None:
-    grouped: dict[Path, list[dict[str, str]]] = {}
+    existing = read_source_rows()
+    by_rank = {int(row["rank"]): row for row in existing}
     for row in rows:
-        grouped.setdefault(csv_path_for_rank(int(row["rank"])), []).append(row)
-    for path, new_rows in grouped.items():
-        existing = read_csv_rows(path)
-        by_rank = {int(row["rank"]): row for row in existing}
-        for row in new_rows:
-            rank = int(row["rank"])
-            if rank in by_rank:
-                raise ValueError(f"Rank {rank} already exists in {path}")
-            by_rank[rank] = row
-        write_csv_rows(path, list(by_rank.values()))
+        rank = int(row["rank"])
+        if rank in by_rank:
+            raise ValueError(f"Rank {rank} already exists in {SOURCE_PATH}")
+        by_rank[rank] = row
+    write_source_rows(list(by_rank.values()))
 
 
 def apply_rows(
     rows: list[dict[str, str]],
     api_base: str,
     api_key: str,
-    parent_deck_id: str,
+    deck_id: str,
     template_id: str,
 ) -> None:
-    state = load_state()
-    grouped: dict[tuple[int, int], list[dict[str, str]]] = {}
+    deck_sentences = existing_deck_sentences(api_base, api_key, deck_id)
+    created_count = 0
+    skipped_count = 0
     for row in rows:
-        grouped.setdefault(rolling_range(int(row["rank"])), []).append(row)
-    for (start_rank, end_rank), group in grouped.items():
-        deck_id = ensure_deck(api_base, api_key, state, start_rank, end_rank, parent_deck_id)
-        deck_sentences = existing_deck_sentences(api_base, api_key, deck_id)
-        created_count = 0
-        for row in group:
-            if row["sentence"] in deck_sentences:
-                print(f"Skipped existing card for rank {row['rank']}: {row['sentence']}")
-                continue
-            created = post_json(api_base, "cards/", api_key, build_payload(row, deck_id, template_id))
-            created_count += 1
-            print(f"Created card {created.get('id', '<missing id>')} for rank {row['rank']}: {row['sentence']}")
-        print(f"Deck {deck_name(start_rank, end_rank)} ({deck_id}): created {created_count} card(s).")
+        if row["sentence"] in deck_sentences:
+            skipped_count += 1
+            print(f"Skipped existing card for rank {row['rank']}: {row['sentence']}")
+            continue
+        created = post_json(
+            api_base,
+            "cards/",
+            api_key,
+            build_payload(row, deck_id, template_id),
+        )
+        created_count += 1
+        print(
+            f"Created card {created.get('id', '<missing id>')} for rank "
+            f"{row['rank']}: {row['sentence']}"
+        )
+    print(
+        f"Deck Frequency ({deck_id}): created {created_count} card(s); "
+        f"skipped {skipped_count} duplicate(s)."
+    )
     append_source_rows(rows)
 
 
@@ -349,12 +435,80 @@ def main() -> None:
     parser.add_argument("--cap-rank", type=int, default=DEFAULT_CAP_RANK)
     parser.add_argument("--sentences-json", type=Path)
     parser.add_argument("--api-base", default=DEFAULT_API_BASE)
-    parser.add_argument("--parent-deck-id", default=DEFAULT_PARENT_DECK_ID)
+    parser.add_argument("--deck-id", default=DEFAULT_DECK_ID)
     parser.add_argument("--template-id", default=DEFAULT_TEMPLATE_ID)
+    parser.add_argument("--require-recent-study-hours", type=int, default=0)
+    parser.add_argument("--daily-created-cap", type=int)
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
 
-    ranks = next_ranks(args.limit, args.cap_rank)
+    api_key = None
+    effective_limit = args.limit
+    if args.require_recent_study_hours or args.daily_created_cap is not None or args.apply:
+        api_key = mochi_api_key()
+    if args.require_recent_study_hours or args.daily_created_cap is not None:
+        if not api_key:
+            print("Skipped: MOCHI_API_KEY is required to inspect recent Mochi activity.")
+            return
+        try:
+            activity = recent_activity_snapshot(
+                args.api_base,
+                api_key,
+                recent_study_hours=max(args.require_recent_study_hours, 0),
+            )
+        except RuntimeError as error:
+            print(f"Skipped: could not inspect recent Mochi activity: {error}")
+            return
+
+        if args.require_recent_study_hours:
+            state = load_state()
+            review_count_increased_recently = observe_review_count_increase(
+                state,
+                int(activity["review_count"]),
+                args.require_recent_study_hours,
+                datetime.now().astimezone(),
+            )
+            if not activity["recent_study"] and not review_count_increased_recently:
+                latest_review_note = ""
+                latest_review_day = activity.get("latest_review_day")
+                if isinstance(latest_review_day, str) and latest_review_day:
+                    latest_review_note = (
+                        " Latest review day visible via the Mochi API: "
+                        f"{latest_review_day}."
+                    )
+                print(
+                    "Skipped: no Mochi review activity found in the last "
+                    f"{args.require_recent_study_hours} hour(s).{latest_review_note}"
+                )
+                return
+            if activity["recent_study"]:
+                print(
+                    "Recent Mochi review activity found in the last "
+                    f"{args.require_recent_study_hours} hour(s), using Mochi's "
+                    "day-level review dates."
+                )
+            else:
+                print(
+                    "Recent Mochi review activity found from newly synced review "
+                    "records since the previous activity inspection."
+                )
+
+        if args.daily_created_cap is not None:
+            created_today = int(activity["created_today"])
+            remaining = max(0, args.daily_created_cap - created_today)
+            print(
+                f"Mochi cards created today: {created_today}. "
+                f"Remaining scheduled slots today: {remaining}."
+            )
+            if remaining <= 0:
+                print(
+                    f"Skipped: daily created-card cap of {args.daily_created_cap} "
+                    "has already been reached."
+                )
+                return
+            effective_limit = min(effective_limit, remaining)
+
+    ranks = next_ranks(effective_limit, args.cap_rank)
     words = frequency_words(args.cap_rank)
     if not ranks:
         print(f"Approved frequency range is complete through rank {args.cap_rank}.")
@@ -378,13 +532,12 @@ def main() -> None:
         print(f"\nPrepared {len(rows)} row(s). No Mochi writes performed.")
         return
 
-    api_key = mochi_api_key()
     if not api_key:
         raise SystemExit(
-            "Set MOCHI_API_KEY before using --apply, either in the process environment "
-            "or in ~/.codex/config.toml under [mcp_servers.mochi.env]."
+            "Set MOCHI_API_KEY before using --apply, in the process environment, "
+            "the repo-local .env file, or ~/.codex/config.toml under [mcp_servers.mochi.env]."
         )
-    apply_rows(rows, args.api_base, api_key, args.parent_deck_id, args.template_id)
+    apply_rows(rows, args.api_base, api_key, args.deck_id, args.template_id)
 
 
 if __name__ == "__main__":

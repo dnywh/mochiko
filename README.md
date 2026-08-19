@@ -4,17 +4,18 @@ Mochiko is a playbook and toolbench for generating language-learning flashcards 
 
 It keeps durable instructions, templates, scripts, and formal source artefacts in this repo. Mochi remains the source of truth for cards after import, especially for messy "from the wild" captures that are reviewed in chat and written directly with the Mochi MCP/API.
 
-Spanish is the current pilot language. German is a planned future language, so reusable copy and tooling should stay language-general unless it is explicitly documenting Spanish.
+Spanish and German are the current languages. Keep reusable copy and tooling language-general unless it is documenting a language-specific workflow.
 
 ## Current Mochi state
 
 - Parent Spanish deck: `Spanish` (`khnMj1gA`)
 - Wild Spanish deck: `Wild` (`bxo7vr1h`)
-- Spanish frequency deck: `Frequency 001-020` (`MNmR28ru`)
-- Spanish frequency deck: `Frequency 021-040` (`juLri2Ke`)
-- Spanish numbers deck: `Numbers 010-032` (`cGTBD2MJ`)
-- Spanish numbers deck: `Numbers 033-050` (`Q2GwUS77`)
+- Spanish frequency deck: `Frequency` (`K7f2W8MO`)
+- Spanish numbers deck: `Numbers` (`Njhecliy`)
 - Recommended Spanish template: `Mochiko Language with Audio` (`tq51slCp`)
+- Parent German deck: `German` (`UjfR5r6p`)
+- German frequency deck: `Frequency` (`r2i5qXk7`)
+- Recommended German template: `Mochiko German with Seraphina HD` (`xo7aEe7Q`)
 - Original Spanish template: `Language with Audio` (`NzSvxUDF`)
 - Superseded v2 template: `Language with Audio v2 Inline` (`KHhX0rbi`)
 - Avoid first attempted v2 template: `Language with Audio v2` (`rdCJTaM9`)
@@ -27,18 +28,21 @@ At a high level, formal/reusable decks live in this repo under `languages/<langu
 
 ## Repo layout
 
-- `languages/es/frequency_001_020.csv` - Spanish frequency source for ranks 1-20.
-- `languages/es/frequency_021_040.csv` - Spanish frequency source for ranks 21-40.
+- `languages/es/frequency.csv` - Spanish frequency source in strict rank order.
+- `languages/de/frequency.csv` - German frequency source in strict rank order.
 - `languages/es/numbers_010_032.csv` - Spanish number source for 10-32.
 - `languages/es/numbers_033_050.csv` - Spanish number source for 33-50.
 - `scripts/generate_spanish_frequency_batches.py` - Spanish frequency batch generator.
 - `scripts/daily_spanish_frequency.py` - daily Spanish frequency automation runner.
+- `scripts/daily_german_frequency.py` - daily German frequency automation runner.
 - `scripts/import_mochi_batch.py` - reusable CSV-to-Mochi preview/import helper.
 - `templates/mochiko_language_with_audio.md` - source for the recommended Mochiko template.
+- `templates/mochiko_german_with_audio.md` - source for the German audio template.
 - `docs/flashcard-workflow.md` - detailed workflow and guardrails.
 - `skills/mochiko-flashcards/` - repo-shared agent skill for portable guidance in Codex and similar AI coding tools.
 
-Future German formal sources should live under `languages/de/` after German deck IDs, template decisions, language defaults, and source material are chosen.
+Spanish and German frequency cards each use one long-lived `Frequency` deck and
+one corresponding source CSV.
 
 ## Setup
 
@@ -47,6 +51,18 @@ Install dependencies into the ignored local work directory:
 ```sh
 python3 -m pip install --target work/python-packages wordfreq
 ```
+
+Configure the Mochi API key in a repo-local `.env` file:
+
+```sh
+cp .env.example .env
+```
+
+Replace the placeholder in `.env` with your key. The `.env` file is ignored by
+Git and must not be committed; `.env.example` contains only the safe placeholder.
+The daily frequency runners check an exported `MOCHI_API_KEY` first,
+then the repo-local `.env`, and finally the Mochi MCP environment in
+`~/.codex/config.toml`.
 
 Regenerate the current Spanish pilot preview:
 
@@ -66,7 +82,13 @@ Show the next scheduled Spanish frequency ranks:
 PYTHONPATH=work/python-packages python3 scripts/daily_spanish_frequency.py
 ```
 
-The daily runner uses `wordfreq.top_n_list("es", N)` for rank order, starts after the existing frequency ranks 1-40, and stops at rank 500 unless the cap is intentionally changed. The scheduled Codex task supplies five new natural Latin American Spanish cloze sentences, then runs the same script with `--sentences-json` and `--apply`.
+The Spanish daily runner preserves `wordfreq.top_n_list("es", N)` order after excluding digits and other non-alphabetic tokens, starts after the existing frequency ranks 1-40, writes to one long-lived frequency deck, and stops at rank 500 unless the cap is intentionally changed. The scheduled task checks for Mochi review activity in the prior 24 hours and currently caps same-day creation at three cards.
+
+The German daily runner follows `wordfreq.top_n_list("de", N)` in the same way, starts at rank 1, uses one long-lived frequency deck, checks for recent study, and applies a separate three-card daily cap:
+
+```sh
+PYTHONPATH=work/python-packages python3 scripts/daily_german_frequency.py --require-recent-study-hours 24 --daily-created-cap 3
+```
 
 ## Installing the agent skill
 
@@ -89,16 +111,17 @@ For other agent tools, use `skills/mochiko-flashcards/SKILL.md` as the portable 
 Preview a formal CSV batch without writing:
 
 ```sh
-python3 scripts/import_mochi_batch.py languages/es/frequency_021_040.csv --jsonl-output outputs/mochi_create_card_frequency_021_040.jsonl
+python3 scripts/import_mochi_batch.py languages/es/numbers_010_032.csv \
+  --deck-id Njhecliy \
+  --jsonl-output outputs/mochi_create_card_numbers_010_032.jsonl
 ```
 
 Import with the official Mochi API only after review and an explicit write request:
 
 ```sh
 export MOCHI_API_KEY=...
-python3 scripts/import_mochi_batch.py languages/es/frequency_021_040.csv \
-  --create-deck-name "Frequency 021-040" \
-  --parent-deck-id khnMj1gA \
+python3 scripts/import_mochi_batch.py languages/es/numbers_010_032.csv \
+  --deck-id Njhecliy \
   --template-id tq51slCp \
   --apply
 ```
@@ -107,7 +130,7 @@ The importer uses Mochi's `POST /cards` API and Basic auth with the API key as t
 
 ## Source material
 
-The current Spanish frequency batches use `wordfreq` to rank common Spanish terms, with manually authored beginner sentences around those terms.
+The Spanish frequency source uses `wordfreq` to rank common Spanish terms, with manually authored beginner sentences around those terms.
 
 Useful source material for expanding the project, especially German:
 

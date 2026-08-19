@@ -1,0 +1,7 @@
+rank,word,sentence,tags
+1,die,Ich sehe {{die}} Frau.,frequency;generated;german
+2,der,Das ist {{der}} Mann.,frequency;generated;german
+3,und,Anna {{und}} Paul lernen Deutsch.,frequency;generated;german
+4,in,Das Buch liegt {{in}} der Tasche.,frequency;generated;german
+5,das,Ich lese {{das}} Buch.,frequency;generated;german
+6,ich,Heute lerne {{ich}} Deutsch.,frequency;generated;german
