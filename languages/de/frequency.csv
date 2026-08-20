@@ -5,3 +5,6 @@ rank,word,sentence,tags
 4,in,Das Buch liegt {{in}} der Tasche.,frequency;generated;german
 5,das,Ich lese {{das}} Buch.,frequency;generated;german
 6,ich,Heute lerne {{ich}} Deutsch.,frequency;generated;german
+7,ist,Das {{ist}} gut.,frequency;generated;german
+8,nicht,Das ist {{nicht}} schwer.,frequency;generated;german
+9,zu,Ich gehe {{zu}} dir.,frequency;generated;german
