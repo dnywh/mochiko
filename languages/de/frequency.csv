@@ -8,3 +8,6 @@ rank,word,sentence,tags
 7,ist,Das {{ist}} gut.,frequency;generated;german
 8,nicht,Das ist {{nicht}} schwer.,frequency;generated;german
 9,zu,Ich gehe {{zu}} dir.,frequency;generated;german
+10,den,Ich sehe {{den}} Hund.,frequency;generated;german
+11,von,Das Geschenk ist {{von}} dir.,frequency;generated;german
+12,mit,Ich komme {{mit}} dir.,frequency;generated;german

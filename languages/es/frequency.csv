@@ -174,3 +174,6 @@ rank,word,sentence,tags
 173,otras,Tengo {{otras}} ideas.,frequency;generated;rank-161-180
 174,primera,Esta es mi {{primera}} clase.,frequency;generated;rank-161-180
 175,veces,Vengo aquí muchas {{veces}}.,frequency;generated;rank-161-180
+176,muchos,Hay {{muchos}} libros aquí.,frequency;generated;rank-161-180
+177,cual,La casa en la {{cual}} vivo es pequeña.,frequency;generated;rank-161-180
+178,debe,Ella {{debe}} estudiar hoy.,frequency;generated;rank-161-180
