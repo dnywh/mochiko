@@ -85,14 +85,14 @@ Use `scripts/daily_spanish_frequency.py` for this workflow. Running it without s
 
 ### Scheduled German frequency workflow
 
-The German automation uses the same review-activity and validation gates as Spanish, but it keeps one long-lived `Frequency` deck. It adds up to three cards a day through `scripts/daily_german_frequency.py`, applies its same-day cap only to that German deck, and stops at rank 500 unless the cap is intentionally raised.
+The German automation uses the same review-activity and validation gates as Spanish, but it keeps one long-lived `Frequency` deck. It adds up to five cards a day through `scripts/daily_german_frequency.py`, applies its same-day cap only to that German deck, and stops at rank 500 unless the cap is intentionally raised.
 
 The scheduled run must:
 
 - use standard German and informal `du` by default
 - generate strict `wordfreq.top_n_list("de", N)` rank order after filtering non-alphabetic tokens
 - continue only when Mochi shows review activity within the prior 24 hours
-- add no more than three German frequency cards on a local calendar day
+- add no more than five German frequency cards on a local calendar day
 - validate exactly one cloze pair per sentence
 - use deck `r2i5qXk7` and template `xo7aEe7Q`
 - require `MOCHI_API_KEY` before any write

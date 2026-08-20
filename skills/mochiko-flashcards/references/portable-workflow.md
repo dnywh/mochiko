@@ -24,6 +24,7 @@ Bundled reference for installed skills. If a live Mochiko repo is available, pre
 - Frequency deck: `Frequency` (`r2i5qXk7`)
 - Template: `Mochiko German with Seraphina HD` (`xo7aEe7Q`)
 - Frequency source: filtered `wordfreq.top_n_list("de", N)` rank order
+- Scheduled daily cap: five cards in the German Frequency deck
 - Scheduled tags: `frequency;generated;german`
 
 ## Workflow Split

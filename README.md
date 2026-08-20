@@ -84,10 +84,10 @@ PYTHONPATH=work/python-packages python3 scripts/daily_spanish_frequency.py
 
 The Spanish daily runner preserves `wordfreq.top_n_list("es", N)` order after excluding digits and other non-alphabetic tokens, starts after the existing frequency ranks 1-40, writes to one long-lived frequency deck, and stops at rank 500 unless the cap is intentionally changed. The scheduled task checks for Mochi review activity in the prior 24 hours and currently caps same-day creation at three cards.
 
-The German daily runner follows `wordfreq.top_n_list("de", N)` in the same way, starts at rank 1, uses one long-lived frequency deck, checks for recent study, and applies a separate three-card daily cap:
+The German daily runner follows `wordfreq.top_n_list("de", N)` in the same way, starts at rank 1, uses one long-lived frequency deck, checks for recent study, and applies a separate five-card daily cap:
 
 ```sh
-PYTHONPATH=work/python-packages python3 scripts/daily_german_frequency.py --require-recent-study-hours 24 --daily-created-cap 3
+PYTHONPATH=work/python-packages python3 scripts/daily_german_frequency.py --require-recent-study-hours 24 --daily-created-cap 5
 ```
 
 ## Installing the agent skill
