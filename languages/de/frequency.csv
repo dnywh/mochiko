@@ -14,3 +14,6 @@ rank,word,sentence,tags
 13,es,Heute ist {{es}} kalt.,frequency;generated;german
 14,ein,Das ist {{ein}} Buch.,frequency;generated;german
 15,auf,Das Buch liegt {{auf}} dem Tisch.,frequency;generated;german
+16,für,Das Geschenk ist {{für}} dich.,frequency;generated;german
+17,im,Wir sind {{im}} Park.,frequency;generated;german
+18,sie,Ich sehe {{sie}} heute.,frequency;generated;german

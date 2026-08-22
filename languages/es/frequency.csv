@@ -180,3 +180,6 @@ rank,word,sentence,tags
 179,dijo,Ella {{dijo}} la verdad.,frequency;generated;rank-161-180
 180,entonces,Comimos y {{entonces}} salimos.,frequency;generated;rank-161-180
 181,ir,Quiero {{ir}} a casa.,frequency;generated;rank-181-200
+182,tipo,Este {{tipo}} de pan es bueno.,frequency;generated;rank-181-200
+183,algunos,Tengo {{algunos}} libros en casa.,frequency;generated;rank-181-200
+184,general,Es una regla {{general}}.,frequency;generated;rank-181-200
