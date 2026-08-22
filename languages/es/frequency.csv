@@ -177,3 +177,6 @@ rank,word,sentence,tags
 176,muchos,Hay {{muchos}} libros aquí.,frequency;generated;rank-161-180
 177,cual,La casa en la {{cual}} vivo es pequeña.,frequency;generated;rank-161-180
 178,debe,Ella {{debe}} estudiar hoy.,frequency;generated;rank-161-180
+179,dijo,Ella {{dijo}} la verdad.,frequency;generated;rank-161-180
+180,entonces,Comimos y {{entonces}} salimos.,frequency;generated;rank-161-180
+181,ir,Quiero {{ir}} a casa.,frequency;generated;rank-181-200

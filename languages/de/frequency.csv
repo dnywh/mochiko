@@ -11,3 +11,6 @@ rank,word,sentence,tags
 10,den,Ich sehe {{den}} Hund.,frequency;generated;german
 11,von,Das Geschenk ist {{von}} dir.,frequency;generated;german
 12,mit,Ich komme {{mit}} dir.,frequency;generated;german
+13,es,Heute ist {{es}} kalt.,frequency;generated;german
+14,ein,Das ist {{ein}} Buch.,frequency;generated;german
+15,auf,Das Buch liegt {{auf}} dem Tisch.,frequency;generated;german
