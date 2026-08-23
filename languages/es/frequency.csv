@@ -183,3 +183,6 @@ rank,word,sentence,tags
 182,tipo,Este {{tipo}} de pan es bueno.,frequency;generated;rank-181-200
 183,algunos,Tengo {{algunos}} libros en casa.,frequency;generated;rank-181-200
 184,general,Es una regla {{general}}.,frequency;generated;rank-181-200
+185,mayor,Mi hermana es {{mayor}} que yo.,frequency;generated;rank-181-200
+186,tal,Nunca vi {{tal}} cosa.,frequency;generated;rank-181-200
+187,además,Ella canta y {{además}} baila.,frequency;generated;rank-181-200

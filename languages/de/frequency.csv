@@ -17,3 +17,6 @@ rank,word,sentence,tags
 16,für,Das Geschenk ist {{für}} dich.,frequency;generated;german
 17,im,Wir sind {{im}} Park.,frequency;generated;german
 18,sie,Ich sehe {{sie}} heute.,frequency;generated;german
+19,eine,Ich habe {{eine}} Katze.,frequency;generated;german
+20,sich,Er wäscht {{sich}} jeden Morgen.,frequency;generated;german
+21,auch,Ich komme {{auch}} mit.,frequency;generated;german
