@@ -20,3 +20,6 @@ rank,word,sentence,tags
 19,eine,Ich habe {{eine}} Katze.,frequency;generated;german
 20,sich,Er wäscht {{sich}} jeden Morgen.,frequency;generated;german
 21,auch,Ich komme {{auch}} mit.,frequency;generated;german
+22,dem,Ich helfe {{dem}} Mann.,frequency;generated;german
+23,des,Die Farbe {{des}} Autos ist rot.,frequency;generated;german
+24,als,Er arbeitet {{als}} Lehrer.,frequency;generated;german
