@@ -23,3 +23,6 @@ rank,word,sentence,tags
 22,dem,Ich helfe {{dem}} Mann.,frequency;generated;german
 23,des,Die Farbe {{des}} Autos ist rot.,frequency;generated;german
 24,als,Er arbeitet {{als}} Lehrer.,frequency;generated;german
+25,er,Heute kommt {{er}} nach Hause.,frequency;generated;german
+26,an,Das Bild hängt {{an}} der Wand.,frequency;generated;german
+27,dass,"Ich weiß, {{dass}} du kommst.",frequency;generated;german

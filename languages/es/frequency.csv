@@ -189,3 +189,6 @@ rank,word,sentence,tags
 188,mal,Hoy me siento {{mal}}.,frequency;generated;rank-181-200
 189,muchas,Ella tiene {{muchas}} amigas.,frequency;generated;rank-181-200
 190,primer,Es mi {{primer}} día aquí.,frequency;generated;rank-181-200
+191,según,Trabajo {{según}} el plan.,frequency;generated;rank-181-200
+192,acuerdo,Estamos de {{acuerdo}} contigo.,frequency;generated;rank-181-200
+193,cualquier,Puedes elegir {{cualquier}} libro.,frequency;generated;rank-181-200
