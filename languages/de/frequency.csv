@@ -29,3 +29,6 @@ rank,word,sentence,tags
 28,so,Das ist {{so}} einfach.,frequency;generated;german
 29,bei,Ich bin {{bei}} meiner Freundin.,frequency;generated;german
 30,wie,Sie singt {{wie}} ihre Mutter.,frequency;generated;german
+31,aber,"Ich bin müde, {{aber}} glücklich.",frequency;generated;german
+32,aus,Ich komme {{aus}} Berlin.,frequency;generated;german
+33,hat,Er {{hat}} einen Hund.,frequency;generated;german
