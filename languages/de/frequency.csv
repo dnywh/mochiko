@@ -26,3 +26,6 @@ rank,word,sentence,tags
 25,er,Heute kommt {{er}} nach Hause.,frequency;generated;german
 26,an,Das Bild hängt {{an}} der Wand.,frequency;generated;german
 27,dass,"Ich weiß, {{dass}} du kommst.",frequency;generated;german
+28,so,Das ist {{so}} einfach.,frequency;generated;german
+29,bei,Ich bin {{bei}} meiner Freundin.,frequency;generated;german
+30,wie,Sie singt {{wie}} ihre Mutter.,frequency;generated;german
