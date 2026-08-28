@@ -24,13 +24,13 @@ Bundled reference for installed skills. If a live Mochiko repo is available, pre
 - Frequency deck: `Frequency` (`r2i5qXk7`)
 - Template: `Mochiko German with Seraphina HD` (`xo7aEe7Q`)
 - Frequency source: filtered `wordfreq.top_n_list("de", N)` rank order
-- Scheduled daily cap: five cards in the German Frequency deck
+- Scheduled daily cap: three new words, producing nine cards, in the German Frequency deck
 - Scheduled tags: `frequency;generated;german`
 
 ## Workflow Split
 
 - Formal decks: frequency lists, numbers, drills, and repeatable sets. Keep source rows under `languages/<language-code>/` when the repo is available, using CSV columns `rank,word,sentence,tags`.
-- Scheduled Spanish and German frequency sources use one strict-rank-order `frequency.csv` per language. Successful governed runs may commit and push only those changed source CSVs when the automation explicitly authorises it.
+- Scheduled Spanish and German frequency sources use one strict-rank-order `frequency.csv` and one prepared `frequency_sentence_bank.csv` per language. New ranks use three separate sentence cards with varied contexts. The consolidated runner uses one Mochi snapshot, applies word-based daily caps, and may publish only changed source CSVs when explicitly authorised.
 - Wild captures: messy lived phrases. Check the target wild deck or wild-tagged set for duplicate cloze targets, sentence text, and obvious concept equivalents before proposing new cards. Tell the user which existing card covers a duplicate, then skip it. Normalise non-duplicates in chat, preview when practical, and write directly to Mochi only when explicitly asked. Do not create wild CSVs unless requested.
 
 ## Mochi Payload Shape

@@ -30,19 +30,22 @@ At a high level, formal/reusable decks live in this repo under `languages/<langu
 
 - `languages/es/frequency.csv` - Spanish frequency source in strict rank order.
 - `languages/de/frequency.csv` - German frequency source in strict rank order.
+- `languages/es/frequency_sentence_bank.csv` - prepared three-context Spanish frequency sentences.
+- `languages/de/frequency_sentence_bank.csv` - prepared three-context German frequency sentences.
 - `languages/es/numbers_010_032.csv` - Spanish number source for 10-32.
 - `languages/es/numbers_033_050.csv` - Spanish number source for 33-50.
 - `scripts/generate_spanish_frequency_batches.py` - Spanish frequency batch generator.
-- `scripts/daily_spanish_frequency.py` - daily Spanish frequency automation runner.
-- `scripts/daily_german_frequency.py` - daily German frequency automation runner.
+- `scripts/daily_spanish_frequency.py` - legacy Spanish runner and shared API helpers.
+- `scripts/daily_german_frequency.py` - legacy German runner and frequency helpers.
+- `scripts/daily_frequency.py` - consolidated Spanish and German scheduled runner.
 - `scripts/import_mochi_batch.py` - reusable CSV-to-Mochi preview/import helper.
 - `templates/mochiko_language_with_audio.md` - source for the recommended Mochiko template.
 - `templates/mochiko_german_with_audio.md` - source for the German audio template.
 - `docs/flashcard-workflow.md` - detailed workflow and guardrails.
 - `skills/mochiko-flashcards/` - repo-shared agent skill for portable guidance in Codex and similar AI coding tools.
 
-Spanish and German frequency cards each use one long-lived `Frequency` deck and
-one corresponding source CSV.
+Spanish and German frequency cards each use one long-lived `Frequency` deck,
+one applied source CSV, and one prepared sentence-bank CSV.
 
 ## Setup
 
@@ -76,18 +79,27 @@ Generate a specific Spanish frequency batch:
 PYTHONPATH=work/python-packages python3 scripts/generate_spanish_frequency_batches.py --start-rank 21 --end-rank 40
 ```
 
-Show the next scheduled Spanish frequency ranks:
+Preview the next governed Spanish and German slices:
 
 ```sh
-PYTHONPATH=work/python-packages python3 scripts/daily_spanish_frequency.py
+PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py
 ```
 
-The Spanish daily runner preserves `wordfreq.top_n_list("es", N)` order after excluding digits and other non-alphabetic tokens, starts after the existing frequency ranks 1-40, writes to one long-lived frequency deck, and stops at rank 500 unless the cap is intentionally changed. The scheduled task checks for Mochi review activity in the prior 24 hours and currently caps same-day creation at three cards.
+The consolidated runner preserves filtered `wordfreq` order, checks for Mochi
+review activity in the prior 24 hours, and creates three independently reviewed
+sentence cards for each new word. Spanish adds one word per day. German adds up
+to three words per day. Both stop at rank 500.
 
-The German daily runner follows `wordfreq.top_n_list("de", N)` in the same way, starts at rank 1, uses one long-lived frequency deck, checks for recent study, and applies a separate five-card daily cap:
+Apply and publish the prepared slices:
 
 ```sh
-PYTHONPATH=work/python-packages python3 scripts/daily_german_frequency.py --require-recent-study-hours 24 --daily-created-cap 5
+PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py --apply --publish
+```
+
+Validate both sentence banks entirely offline:
+
+```sh
+PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py --validate-banks
 ```
 
 ## Installing the agent skill

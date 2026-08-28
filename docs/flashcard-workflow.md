@@ -44,10 +44,11 @@ Use this document as the working playbook. Keep `README.md` high level and keep 
 Use this for frequency lists, number ranges, verb drills, themed lists, and other repeatable exercises.
 
 1. Put source rows under `languages/<language-code>/`.
-2. Use the existing CSV schema unless a future change intentionally broadens it:
+2. Scheduled frequency sources include a `variant` column so new words can
+   have three independently reviewed cards:
 
    ```csv
-   rank,word,sentence,tags
+   rank,variant,word,sentence,tags
    ```
 
 3. Ensure the `word` value appears exactly once as the clozed target in `sentence`, except for normal capitalisation.
@@ -61,49 +62,43 @@ Use this for frequency lists, number ranges, verb drills, themed lists, and othe
 5. Preview with `scripts/import_mochi_batch.py`.
 6. Import only after review and only when the user explicitly asks for a write.
 
-### Scheduled Spanish frequency workflow
+### Scheduled frequency workflow
 
-The daily Spanish frequency automation is an explicit exception to the usual manual preview-before-import rule. It uses `wordfreq.top_n_list("es", N)` as the source of truth for rank order after excluding digits and other non-alphabetic tokens, continues after the existing frequency ranks 1-40, and currently writes up to three new cards per run until the approved cap rank is reached.
-
-The scheduled run must:
-
-- use general Latin American Spanish
-- generate ranks in strict order
-- exclude digits and other non-alphabetic `wordfreq` tokens before assigning ranks
-- only continue if Mochi shows review activity within the prior 24 hours
-- treat newly synced review records since the previous activity inspection as
-  recent activity when Mochi's day-level dates are wrong after timezone travel
-- count cards already created today across Mochi and only add the remaining portion of the three-card daily cap
-- keep all Spanish frequency cards in the long-lived `Frequency` deck
-- append successful rows to `languages/es/frequency.csv`
-- validate one cloze pair per sentence before writing
-- use deck `K7f2W8MO` and template `tq51slCp`
-- require `MOCHI_API_KEY` before any write
-- stop when rank 500 is complete unless the cap is intentionally raised
-
-Use `scripts/daily_spanish_frequency.py` for this workflow. Running it without sentence input prints the next approved ranks after applying the recent-study and same-day creation gates. Running it with `--sentences-json` validates the proposed slice, which may now be smaller than three rows. Running it with `--apply` rechecks the gates, writes to the existing frequency deck, and appends the source rows after a successful write.
-
-### Scheduled German frequency workflow
-
-The German automation uses the same review-activity and validation gates as Spanish, but it keeps one long-lived `Frequency` deck. It adds up to five cards a day through `scripts/daily_german_frequency.py`, applies its same-day cap only to that German deck, and stops at rank 500 unless the cap is intentionally raised.
+The combined daily automation is an explicit exception to the usual manual
+preview-before-import rule. It uses filtered `wordfreq.top_n_list()` results as
+the source of truth and reads prepared sentences from each language's committed
+`frequency_sentence_bank.csv`.
 
 The scheduled run must:
 
-- use standard German and informal `du` by default
-- generate strict `wordfreq.top_n_list("de", N)` rank order after filtering non-alphabetic tokens
+- process Spanish before German in strict frequency-rank order
 - continue only when Mochi shows review activity within the prior 24 hours
-- add no more than five German frequency cards on a local calendar day
-- validate exactly one cloze pair per sentence
-- use deck `r2i5qXk7` and template `xo7aEe7Q`
-- require `MOCHI_API_KEY` before any write
-- append successful rows to `languages/de/frequency.csv`
-- stop when rank 500 is complete unless the cap is intentionally raised
+- treat newly synced review records as recent when Mochi's day-level dates are unreliable
+- fetch Mochi cards once and reuse that snapshot for gates and duplicate checks
+- add one Spanish word and up to three German words per day
+- create exactly three separate sentence cards for each new word
+- vary each trio across useful grammatical, semantic, or conversational contexts
+- validate complete variants 1, 2, and 3 with exactly one cloze pair each
+- tag every card with its exact rank and variant for safe interrupted-run recovery
+- keep Spanish in `K7f2W8MO` and German in `r2i5qXk7`
+- append successful rows to the corresponding `frequency.csv`
+- require `MOCHI_API_KEY` before any write and stop at rank 500
+
+Existing one-sentence frequency cards are not backfilled. New ranks use three
+separate cards so each context becomes an independent retrieval event. A
+partial write is recoverable because the next run skips matching sentences and
+completes the tagged trio.
+
+Use `scripts/daily_frequency.py`. `--validate-banks` checks prepared rows without
+Git or Mochi access. A run without `--apply` performs a governed live preview.
+`--apply --publish` performs the single-snapshot write and guarded publication.
 
 ### Scheduled source version control
 
 After a governed run successfully creates cards and updates either frequency
 source, the automation commits only the changed Spanish and German frequency
-CSVs directly to `main`, then pushes `main` to `origin`. It does not create a PR.
+CSVs directly to `main`, then pushes `main` to `origin`. Sentence banks are
+replenished separately and are not changed by the scheduled run. It does not create a PR.
 Skipped runs create no commit. Scratch files under `work/`, credentials, and
 unrelated worktree changes must never be staged. A commit or push failure is
 reported without undoing cards that were already created in Mochi.

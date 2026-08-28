@@ -1,0 +1,91 @@
+rank,variant,word,sentence,tags
+34,1,sind,Wir {{sind}} heute zu Hause.,frequency;generated;german
+34,2,sind,Die Äpfel {{sind}} frisch.,frequency;generated;german
+34,3,sind,Meine Freunde {{sind}} schon da.,frequency;generated;german
+35,1,nach,Wir fahren morgen {{nach}} Berlin.,frequency;generated;german
+35,2,nach,Ich gehe {{nach}} der Arbeit einkaufen.,frequency;generated;german
+35,3,nach,Sie fragt {{nach}} dem Preis.,frequency;generated;german
+36,1,noch,Ich brauche {{noch}} fünf Minuten.,frequency;generated;german
+36,2,noch,Bist du {{noch}} müde?,frequency;generated;german
+36,3,noch,Wir haben {{noch}} etwas Brot.,frequency;generated;german
+37,1,wir,Heute kochen {{wir}} zusammen.,frequency;generated;german
+37,2,wir,Morgen fahren {{wir}} ans Meer.,frequency;generated;german
+37,3,wir,Das können {{wir}} später machen.,frequency;generated;german
+38,1,du,Kommst {{du}} heute mit?,frequency;generated;german
+38,2,du,Was möchtest {{du}} essen?,frequency;generated;german
+38,3,du,Morgen hast {{du}} frei.,frequency;generated;german
+39,1,war,Gestern {{war}} es kalt.,frequency;generated;german
+39,2,war,Der Film {{war}} sehr gut.,frequency;generated;german
+39,3,war,Ich {{war}} den ganzen Tag zu Hause.,frequency;generated;german
+40,1,nur,Ich habe {{nur}} zehn Euro.,frequency;generated;german
+40,2,nur,Heute trinke ich {{nur}} Wasser.,frequency;generated;german
+40,3,nur,Das dauert {{nur}} eine Minute.,frequency;generated;german
+41,1,wenn,"Ruf mich an, {{wenn}} du Zeit hast.",frequency;generated;german
+41,2,wenn,"Ich bleibe zu Hause, {{wenn}} es regnet.",frequency;generated;german
+41,3,wenn,"Wir gehen spazieren, {{wenn}} die Sonne scheint.",frequency;generated;german
+42,1,oder,Möchtest du Tee {{oder}} Kaffee?,frequency;generated;german
+42,2,oder,Kommst du heute {{oder}} morgen?,frequency;generated;german
+42,3,oder,Wir können laufen {{oder}} den Bus nehmen.,frequency;generated;german
+43,1,wird,Morgen {{wird}} es warm.,frequency;generated;german
+43,2,wird,Mein Bruder {{wird}} bald Vater.,frequency;generated;german
+43,3,wird,Die Arbeit {{wird}} heute fertig.,frequency;generated;german
+44,1,was,"Ich weiß nicht, {{was}} er meint.",frequency;generated;german
+44,2,was,"Sag mir, {{was}} du brauchst.",frequency;generated;german
+44,3,was,"Hast du gehört, {{was}} passiert ist?",frequency;generated;german
+45,1,werden,Die Tage {{werden}} länger.,frequency;generated;german
+45,2,werden,Wir {{werden}} morgen anrufen.,frequency;generated;german
+45,3,werden,Die Kinder {{werden}} langsam müde.,frequency;generated;german
+46,1,einen,Ich kaufe {{einen}} neuen Tisch.,frequency;generated;german
+46,2,einen,Er hat {{einen}} kleinen Hund.,frequency;generated;german
+46,3,einen,Wir brauchen {{einen}} Termin.,frequency;generated;german
+47,1,am,Wir treffen uns {{am}} Bahnhof.,frequency;generated;german
+47,2,am,Ich arbeite {{am}} Montag.,frequency;generated;german
+47,3,am,Das Café liegt {{am}} Fluss.,frequency;generated;german
+48,1,man,Hier kann {{man}} gut essen.,frequency;generated;german
+48,2,man,Im Winter trägt {{man}} eine Jacke.,frequency;generated;german
+48,3,man,Das darf {{man}} nicht vergessen.,frequency;generated;german
+49,1,um,Der Kurs beginnt {{um}} neun Uhr.,frequency;generated;german
+49,2,um,Wir gehen {{um}} den See.,frequency;generated;german
+49,3,um,Sie kümmert sich {{um}} die Kinder.,frequency;generated;german
+50,1,haben,Wir {{haben}} heute viel Zeit.,frequency;generated;german
+50,2,haben,Die Kinder {{haben}} Hunger.,frequency;generated;german
+50,3,haben,Morgen {{haben}} wir Besuch.,frequency;generated;german
+51,1,einer,Ich spreche mit {{einer}} Freundin.,frequency;generated;german
+51,2,einer,Das ist das Fahrrad {{einer}} Kollegin.,frequency;generated;german
+51,3,einer,Sie wohnt in {{einer}} kleinen Stadt.,frequency;generated;german
+52,1,zum,Wir gehen {{zum}} Bahnhof.,frequency;generated;german
+52,2,zum,Er kommt {{zum}} Abendessen.,frequency;generated;german
+52,3,zum,Ich brauche Milch {{zum}} Kochen.,frequency;generated;german
+53,1,kann,Sie {{kann}} sehr gut schwimmen.,frequency;generated;german
+53,2,kann,Heute {{kann}} ich länger bleiben.,frequency;generated;german
+53,3,kann,Das {{kann}} nicht stimmen.,frequency;generated;german
+54,1,über,Das Bild hängt {{über}} dem Sofa.,frequency;generated;german
+54,2,über,Wir sprechen {{über}} den Urlaub.,frequency;generated;german
+54,3,über,Der Zug fährt {{über}} die Brücke.,frequency;generated;german
+55,1,da,Meine Schwester ist schon {{da}}.,frequency;generated;german
+55,2,da,Ich war gestern auch {{da}}.,frequency;generated;german
+55,3,da,Leg das Buch bitte {{da}} hin.,frequency;generated;german
+56,1,dann,Wir essen und gehen {{dann}} spazieren.,frequency;generated;german
+56,2,dann,Ruf mich bitte {{dann}} an.,frequency;generated;german
+56,3,dann,"Zuerst arbeiten wir, {{dann}} ruhen wir uns aus.",frequency;generated;german
+57,1,einem,Ich helfe {{einem}} alten Mann.,frequency;generated;german
+57,2,einem,Sie fährt mit {{einem}} kleinen Auto.,frequency;generated;german
+57,3,einem,Er wohnt in {{einem}} alten Haus.,frequency;generated;german
+58,1,schon,Ich bin {{schon}} fertig.,frequency;generated;german
+58,2,schon,Warst du {{schon}} in Wien?,frequency;generated;german
+58,3,schon,Der Bus ist {{schon}} weg.,frequency;generated;german
+59,1,habe,Ich {{habe}} heute frei.,frequency;generated;german
+59,2,habe,Morgen {{habe}} ich einen Termin.,frequency;generated;german
+59,3,habe,Ich {{habe}} deine Nachricht gelesen.,frequency;generated;german
+60,1,ja,Du kennst ihn {{ja}} schon.,frequency;generated;german
+60,2,ja,Das ist {{ja}} eine gute Idee.,frequency;generated;german
+60,3,ja,Wir haben {{ja}} genug Zeit.,frequency;generated;german
+61,1,mehr,Ich möchte {{mehr}} Wasser.,frequency;generated;german
+61,2,mehr,Heute habe ich {{mehr}} Zeit.,frequency;generated;german
+61,3,mehr,Wir brauchen nicht {{mehr}} Brot.,frequency;generated;german
+62,1,mir,Bitte gib {{mir}} das Buch.,frequency;generated;german
+62,2,mir,Das ist {{mir}} zu teuer.,frequency;generated;german
+62,3,mir,Meine Mutter hilft {{mir}} oft.,frequency;generated;german
+63,1,sein,Heute möchte ich allein {{sein}}.,frequency;generated;german
+63,2,sein,Er möchte Lehrer {{sein}}.,frequency;generated;german
+63,3,sein,Jeder darf anders {{sein}}.,frequency;generated;german

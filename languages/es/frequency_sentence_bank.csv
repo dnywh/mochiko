@@ -1,0 +1,91 @@
+rank,variant,word,sentence,tags
+196,1,manera,Esa es una buena {{manera}} de aprender.,frequency;generated;spanish
+196,2,manera,Lo hizo de otra {{manera}}.,frequency;generated;spanish
+196,3,manera,No me gusta su {{manera}} de hablar.,frequency;generated;spanish
+197,1,nombre,Mi {{nombre}} es Ana.,frequency;generated;spanish
+197,2,nombre,Escribe tu {{nombre}} aquí.,frequency;generated;spanish
+197,3,nombre,No recuerdo su {{nombre}}.,frequency;generated;spanish
+198,1,unos,Compré {{unos}} zapatos nuevos.,frequency;generated;spanish
+198,2,unos,Esperamos {{unos}} minutos.,frequency;generated;spanish
+198,3,unos,Hay {{unos}} libros en la mesa.,frequency;generated;spanish
+199,1,ley,Todos deben respetar la {{ley}}.,frequency;generated;spanish
+199,2,ley,Esa {{ley}} cambió este año.,frequency;generated;spanish
+199,3,ley,La nueva {{ley}} protege a los niños.,frequency;generated;spanish
+200,1,medio,Vivo en {{medio}} de la ciudad.,frequency;generated;spanish
+200,2,medio,Cortó la manzana por el {{medio}}.,frequency;generated;spanish
+200,3,medio,Es un buen {{medio}} de transporte.,frequency;generated;spanish
+201,1,partido,Vimos el {{partido}} en casa.,frequency;generated;spanish
+201,2,partido,El {{partido}} empieza a las ocho.,frequency;generated;spanish
+201,3,partido,Su {{partido}} ganó las elecciones.,frequency;generated;spanish
+202,1,bajo,El gato duerme {{bajo}} la mesa.,frequency;generated;spanish
+202,2,bajo,Habla muy {{bajo}} en clase.,frequency;generated;spanish
+202,3,bajo,Este precio es muy {{bajo}}.,frequency;generated;spanish
+203,1,fuera,Los niños juegan {{fuera}}.,frequency;generated;spanish
+203,2,fuera,Estoy {{fuera}} de casa.,frequency;generated;spanish
+203,3,fuera,Deja los zapatos {{fuera}}.,frequency;generated;spanish
+204,1,hacia,Caminamos {{hacia}} la estación.,frequency;generated;spanish
+204,2,hacia,Mira {{hacia}} la ventana.,frequency;generated;spanish
+204,3,hacia,El viento sopla {{hacia}} el norte.,frequency;generated;spanish
+205,1,sino,No quiero té {{sino}} café.,frequency;generated;spanish
+205,2,sino,No vino Juan {{sino}} Pedro.,frequency;generated;spanish
+205,3,sino,No es grande {{sino}} pequeño.,frequency;generated;spanish
+206,1,da,Mi ventana {{da}} al parque.,frequency;generated;spanish
+206,2,da,Ella me {{da}} un abrazo.,frequency;generated;spanish
+206,3,da,Esta planta {{da}} muchas flores.,frequency;generated;spanish
+207,1,grupo,Trabajo con un buen {{grupo}}.,frequency;generated;spanish
+207,2,grupo,El {{grupo}} canta esta noche.,frequency;generated;spanish
+207,3,grupo,Hay cinco personas en el {{grupo}}.,frequency;generated;spanish
+208,1,haber,Debe {{haber}} otra salida.,frequency;generated;spanish
+208,2,haber,Puede {{haber}} lluvia mañana.,frequency;generated;spanish
+208,3,haber,Tiene que {{haber}} una solución.,frequency;generated;spanish
+209,1,hombre,Ese {{hombre}} es mi vecino.,frequency;generated;spanish
+209,2,hombre,Un {{hombre}} abrió la puerta.,frequency;generated;spanish
+209,3,hombre,El {{hombre}} lleva un sombrero.,frequency;generated;spanish
+210,1,puedo,Hoy no {{puedo}} salir.,frequency;generated;spanish
+210,2,puedo,Yo {{puedo}} ayudarte mañana.,frequency;generated;spanish
+210,3,puedo,No {{puedo}} encontrar mis llaves.,frequency;generated;spanish
+211,1,buena,Ella es una {{buena}} amiga.,frequency;generated;spanish
+211,2,buena,Esta sopa está muy {{buena}}.,frequency;generated;spanish
+211,3,buena,Tuvimos una {{buena}} idea.,frequency;generated;spanish
+212,1,mujer,Esa {{mujer}} trabaja aquí.,frequency;generated;spanish
+212,2,mujer,La {{mujer}} espera el autobús.,frequency;generated;spanish
+212,3,mujer,Una {{mujer}} encontró mi bolso.,frequency;generated;spanish
+213,1,persona,Es una {{persona}} muy amable.,frequency;generated;spanish
+213,2,persona,Solo falta una {{persona}}.,frequency;generated;spanish
+213,3,persona,Cada {{persona}} tiene una entrada.,frequency;generated;spanish
+214,1,será,Mañana {{será}} otro día.,frequency;generated;spanish
+214,2,será,La reunión {{será}} en mi casa.,frequency;generated;spanish
+214,3,será,Creo que {{será}} fácil.,frequency;generated;spanish
+215,1,sistema,El {{sistema}} funciona bien.,frequency;generated;spanish
+215,2,sistema,Usamos un nuevo {{sistema}}.,frequency;generated;spanish
+215,3,sistema,No entiendo este {{sistema}}.,frequency;generated;spanish
+216,1,casi,Ya son {{casi}} las nueve.,frequency;generated;spanish
+216,2,casi,Estoy {{casi}} listo.,frequency;generated;spanish
+216,3,casi,Ella {{casi}} perdió el tren.,frequency;generated;spanish
+217,1,fin,La película llegó a su {{fin}}.,frequency;generated;spanish
+217,2,fin,Por {{fin}} estamos en casa.,frequency;generated;spanish
+217,3,fin,Trabajo este {{fin}} de semana.,frequency;generated;spanish
+218,1,hizo,Ella {{hizo}} la cena.,frequency;generated;spanish
+218,2,hizo,Mi hermano {{hizo}} ese dibujo.,frequency;generated;spanish
+218,3,hizo,Ayer {{hizo}} mucho frío.,frequency;generated;spanish
+219,1,noche,Trabajo por la {{noche}}.,frequency;generated;spanish
+219,2,noche,Anoche fue una larga {{noche}}.,frequency;generated;spanish
+219,3,noche,Nos vemos esta {{noche}}.,frequency;generated;spanish
+220,1,nosotros,Ella viene con {{nosotros}}.,frequency;generated;spanish
+220,2,nosotros,Para {{nosotros}} es importante.,frequency;generated;spanish
+220,3,nosotros,Hoy cocinamos {{nosotros}}.,frequency;generated;spanish
+221,1,pasado,El año {{pasado}} viví en México.,frequency;generated;spanish
+221,2,pasado,Ya he {{pasado}} por aquí.,frequency;generated;spanish
+221,3,pasado,Olvida lo que ha {{pasado}}.,frequency;generated;spanish
+222,1,presidente,El {{presidente}} habló ayer.,frequency;generated;spanish
+222,2,presidente,Ella conoció al {{presidente}}.,frequency;generated;spanish
+222,3,presidente,Eligieron un nuevo {{presidente}}.,frequency;generated;spanish
+223,1,quiere,Mi hijo {{quiere}} un perro.,frequency;generated;spanish
+223,2,quiere,Ella no {{quiere}} esperar.,frequency;generated;spanish
+223,3,quiere,¿Quién {{quiere}} más café?,frequency;generated;spanish
+224,1,tenemos,Hoy {{tenemos}} mucho trabajo.,frequency;generated;spanish
+224,2,tenemos,No {{tenemos}} suficiente pan.,frequency;generated;spanish
+224,3,tenemos,En casa {{tenemos}} dos gatos.,frequency;generated;spanish
+225,1,tus,¿Dónde están {{tus}} zapatos?,frequency;generated;spanish
+225,2,tus,Me gustan {{tus}} ideas.,frequency;generated;spanish
+225,3,tus,Trae {{tus}} libros mañana.,frequency;generated;spanish

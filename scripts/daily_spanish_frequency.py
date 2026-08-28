@@ -86,7 +86,7 @@ def request_json(
         },
     )
     try:
-        with request.urlopen(req) as response:
+        with request.urlopen(req, timeout=30) as response:
             raw = response.read().decode("utf-8")
     except HTTPError as error:
         detail = error.read().decode("utf-8", errors="replace")
