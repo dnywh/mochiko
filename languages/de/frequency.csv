@@ -1,34 +1,43 @@
-rank,word,sentence,tags
-1,die,Ich sehe {{die}} Frau.,frequency;generated;german
-2,der,Das ist {{der}} Mann.,frequency;generated;german
-3,und,Anna {{und}} Paul lernen Deutsch.,frequency;generated;german
-4,in,Das Buch liegt {{in}} der Tasche.,frequency;generated;german
-5,das,Ich lese {{das}} Buch.,frequency;generated;german
-6,ich,Heute lerne {{ich}} Deutsch.,frequency;generated;german
-7,ist,Das {{ist}} gut.,frequency;generated;german
-8,nicht,Das ist {{nicht}} schwer.,frequency;generated;german
-9,zu,Ich gehe {{zu}} dir.,frequency;generated;german
-10,den,Ich sehe {{den}} Hund.,frequency;generated;german
-11,von,Das Geschenk ist {{von}} dir.,frequency;generated;german
-12,mit,Ich komme {{mit}} dir.,frequency;generated;german
-13,es,Heute ist {{es}} kalt.,frequency;generated;german
-14,ein,Das ist {{ein}} Buch.,frequency;generated;german
-15,auf,Das Buch liegt {{auf}} dem Tisch.,frequency;generated;german
-16,für,Das Geschenk ist {{für}} dich.,frequency;generated;german
-17,im,Wir sind {{im}} Park.,frequency;generated;german
-18,sie,Ich sehe {{sie}} heute.,frequency;generated;german
-19,eine,Ich habe {{eine}} Katze.,frequency;generated;german
-20,sich,Er wäscht {{sich}} jeden Morgen.,frequency;generated;german
-21,auch,Ich komme {{auch}} mit.,frequency;generated;german
-22,dem,Ich helfe {{dem}} Mann.,frequency;generated;german
-23,des,Die Farbe {{des}} Autos ist rot.,frequency;generated;german
-24,als,Er arbeitet {{als}} Lehrer.,frequency;generated;german
-25,er,Heute kommt {{er}} nach Hause.,frequency;generated;german
-26,an,Das Bild hängt {{an}} der Wand.,frequency;generated;german
-27,dass,"Ich weiß, {{dass}} du kommst.",frequency;generated;german
-28,so,Das ist {{so}} einfach.,frequency;generated;german
-29,bei,Ich bin {{bei}} meiner Freundin.,frequency;generated;german
-30,wie,Sie singt {{wie}} ihre Mutter.,frequency;generated;german
-31,aber,"Ich bin müde, {{aber}} glücklich.",frequency;generated;german
-32,aus,Ich komme {{aus}} Berlin.,frequency;generated;german
-33,hat,Er {{hat}} einen Hund.,frequency;generated;german
+rank,variant,word,sentence,tags
+1,1,die,Ich sehe {{die}} Frau.,frequency;generated;german
+2,1,der,Das ist {{der}} Mann.,frequency;generated;german
+3,1,und,Anna {{und}} Paul lernen Deutsch.,frequency;generated;german
+4,1,in,Das Buch liegt {{in}} der Tasche.,frequency;generated;german
+5,1,das,Ich lese {{das}} Buch.,frequency;generated;german
+6,1,ich,Heute lerne {{ich}} Deutsch.,frequency;generated;german
+7,1,ist,Das {{ist}} gut.,frequency;generated;german
+8,1,nicht,Das ist {{nicht}} schwer.,frequency;generated;german
+9,1,zu,Ich gehe {{zu}} dir.,frequency;generated;german
+10,1,den,Ich sehe {{den}} Hund.,frequency;generated;german
+11,1,von,Das Geschenk ist {{von}} dir.,frequency;generated;german
+12,1,mit,Ich komme {{mit}} dir.,frequency;generated;german
+13,1,es,Heute ist {{es}} kalt.,frequency;generated;german
+14,1,ein,Das ist {{ein}} Buch.,frequency;generated;german
+15,1,auf,Das Buch liegt {{auf}} dem Tisch.,frequency;generated;german
+16,1,für,Das Geschenk ist {{für}} dich.,frequency;generated;german
+17,1,im,Wir sind {{im}} Park.,frequency;generated;german
+18,1,sie,Ich sehe {{sie}} heute.,frequency;generated;german
+19,1,eine,Ich habe {{eine}} Katze.,frequency;generated;german
+20,1,sich,Er wäscht {{sich}} jeden Morgen.,frequency;generated;german
+21,1,auch,Ich komme {{auch}} mit.,frequency;generated;german
+22,1,dem,Ich helfe {{dem}} Mann.,frequency;generated;german
+23,1,des,Die Farbe {{des}} Autos ist rot.,frequency;generated;german
+24,1,als,Er arbeitet {{als}} Lehrer.,frequency;generated;german
+25,1,er,Heute kommt {{er}} nach Hause.,frequency;generated;german
+26,1,an,Das Bild hängt {{an}} der Wand.,frequency;generated;german
+27,1,dass,"Ich weiß, {{dass}} du kommst.",frequency;generated;german
+28,1,so,Das ist {{so}} einfach.,frequency;generated;german
+29,1,bei,Ich bin {{bei}} meiner Freundin.,frequency;generated;german
+30,1,wie,Sie singt {{wie}} ihre Mutter.,frequency;generated;german
+31,1,aber,"Ich bin müde, {{aber}} glücklich.",frequency;generated;german
+32,1,aus,Ich komme {{aus}} Berlin.,frequency;generated;german
+33,1,hat,Er {{hat}} einen Hund.,frequency;generated;german
+34,1,sind,Wir {{sind}} heute zu Hause.,frequency;generated;german
+34,2,sind,Die Äpfel {{sind}} frisch.,frequency;generated;german
+34,3,sind,Meine Freunde {{sind}} schon da.,frequency;generated;german
+35,1,nach,Wir fahren morgen {{nach}} Berlin.,frequency;generated;german
+35,2,nach,Ich gehe {{nach}} der Arbeit einkaufen.,frequency;generated;german
+35,3,nach,Sie fragt {{nach}} dem Preis.,frequency;generated;german
+36,1,noch,Ich brauche {{noch}} fünf Minuten.,frequency;generated;german
+36,2,noch,Bist du {{noch}} müde?,frequency;generated;german
+36,3,noch,Wir haben {{noch}} etwas Brot.,frequency;generated;german
