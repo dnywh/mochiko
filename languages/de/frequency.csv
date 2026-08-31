@@ -41,3 +41,12 @@ rank,variant,word,sentence,tags
 36,1,noch,Ich brauche {{noch}} fünf Minuten.,frequency;generated;german
 36,2,noch,Bist du {{noch}} müde?,frequency;generated;german
 36,3,noch,Wir haben {{noch}} etwas Brot.,frequency;generated;german
+37,1,wir,Heute kochen {{wir}} zusammen.,frequency;generated;german
+37,2,wir,Morgen fahren {{wir}} ans Meer.,frequency;generated;german
+37,3,wir,Das können {{wir}} später machen.,frequency;generated;german
+38,1,du,Kommst {{du}} heute mit?,frequency;generated;german
+38,2,du,Was möchtest {{du}} essen?,frequency;generated;german
+38,3,du,Morgen hast {{du}} frei.,frequency;generated;german
+39,1,war,Gestern {{war}} es kalt.,frequency;generated;german
+39,2,war,Der Film {{war}} sehr gut.,frequency;generated;german
+39,3,war,Ich {{war}} den ganzen Tag zu Hause.,frequency;generated;german

@@ -197,3 +197,6 @@ rank,variant,word,sentence,tags
 196,1,manera,Esa es una buena {{manera}} de aprender.,frequency;generated;spanish
 196,2,manera,Lo hizo de otra {{manera}}.,frequency;generated;spanish
 196,3,manera,No me gusta su {{manera}} de hablar.,frequency;generated;spanish
+197,1,nombre,Mi {{nombre}} es Ana.,frequency;generated;spanish
+197,2,nombre,Escribe tu {{nombre}} aquí.,frequency;generated;spanish
+197,3,nombre,No recuerdo su {{nombre}}.,frequency;generated;spanish
