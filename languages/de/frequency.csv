@@ -50,3 +50,12 @@ rank,variant,word,sentence,tags
 39,1,war,Gestern {{war}} es kalt.,frequency;generated;german
 39,2,war,Der Film {{war}} sehr gut.,frequency;generated;german
 39,3,war,Ich {{war}} den ganzen Tag zu Hause.,frequency;generated;german
+40,1,nur,Ich habe {{nur}} zehn Euro.,frequency;generated;german
+40,2,nur,Heute trinke ich {{nur}} Wasser.,frequency;generated;german
+40,3,nur,Das dauert {{nur}} eine Minute.,frequency;generated;german
+41,1,wenn,"Ruf mich an, {{wenn}} du Zeit hast.",frequency;generated;german
+41,2,wenn,"Ich bleibe zu Hause, {{wenn}} es regnet.",frequency;generated;german
+41,3,wenn,"Wir gehen spazieren, {{wenn}} die Sonne scheint.",frequency;generated;german
+42,1,oder,Möchtest du Tee {{oder}} Kaffee?,frequency;generated;german
+42,2,oder,Kommst du heute {{oder}} morgen?,frequency;generated;german
+42,3,oder,Wir können laufen {{oder}} den Bus nehmen.,frequency;generated;german
