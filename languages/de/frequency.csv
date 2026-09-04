@@ -59,3 +59,12 @@ rank,variant,word,sentence,tags
 42,1,oder,Möchtest du Tee {{oder}} Kaffee?,frequency;generated;german
 42,2,oder,Kommst du heute {{oder}} morgen?,frequency;generated;german
 42,3,oder,Wir können laufen {{oder}} den Bus nehmen.,frequency;generated;german
+43,1,wird,Morgen {{wird}} es warm.,frequency;generated;german
+43,2,wird,Mein Bruder {{wird}} bald Vater.,frequency;generated;german
+43,3,wird,Die Arbeit {{wird}} heute fertig.,frequency;generated;german
+44,1,was,"Ich weiß nicht, {{was}} er meint.",frequency;generated;german
+44,2,was,"Sag mir, {{was}} du brauchst.",frequency;generated;german
+44,3,was,"Hast du gehört, {{was}} passiert ist?",frequency;generated;german
+45,1,werden,Die Tage {{werden}} länger.,frequency;generated;german
+45,2,werden,Wir {{werden}} morgen anrufen.,frequency;generated;german
+45,3,werden,Die Kinder {{werden}} langsam müde.,frequency;generated;german

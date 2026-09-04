@@ -203,3 +203,6 @@ rank,variant,word,sentence,tags
 198,1,unos,Compré {{unos}} zapatos nuevos.,frequency;generated;spanish
 198,2,unos,Esperamos {{unos}} minutos.,frequency;generated;spanish
 198,3,unos,Hay {{unos}} libros en la mesa.,frequency;generated;spanish
+199,1,ley,Todos deben respetar la {{ley}}.,frequency;generated;spanish
+199,2,ley,Esa {{ley}} cambió este año.,frequency;generated;spanish
+199,3,ley,La nueva {{ley}} protege a los niños.,frequency;generated;spanish
