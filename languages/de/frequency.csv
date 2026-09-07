@@ -68,3 +68,12 @@ rank,variant,word,sentence,tags
 45,1,werden,Die Tage {{werden}} länger.,frequency;generated;german
 45,2,werden,Wir {{werden}} morgen anrufen.,frequency;generated;german
 45,3,werden,Die Kinder {{werden}} langsam müde.,frequency;generated;german
+46,1,einen,Ich kaufe {{einen}} neuen Tisch.,frequency;generated;german
+46,2,einen,Er hat {{einen}} kleinen Hund.,frequency;generated;german
+46,3,einen,Wir brauchen {{einen}} Termin.,frequency;generated;german
+47,1,am,Wir treffen uns {{am}} Bahnhof.,frequency;generated;german
+47,2,am,Ich arbeite {{am}} Montag.,frequency;generated;german
+47,3,am,Das Café liegt {{am}} Fluss.,frequency;generated;german
+48,1,man,Hier kann {{man}} gut essen.,frequency;generated;german
+48,2,man,Im Winter trägt {{man}} eine Jacke.,frequency;generated;german
+48,3,man,Das darf {{man}} nicht vergessen.,frequency;generated;german
