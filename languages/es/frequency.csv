@@ -1,6 +1,9 @@
 rank,variant,word,sentence,tags
 1,1,de,Soy {{de}} Perú.,frequency;generated;rank-001-020
+1,2,de,La mesa es {{de}} madera.,frequency;generated;spanish
+1,3,de,Es hora {{de}} salir.,frequency;generated;spanish
 2,1,la,Veo {{la}} casa.,frequency;generated;rank-001-020
+2,2,la,Cierra {{la}} puerta.,frequency;generated;spanish
 3,1,que,Sé {{que}} puedes.,frequency;generated;rank-001-020
 4,1,el,Leo {{el}} libro.,frequency;generated;rank-001-020
 5,1,en,Vivo {{en}} Lima.,frequency;generated;rank-001-020

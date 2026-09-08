@@ -1,9 +1,18 @@
 rank,variant,word,sentence,tags
 1,1,die,Ich sehe {{die}} Frau.,frequency;generated;german
+1,2,die,Mach bitte {{die}} Tür zu.,frequency;generated;german
+1,3,die,Wo sind {{die}} Schlüssel?,frequency;generated;german
 2,1,der,Das ist {{der}} Mann.,frequency;generated;german
+2,2,der,Ich helfe {{der}} Frau.,frequency;generated;german
+2,3,der,Heute ist {{der}} erste Schultag.,frequency;generated;german
 3,1,und,Anna {{und}} Paul lernen Deutsch.,frequency;generated;german
+3,2,und,Komm rein {{und}} setz dich.,frequency;generated;german
+3,3,und,Ich kaufe Brot {{und}} Käse.,frequency;generated;german
 4,1,in,Das Buch liegt {{in}} der Tasche.,frequency;generated;german
+4,2,in,Wir fahren {{in}} die Stadt.,frequency;generated;german
+4,3,in,Ich komme {{in}} zehn Minuten.,frequency;generated;german
 5,1,das,Ich lese {{das}} Buch.,frequency;generated;german
+5,2,das,Ist {{das}} dein Fahrrad?,frequency;generated;german
 6,1,ich,Heute lerne {{ich}} Deutsch.,frequency;generated;german
 7,1,ist,Das {{ist}} gut.,frequency;generated;german
 8,1,nicht,Das ist {{nicht}} schwer.,frequency;generated;german
