@@ -209,3 +209,6 @@ rank,variant,word,sentence,tags
 200,1,medio,Vivo en {{medio}} de la ciudad.,frequency;generated;spanish
 200,2,medio,Cortó la manzana por el {{medio}}.,frequency;generated;spanish
 200,3,medio,Es un buen {{medio}} de transporte.,frequency;generated;spanish
+201,1,partido,Vimos el {{partido}} en casa.,frequency;generated;spanish
+201,2,partido,El {{partido}} empieza a las ocho.,frequency;generated;spanish
+201,3,partido,Su {{partido}} ganó las elecciones.,frequency;generated;spanish

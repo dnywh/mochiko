@@ -77,3 +77,12 @@ rank,variant,word,sentence,tags
 48,1,man,Hier kann {{man}} gut essen.,frequency;generated;german
 48,2,man,Im Winter trägt {{man}} eine Jacke.,frequency;generated;german
 48,3,man,Das darf {{man}} nicht vergessen.,frequency;generated;german
+49,1,um,Der Kurs beginnt {{um}} neun Uhr.,frequency;generated;german
+49,2,um,Wir gehen {{um}} den See.,frequency;generated;german
+49,3,um,Sie kümmert sich {{um}} die Kinder.,frequency;generated;german
+50,1,haben,Wir {{haben}} heute viel Zeit.,frequency;generated;german
+50,2,haben,Die Kinder {{haben}} Hunger.,frequency;generated;german
+50,3,haben,Morgen {{haben}} wir Besuch.,frequency;generated;german
+51,1,einer,Ich spreche mit {{einer}} Freundin.,frequency;generated;german
+51,2,einer,Das ist das Fahrrad {{einer}} Kollegin.,frequency;generated;german
+51,3,einer,Sie wohnt in {{einer}} kleinen Stadt.,frequency;generated;german
