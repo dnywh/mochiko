@@ -128,6 +128,14 @@ def validate_sentence(word: str, sentence: str) -> None:
         raise ValueError(f"{word!r} also appears outside the cloze: {sentence!r}")
 
 
+def source_variants(language: Language) -> dict[int, set[int]]:
+    variants: dict[int, set[int]] = {}
+    for row in read_rows(language.source):
+        if row.get("rank"):
+            variants.setdefault(int(row["rank"]), set()).add(int(row.get("variant") or "1"))
+    return variants
+
+
 def next_rank(language: Language) -> int | None:
     ranks = [int(row["rank"]) for row in read_rows(language.source) if row.get("rank")]
     rank = max(ranks or ([40] if language.code == "es" else [0])) + 1
@@ -220,10 +228,24 @@ def rank_tag(rank: int) -> str:
     return f"frequency-rank-{rank:03d}"
 
 
+def cards_created_today(cards: list[dict], language: Language, now: datetime) -> int:
+    day_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    count = 0
+    for card in cards:
+        if card_deck_id(card) != language.deck_id:
+            continue
+        created = parse_api_date(card.get("created-at"))
+        if not created or not day_start <= created.astimezone(MELBOURNE) <= now:
+            continue
+        if any(re.fullmatch(r"frequency-rank-\d+", tag) for tag in tags(card)):
+            count += 1
+    return count
+
+
 def started_today(cards: list[dict], language: Language, now: datetime) -> set[int]:
+    """Return frequency ranks with at least one card created today."""
     day_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
     ranks: set[int] = set()
-    prefix = "frequency-rank-"
     for card in cards:
         if card_deck_id(card) != language.deck_id:
             continue
@@ -231,9 +253,19 @@ def started_today(cards: list[dict], language: Language, now: datetime) -> set[i
         if not created or created.astimezone(MELBOURNE) < day_start:
             continue
         for tag in tags(card):
-            if tag.startswith(prefix) and tag.removeprefix(prefix).isdigit():
-                ranks.add(int(tag.removeprefix(prefix)))
+            if tag.startswith("frequency-rank-") and tag.removeprefix("frequency-rank-").isdigit():
+                ranks.add(int(tag.removeprefix("frequency-rank-")))
     return ranks
+
+
+def approved_ranks(first: int, started: set[int], daily_cap: int) -> list[int]:
+    """Legacy rank-window helper retained for callers and tests."""
+    unfinished = sorted(rank for rank in started if rank >= first)
+    new_slots = max(0, daily_cap - len(started))
+    last = max(unfinished, default=first - 1) + new_slots
+    if unfinished:
+        last = max(last, unfinished[-1])
+    return list(range(first, min(last, CAP_RANK) + 1)) if last >= first else []
 
 
 def deck_sentences(cards: list[dict], deck_id: str) -> set[str]:
@@ -245,15 +277,42 @@ def deck_sentences(cards: list[dict], deck_id: str) -> set[str]:
     }
 
 
-def approved_ranks(first: int, started: set[int], daily_cap: int) -> list[int]:
-    unfinished = sorted(rank for rank in started if rank >= first)
-    new_slots = max(0, daily_cap - len(started))
-    last = max(unfinished, default=first - 1) + new_slots
-    if unfinished:
-        last = max(last, unfinished[-1])
-    if last < first:
-        return []
-    return list(range(first, min(last, CAP_RANK) + 1))
+def approved_rows(
+    language: Language, daily_cap: int, cards: list[dict], now: datetime
+) -> list[dict[str, str]]:
+    # Validate before selecting either recovered or new rows for publication.
+    bank = bank_slice(language, list(range(1, CAP_RANK + 1)))
+    variants = source_variants(language)
+    source_keys = {(rank, variant) for rank, values in variants.items() for variant in values}
+    existing = deck_sentences(cards, language.deck_id)
+    selected = [
+        row for row in bank
+        if (int(row["rank"]), int(row["variant"])) not in source_keys
+        and row["sentence"] in existing
+    ]
+    # Recover successful API writes that were not yet appended to the source.
+    # These rows cost no new cards, including when today's quota is exhausted.
+    known_keys = source_keys | {
+        (int(row["rank"]), int(row["variant"])) for row in selected
+    }
+    known_ranks = {rank for rank, _ in known_keys}
+    quota = max(0, daily_cap * VARIANTS_PER_WORD - cards_created_today(cards, language, now))
+    for rank in range(1, CAP_RANK + 1):
+        missing = [
+            row for row in bank[(rank - 1) * VARIANTS_PER_WORD:rank * VARIANTS_PER_WORD]
+            if (rank, int(row["variant"])) not in known_keys
+        ]
+        if not missing:
+            continue
+        # Finish historical/partially written trios with remaining capacity,
+        # but start a new word only when its whole trio fits.
+        if rank not in known_ranks and len(missing) > quota:
+            break
+        selected.extend(missing[:quota])
+        quota -= min(len(missing), quota)
+        if quota == 0:
+            break
+    return sorted(selected, key=lambda row: (int(row["rank"]), int(row["variant"])))
 
 
 def payload(language: Language, row: dict[str, str]) -> dict:
@@ -313,8 +372,7 @@ def main() -> None:
     if args.validate_banks:
         for language in LANGUAGES:
             rows = read_rows(language.bank)
-            ranks = sorted({int(row["rank"]) for row in rows})
-            bank_slice(language, ranks)
+            bank_slice(language, list(range(1, CAP_RANK + 1)))
         print(json.dumps({"status": "ok", "banks": "valid"}))
         return
 
@@ -336,17 +394,15 @@ def main() -> None:
 
     results = []
     for language in LANGUAGES:
-        first = next_rank(language)
-        if first is None:
-            results.append(f"{language.name}: complete through rank {CAP_RANK}")
+        rows = approved_rows(language, language.daily_word_cap, cards, now)
+        if not rows:
+            variants = source_variants(language)
+            complete = all(variants.get(rank) == {1, 2, 3} for rank in range(1, CAP_RANK + 1))
+            status = f"complete through rank {CAP_RANK}" if complete else "daily card cap reached"
+            results.append(f"{language.name}: {status}")
             continue
-        started = started_today(cards, language, now)
-        ranks = approved_ranks(first, started, language.daily_word_cap)
-        if not ranks:
-            results.append(f"{language.name}: daily word cap reached")
-            continue
-        rows = bank_slice(language, ranks)
         if not args.apply:
+            ranks = sorted({int(row["rank"]) for row in rows})
             results.append(f"{language.name}: ready ranks {ranks[0]}-{ranks[-1]} ({len(rows)} cards)")
             continue
         existing = deck_sentences(cards, language.deck_id)
@@ -359,9 +415,8 @@ def main() -> None:
             existing.add(row["sentence"])
             created += 1
         append_source(language, rows)
-        results.append(
-            f"{language.name}: ranks {ranks[0]}-{ranks[-1]}, created {created}, skipped {skipped}"
-        )
+        ranks = sorted({int(row["rank"]) for row in rows})
+        results.append(f"{language.name}: ranks {ranks[0]}-{ranks[-1]}, created {created}, skipped {skipped}")
 
     commit = publish(now.date().isoformat()) if args.publish else "not requested"
     print(json.dumps({"status": "ok", "results": results, "commit": commit}, ensure_ascii=False))
