@@ -17,9 +17,9 @@ class DailyFrequencyTests(unittest.TestCase):
         for language in daily.LANGUAGES:
             rows = daily.read_rows(language.bank)
             ranks = sorted({int(row["rank"]) for row in rows})
-            self.assertEqual(len(ranks), 30)
-            self.assertEqual(len(rows), 90)
-            self.assertEqual(len(daily.bank_slice(language, ranks)), 90)
+            self.assertEqual(ranks, list(range(1, daily.CAP_RANK + 1)))
+            self.assertEqual(len(rows), daily.CAP_RANK * 3)
+            self.assertEqual(len(daily.bank_slice(language, ranks)), daily.CAP_RANK * 3)
 
     def test_source_writer_supports_legacy_and_three_variant_rows(self):
         rows = [

@@ -35,7 +35,7 @@ Use this document as the working playbook. Keep `README.md` high level and keep 
 - The German audio template source selects `de-DE-Seraphina:DragonHDLatestNeural` with Mochi's `voice` attribute. Replacing a live template can regenerate audio, so test a sample before changing existing cards.
 - Current German parent deck: `German` (`UjfR5r6p`).
 - Current German frequency deck: `Frequency` (`r2i5qXk7`).
-- Use `wordfreq.top_n_list("de", N)` as the frequency source after excluding digits and other non-alphabetic tokens.
+- Use `wordfreq.top_n_list("de", N)` through the shared learner filter in `scripts/learner_frequency.py`.
 - Use `frequency;generated;german` tags for scheduled frequency cards.
 - Keep German formal sources under `languages/de/`.
 
@@ -69,6 +69,20 @@ preview-before-import rule. It uses filtered `wordfreq.top_n_list()` results as
 the source of truth and reads prepared sentences from each language's committed
 `frequency_sentence_bank.csv`.
 
+The learner filter preserves the already prepared Spanish ranks 1–225 and
+German ranks 1–63 exactly. After those fixed boundaries, it skips isolated
+letters and explicitly listed proper names, acronyms, foreign tokens and
+unsuitable variants. It restores the listed German `ß` spellings that
+`wordfreq` case-folds to `ss`. Remaining entries retain corpus order and receive
+consecutive learner ranks through 500. These are learner ranks, not raw corpus
+ranks. Historical entries remain unchanged even if they would now be excluded.
+The exclusions are a reviewed list for this bank, not a general dictionary or
+automatic language detector; review new vocabulary before extending the cap.
+
+Both banks contain variants 1, 2 and 3 for every learner rank through 500.
+Historical source sentences are retained exactly as variant 1, with two added
+contexts. Replenishment does not itself create cards or modify applied sources.
+
 The scheduled run must:
 
 - process Spanish before German in strict frequency-rank order
@@ -84,8 +98,9 @@ The scheduled run must:
 - append successful rows to the corresponding `frequency.csv`
 - require `MOCHI_API_KEY` before any write and stop at rank 500
 
-Existing one-sentence frequency cards are not backfilled. New ranks use three
-separate cards so each context becomes an independent retrieval event. A
+The current runner fills missing historical variants when the prepared bank
+supplies them, within its daily card quota. New ranks use three separate cards
+so each context becomes an independent retrieval event. A
 partial write is recoverable because the next run skips matching sentences and
 completes the tagged trio.
 

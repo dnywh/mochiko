@@ -1,4 +1,589 @@
 rank,variant,word,sentence,tags
+1,1,de,Soy {{de}} Perú.,frequency;generated;rank-001-020
+1,2,de,La mesa es {{de}} madera.,frequency;generated;spanish
+1,3,de,Es hora {{de}} salir.,frequency;generated;spanish
+2,1,la,Veo {{la}} casa.,frequency;generated;rank-001-020
+2,2,la,Cierra {{la}} puerta.,frequency;generated;spanish
+2,3,la,¿Conoces a {{la}} doctora?,frequency;generated;spanish
+3,1,que,Sé {{que}} puedes.,frequency;generated;rank-001-020
+3,2,que,El pan {{que}} compré está fresco.,frequency;generated;spanish
+3,3,que,Espero {{que}} estés bien.,frequency;generated;spanish
+4,1,el,Leo {{el}} libro.,frequency;generated;rank-001-020
+4,2,el,Me duele {{el}} brazo.,frequency;generated;spanish
+4,3,el,Hoy es {{el}} cumpleaños de Ana.,frequency;generated;spanish
+5,1,en,Vivo {{en}} Lima.,frequency;generated;rank-001-020
+5,2,en,Nos vemos {{en}} diez minutos.,frequency;generated;spanish
+5,3,en,Escribe tu nombre {{en}} esta hoja.,frequency;generated;spanish
+6,1,y,Ana {{y}} Luis comen.,frequency;generated;rank-001-020
+6,2,y,Abre la puerta {{y}} pasa.,frequency;generated;spanish
+6,3,y,Quiero pan {{y}} queso.,frequency;generated;spanish
+7,1,a,Voy {{a}} casa.,frequency;generated;rank-001-020
+7,2,a,Llamé {{a}} mi madre.,frequency;generated;spanish
+7,3,a,Aprendo {{a}} cocinar.,frequency;generated;spanish
+8,1,los,Veo {{los}} niños.,frequency;generated;rank-001-020
+8,2,los,Lávate {{los}} dientes.,frequency;generated;spanish
+8,3,los,Trabajo {{los}} martes.,frequency;generated;spanish
+9,1,no,Yo {{no}} quiero café.,frequency;generated;rank-001-020
+9,2,no,Hoy {{no}} tengo hambre.,frequency;generated;spanish
+9,3,no,¿Por qué {{no}} vienes?,frequency;generated;spanish
+10,1,un,Tengo {{un}} perro.,frequency;generated;rank-001-020
+10,2,un,Llegó hace {{un}} minuto.,frequency;generated;spanish
+10,3,un,¿Hay {{un}} baño cerca?,frequency;generated;spanish
+11,1,se,Ella {{se}} lava las manos.,frequency;generated;rank-001-020
+11,2,se,Aquí {{se}} vende pan.,frequency;generated;spanish
+11,3,se,Mi hermano {{se}} llama Luis.,frequency;generated;spanish
+12,1,por,Camino {{por}} el parque.,frequency;generated;rank-001-020
+12,2,por,Gracias {{por}} venir.,frequency;generated;spanish
+12,3,por,Pagamos diez pesos {{por}} persona.,frequency;generated;spanish
+13,1,es,Madrid {{es}} grande.,frequency;generated;rank-001-020
+13,2,es,¿De quién {{es}} esta mochila?,frequency;generated;spanish
+13,3,es,Mi hermana {{es}} enfermera.,frequency;generated;spanish
+14,1,del,Vengo {{del}} mercado.,frequency;generated;rank-001-020
+14,2,del,El color {{del}} vestido es bonito.,frequency;generated;spanish
+14,3,del,La clase empieza después {{del}} almuerzo.,frequency;generated;spanish
+15,1,las,Veo {{las}} flores rojas.,frequency;generated;rank-001-020
+15,2,las,Salimos a {{las}} ocho.,frequency;generated;spanish
+15,3,las,¿Dónde dejaste {{las}} llaves?,frequency;generated;spanish
+16,1,con,Estudio {{con}} Marta.,frequency;generated;rank-001-020
+16,2,con,Corto el pan {{con}} un cuchillo.,frequency;generated;spanish
+16,3,con,Quiero café {{con}} leche.,frequency;generated;spanish
+17,1,una,Quiero {{una}} manzana.,frequency;generated;rank-001-020
+17,2,una,Hay {{una}} farmacia cerca.,frequency;generated;spanish
+17,3,una,Nos vemos en {{una}} hora.,frequency;generated;spanish
+18,1,para,Este regalo es {{para}} ti.,frequency;generated;rank-001-020
+18,2,para,Estudio {{para}} aprender.,frequency;generated;spanish
+18,3,para,El tren sale {{para}} Lima.,frequency;generated;spanish
+19,1,lo,No {{lo}} entiendo.,frequency;generated;rank-001-020
+19,2,lo,Ya {{lo}} compré.,frequency;generated;spanish
+19,3,lo,Eso es {{lo}} importante.,frequency;generated;spanish
+20,1,su,Veo {{su}} casa pequeña.,frequency;generated;rank-001-020
+20,2,su,Ana busca a {{su}} hermano.,frequency;generated;spanish
+20,3,su,El gato mueve {{su}} cola.,frequency;generated;spanish
+21,1,al,Voy {{al}} parque.,frequency;generated;rank-021-040
+21,2,al,Me lavo las manos {{al}} llegar.,frequency;generated;spanish
+21,3,al,Dale agua {{al}} perro.,frequency;generated;spanish
+22,1,como,Trabajo {{como}} maestro.,frequency;generated;rank-021-040
+22,2,como,Hazlo {{como}} te enseñé.,frequency;generated;spanish
+22,3,como,Tu casa es tan grande {{como}} esta.,frequency;generated;spanish
+23,1,me,Ella {{me}} llama.,frequency;generated;rank-021-040
+23,2,me,Hoy {{me}} siento mejor.,frequency;generated;spanish
+23,3,me,¿{{Me}} guardas una silla?,frequency;generated;spanish
+24,1,más,Quiero {{más}} agua.,frequency;generated;rank-021-040
+24,2,más,Mi casa está {{más}} lejos.,frequency;generated;spanish
+24,3,más,¿Quién quiere {{más}} sopa?,frequency;generated;spanish
+25,1,si,Voy {{si}} puedo.,frequency;generated;rank-021-040
+25,2,si,Avísame {{si}} necesitas ayuda.,frequency;generated;spanish
+25,3,si,No sé {{si}} queda pan.,frequency;generated;spanish
+26,1,pero,"Quiero ir, {{pero}} no puedo.",frequency;generated;rank-021-040
+26,2,pero,"Es pequeño, {{pero}} cómodo.",frequency;generated;spanish
+26,3,pero,"Te llamé, {{pero}} no contestaste.",frequency;generated;spanish
+27,1,te,Yo {{te}} veo.,frequency;generated;rank-021-040
+27,2,te,¿Cómo {{te}} llamas?,frequency;generated;spanish
+27,3,te,Mañana {{te}} traigo el libro.,frequency;generated;spanish
+28,1,o,Quiero té {{o}} café.,frequency;generated;rank-021-040
+28,2,o,¿Vienes solo {{o}} acompañado?,frequency;generated;spanish
+28,3,o,Llama hoy {{o}} escribe mañana.,frequency;generated;spanish
+29,1,mi,Esta es {{mi}} casa.,frequency;generated;rank-021-040
+29,2,mi,No encuentro {{mi}} teléfono.,frequency;generated;spanish
+29,3,mi,Mañana viene {{mi}} hermana.,frequency;generated;spanish
+30,1,le,Yo {{le}} doy agua.,frequency;generated;rank-021-040
+30,2,le,A Juan {{le}} gusta bailar.,frequency;generated;spanish
+30,3,le,¿Ya {{le}} escribiste a tu madre?,frequency;generated;spanish
+31,1,este,Uso {{este}} lápiz.,frequency;generated;rank-021-040
+31,2,este,Llueve mucho {{este}} mes.,frequency;generated;spanish
+31,3,este,¿Cuánto cuesta {{este}} sombrero?,frequency;generated;spanish
+32,1,sus,Veo {{sus}} libros.,frequency;generated;rank-021-040
+32,2,sus,Ana vino con {{sus}} hijos.,frequency;generated;spanish
+32,3,sus,El perro busca {{sus}} juguetes.,frequency;generated;spanish
+33,1,esta,Vivo en {{esta}} ciudad.,frequency;generated;rank-021-040
+33,2,esta,¿De quién es {{esta}} bolsa?,frequency;generated;spanish
+33,3,esta,Volvemos {{esta}} noche.,frequency;generated;spanish
+34,1,todo,Leo {{todo}} el día.,frequency;generated;rank-021-040
+34,2,todo,Ya entendí {{todo}}.,frequency;generated;spanish
+34,3,todo,Guardé {{todo}} el dinero.,frequency;generated;spanish
+35,1,ya,Ella {{ya}} llegó.,frequency;generated;rank-021-040
+35,2,ya,No queda pan; {{ya}} se acabó.,frequency;generated;spanish
+35,3,ya,¿{{Ya}} terminaste la tarea?,frequency;generated;spanish
+36,1,ha,Ella {{ha}} comido.,frequency;generated;rank-021-040
+36,2,ha,El tren {{ha}} salido.,frequency;generated;spanish
+36,3,ha,¿Quién {{ha}} llamado?,frequency;generated;spanish
+37,1,cuando,Llámame {{cuando}} llegues.,frequency;generated;rank-021-040
+37,2,cuando,Me río {{cuando}} estoy nervioso.,frequency;generated;spanish
+37,3,cuando,Era pequeño {{cuando}} aprendí a nadar.,frequency;generated;spanish
+38,1,yo,Lo hago {{yo}}.,frequency;generated;rank-021-040
+38,2,yo,Hoy cocino {{yo}}.,frequency;generated;spanish
+38,3,yo,¿Puedo ir {{yo}} también?,frequency;generated;spanish
+39,1,ser,Quiero {{ser}} médico.,frequency;generated;rank-021-040
+39,2,ser,Eso puede {{ser}} peligroso.,frequency;generated;spanish
+39,3,ser,Gracias por {{ser}} tan amable.,frequency;generated;spanish
+40,1,son,Ellos {{son}} amigos.,frequency;generated;rank-021-040
+40,2,son,Las llaves {{son}} tuyas.,frequency;generated;spanish
+40,3,son,¿Cuántos {{son}} en tu familia?,frequency;generated;spanish
+41,1,sin,Tomo té {{sin}} azúcar.,frequency;generated;rank-041-060
+41,2,sin,Salió {{sin}} su abrigo.,frequency;generated;spanish
+41,3,sin,No puedo leer {{sin}} lentes.,frequency;generated;spanish
+42,1,hay,En mi bolsa {{hay}} pan.,frequency;generated;rank-041-060
+42,2,hay,¿{{Hay}} alguien en casa?,frequency;generated;spanish
+42,3,hay,No {{hay}} que correr.,frequency;generated;spanish
+43,1,está,Mi casa {{está}} cerca.,frequency;generated;rank-041-060
+43,2,está,La sopa {{está}} lista.,frequency;generated;spanish
+43,3,está,¿Quién {{está}} tocando la puerta?,frequency;generated;spanish
+44,1,fue,Ayer {{fue}} lunes.,frequency;generated;rank-041-060
+44,2,fue,La cena {{fue}} deliciosa.,frequency;generated;spanish
+44,3,fue,Mi hermano {{fue}} a comprar pan.,frequency;generated;spanish
+45,1,tu,Me gusta {{tu}} camisa.,frequency;generated;rank-041-060
+45,2,tu,¿Cómo está {{tu}} abuela?,frequency;generated;spanish
+45,3,tu,Dejaste {{tu}} bolsa aquí.,frequency;generated;spanish
+46,1,muy,La sopa está {{muy}} caliente.,frequency;generated;rank-041-060
+46,2,muy,Mi hermana canta {{muy}} bien.,frequency;generated;spanish
+46,3,muy,Llegamos {{muy}} temprano.,frequency;generated;spanish
+47,1,sobre,El libro está {{sobre}} la mesa.,frequency;generated;rank-041-060
+47,2,sobre,Hablamos {{sobre}} tu viaje.,frequency;generated;spanish
+47,3,sobre,Ponte el abrigo {{sobre}} la camisa.,frequency;generated;spanish
+48,1,también,Yo {{también}} quiero agua.,frequency;generated;rank-041-060
+48,2,también,El museo abre {{también}} los domingos.,frequency;generated;spanish
+48,3,también,Ella canta y {{también}} toca el piano.,frequency;generated;spanish
+49,1,todos,Los niños están {{todos}} aquí.,frequency;generated;rank-041-060
+49,2,todos,Desayuno aquí {{todos}} los días.,frequency;generated;spanish
+49,3,todos,Hay comida para {{todos}}.,frequency;generated;spanish
+50,1,eso,No entiendo {{eso}} todavía.,frequency;generated;rank-041-060
+50,2,eso,¿Cuánto cuesta {{eso}}?,frequency;generated;spanish
+50,3,eso,Por {{eso}} llegué tarde.,frequency;generated;spanish
+51,1,tiene,Mi casa {{tiene}} patio.,frequency;generated;rank-041-060
+51,2,tiene,El bebé {{tiene}} sueño.,frequency;generated;spanish
+51,3,tiene,Esta palabra {{tiene}} dos significados.,frequency;generated;spanish
+52,1,nos,El perro {{nos}} sigue.,frequency;generated;rank-041-060
+52,2,nos,Mañana {{nos}} vemos.,frequency;generated;spanish
+52,3,nos,Mi madre {{nos}} preparó sopa.,frequency;generated;spanish
+53,1,porque,No voy {{porque}} llueve.,frequency;generated;rank-041-060
+53,2,porque,Sonrío {{porque}} estoy contento.,frequency;generated;spanish
+53,3,porque,¿Es {{porque}} tienes miedo?,frequency;generated;spanish
+54,1,qué,No sé {{qué}} quieres.,frequency;generated;rank-041-060
+54,2,qué,¿A {{qué}} hora sales?,frequency;generated;spanish
+54,3,qué,¡{{Qué}} bonito jardín!,frequency;generated;spanish
+55,1,así,No hables {{así}} aquí.,frequency;generated;rank-041-060
+55,2,así,Dobla la hoja {{así}}.,frequency;generated;spanish
+55,3,así,Llegué temprano; {{así}} pude sentarme.,frequency;generated;spanish
+56,1,años,Mi abuelo tiene ochenta {{años}}.,frequency;generated;rank-041-060
+56,2,años,Hace dos {{años}} que vivo aquí.,frequency;generated;spanish
+56,3,años,Este edificio tiene cien {{años}}.,frequency;generated;spanish
+57,1,dos,"Quiero {{dos}} tacos, por favor.",frequency;generated;rank-041-060
+57,2,dos,Mis {{dos}} hermanas viven cerca.,frequency;generated;spanish
+57,3,dos,La tienda cierra a las {{dos}}.,frequency;generated;spanish
+58,1,bien,Hoy me siento {{bien}}.,frequency;generated;rank-041-060
+58,2,bien,Lo explicaste muy {{bien}}.,frequency;generated;spanish
+58,3,bien,¿Te queda {{bien}} la camisa?,frequency;generated;spanish
+59,1,entre,El gato duerme {{entre}} las sillas.,frequency;generated;rank-041-060
+59,2,entre,Puedes elegir {{entre}} té y café.,frequency;generated;spanish
+59,3,entre,El viaje dura {{entre}} dos y tres horas.,frequency;generated;spanish
+60,1,puede,Mi hermana {{puede}} venir hoy.,frequency;generated;rank-041-060
+60,2,puede,¿Se {{puede}} pagar con tarjeta?,frequency;generated;spanish
+60,3,puede,Ese perro {{puede}} morder.,frequency;generated;spanish
+61,1,desde,Trabajo aquí {{desde}} mayo.,frequency;generated;rank-061-080
+61,2,desde,Te llamo {{desde}} casa.,frequency;generated;spanish
+61,3,desde,La playa se ve {{desde}} aquí.,frequency;generated;spanish
+62,1,hasta,Camino {{hasta}} la escuela.,frequency;generated;rank-061-080
+62,2,hasta,La tienda abre {{hasta}} las nueve.,frequency;generated;spanish
+62,3,hasta,Voy a esperar {{hasta}} que llegues.,frequency;generated;spanish
+63,1,hacer,Quiero {{hacer}} la cena.,frequency;generated;rank-061-080
+63,2,hacer,¿Qué vamos a {{hacer}} mañana?,frequency;generated;spanish
+63,3,hacer,Me gusta {{hacer}} ejercicio.,frequency;generated;spanish
+64,1,ahora,Vamos {{ahora}} mismo.,frequency;generated;rank-061-080
+64,2,ahora,¿Puedes hablar {{ahora}}?,frequency;generated;spanish
+64,3,ahora,Antes vivía lejos; {{ahora}} vivo aquí.,frequency;generated;spanish
+65,1,era,Antes {{era}} más caro.,frequency;generated;rank-061-080
+65,2,era,Mi abuelo {{era}} maestro.,frequency;generated;spanish
+65,3,era,La puerta {{era}} de madera.,frequency;generated;spanish
+66,1,esto,No entiendo {{esto}} todavía.,frequency;generated;rank-061-080
+66,2,esto,¿De quién es {{esto}}?,frequency;generated;spanish
+66,3,esto,Guarda {{esto}} en tu bolsa.,frequency;generated;spanish
+67,1,vez,Tal {{vez}} vuelvo mañana.,frequency;generated;rank-061-080
+67,2,vez,Es la primera {{vez}} que vengo.,frequency;generated;spanish
+67,3,vez,Habla uno a la {{vez}}.,frequency;generated;spanish
+68,1,hace,Mi padre {{hace}} café.,frequency;generated;rank-061-080
+68,2,hace,Hoy {{hace}} mucho frío.,frequency;generated;spanish
+68,3,hace,Llegué {{hace}} una hora.,frequency;generated;spanish
+69,1,nada,Hoy no quiero {{nada}}.,frequency;generated;rank-061-080
+69,2,nada,No escuché {{nada}}.,frequency;generated;spanish
+69,3,nada,Gracias; de {{nada}}.,frequency;generated;spanish
+70,1,ni,No canta {{ni}} baila.,frequency;generated;rank-061-080
+70,2,ni,No tengo dinero {{ni}} tarjeta.,frequency;generated;spanish
+70,3,ni,No vino {{ni}} siquiera Juan.,frequency;generated;spanish
+71,1,donde,La casa {{donde}} vivo es pequeña.,frequency;generated;rank-061-080
+71,2,donde,Siéntate {{donde}} quieras.,frequency;generated;spanish
+71,3,donde,Volvimos al café {{donde}} nos conocimos.,frequency;generated;spanish
+72,1,parte,Mi casa está en otra {{parte}}.,frequency;generated;rank-061-080
+72,2,parte,Esta {{parte}} del libro es difícil.,frequency;generated;spanish
+72,3,parte,Quiero ser {{parte}} del equipo.,frequency;generated;spanish
+73,1,solo,Hoy quiero estar {{solo}}.,frequency;generated;rank-061-080
+73,2,solo,Me quedé {{solo}} en casa.,frequency;generated;spanish
+73,3,solo,Necesito {{solo}} cinco minutos.,frequency;generated;spanish
+74,1,algo,Quiero comer {{algo}} ahora.,frequency;generated;rank-061-080
+74,2,algo,¿Pasó {{algo}} malo?,frequency;generated;spanish
+74,3,algo,El café está {{algo}} frío.,frequency;generated;spanish
+75,1,tiempo,Hoy tengo {{tiempo}} libre.,frequency;generated;rank-061-080
+75,2,tiempo,¿Cuánto {{tiempo}} falta?,frequency;generated;spanish
+75,3,tiempo,El {{tiempo}} pasa rápido.,frequency;generated;spanish
+76,1,día,Hoy es un {{día}} lindo.,frequency;generated;rank-061-080
+76,2,día,Trabajo de {{día}}.,frequency;generated;spanish
+76,3,día,El museo cierra un {{día}} por semana.,frequency;generated;spanish
+77,1,uno,Solo quiero {{uno}}.,frequency;generated;rank-061-080
+77,2,uno,Elige {{uno}} de estos colores.,frequency;generated;spanish
+77,3,uno,Ya tengo {{uno}} en casa.,frequency;generated;spanish
+78,1,mejor,Ahora me siento {{mejor}}.,frequency;generated;rank-061-080
+78,2,mejor,Este camino es {{mejor}}.,frequency;generated;spanish
+78,3,mejor,Mi hermano cocina {{mejor}} que yo.,frequency;generated;spanish
+79,1,mucho,Ella estudia {{mucho}} aquí.,frequency;generated;rank-061-080
+79,2,mucho,Te quiero {{mucho}}.,frequency;generated;spanish
+79,3,mucho,Hoy hace {{mucho}} calor.,frequency;generated;spanish
+80,1,tan,No es {{tan}} caro.,frequency;generated;rank-061-080
+80,2,tan,¿Por qué hablas {{tan}} rápido?,frequency;generated;spanish
+80,3,tan,Nunca había visto algo {{tan}} bonito.,frequency;generated;spanish
+81,1,ver,Quiero {{ver}} el mar.,frequency;generated;rank-081-100
+81,2,ver,No alcanzo a {{ver}} la pantalla.,frequency;generated;spanish
+81,3,ver,Vamos a {{ver}} qué pasa.,frequency;generated;spanish
+82,1,vida,Mi {{vida}} cambia hoy.,frequency;generated;rank-081-100
+82,2,vida,El agua es necesaria para la {{vida}}.,frequency;generated;spanish
+82,3,vida,Me contó toda su {{vida}}.,frequency;generated;spanish
+83,1,e,Estudio historia {{e}} inglés.,frequency;generated;rank-081-100
+83,2,e,Vinieron padres {{e}} hijos.,frequency;generated;spanish
+83,3,e,Necesito aguja {{e}} hilo.,frequency;generated;spanish
+84,1,ese,Quiero {{ese}} libro.,frequency;generated;rank-081-100
+84,2,ese,¿Quién es {{ese}} señor?,frequency;generated;spanish
+84,3,ese,En {{ese}} momento empezó a llover.,frequency;generated;spanish
+85,1,han,Ellos {{han}} llegado hoy.,frequency;generated;rank-081-100
+85,2,han,Mis padres {{han}} vendido su casa.,frequency;generated;spanish
+85,3,han,¿Te {{han}} llamado del trabajo?,frequency;generated;spanish
+86,1,mismo,Llevo el {{mismo}} abrigo.,frequency;generated;rank-081-100
+86,2,mismo,Puedes hacerlo tú {{mismo}}.,frequency;generated;spanish
+86,3,mismo,Salimos ahora {{mismo}}.,frequency;generated;spanish
+87,1,siempre,Ella llega {{siempre}} temprano.,frequency;generated;rank-081-100
+87,2,siempre,Te voy a querer {{siempre}}.,frequency;generated;spanish
+87,3,siempre,Aquí {{siempre}} hace calor.,frequency;generated;spanish
+88,1,tengo,Hoy {{tengo}} clase.,frequency;generated;rank-081-100
+88,2,tengo,No {{tengo}} cambio.,frequency;generated;spanish
+88,3,tengo,{{Tengo}} que irme pronto.,frequency;generated;spanish
+89,1,cada,Caminamos {{cada}} mañana.,frequency;generated;rank-081-100
+89,2,cada,Dale un vaso a {{cada}} persona.,frequency;generated;spanish
+89,3,cada,El autobús pasa {{cada}} diez minutos.,frequency;generated;spanish
+90,1,después,Salimos {{después}} de comer.,frequency;generated;rank-081-100
+90,2,después,Primero come; {{después}} hablamos.,frequency;generated;spanish
+90,3,después,Llegó poco {{después}} de las ocho.,frequency;generated;spanish
+91,1,están,Mis llaves {{están}} aquí.,frequency;generated;rank-081-100
+91,2,están,Los niños {{están}} jugando.,frequency;generated;spanish
+91,3,están,¿Ya {{están}} listas las camas?,frequency;generated;spanish
+92,1,gente,Hay mucha {{gente}} aquí.,frequency;generated;rank-081-100
+92,2,gente,La {{gente}} de mi barrio es amable.,frequency;generated;spanish
+92,3,gente,Esa tienda busca {{gente}} para trabajar.,frequency;generated;spanish
+93,1,esa,Quiero {{esa}} camisa.,frequency;generated;rank-081-100
+93,2,esa,¿Quién vive en {{esa}} casa?,frequency;generated;spanish
+93,3,esa,No conocía {{esa}} palabra.,frequency;generated;spanish
+94,1,estado,El parque está en buen {{estado}}.,frequency;generated;rank-081-100
+94,2,estado,Nunca he {{estado}} allí.,frequency;generated;spanish
+94,3,estado,La capital del {{estado}} está lejos.,frequency;generated;spanish
+95,1,estoy,Ahora {{estoy}} en casa.,frequency;generated;rank-081-100
+95,2,estoy,Hoy {{estoy}} cansado.,frequency;generated;spanish
+95,3,estoy,Te {{estoy}} escuchando.,frequency;generated;spanish
+96,1,mundo,Ella conoce el {{mundo}}.,frequency;generated;rank-081-100
+96,2,mundo,Es el mejor abuelo del {{mundo}}.,frequency;generated;spanish
+96,3,mundo,Todo el {{mundo}} está esperando.,frequency;generated;spanish
+97,1,va,Mi hermano {{va}} al trabajo.,frequency;generated;rank-081-100
+97,2,va,¿Cómo te {{va}}?,frequency;generated;spanish
+97,3,va,El bebé {{va}} a dormir.,frequency;generated;spanish
+98,1,año,Este {{año}} estudio español.,frequency;generated;rank-081-100
+98,2,año,Nos mudamos el próximo {{año}}.,frequency;generated;spanish
+98,3,año,Cumplió un {{año}} ayer.,frequency;generated;spanish
+99,1,les,Yo {{les}} doy agua.,frequency;generated;rank-081-100
+99,2,les,A mis hijos {{les}} encanta nadar.,frequency;generated;spanish
+99,3,les,¿Ya {{les}} contaste la noticia?,frequency;generated;spanish
+100,1,mas,"Quiero ir, {{mas}} no puedo.",frequency;generated;rank-081-100
+100,2,mas,"Lo intenté, {{mas}} no tuve suerte.",frequency;generated;spanish
+100,3,mas,"Quiso hablar, {{mas}} guardó silencio.",frequency;generated;spanish
+101,1,otro,Quiero {{otro}} café.,frequency;generated;rank-101-120
+101,2,otro,Nos vemos {{otro}} día.,frequency;generated;spanish
+101,3,otro,El baño está al {{otro}} lado.,frequency;generated;spanish
+102,1,otros,Los {{otros}} niños juegan afuera.,frequency;generated;rank-101-120
+102,2,otros,Prefiero {{otros}} colores.,frequency;generated;spanish
+102,3,otros,Piensa también en los {{otros}}.,frequency;generated;spanish
+103,1,gracias,Muchas {{gracias}} por tu ayuda.,frequency;generated;rank-101-120
+103,2,gracias,Llegamos a tiempo {{gracias}} a ti.,frequency;generated;spanish
+103,3,gracias,Dale las {{gracias}} a tu abuela.,frequency;generated;spanish
+104,1,otra,Necesito {{otra}} silla.,frequency;generated;rank-101-120
+104,2,otra,¿Podemos intentarlo {{otra}} vez?,frequency;generated;spanish
+104,3,otra,Mi hermana vive en {{otra}} ciudad.,frequency;generated;spanish
+105,1,cosas,Tengo muchas {{cosas}} que hacer.,frequency;generated;rank-101-120
+105,2,cosas,Guarda tus {{cosas}}.,frequency;generated;spanish
+105,3,cosas,Las {{cosas}} han cambiado mucho.,frequency;generated;spanish
+106,1,gran,Es una {{gran}} idea.,frequency;generated;rank-101-120
+106,2,gran,Mi abuelo tiene un {{gran}} corazón.,frequency;generated;spanish
+106,3,gran,Fue una {{gran}} sorpresa.,frequency;generated;spanish
+107,1,menos,Hoy tengo {{menos}} trabajo.,frequency;generated;rank-101-120
+107,2,menos,Cuesta {{menos}} de diez pesos.,frequency;generated;spanish
+107,3,menos,Hoy hace {{menos}} frío.,frequency;generated;spanish
+108,1,nunca,Ella {{nunca}} llega tarde.,frequency;generated;rank-101-120
+108,2,nunca,No he visto eso {{nunca}}.,frequency;generated;spanish
+108,3,nunca,Más vale tarde que {{nunca}}.,frequency;generated;spanish
+109,1,personas,Hay cinco {{personas}} aquí.,frequency;generated;rank-101-120
+109,2,personas,Estas {{personas}} necesitan ayuda.,frequency;generated;spanish
+109,3,personas,La mesa es para cuatro {{personas}}.,frequency;generated;spanish
+110,1,tanto,No necesito {{tanto}} dinero.,frequency;generated;rank-101-120
+110,2,tanto,¿Por qué tardaste {{tanto}}?,frequency;generated;spanish
+110,3,tanto,"Mientras {{tanto}}, prepara la mesa.",frequency;generated;spanish
+111,1,antes,Llegué {{antes}} que tú.,frequency;generated;rank-101-120
+111,2,antes,Lávate las manos {{antes}} de comer.,frequency;generated;spanish
+111,3,antes,Nunca había venido {{antes}}.,frequency;generated;spanish
+112,1,poco,Tengo {{poco}} tiempo.,frequency;generated;rank-101-120
+112,2,poco,Habla un {{poco}} más despacio.,frequency;generated;spanish
+112,3,poco,Hoy dormí muy {{poco}}.,frequency;generated;spanish
+113,1,sea,Espero que {{sea}} fácil.,frequency;generated;rank-101-120
+113,2,sea,Tal vez {{sea}} verdad.,frequency;generated;spanish
+113,3,sea,No creo que {{sea}} necesario.,frequency;generated;spanish
+114,1,había,Antes {{había}} un parque aquí.,frequency;generated;rank-101-120
+114,2,había,"Cuando llegué, ya {{había}} salido.",frequency;generated;spanish
+114,3,había,No {{había}} nadie en la tienda.,frequency;generated;spanish
+115,1,tener,Quiero {{tener}} un perro.,frequency;generated;rank-101-120
+115,2,tener,Debes {{tener}} cuidado.,frequency;generated;spanish
+115,3,tener,Espero {{tener}} tiempo mañana.,frequency;generated;spanish
+116,1,trabajo,Tengo mucho {{trabajo}} hoy.,frequency;generated;rank-101-120
+116,2,trabajo,Busco {{trabajo}} cerca de casa.,frequency;generated;spanish
+116,3,trabajo,Salgo del {{trabajo}} a las seis.,frequency;generated;spanish
+117,1,durante,Leo {{durante}} el viaje.,frequency;generated;rank-101-120
+117,2,durante,No hables {{durante}} la película.,frequency;generated;spanish
+117,3,durante,Viví allí {{durante}} tres meses.,frequency;generated;spanish
+118,1,ellos,Ana va con {{ellos}}.,frequency;generated;rank-101-120
+118,2,ellos,¿Quiénes son {{ellos}}?,frequency;generated;spanish
+118,3,ellos,La cena es para {{ellos}}.,frequency;generated;spanish
+119,1,lugar,Este es un buen {{lugar}}.,frequency;generated;rank-101-120
+119,2,lugar,Siéntate en mi {{lugar}}.,frequency;generated;spanish
+119,3,lugar,Bebe agua en {{lugar}} de refresco.,frequency;generated;spanish
+120,1,creo,También {{creo}} que sí.,frequency;generated;rank-101-120
+120,2,creo,No {{creo}} esa historia.,frequency;generated;spanish
+120,3,creo,{{Creo}} en ti.,frequency;generated;spanish
+121,1,cómo,No sé {{cómo}} llegar.,frequency;generated;rank-121-140
+121,2,cómo,¿{{Cómo}} te sientes?,frequency;generated;spanish
+121,3,cómo,Enséñame {{cómo}} funciona.,frequency;generated;spanish
+122,1,hecho,Ya he {{hecho}} la tarea.,frequency;generated;rank-121-140
+122,2,hecho,El pastel está {{hecho}} con manzanas.,frequency;generated;spanish
+122,3,hecho,"Es un {{hecho}}, no una opinión.",frequency;generated;spanish
+123,1,quiero,Yo {{quiero}} agua fría.,frequency;generated;rank-121-140
+123,2,quiero,No {{quiero}} salir hoy.,frequency;generated;spanish
+123,3,quiero,Te {{quiero}} mucho.,frequency;generated;spanish
+124,1,sólo,Tengo {{sólo}} diez pesos.,frequency;generated;rank-121-140
+124,2,sólo,Vine {{sólo}} para saludarte.,frequency;generated;spanish
+124,3,sólo,Ella {{sólo}} toma agua.,frequency;generated;spanish
+125,1,aunque,"Voy, {{aunque}} estoy cansado.",frequency;generated;rank-121-140
+125,2,aunque,Te ayudaré {{aunque}} sea difícil.,frequency;generated;spanish
+125,3,aunque,Salimos {{aunque}} estaba lloviendo.,frequency;generated;spanish
+126,1,contra,No tengo nada {{contra}} ti.,frequency;generated;rank-121-140
+126,2,contra,El equipo juega {{contra}} sus vecinos.,frequency;generated;spanish
+126,3,contra,La escalera está {{contra}} la pared.,frequency;generated;spanish
+127,1,cuenta,La {{cuenta}} está en la mesa.,frequency;generated;rank-121-140
+127,2,cuenta,Abrió una {{cuenta}} en el banco.,frequency;generated;spanish
+127,3,cuenta,Me di {{cuenta}} del error.,frequency;generated;spanish
+128,1,decir,Quiero {{decir}} algo.,frequency;generated;rank-121-140
+128,2,decir,¿Qué quiere {{decir}} esta palabra?,frequency;generated;spanish
+128,3,decir,No sé qué {{decir}}.,frequency;generated;spanish
+129,1,gobierno,El {{gobierno}} anunció un cambio.,frequency;generated;rank-121-140
+129,2,gobierno,El {{gobierno}} construyó una escuela.,frequency;generated;spanish
+129,3,gobierno,No estoy de acuerdo con el {{gobierno}}.,frequency;generated;spanish
+130,1,país,Este {{país}} es muy grande.,frequency;generated;rank-121-140
+130,2,país,¿De qué {{país}} eres?,frequency;generated;spanish
+130,3,país,Es la ciudad más antigua del {{país}}.,frequency;generated;spanish
+131,1,soy,Yo {{soy}} estudiante.,frequency;generated;rank-121-140
+131,2,soy,No {{soy}} de aquí.,frequency;generated;spanish
+131,3,soy,Hoy {{soy}} yo quien cocina.,frequency;generated;spanish
+132,1,todas,Ella conoce {{todas}} las respuestas.,frequency;generated;rank-121-140
+132,2,todas,Las ventanas están {{todas}} abiertas.,frequency;generated;spanish
+132,3,todas,Nos reunimos {{todas}} las semanas.,frequency;generated;spanish
+133,1,casa,Mi {{casa}} es pequeña.,frequency;generated;rank-121-140
+133,2,casa,Voy a {{casa}} de mi abuela.,frequency;generated;spanish
+133,3,casa,¿A qué hora vuelves a {{casa}}?,frequency;generated;spanish
+134,1,estos,Quiero {{estos}} zapatos.,frequency;generated;rank-121-140
+134,2,estos,{{Estos}} días hace frío.,frequency;generated;spanish
+134,3,estos,¿Son tuyos {{estos}} lentes?,frequency;generated;spanish
+135,1,forma,Esa {{forma}} es un círculo.,frequency;generated;rank-121-140
+135,2,forma,Estoy en buena {{forma}}.,frequency;generated;spanish
+135,3,forma,Busca otra {{forma}} de hacerlo.,frequency;generated;spanish
+136,1,he,Yo {{he}} comido pan.,frequency;generated;rank-121-140
+136,2,he,Nunca {{he}} visto nieve.,frequency;generated;spanish
+136,3,he,Hoy {{he}} perdido las llaves.,frequency;generated;spanish
+137,1,nuevo,Tengo un libro {{nuevo}}.,frequency;generated;rank-121-140
+137,2,nuevo,Lo intentamos de {{nuevo}}.,frequency;generated;spanish
+137,3,nuevo,¿Quién es el vecino {{nuevo}}?,frequency;generated;spanish
+138,1,sido,Ha {{sido}} un buen día.,frequency;generated;rank-121-140
+138,2,sido,Nunca había {{sido}} tan fácil.,frequency;generated;spanish
+138,3,sido,Mi madre siempre ha {{sido}} paciente.,frequency;generated;spanish
+139,1,él,Voy con {{él}}.,frequency;generated;rank-121-140
+139,2,él,Ese regalo es para {{él}}.,frequency;generated;spanish
+139,3,él,Fue {{él}} quien me ayudó.,frequency;generated;spanish
+140,1,aquí,Mi casa está {{aquí}}.,frequency;generated;rank-121-140
+140,2,aquí,Ven {{aquí}} un momento.,frequency;generated;spanish
+140,3,aquí,De {{aquí}} a la playa hay dos kilómetros.,frequency;generated;spanish
+141,1,ella,Vivo con {{ella}}.,frequency;generated;rank-141-160
+141,2,ella,¿Quién es {{ella}}?,frequency;generated;spanish
+141,3,ella,El libro es de {{ella}}.,frequency;generated;spanish
+142,1,estas,Quiero {{estas}} flores.,frequency;generated;rank-141-160
+142,2,estas,¿Cuánto cuestan {{estas}} manzanas?,frequency;generated;spanish
+142,3,estas,Durante {{estas}} semanas estaré fuera.,frequency;generated;spanish
+143,1,sí,Ella dijo que {{sí}}.,frequency;generated;rank-141-160
+143,2,sí,¿De verdad? Claro que {{sí}}.,frequency;generated;spanish
+143,3,sí,Lo hizo por {{sí}} mismo.,frequency;generated;spanish
+144,1,estaba,La puerta {{estaba}} abierta.,frequency;generated;rank-141-160
+144,2,estaba,Yo {{estaba}} durmiendo cuando llamaste.,frequency;generated;spanish
+144,3,estaba,La sopa {{estaba}} fría.,frequency;generated;spanish
+145,1,estar,Quiero {{estar}} contigo.,frequency;generated;rank-141-160
+145,2,estar,El paquete debe {{estar}} aquí.,frequency;generated;spanish
+145,3,estar,¿Puedes {{estar}} listo a las ocho?,frequency;generated;spanish
+146,1,hoy,Trabajo {{hoy}}.,frequency;generated;rank-141-160
+146,2,hoy,¿Qué vamos a comer {{hoy}}?,frequency;generated;spanish
+146,3,hoy,"De {{hoy}} en adelante, caminaré más.",frequency;generated;spanish
+147,1,tienen,Ellos {{tienen}} hambre.,frequency;generated;rank-141-160
+147,2,tienen,Mis padres {{tienen}} un gato.,frequency;generated;spanish
+147,3,tienen,Los niños {{tienen}} que dormir.,frequency;generated;spanish
+148,1,alguien,Hay {{alguien}} afuera.,frequency;generated;rank-141-160
+148,2,alguien,¿Conoces a {{alguien}} aquí?,frequency;generated;spanish
+148,3,alguien,Busco a {{alguien}} que hable inglés.,frequency;generated;spanish
+149,1,dice,Ella {{dice}} la verdad.,frequency;generated;rank-141-160
+149,2,dice,¿Qué {{dice}} el letrero?,frequency;generated;spanish
+149,3,dice,Mi madre {{dice}} que va a llover.,frequency;generated;spanish
+150,1,quien,Ella es {{quien}} llama.,frequency;generated;rank-141-160
+150,2,quien,Dale el libro a {{quien}} lo necesite.,frequency;generated;spanish
+150,3,quien,No soy {{quien}} para juzgarte.,frequency;generated;spanish
+151,1,toda,Leí {{toda}} la carta.,frequency;generated;rank-141-160
+151,2,toda,Llovió {{toda}} la noche.,frequency;generated;spanish
+151,3,toda,Está aquí {{toda}} mi familia.,frequency;generated;spanish
+152,1,tres,Tengo {{tres}} libros.,frequency;generated;rank-141-160
+152,2,tres,Nos vemos a las {{tres}}.,frequency;generated;spanish
+152,3,tres,El viaje dura {{tres}} horas.,frequency;generated;spanish
+153,1,voy,Yo {{voy}} al mercado.,frequency;generated;rank-141-160
+153,2,voy,Ya me {{voy}}.,frequency;generated;spanish
+153,3,voy,Mañana {{voy}} a cocinar.,frequency;generated;spanish
+154,1,caso,Este {{caso}} es sencillo.,frequency;generated;rank-141-160
+154,2,caso,Hazle {{caso}} a tu madre.,frequency;generated;spanish
+154,3,caso,"En ese {{caso}}, te espero.",frequency;generated;spanish
+155,1,días,Trabajo cinco {{días}}.,frequency;generated;rank-141-160
+155,2,días,Nos vemos dentro de dos {{días}}.,frequency;generated;spanish
+155,3,días,Los {{días}} son más largos en verano.,frequency;generated;spanish
+156,1,momento,Espera un {{momento}}.,frequency;generated;rank-141-160
+156,2,momento,No es buen {{momento}} para llamar.,frequency;generated;spanish
+156,3,momento,"En ese {{momento}}, sonó el teléfono.",frequency;generated;spanish
+157,1,bueno,Este café está {{bueno}}.,frequency;generated;rank-141-160
+157,2,bueno,Mi abuelo es muy {{bueno}} conmigo.,frequency;generated;spanish
+157,3,bueno,El ejercicio es {{bueno}} para la salud.,frequency;generated;spanish
+158,1,ciudad,Vivo en esta {{ciudad}}.,frequency;generated;rank-141-160
+158,2,ciudad,El centro de la {{ciudad}} está cerca.,frequency;generated;spanish
+158,3,ciudad,¿Cuál es tu {{ciudad}} favorita?,frequency;generated;spanish
+159,1,mis,Estos son {{mis}} libros.,frequency;generated;rank-141-160
+159,2,mis,Vivo con {{mis}} padres.,frequency;generated;spanish
+159,3,mis,No encuentro {{mis}} zapatos.,frequency;generated;spanish
+160,1,nuestro,Este es {{nuestro}} hotel.,frequency;generated;rank-141-160
+160,2,nuestro,Cuidemos {{nuestro}} planeta.,frequency;generated;spanish
+160,3,nuestro,El perro es {{nuestro}}.,frequency;generated;spanish
+161,1,luego,Nos vemos {{luego}}.,frequency;generated;rank-161-180
+161,2,luego,Primero estudio y {{luego}} descanso.,frequency;generated;spanish
+161,3,luego,Te llamo {{luego}} de la clase.,frequency;generated;spanish
+162,1,nacional,Este museo es {{nacional}}.,frequency;generated;rank-161-180
+162,2,nacional,Mañana es un día de fiesta {{nacional}}.,frequency;generated;spanish
+162,3,nacional,Visitamos un parque {{nacional}}.,frequency;generated;spanish
+163,1,parece,Todo {{parece}} fácil.,frequency;generated;rank-161-180
+163,2,parece,Me {{parece}} una buena idea.,frequency;generated;spanish
+163,3,parece,Tu hijo se {{parece}} a ti.,frequency;generated;spanish
+164,1,nuestra,Esta es {{nuestra}} casa.,frequency;generated;rank-161-180
+164,2,nuestra,La decisión es {{nuestra}}.,frequency;generated;spanish
+164,3,nuestra,Mañana llega {{nuestra}} abuela.,frequency;generated;spanish
+165,1,poder,Quiero {{poder}} ayudarte.,frequency;generated;rank-161-180
+165,2,poder,El alcalde tiene mucho {{poder}}.,frequency;generated;spanish
+165,3,poder,Espero {{poder}} ir mañana.,frequency;generated;spanish
+166,1,pueden,Ellos {{pueden}} venir hoy.,frequency;generated;rank-161-180
+166,2,pueden,Aquí no se {{pueden}} tomar fotos.,frequency;generated;spanish
+166,3,pueden,¿Me {{pueden}} ayudar con esto?,frequency;generated;spanish
+167,1,pues,"Me voy, {{pues}} ya es tarde.",frequency;generated;rank-161-180
+167,2,pues,¿No tienes hambre? {{pues}} guarda la comida.,frequency;generated;spanish
+167,3,pues,"No salí, {{pues}} estaba enfermo.",frequency;generated;spanish
+168,1,verdad,Es {{verdad}} lo que dices.,frequency;generated;rank-161-180
+168,2,verdad,Dime la {{verdad}}.,frequency;generated;spanish
+168,3,verdad,¿De {{verdad}} vas a venir?,frequency;generated;spanish
+169,1,historia,Ella cuenta una {{historia}} corta.,frequency;generated;rank-161-180
+169,2,historia,Me gusta estudiar {{historia}}.,frequency;generated;spanish
+169,3,historia,¿Cómo termina la {{historia}}?,frequency;generated;spanish
+170,1,mientras,Te llamo {{mientras}} camino.,frequency;generated;rank-161-180
+170,2,mientras,Yo cocino {{mientras}} tú pones la mesa.,frequency;generated;spanish
+170,3,mientras,No uses el teléfono {{mientras}} manejas.,frequency;generated;spanish
+171,1,nadie,No hay {{nadie}} en casa.,frequency;generated;rank-161-180
+171,2,nadie,No conozco a {{nadie}} aquí.,frequency;generated;spanish
+171,3,nadie,{{Nadie}} sabe la respuesta.,frequency;generated;spanish
+172,1,nueva,Ella tiene una mochila {{nueva}}.,frequency;generated;rank-161-180
+172,2,nueva,Hay una tienda {{nueva}} en la esquina.,frequency;generated;spanish
+172,3,nueva,Voy a empezar una vida {{nueva}}.,frequency;generated;spanish
+173,1,otras,Tengo {{otras}} ideas.,frequency;generated;rank-161-180
+173,2,otras,¿Tienes {{otras}} preguntas?,frequency;generated;spanish
+173,3,otras,Estas sillas son cómodas; las {{otras}} no.,frequency;generated;spanish
+174,1,primera,Esta es mi {{primera}} clase.,frequency;generated;rank-161-180
+174,2,primera,Es la {{primera}} vez que viajo solo.,frequency;generated;spanish
+174,3,primera,Baja en la {{primera}} parada.,frequency;generated;spanish
+175,1,veces,Vengo aquí muchas {{veces}}.,frequency;generated;rank-161-180
+175,2,veces,A {{veces}} desayuno tarde.,frequency;generated;spanish
+175,3,veces,Lávate los dientes dos {{veces}} al día.,frequency;generated;spanish
+176,1,muchos,Hay {{muchos}} libros aquí.,frequency;generated;rank-161-180
+176,2,muchos,No tengo {{muchos}} amigos aquí.,frequency;generated;spanish
+176,3,muchos,Vivió allí durante {{muchos}} años.,frequency;generated;spanish
+177,1,cual,La casa en la {{cual}} vivo es pequeña.,frequency;generated;rank-161-180
+177,2,cual,Déjalo tal {{cual}} está.,frequency;generated;spanish
+177,3,cual,Esa es la razón por la {{cual}} vine.,frequency;generated;spanish
+178,1,debe,Ella {{debe}} estudiar hoy.,frequency;generated;rank-161-180
+178,2,debe,El paquete {{debe}} llegar mañana.,frequency;generated;spanish
+178,3,debe,Mi hermano me {{debe}} diez pesos.,frequency;generated;spanish
+179,1,dijo,Ella {{dijo}} la verdad.,frequency;generated;rank-161-180
+179,2,dijo,¿Qué te {{dijo}} el médico?,frequency;generated;spanish
+179,3,dijo,Juan {{dijo}} que vendría mañana.,frequency;generated;spanish
+180,1,entonces,Comimos y {{entonces}} salimos.,frequency;generated;rank-161-180
+180,2,entonces,¿Qué hacemos {{entonces}}?,frequency;generated;spanish
+180,3,entonces,"Desde {{entonces}}, somos amigos.",frequency;generated;spanish
+181,1,ir,Quiero {{ir}} a casa.,frequency;generated;rank-181-200
+181,2,ir,Tengo que {{ir}} al médico.,frequency;generated;spanish
+181,3,ir,¿Podemos {{ir}} caminando?,frequency;generated;spanish
+182,1,tipo,Este {{tipo}} de pan es bueno.,frequency;generated;rank-181-200
+182,2,tipo,¿Qué {{tipo}} de música te gusta?,frequency;generated;spanish
+182,3,tipo,Ese {{tipo}} parece amable.,frequency;generated;spanish
+183,1,algunos,Tengo {{algunos}} libros en casa.,frequency;generated;rank-181-200
+183,2,algunos,{{Algunos}} días voy en bicicleta.,frequency;generated;spanish
+183,3,algunos,Conozco a {{algunos}} de tus amigos.,frequency;generated;spanish
+184,1,general,Es una regla {{general}}.,frequency;generated;rank-181-200
+184,2,general,"En {{general}}, duermo bien.",frequency;generated;spanish
+184,3,general,El médico me hizo una revisión {{general}}.,frequency;generated;spanish
+185,1,mayor,Mi hermana es {{mayor}} que yo.,frequency;generated;rank-181-200
+185,2,mayor,Ese es mi {{mayor}} miedo.,frequency;generated;spanish
+185,3,mayor,El precio es {{mayor}} de lo esperado.,frequency;generated;spanish
+186,1,tal,Nunca vi {{tal}} cosa.,frequency;generated;rank-181-200
+186,2,tal,¿Qué {{tal}} estuvo el viaje?,frequency;generated;spanish
+186,3,tal,"Quizás venga, {{tal}} vez mañana.",frequency;generated;spanish
+187,1,además,Ella canta y {{además}} baila.,frequency;generated;rank-181-200
+187,2,además,"Trajo pan y, {{además}}, fruta.",frequency;generated;spanish
+187,3,además,Estudio francés {{además}} de inglés.,frequency;generated;spanish
+188,1,mal,Hoy me siento {{mal}}.,frequency;generated;rank-181-200
+188,2,mal,Escribiste {{mal}} mi nombre.,frequency;generated;spanish
+188,3,mal,El pescado huele {{mal}}.,frequency;generated;spanish
+189,1,muchas,Ella tiene {{muchas}} amigas.,frequency;generated;rank-181-200
+189,2,muchas,Tengo {{muchas}} ganas de verte.,frequency;generated;spanish
+189,3,muchas,Hay {{muchas}} formas de aprender.,frequency;generated;spanish
+190,1,primer,Es mi {{primer}} día aquí.,frequency;generated;rank-181-200
+190,2,primer,Toma el {{primer}} autobús.,frequency;generated;spanish
+190,3,primer,Ganó su {{primer}} premio.,frequency;generated;spanish
+191,1,según,Trabajo {{según}} el plan.,frequency;generated;rank-181-200
+191,2,según,"{{Según}} el médico, estoy sano.",frequency;generated;spanish
+191,3,según,El precio cambia {{según}} el tamaño.,frequency;generated;spanish
+192,1,acuerdo,Estamos de {{acuerdo}} contigo.,frequency;generated;rank-181-200
+192,2,acuerdo,Llegamos a un {{acuerdo}}.,frequency;generated;spanish
+192,3,acuerdo,¿Estás de {{acuerdo}} con el precio?,frequency;generated;spanish
+193,1,cualquier,Puedes elegir {{cualquier}} libro.,frequency;generated;rank-181-200
+193,2,cualquier,Puedes venir {{cualquier}} día.,frequency;generated;spanish
+193,3,cualquier,No abras la puerta a {{cualquier}} persona.,frequency;generated;spanish
+194,1,dios,Mi abuela habla de {{Dios}}.,frequency;generated;rank-181-200
+194,2,dios,Ella cree en {{Dios}}.,frequency;generated;spanish
+194,3,dios,Zeus era un {{dios}} griego.,frequency;generated;spanish
+195,1,fueron,Ellos {{fueron}} al parque.,frequency;generated;rank-181-200
+195,2,fueron,Mis abuelos {{fueron}} maestros.,frequency;generated;spanish
+195,3,fueron,Las vacaciones {{fueron}} muy cortas.,frequency;generated;spanish
 196,1,manera,Esa es una buena {{manera}} de aprender.,frequency;generated;spanish
 196,2,manera,Lo hizo de otra {{manera}}.,frequency;generated;spanish
 196,3,manera,No me gusta su {{manera}} de hablar.,frequency;generated;spanish
@@ -89,3 +674,828 @@ rank,variant,word,sentence,tags
 225,1,tus,¿Dónde están {{tus}} zapatos?,frequency;generated;spanish
 225,2,tus,Me gustan {{tus}} ideas.,frequency;generated;spanish
 225,3,tus,Trae {{tus}} libros mañana.,frequency;generated;spanish
+226,1,eres,¿De dónde {{eres}}?,frequency;generated;spanish
+226,2,eres,Tú {{eres}} mi mejor amigo.,frequency;generated;spanish
+226,3,eres,Hoy {{eres}} el primero en llegar.,frequency;generated;spanish
+227,1,ahí,Deja la bolsa {{ahí}}.,frequency;generated;spanish
+227,2,ahí,Por {{ahí}} viene el autobús.,frequency;generated;spanish
+227,3,ahí,¿Hay alguien {{ahí}}?,frequency;generated;spanish
+228,1,cosa,Quiero decirte una {{cosa}}.,frequency;generated;spanish
+228,2,cosa,Cada {{cosa}} tiene su lugar.,frequency;generated;spanish
+228,3,cosa,¿Qué es esa {{cosa}}?,frequency;generated;spanish
+229,1,dentro,Las llaves están {{dentro}} de la bolsa.,frequency;generated;spanish
+229,2,dentro,Volvemos {{dentro}} de una hora.,frequency;generated;spanish
+229,3,dentro,Hace frío; pasa {{dentro}}.,frequency;generated;spanish
+230,1,estamos,Ya {{estamos}} listos.,frequency;generated;spanish
+230,2,estamos,Hoy {{estamos}} de vacaciones.,frequency;generated;spanish
+230,3,estamos,Te {{estamos}} esperando.,frequency;generated;spanish
+231,1,familia,Mi {{familia}} vive lejos.,frequency;generated;spanish
+231,2,familia,Mañana cenamos en {{familia}}.,frequency;generated;spanish
+231,3,familia,¿Cómo está tu {{familia}}?,frequency;generated;spanish
+232,1,lado,Siéntate a mi {{lado}}.,frequency;generated;spanish
+232,2,lado,Cruza al otro {{lado}}.,frequency;generated;spanish
+232,3,lado,Duerme de {{lado}}.,frequency;generated;spanish
+233,1,aún,No ha llegado {{aún}}.,frequency;generated;spanish
+233,2,aún,El agua está {{aún}} más fría.,frequency;generated;spanish
+233,3,aún,¿{{Aún}} vives aquí?,frequency;generated;spanish
+234,1,buen,Que tengas un {{buen}} viaje.,frequency;generated;spanish
+234,2,buen,Es un {{buen}} amigo.,frequency;generated;spanish
+234,3,buen,Hoy hace {{buen}} tiempo.,frequency;generated;spanish
+235,1,podemos,¿{{Podemos}} abrir la ventana?,frequency;generated;spanish
+235,2,podemos,No {{podemos}} entrar sin boleto.,frequency;generated;spanish
+235,3,podemos,Mañana {{podemos}} comer juntos.,frequency;generated;spanish
+236,1,misma,Siempre cuentas la {{misma}} historia.,frequency;generated;spanish
+236,2,misma,Lo hice yo {{misma}}.,frequency;generated;spanish
+236,3,misma,Tenemos la {{misma}} edad.,frequency;generated;spanish
+237,1,pueblo,Mi abuela vive en un {{pueblo}}.,frequency;generated;spanish
+237,2,pueblo,El {{pueblo}} eligió a su alcalde.,frequency;generated;spanish
+237,3,pueblo,Todo el {{pueblo}} vino a la fiesta.,frequency;generated;spanish
+238,1,tenía,De niño {{tenía}} un perro.,frequency;generated;spanish
+238,2,tenía,No fui porque {{tenía}} fiebre.,frequency;generated;spanish
+238,3,tenía,El libro {{tenía}} cien páginas.,frequency;generated;spanish
+239,1,esos,¿Cuánto cuestan {{esos}} zapatos?,frequency;generated;spanish
+239,2,esos,No conozco a {{esos}} señores.,frequency;generated;spanish
+239,3,esos,En {{esos}} días no había internet.,frequency;generated;spanish
+240,1,final,"Al {{final}}, decidimos quedarnos.",frequency;generated;spanish
+240,2,final,¿Te gustó el {{final}} del libro?,frequency;generated;spanish
+240,3,final,Mañana es la {{final}} del torneo.,frequency;generated;spanish
+241,1,mujeres,Esas {{mujeres}} son mis vecinas.,frequency;generated;spanish
+241,2,mujeres,Hay más {{mujeres}} que hombres.,frequency;generated;spanish
+241,3,mujeres,El equipo está formado por {{mujeres}}.,frequency;generated;spanish
+242,1,política,No hablamos de {{política}} en la cena.,frequency;generated;spanish
+242,2,política,La empresa cambió su {{política}} de precios.,frequency;generated;spanish
+242,3,política,Mi hermana estudia ciencia {{política}}.,frequency;generated;spanish
+243,1,problema,No hay ningún {{problema}}.,frequency;generated;spanish
+243,2,problema,Tenemos un {{problema}} con el agua.,frequency;generated;spanish
+243,3,problema,¿Pudiste resolver el {{problema}}?,frequency;generated;spanish
+244,1,punto,Nos vemos en el {{punto}} de encuentro.,frequency;generated;spanish
+244,2,punto,El tren sale a las ocho en {{punto}}.,frequency;generated;spanish
+244,3,punto,Estoy a {{punto}} de salir.,frequency;generated;spanish
+245,1,agua,¿Quieres un vaso de {{agua}}?,frequency;generated;spanish
+245,2,agua,No hay {{agua}} caliente.,frequency;generated;spanish
+245,3,agua,El perro necesita {{agua}} fresca.,frequency;generated;spanish
+246,1,alguna,¿Tienes {{alguna}} pregunta?,frequency;generated;spanish
+246,2,alguna,¿Has visto nieve {{alguna}} vez?,frequency;generated;spanish
+246,3,alguna,Debe haber {{alguna}} solución.,frequency;generated;spanish
+247,1,equipo,Nuestro {{equipo}} ganó ayer.,frequency;generated;spanish
+247,2,equipo,Necesito {{equipo}} para acampar.,frequency;generated;spanish
+247,3,equipo,Me gusta trabajar en {{equipo}}.,frequency;generated;spanish
+248,1,guerra,La {{guerra}} terminó hace años.,frequency;generated;spanish
+248,2,guerra,La gente huyó de la {{guerra}}.,frequency;generated;spanish
+248,3,guerra,"Queremos paz, no {{guerra}}.",frequency;generated;spanish
+249,1,saber,Quiero {{saber}} tu nombre.,frequency;generated;spanish
+249,2,saber,Es bueno {{saber}} cocinar.,frequency;generated;spanish
+249,3,saber,Gracias por hacerlo {{saber}}.,frequency;generated;spanish
+250,1,sé,No {{sé}} nadar.,frequency;generated;spanish
+250,2,sé,Ya {{sé}} la respuesta.,frequency;generated;spanish
+250,3,sé,Solo {{sé}} que tengo hambre.,frequency;generated;spanish
+251,1,vamos,¿A dónde {{vamos}}?,frequency;generated;spanish
+251,2,vamos,Hoy {{vamos}} a bailar.,frequency;generated;spanish
+251,3,vamos,Nos {{vamos}} en cinco minutos.,frequency;generated;spanish
+252,1,van,Mis hijos {{van}} a la escuela.,frequency;generated;spanish
+252,2,van,¿Cómo {{van}} tus clases?,frequency;generated;spanish
+252,3,van,Los vasos {{van}} en ese estante.,frequency;generated;spanish
+253,1,ante,Habló {{ante}} un grupo pequeño.,frequency;generated;spanish
+253,2,ante,No sé qué hacer {{ante}} este problema.,frequency;generated;spanish
+253,3,ante,Se detuvo {{ante}} la puerta.,frequency;generated;spanish
+254,1,dar,¿Me puedes {{dar}} agua?,frequency;generated;spanish
+254,2,dar,Vamos a {{dar}} un paseo.,frequency;generated;spanish
+254,3,dar,No quiero {{dar}} problemas.,frequency;generated;spanish
+255,1,embargo,"Llueve; sin {{embargo}}, saldremos.",frequency;generated;spanish
+255,2,embargo,"Lo intentó; sin {{embargo}}, no pudo.",frequency;generated;spanish
+255,3,embargo,"Es caro; sin {{embargo}}, vale la pena.",frequency;generated;spanish
+256,1,favor,"Cierra la puerta, por {{favor}}.",frequency;generated;spanish
+256,2,favor,¿Me haces un {{favor}}?,frequency;generated;spanish
+256,3,favor,Estoy a {{favor}} del cambio.,frequency;generated;spanish
+257,1,gusta,Me {{gusta}} tu camisa.,frequency;generated;spanish
+257,2,gusta,¿Te {{gusta}} bailar?,frequency;generated;spanish
+257,3,gusta,A mi perro le {{gusta}} el agua.,frequency;generated;spanish
+258,1,importante,Tengo algo {{importante}} que decirte.,frequency;generated;spanish
+258,2,importante,Es {{importante}} dormir bien.,frequency;generated;spanish
+258,3,importante,Hoy es un día {{importante}}.,frequency;generated;spanish
+259,1,información,Necesito más {{información}}.,frequency;generated;spanish
+259,2,información,¿Dónde está el puesto de {{información}}?,frequency;generated;spanish
+259,3,información,No compartas tu {{información}} privada.,frequency;generated;spanish
+260,1,mañana,Nos vemos {{mañana}}.,frequency;generated;spanish
+260,2,mañana,Trabajo por la {{mañana}}.,frequency;generated;spanish
+260,3,mañana,¿Qué harás {{mañana}} después de clase?,frequency;generated;spanish
+261,1,pasa,¿Qué {{pasa}} aquí?,frequency;generated;spanish
+261,2,pasa,El autobús {{pasa}} cada hora.,frequency;generated;spanish
+261,3,pasa,El tiempo {{pasa}} rápido.,frequency;generated;spanish
+262,1,semana,Trabajo cuatro días por {{semana}}.,frequency;generated;spanish
+262,2,semana,Nos mudamos la próxima {{semana}}.,frequency;generated;spanish
+262,3,semana,Que tengas una buena {{semana}}.,frequency;generated;spanish
+263,1,tienes,¿Cuántos años {{tienes}}?,frequency;generated;spanish
+263,2,tienes,No {{tienes}} que pagar.,frequency;generated;spanish
+263,3,tienes,Hoy {{tienes}} buena cara.,frequency;generated;spanish
+264,1,claro,El cielo está {{claro}}.,frequency;generated;spanish
+264,2,claro,¿Puedes hablar más {{claro}}?,frequency;generated;spanish
+264,3,claro,¿Puedo pasar? ¡{{claro}} que sí!,frequency;generated;spanish
+265,1,dinero,No llevo {{dinero}} en efectivo.,frequency;generated;spanish
+265,2,dinero,Estoy ahorrando {{dinero}} para viajar.,frequency;generated;spanish
+265,3,dinero,¿Cuánto {{dinero}} necesitas?,frequency;generated;spanish
+266,1,social,Mi abuelo tiene una vida {{social}} activa.,frequency;generated;spanish
+266,2,social,El desempleo es un problema {{social}}.,frequency;generated;spanish
+266,3,social,Ella trabaja en un centro {{social}}.,frequency;generated;spanish
+267,1,ejemplo,Dame un {{ejemplo}}.,frequency;generated;spanish
+267,2,ejemplo,Aprendemos con tu {{ejemplo}}.,frequency;generated;spanish
+267,3,ejemplo,"Me gusta la fruta, por {{ejemplo}}, el mango.",frequency;generated;spanish
+268,1,estados,El país tiene varios {{estados}}.,frequency;generated;spanish
+268,2,estados,El agua puede estar en tres {{estados}}.,frequency;generated;spanish
+268,3,estados,Sus {{estados}} de ánimo cambian mucho.,frequency;generated;spanish
+269,1,horas,Dormí ocho {{horas}}.,frequency;generated;spanish
+269,2,horas,El viaje dura dos {{horas}}.,frequency;generated;spanish
+269,3,horas,Pasaron varias {{horas}} sin noticias.,frequency;generated;spanish
+270,1,igual,Tu mochila es {{igual}} a la mía.,frequency;generated;spanish
+270,2,igual,Me da {{igual}} dónde comamos.,frequency;generated;spanish
+270,3,igual,Los dos hermanos hablan {{igual}}.,frequency;generated;spanish
+271,1,millones,Allí viven dos {{millones}} de personas.,frequency;generated;spanish
+271,2,millones,El proyecto cuesta {{millones}} de pesos.,frequency;generated;spanish
+271,3,millones,Hay {{millones}} de estrellas.,frequency;generated;spanish
+272,1,número,¿Cuál es tu {{número}} de teléfono?,frequency;generated;spanish
+272,2,número,Escribe un {{número}} del uno al diez.,frequency;generated;spanish
+272,3,número,Vivo en el {{número}} ocho.,frequency;generated;spanish
+273,1,ti,Este regalo es para {{ti}}.,frequency;generated;spanish
+273,2,ti,Confío en {{ti}}.,frequency;generated;spanish
+273,3,ti,El niño está detrás de {{ti}}.,frequency;generated;spanish
+274,1,algunas,Compré {{algunas}} manzanas.,frequency;generated;spanish
+274,2,algunas,{{Algunas}} veces llego tarde.,frequency;generated;spanish
+274,3,algunas,Solo conozco a {{algunas}} de ellas.,frequency;generated;spanish
+275,1,hablar,¿Podemos {{hablar}} un momento?,frequency;generated;spanish
+275,2,hablar,El bebé está aprendiendo a {{hablar}}.,frequency;generated;spanish
+275,3,hablar,No quiero {{hablar}} de eso.,frequency;generated;spanish
+276,1,hora,¿Qué {{hora}} es?,frequency;generated;spanish
+276,2,hora,Te espero desde hace una {{hora}}.,frequency;generated;spanish
+276,3,hora,Ya es {{hora}} de dormir.,frequency;generated;spanish
+277,1,madre,Mi {{madre}} es profesora.,frequency;generated;spanish
+277,2,madre,Llama a tu {{madre}}.,frequency;generated;spanish
+277,3,madre,La {{madre}} abraza al bebé.,frequency;generated;spanish
+278,1,señor,Ese {{señor}} es mi vecino.,frequency;generated;spanish
+278,2,señor,"Buenos días, {{señor}} López.",frequency;generated;spanish
+278,3,señor,"¿Puede ayudarme, {{señor}}?",frequency;generated;spanish
+279,1,siendo,Ella sigue {{siendo}} mi amiga.,frequency;generated;spanish
+279,2,siendo,El viaje está {{siendo}} difícil.,frequency;generated;spanish
+279,3,siendo,Estás {{siendo}} muy amable.,frequency;generated;spanish
+280,1,centro,Vivo cerca del {{centro}}.,frequency;generated;spanish
+280,2,centro,Pon la mesa en el {{centro}}.,frequency;generated;spanish
+280,3,centro,Hay un {{centro}} de salud aquí.,frequency;generated;spanish
+281,1,derecho,Me duele el brazo {{derecho}}.,frequency;generated;spanish
+281,2,derecho,Tienes {{derecho}} a descansar.,frequency;generated;spanish
+281,3,derecho,Estudia {{derecho}} en la universidad.,frequency;generated;spanish
+282,1,falta,Hace {{falta}} más agua.,frequency;generated;spanish
+282,2,falta,No {{falta}} mucho para llegar.,frequency;generated;spanish
+282,3,falta,No puedo ir por {{falta}} de tiempo.,frequency;generated;spanish
+283,1,grandes,Estos zapatos me quedan {{grandes}}.,frequency;generated;spanish
+283,2,grandes,Mis abuelos tienen {{grandes}} planes.,frequency;generated;spanish
+283,3,grandes,Las ventanas son muy {{grandes}}.,frequency;generated;spanish
+284,1,haciendo,¿Qué estás {{haciendo}}?,frequency;generated;spanish
+284,2,haciendo,Estoy {{haciendo}} la cena.,frequency;generated;spanish
+284,3,haciendo,Aprendemos {{haciendo}} preguntas.,frequency;generated;spanish
+285,1,hombres,Esos {{hombres}} trabajan aquí.,frequency;generated;spanish
+285,2,hombres,Hay tres {{hombres}} en la fila.,frequency;generated;spanish
+285,3,hombres,Los {{hombres}} también lloran.,frequency;generated;spanish
+286,1,nuestros,Estos son {{nuestros}} hijos.,frequency;generated;spanish
+286,2,nuestros,Debemos aprender de {{nuestros}} errores.,frequency;generated;spanish
+286,3,nuestros,Los asientos son {{nuestros}}.,frequency;generated;spanish
+287,1,puedes,¿{{Puedes}} ayudarme?,frequency;generated;spanish
+287,2,puedes,Aquí {{puedes}} pagar con tarjeta.,frequency;generated;spanish
+287,3,puedes,No {{puedes}} estacionar allí.,frequency;generated;spanish
+288,1,amigos,Voy al cine con mis {{amigos}}.,frequency;generated;spanish
+288,2,amigos,Somos {{amigos}} desde niños.,frequency;generated;spanish
+288,3,amigos,Hice nuevos {{amigos}} en clase.,frequency;generated;spanish
+289,1,buenos,Tengo {{buenos}} recuerdos de ese viaje.,frequency;generated;spanish
+289,2,buenos,Estos zapatos son {{buenos}} para caminar.,frequency;generated;spanish
+289,3,buenos,"¡{{Buenos}} días, vecinos!",frequency;generated;spanish
+290,1,cambio,¿Tienes {{cambio}} de cien pesos?,frequency;generated;spanish
+290,2,cambio,Necesito un {{cambio}} de ropa.,frequency;generated;spanish
+290,3,cambio,"Yo cocino; a {{cambio}}, tú lavas.",frequency;generated;spanish
+291,1,idea,Tengo una {{idea}}.,frequency;generated;spanish
+291,2,idea,No tengo {{idea}} de dónde está.,frequency;generated;spanish
+291,3,idea,¿Qué te parece esta {{idea}}?,frequency;generated;spanish
+292,1,mierda,¡Qué {{mierda}} de día!,frequency;generated;spanish
+292,2,mierda,El perro dejó {{mierda}} en el jardín.,frequency;generated;spanish
+292,3,mierda,Todo se fue a la {{mierda}}.,frequency;generated;spanish
+293,1,muerte,La {{muerte}} de mi abuelo me dolió.,frequency;generated;spanish
+293,2,muerte,El frío causó la {{muerte}} de la planta.,frequency;generated;spanish
+293,3,muerte,Tiene miedo a la {{muerte}}.,frequency;generated;spanish
+294,1,problemas,Tengo {{problemas}} para dormir.,frequency;generated;spanish
+294,2,problemas,El mecánico encontró dos {{problemas}}.,frequency;generated;spanish
+294,3,problemas,No quiero causarte {{problemas}}.,frequency;generated;spanish
+295,1,tarde,Llegamos {{tarde}}.,frequency;generated;spanish
+295,2,tarde,Te llamo por la {{tarde}}.,frequency;generated;spanish
+295,3,tarde,Ya es {{tarde}} para salir.,frequency;generated;spanish
+296,1,tras,El gato corrió {{tras}} el ratón.,frequency;generated;spanish
+296,2,tras,Volvió a casa {{tras}} el viaje.,frequency;generated;spanish
+296,3,tras,Lo intentó día {{tras}} día.,frequency;generated;spanish
+297,1,través,La luz entra a {{través}} de la ventana.,frequency;generated;spanish
+297,2,través,Hablamos a {{través}} de una pantalla.,frequency;generated;spanish
+297,3,través,Aprendió a {{través}} de la práctica.,frequency;generated;spanish
+298,1,tú,"¿Y {{tú}}, cómo estás?",frequency;generated;spanish
+298,2,tú,Lo decides {{tú}}.,frequency;generated;spanish
+298,3,tú,Mi hermano es mayor que {{tú}}.,frequency;generated;spanish
+299,1,meses,El bebé tiene seis {{meses}}.,frequency;generated;spanish
+299,2,meses,No te veo desde hace {{meses}}.,frequency;generated;spanish
+299,3,meses,Estudiaré aquí tres {{meses}}.,frequency;generated;spanish
+300,1,podría,¿Me {{podría}} ayudar?,frequency;generated;spanish
+300,2,podría,Mañana {{podría}} llover.,frequency;generated;spanish
+300,3,podría,"Con más tiempo, {{podría}} terminarlo.",frequency;generated;spanish
+301,1,realidad,"En {{realidad}}, no tengo hambre.",frequency;generated;spanish
+301,2,realidad,Su sueño se hizo {{realidad}}.,frequency;generated;spanish
+301,3,realidad,La {{realidad}} es diferente.,frequency;generated;spanish
+302,1,algún,¿Hay {{algún}} baño cerca?,frequency;generated;spanish
+302,2,algún,Quiero viajar a Perú {{algún}} día.,frequency;generated;spanish
+302,3,algún,Debe haber {{algún}} error.,frequency;generated;spanish
+303,1,amor,Te lo digo con {{amor}}.,frequency;generated;spanish
+303,2,amor,Siente mucho {{amor}} por sus hijos.,frequency;generated;spanish
+303,3,amor,El {{amor}} no se compra.,frequency;generated;spanish
+304,1,dicho,Ya te he {{dicho}} la verdad.,frequency;generated;spanish
+304,2,dicho,Nunca había {{dicho}} eso.,frequency;generated;spanish
+304,3,dicho,Lo {{dicho}} está claro.,frequency;generated;spanish
+305,1,eran,Mis vecinos {{eran}} músicos.,frequency;generated;spanish
+305,2,eran,Antes las calles {{eran}} tranquilas.,frequency;generated;spanish
+305,3,eran,Ya {{eran}} las diez cuando salimos.,frequency;generated;spanish
+306,1,frente,El banco está {{frente}} a la escuela.,frequency;generated;spanish
+306,2,frente,Me golpeé la {{frente}}.,frequency;generated;spanish
+306,3,frente,Se sentó {{frente}} a mí.,frequency;generated;spanish
+307,1,incluso,"Todos vinieron, {{incluso}} mi abuelo.",frequency;generated;spanish
+307,2,incluso,Aquí hace frío {{incluso}} en verano.,frequency;generated;spanish
+307,3,incluso,Es {{incluso}} más fácil de lo que pensaba.,frequency;generated;spanish
+308,1,primero,Lávate las manos {{primero}}.,frequency;generated;spanish
+308,2,primero,Yo llegué {{primero}}.,frequency;generated;spanish
+308,3,primero,Lo {{primero}} es tu salud.,frequency;generated;spanish
+309,1,real,¿El diamante es {{real}}?,frequency;generated;spanish
+309,2,real,La historia está basada en un hecho {{real}}.,frequency;generated;spanish
+309,3,real,Visitamos el palacio {{real}}.,frequency;generated;spanish
+310,1,vas,¿Cómo {{vas}} al trabajo?,frequency;generated;spanish
+310,2,vas,¿Te {{vas}} tan pronto?,frequency;generated;spanish
+310,3,vas,Hoy {{vas}} a aprender algo nuevo.,frequency;generated;spanish
+311,1,cuatro,La mesa tiene {{cuatro}} patas.,frequency;generated;spanish
+311,2,cuatro,Nos vemos a las {{cuatro}}.,frequency;generated;spanish
+311,3,cuatro,Compré {{cuatro}} entradas.,frequency;generated;spanish
+312,1,desarrollo,El juego ayuda al {{desarrollo}} infantil.,frequency;generated;spanish
+312,2,desarrollo,El proyecto está en {{desarrollo}}.,frequency;generated;spanish
+312,3,desarrollo,La ciudad creció con el {{desarrollo}} del comercio.,frequency;generated;spanish
+313,1,hijo,Mi {{hijo}} tiene cinco años.,frequency;generated;spanish
+313,2,hijo,¿Cómo se llama tu {{hijo}}?,frequency;generated;spanish
+313,3,hijo,Es el {{hijo}} de mi vecina.,frequency;generated;spanish
+314,1,sociedad,Todos somos parte de la {{sociedad}}.,frequency;generated;spanish
+314,2,sociedad,La {{sociedad}} está cambiando.,frequency;generated;spanish
+314,3,sociedad,Abrieron una tienda en {{sociedad}}.,frequency;generated;spanish
+315,1,tema,No quiero hablar de ese {{tema}}.,frequency;generated;spanish
+315,2,tema,¿Cuál es el {{tema}} de la clase?,frequency;generated;spanish
+315,3,tema,Cambiemos de {{tema}}.,frequency;generated;spanish
+316,1,varios,Esperé {{varios}} minutos.,frequency;generated;spanish
+316,2,varios,Tengo {{varios}} libros sobre cocina.,frequency;generated;spanish
+316,3,varios,Lo intenté {{varios}} días seguidos.,frequency;generated;spanish
+317,1,esas,¿De quién son {{esas}} llaves?,frequency;generated;spanish
+317,2,esas,No digas {{esas}} cosas.,frequency;generated;spanish
+317,3,esas,En {{esas}} casas viven mis amigos.,frequency;generated;spanish
+318,1,mí,Esto es para {{mí}}.,frequency;generated;spanish
+318,2,mí,El gato duerme junto a {{mí}}.,frequency;generated;spanish
+318,3,mí,Puedes confiar en {{mí}}.,frequency;generated;spanish
+319,1,nivel,El {{nivel}} del agua subió.,frequency;generated;spanish
+319,2,nivel,¿Qué {{nivel}} de español tienes?,frequency;generated;spanish
+319,3,nivel,La casa está al {{nivel}} de la calle.,frequency;generated;spanish
+320,1,niños,Los {{niños}} están jugando.,frequency;generated;spanish
+320,2,niños,Este libro es para {{niños}}.,frequency;generated;spanish
+320,3,niños,Mis hermanos tienen dos {{niños}}.,frequency;generated;spanish
+321,1,seguro,¿Estás {{seguro}} de eso?,frequency;generated;spanish
+321,2,seguro,Este barrio es {{seguro}}.,frequency;generated;spanish
+321,3,seguro,Necesito un {{seguro}} de viaje.,frequency;generated;spanish
+322,1,sería,Eso {{sería}} maravilloso.,frequency;generated;spanish
+322,2,sería,"Sin ti, todo {{sería}} más difícil.",frequency;generated;spanish
+322,3,sería,¿{{Sería}} posible cambiar la fecha?,frequency;generated;spanish
+323,1,hacen,¿Qué {{hacen}} tus padres?,frequency;generated;spanish
+323,2,hacen,Estos zapatos me {{hacen}} daño.,frequency;generated;spanish
+323,3,hacen,Mis vecinos {{hacen}} mucho ruido.,frequency;generated;spanish
+324,1,hemos,Ya {{hemos}} llegado.,frequency;generated;spanish
+324,2,hemos,Nunca {{hemos}} visto algo así.,frequency;generated;spanish
+324,3,hemos,Hoy {{hemos}} caminado mucho.,frequency;generated;spanish
+325,1,juego,¿Cómo se llama este {{juego}}?,frequency;generated;spanish
+325,2,juego,El {{juego}} empieza a las ocho.,frequency;generated;spanish
+325,3,juego,Es un {{juego}} de mesa.,frequency;generated;spanish
+326,1,llegar,¿Cómo puedo {{llegar}} al hotel?,frequency;generated;spanish
+326,2,llegar,Espero {{llegar}} temprano.,frequency;generated;spanish
+326,3,llegar,Acabo de {{llegar}}.,frequency;generated;spanish
+327,1,mano,Levanta la {{mano}}.,frequency;generated;spanish
+327,2,mano,Lo hizo a {{mano}}.,frequency;generated;spanish
+327,3,mano,¿Me das una {{mano}} con esto?,frequency;generated;spanish
+328,1,paso,Da un {{paso}} adelante.,frequency;generated;spanish
+328,2,paso,El primer {{paso}} es llamar.,frequency;generated;spanish
+328,3,paso,"Déjame {{paso}}, por favor.",frequency;generated;spanish
+329,1,posible,¿Es {{posible}} pagar después?,frequency;generated;spanish
+329,2,posible,Haré todo lo {{posible}}.,frequency;generated;spanish
+329,3,posible,Ven lo antes {{posible}}.,frequency;generated;spanish
+330,1,proyecto,Tengo un {{proyecto}} nuevo.,frequency;generated;spanish
+330,2,proyecto,El {{proyecto}} empieza mañana.,frequency;generated;spanish
+330,3,proyecto,Trabajamos juntos en el {{proyecto}}.,frequency;generated;spanish
+331,1,sigue,Mi padre {{sigue}} trabajando.,frequency;generated;spanish
+331,2,sigue,El museo {{sigue}} cerrado.,frequency;generated;spanish
+331,3,sigue,{{Sigue}} recto hasta la esquina.,frequency;generated;spanish
+332,1,somos,Nosotros {{somos}} vecinos.,frequency;generated;spanish
+332,2,somos,Hoy {{somos}} cinco para cenar.,frequency;generated;spanish
+332,3,somos,No {{somos}} iguales.,frequency;generated;spanish
+333,1,unidos,Seguimos {{unidos}} a pesar de la distancia.,frequency;generated;spanish
+333,2,unidos,Los dos pueblos están {{unidos}} por un puente.,frequency;generated;spanish
+333,3,unidos,Los vecinos trabajan {{unidos}}.,frequency;generated;spanish
+334,1,uso,El teléfono es de {{uso}} personal.,frequency;generated;spanish
+334,2,uso,Lee las instrucciones de {{uso}}.,frequency;generated;spanish
+334,3,uso,El ascensor está fuera de {{uso}}.,frequency;generated;spanish
+335,1,artículo,Leí un {{artículo}} sobre salud.,frequency;generated;spanish
+335,2,artículo,Este {{artículo}} está en oferta.,frequency;generated;spanish
+335,3,artículo,Falta un {{artículo}} en mi pedido.,frequency;generated;spanish
+336,1,cerca,Vivo {{cerca}} de aquí.,frequency;generated;spanish
+336,2,cerca,No te acerques tanto; estás muy {{cerca}}.,frequency;generated;spanish
+336,3,cerca,Saltó la {{cerca}} del jardín.,frequency;generated;spanish
+337,1,cierto,¿Es {{cierto}} lo que dicen?,frequency;generated;spanish
+337,2,cierto,"Por {{cierto}}, llamó tu hermana.",frequency;generated;spanish
+337,3,cierto,"Hasta {{cierto}} punto, tienes razón.",frequency;generated;spanish
+338,1,grande,Necesito una talla más {{grande}}.,frequency;generated;spanish
+338,2,grande,Mi hijo ya está {{grande}}.,frequency;generated;spanish
+338,3,grande,Tengo un problema {{grande}}.,frequency;generated;spanish
+339,1,países,He visitado tres {{países}}.,frequency;generated;spanish
+339,2,países,Estos {{países}} comparten un río.,frequency;generated;spanish
+339,3,países,Vienen personas de muchos {{países}}.,frequency;generated;spanish
+340,1,quién,¿{{Quién}} llamó?,frequency;generated;spanish
+340,2,quién,No sé {{quién}} vive aquí.,frequency;generated;spanish
+340,3,quién,¿Con {{quién}} vas al cine?,frequency;generated;spanish
+341,1,razón,Tienes {{razón}}.,frequency;generated;spanish
+341,2,razón,¿Cuál es la {{razón}} del cambio?,frequency;generated;spanish
+341,3,razón,Lo hice por una buena {{razón}}.,frequency;generated;spanish
+342,1,sabe,Mi hermana {{sabe}} nadar.,frequency;generated;spanish
+342,2,sabe,¿Alguien {{sabe}} la respuesta?,frequency;generated;spanish
+342,3,sabe,La sopa {{sabe}} a ajo.,frequency;generated;spanish
+343,1,todavía,El café está {{todavía}} caliente.,frequency;generated;spanish
+343,2,todavía,No he terminado {{todavía}}.,frequency;generated;spanish
+343,3,todavía,¿{{Todavía}} tienes ese libro?,frequency;generated;spanish
+344,1,amigo,Voy a visitar a un {{amigo}}.,frequency;generated;spanish
+344,2,amigo,Mi mejor {{amigo}} vive lejos.,frequency;generated;spanish
+344,3,amigo,Ese perro es muy {{amigo}} de los niños.,frequency;generated;spanish
+345,1,mayoría,La {{mayoría}} llegó temprano.,frequency;generated;spanish
+345,2,mayoría,Ganaron por {{mayoría}}.,frequency;generated;spanish
+345,3,mayoría,La {{mayoría}} de mis amigos cocina bien.,frequency;generated;spanish
+346,1,padre,Mi {{padre}} trabaja en un hospital.,frequency;generated;spanish
+346,2,padre,Acaba de ser {{padre}}.,frequency;generated;spanish
+346,3,padre,Ese señor es el {{padre}} de Ana.,frequency;generated;spanish
+347,1,salir,¿Quieres {{salir}} a caminar?,frequency;generated;spanish
+347,2,salir,Tenemos que {{salir}} temprano.,frequency;generated;spanish
+347,3,salir,No puedo {{salir}} de aquí.,frequency;generated;spanish
+348,1,seguridad,Usa el cinturón de {{seguridad}}.,frequency;generated;spanish
+348,2,seguridad,Lo digo por tu {{seguridad}}.,frequency;generated;spanish
+348,3,seguridad,Habla con {{seguridad}}.,frequency;generated;spanish
+349,1,tierra,La planta necesita más {{tierra}}.,frequency;generated;spanish
+349,2,tierra,El barco se acerca a {{tierra}}.,frequency;generated;spanish
+349,3,tierra,Mi abuelo trabaja la {{tierra}}.,frequency;generated;spanish
+350,1,visto,¿Has {{visto}} mis llaves?,frequency;generated;spanish
+350,2,visto,Nunca había {{visto}} el mar.,frequency;generated;spanish
+350,3,visto,"Por lo {{visto}}, va a llover.",frequency;generated;spanish
+351,1,único,Es mi {{único}} abrigo.,frequency;generated;spanish
+351,2,único,Soy el {{único}} que llegó.,frequency;generated;spanish
+351,3,único,Cada niño es {{único}}.,frequency;generated;spanish
+352,1,cuerpo,Me duele todo el {{cuerpo}}.,frequency;generated;spanish
+352,2,cuerpo,El agua es buena para el {{cuerpo}}.,frequency;generated;spanish
+352,3,cuerpo,El médico examinó mi {{cuerpo}}.,frequency;generated;spanish
+353,1,programa,¿A qué hora empieza el {{programa}}?,frequency;generated;spanish
+353,2,programa,Instalé un {{programa}} nuevo.,frequency;generated;spanish
+353,3,programa,El museo tiene un {{programa}} para niños.,frequency;generated;spanish
+354,1,segundo,Vivo en el {{segundo}} piso.,frequency;generated;spanish
+354,2,segundo,Espera un {{segundo}}.,frequency;generated;spanish
+354,3,segundo,Llegó en {{segundo}} lugar.,frequency;generated;spanish
+355,1,unas,Compré {{unas}} flores.,frequency;generated;spanish
+355,2,unas,Llegamos hace {{unas}} horas.,frequency;generated;spanish
+355,3,unas,Puse {{unas}} sillas afuera.,frequency;generated;spanish
+356,1,universidad,Estudio en la {{universidad}}.,frequency;generated;spanish
+356,2,universidad,Mi hermana entra a la {{universidad}} este año.,frequency;generated;spanish
+356,3,universidad,La {{universidad}} queda cerca.,frequency;generated;spanish
+357,1,último,Tomamos el {{último}} tren.,frequency;generated;spanish
+357,2,último,Es mi {{último}} día aquí.,frequency;generated;spanish
+357,3,último,Dejé el postre para el {{último}} momento.,frequency;generated;spanish
+358,1,cabeza,Me duele la {{cabeza}}.,frequency;generated;spanish
+358,2,cabeza,Agacha la {{cabeza}}.,frequency;generated;spanish
+358,3,cabeza,No me lo puedo sacar de la {{cabeza}}.,frequency;generated;spanish
+359,1,foto,¿Nos tomas una {{foto}}?,frequency;generated;spanish
+359,2,foto,Saliste bien en la {{foto}}.,frequency;generated;spanish
+359,3,foto,Esta {{foto}} es de mi infancia.,frequency;generated;spanish
+360,1,haya,Espero que {{haya}} pan.,frequency;generated;spanish
+360,2,haya,No creo que {{haya}} llegado.,frequency;generated;spanish
+360,3,haya,Ojalá {{haya}} lugar para todos.,frequency;generated;spanish
+361,1,internacional,Este es un vuelo {{internacional}}.,frequency;generated;spanish
+361,2,internacional,Trabaja en una empresa {{internacional}}.,frequency;generated;spanish
+361,3,internacional,Participó en un concurso {{internacional}}.,frequency;generated;spanish
+362,1,mil,La bicicleta cuesta {{mil}} pesos.,frequency;generated;spanish
+362,2,mil,Más de {{mil}} personas vinieron.,frequency;generated;spanish
+362,3,mil,Te lo he dicho {{mil}} veces.,frequency;generated;spanish
+363,1,palabras,No entiendo estas {{palabras}}.,frequency;generated;spanish
+363,2,palabras,Escribe tu nombre en dos {{palabras}}.,frequency;generated;spanish
+363,3,palabras,Me quedé sin {{palabras}}.,frequency;generated;spanish
+364,1,pasar,¿Puedo {{pasar}}?,frequency;generated;spanish
+364,2,pasar,Quiero {{pasar}} tiempo contigo.,frequency;generated;spanish
+364,3,pasar,Eso le puede {{pasar}} a cualquiera.,frequency;generated;spanish
+365,1,público,Prefiero el transporte {{público}}.,frequency;generated;spanish
+365,2,público,Me da miedo hablar en {{público}}.,frequency;generated;spanish
+365,3,público,El {{público}} aplaudió.,frequency;generated;spanish
+366,1,seguir,Debes {{seguir}} las instrucciones.,frequency;generated;spanish
+366,2,seguir,Quiero {{seguir}} estudiando.,frequency;generated;spanish
+366,3,seguir,No puedo {{seguir}} ese ritmo.,frequency;generated;spanish
+367,1,servicio,El {{servicio}} fue muy bueno.,frequency;generated;spanish
+367,2,servicio,El ascensor está fuera de {{servicio}}.,frequency;generated;spanish
+367,3,servicio,¿El precio incluye el {{servicio}}?,frequency;generated;spanish
+368,1,situación,La {{situación}} está mejorando.,frequency;generated;spanish
+368,2,situación,Entiendo tu {{situación}}.,frequency;generated;spanish
+368,3,situación,No quiero estar en esa {{situación}}.,frequency;generated;spanish
+369,1,ayuda,Necesito {{ayuda}}.,frequency;generated;spanish
+369,2,ayuda,Gracias por tu {{ayuda}}.,frequency;generated;spanish
+369,3,ayuda,La {{ayuda}} llegó a tiempo.,frequency;generated;spanish
+370,1,libro,Estoy leyendo un {{libro}}.,frequency;generated;spanish
+370,2,libro,Devuelve el {{libro}} a la biblioteca.,frequency;generated;spanish
+370,3,libro,¿De qué trata ese {{libro}}?,frequency;generated;spanish
+371,1,siguiente,Bajamos en la {{siguiente}} parada.,frequency;generated;spanish
+371,2,siguiente,"Al día {{siguiente}}, volvió.",frequency;generated;spanish
+371,3,siguiente,¿Quién es el {{siguiente}}?,frequency;generated;spanish
+372,1,veo,No {{veo}} bien sin lentes.,frequency;generated;spanish
+372,2,veo,Te {{veo}} cansado.,frequency;generated;spanish
+372,3,veo,Ahora {{veo}} cuál es el problema.,frequency;generated;spanish
+373,1,datos,Revisa tus {{datos}}.,frequency;generated;spanish
+373,2,datos,No tengo {{datos}} en el teléfono.,frequency;generated;spanish
+373,3,datos,Necesitamos más {{datos}} para decidir.,frequency;generated;spanish
+374,1,dejar,¿Puedo {{dejar}} mi bolsa aquí?,frequency;generated;spanish
+374,2,dejar,Quiero {{dejar}} de fumar.,frequency;generated;spanish
+374,3,dejar,No te voy a {{dejar}} solo.,frequency;generated;spanish
+375,1,educación,Todos necesitan una buena {{educación}}.,frequency;generated;spanish
+375,2,educación,La {{educación}} empieza en casa.,frequency;generated;spanish
+375,3,educación,Trabaja en {{educación}} infantil.,frequency;generated;spanish
+376,1,proceso,El {{proceso}} dura diez minutos.,frequency;generated;spanish
+376,2,proceso,Aprender es un {{proceso}} lento.,frequency;generated;spanish
+376,3,proceso,El pedido está en {{proceso}}.,frequency;generated;spanish
+377,1,sentido,Eso no tiene {{sentido}}.,frequency;generated;spanish
+377,2,sentido,Perdió el {{sentido}} del olfato.,frequency;generated;spanish
+377,3,sentido,El autobús va en {{sentido}} contrario.,frequency;generated;spanish
+378,1,cinco,Tengo {{cinco}} dedos en cada mano.,frequency;generated;spanish
+378,2,cinco,Llegaré en {{cinco}} minutos.,frequency;generated;spanish
+378,3,cinco,La tienda cierra a las {{cinco}}.,frequency;generated;spanish
+379,1,clase,Tengo {{clase}} de español.,frequency;generated;spanish
+379,2,clase,¿Qué {{clase}} de pan quieres?,frequency;generated;spanish
+379,3,clase,Hoy vino toda la {{clase}}.,frequency;generated;spanish
+380,1,cuanto,Te llamaré en {{cuanto}} llegue.,frequency;generated;spanish
+380,2,cuanto,Come {{cuanto}} quieras.,frequency;generated;spanish
+380,3,cuanto,"En {{cuanto}} al precio, podemos hablar.",frequency;generated;spanish
+381,1,derechos,Todos tenemos {{derechos}}.,frequency;generated;spanish
+381,2,derechos,Debemos conocer nuestros {{derechos}}.,frequency;generated;spanish
+381,3,derechos,El libro explica los {{derechos}} del trabajador.,frequency;generated;spanish
+382,1,ello,Gracias por {{ello}}.,frequency;generated;spanish
+382,2,ello,Estoy trabajando en {{ello}}.,frequency;generated;spanish
+382,3,ello,"A pesar de {{ello}}, siguió adelante.",frequency;generated;spanish
+383,1,estás,¿Cómo {{estás}}?,frequency;generated;spanish
+383,2,estás,Hoy {{estás}} muy callado.,frequency;generated;spanish
+383,3,estás,¿{{Estás}} usando esta silla?,frequency;generated;spanish
+384,1,hijos,Tengo dos {{hijos}}.,frequency;generated;spanish
+384,2,hijos,Sus {{hijos}} ya son adultos.,frequency;generated;spanish
+384,3,hijos,Cuida a los {{hijos}} de su vecina.,frequency;generated;spanish
+385,1,mes,Nos mudamos el próximo {{mes}}.,frequency;generated;spanish
+385,2,mes,Pago el alquiler una vez al {{mes}}.,frequency;generated;spanish
+385,3,mes,¿En qué {{mes}} naciste?,frequency;generated;spanish
+386,1,usted,¿Cómo está {{usted}}?,frequency;generated;spanish
+386,2,usted,Esto es para {{usted}}.,frequency;generated;spanish
+386,3,usted,¿Es {{usted}} el doctor?,frequency;generated;spanish
+387,1,largo,El viaje fue {{largo}}.,frequency;generated;spanish
+387,2,largo,Tengo el pelo {{largo}}.,frequency;generated;spanish
+387,3,largo,Caminamos a lo {{largo}} del río.,frequency;generated;spanish
+388,1,ningún,No tengo {{ningún}} problema.,frequency;generated;spanish
+388,2,ningún,No conozco a {{ningún}} médico aquí.,frequency;generated;spanish
+388,3,ningún,No vino {{ningún}} autobús.,frequency;generated;spanish
+389,1,orden,Pon tus cosas en {{orden}}.,frequency;generated;spanish
+389,2,orden,La {{orden}} vino del jefe.,frequency;generated;spanish
+389,3,orden,Esperen su turno en {{orden}}.,frequency;generated;spanish
+390,1,puesto,Ya me he {{puesto}} el abrigo.,frequency;generated;spanish
+390,2,puesto,Solicité un {{puesto}} de trabajo.,frequency;generated;spanish
+390,3,puesto,Compré fruta en un {{puesto}}.,frequency;generated;spanish
+391,1,quieres,¿Qué {{quieres}} comer?,frequency;generated;spanish
+391,2,quieres,Hazlo como {{quieres}}.,frequency;generated;spanish
+391,3,quieres,¿Me {{quieres}} acompañar?,frequency;generated;spanish
+392,1,realmente,¿{{Realmente}} piensas eso?,frequency;generated;spanish
+392,2,realmente,Estoy {{realmente}} cansado.,frequency;generated;spanish
+392,3,realmente,Eso es lo que {{realmente}} importa.,frequency;generated;spanish
+393,1,alto,Mi hermano es muy {{alto}}.,frequency;generated;spanish
+393,2,alto,"Habla más {{alto}}, por favor.",frequency;generated;spanish
+393,3,alto,El precio es demasiado {{alto}}.,frequency;generated;spanish
+394,1,demás,Los {{demás}} ya llegaron.,frequency;generated;spanish
+394,2,demás,Piensa en los {{demás}}.,frequency;generated;spanish
+394,3,demás,Todo lo {{demás}} está listo.,frequency;generated;spanish
+395,1,dicen,¿Qué {{dicen}} las instrucciones?,frequency;generated;spanish
+395,2,dicen,Mis padres {{dicen}} que sí.,frequency;generated;spanish
+395,3,dicen,"Le {{dicen}} Pepe, pero se llama José.",frequency;generated;spanish
+396,1,diferentes,Tenemos opiniones {{diferentes}}.,frequency;generated;spanish
+396,2,diferentes,Probé tres platos {{diferentes}}.,frequency;generated;spanish
+396,3,diferentes,Las dos hermanas son muy {{diferentes}}.,frequency;generated;spanish
+397,1,español,Estoy aprendiendo {{español}}.,frequency;generated;spanish
+397,2,español,Mi vecino es {{español}}.,frequency;generated;spanish
+397,3,español,¿Cómo se dice esto en {{español}}?,frequency;generated;spanish
+398,1,junto,Siéntate {{junto}} a mí.,frequency;generated;spanish
+398,2,junto,Deja todo {{junto}}.,frequency;generated;spanish
+398,3,junto,El perro duerme {{junto}} a la puerta.,frequency;generated;spanish
+399,1,lista,Escribe una {{lista}} de compras.,frequency;generated;spanish
+399,2,lista,La cena está {{lista}}.,frequency;generated;spanish
+399,3,lista,Mi hija es muy {{lista}}.,frequency;generated;spanish
+400,1,medios,Los {{medios}} hablaron del incendio.,frequency;generated;spanish
+400,2,medios,No tengo los {{medios}} para viajar.,frequency;generated;spanish
+400,3,medios,Hay varios {{medios}} de transporte.,frequency;generated;spanish
+401,1,ninguna,No tengo {{ninguna}} duda.,frequency;generated;spanish
+401,2,ninguna,No conozco a {{ninguna}} de ellas.,frequency;generated;spanish
+401,3,ninguna,No hay {{ninguna}} farmacia abierta.,frequency;generated;spanish
+402,1,personal,Es una pregunta {{personal}}.,frequency;generated;spanish
+402,2,personal,El {{personal}} del hotel es amable.,frequency;generated;spanish
+402,3,personal,Necesito espacio {{personal}}.,frequency;generated;spanish
+403,1,total,¿Cuánto es en {{total}}?,frequency;generated;spanish
+403,2,total,Había diez personas en {{total}}.,frequency;generated;spanish
+403,3,total,Fue una sorpresa {{total}}.,frequency;generated;spanish
+404,1,trata,¿De qué se {{trata}} el libro?,frequency;generated;spanish
+404,2,trata,Ella me {{trata}} muy bien.,frequency;generated;spanish
+404,3,trata,{{Trata}} de llegar temprano.,frequency;generated;spanish
+405,1,video,Te mandé un {{video}}.,frequency;generated;spanish
+405,2,video,Vamos a grabar un {{video}}.,frequency;generated;spanish
+405,3,video,El {{video}} no tiene sonido.,frequency;generated;spanish
+406,1,viene,Mi hermana {{viene}} mañana.,frequency;generated;spanish
+406,2,viene,La semana que {{viene}} tengo vacaciones.,frequency;generated;spanish
+406,3,viene,¿De dónde {{viene}} ese ruido?,frequency;generated;spanish
+407,1,web,La página {{web}} no funciona.,frequency;generated;spanish
+407,2,web,Puedes comprarlo en la {{web}}.,frequency;generated;spanish
+407,3,web,Encontré la dirección en su sitio {{web}}.,frequency;generated;spanish
+408,1,base,La {{base}} de la mesa es ancha.,frequency;generated;spanish
+408,2,base,El arroz es la {{base}} del plato.,frequency;generated;spanish
+408,3,base,La confianza es la {{base}} de una amistad.,frequency;generated;spanish
+409,1,camino,Vamos por este {{camino}}.,frequency;generated;spanish
+409,2,camino,Estoy en {{camino}}.,frequency;generated;spanish
+409,3,camino,Nos perdimos en el {{camino}}.,frequency;generated;spanish
+410,1,digo,Te {{digo}} la verdad.,frequency;generated;spanish
+410,2,digo,Siempre {{digo}} buenos días.,frequency;generated;spanish
+410,3,digo,¿Qué le {{digo}} al médico?,frequency;generated;spanish
+411,1,empresa,Trabajo en una {{empresa}} pequeña.,frequency;generated;spanish
+411,2,empresa,La {{empresa}} busca personal.,frequency;generated;spanish
+411,3,empresa,Mi hermana abrió su propia {{empresa}}.,frequency;generated;spanish
+412,1,especial,Hoy es un día {{especial}}.,frequency;generated;spanish
+412,2,especial,Tengo algo {{especial}} para ti.,frequency;generated;spanish
+412,3,especial,El restaurante tiene un menú {{especial}}.,frequency;generated;spanish
+413,1,hola,Siempre me dice {{hola}}.,frequency;generated;spanish
+413,2,hola,"¡{{Hola}}, Ana! ¿Cómo estás?",frequency;generated;spanish
+413,3,hola,Entró sin decir {{hola}}.,frequency;generated;spanish
+414,1,paz,Quiero vivir en {{paz}}.,frequency;generated;spanish
+414,2,paz,"Déjame en {{paz}}, por favor.",frequency;generated;spanish
+414,3,paz,El acuerdo trajo {{paz}} al pueblo.,frequency;generated;spanish
+415,1,policía,Llama a la {{policía}}.,frequency;generated;spanish
+415,2,policía,Mi hermana es {{policía}}.,frequency;generated;spanish
+415,3,policía,Un {{policía}} nos mostró el camino.,frequency;generated;spanish
+416,1,queda,¿Dónde {{queda}} el museo?,frequency;generated;spanish
+416,2,queda,Solo {{queda}} una manzana.,frequency;generated;spanish
+416,3,queda,Esa camisa te {{queda}} bien.,frequency;generated;spanish
+417,1,salud,Caminar es bueno para la {{salud}}.,frequency;generated;spanish
+417,2,salud,¿Cómo está tu {{salud}}?,frequency;generated;spanish
+417,3,salud,Levantamos los vasos: ¡{{salud}}!,frequency;generated;spanish
+418,1,sitio,Este {{sitio}} es tranquilo.,frequency;generated;spanish
+418,2,sitio,¿Hay {{sitio}} para mí?,frequency;generated;spanish
+418,3,sitio,Ponlo en su {{sitio}}.,frequency;generated;spanish
+419,1,tomar,Quiero {{tomar}} agua.,frequency;generated;spanish
+419,2,tomar,Vamos a {{tomar}} el autobús.,frequency;generated;spanish
+419,3,tomar,Necesito {{tomar}} una decisión.,frequency;generated;spanish
+420,1,tuvo,Ayer {{tuvo}} fiebre.,frequency;generated;spanish
+420,2,tuvo,Mi hermana {{tuvo}} un bebé.,frequency;generated;spanish
+420,3,tuvo,No {{tuvo}} tiempo de llamar.,frequency;generated;spanish
+421,1,zona,Esta {{zona}} es tranquila.,frequency;generated;spanish
+421,2,zona,No puedes estacionar en esta {{zona}}.,frequency;generated;spanish
+421,3,zona,Hay una {{zona}} de juegos.,frequency;generated;spanish
+422,1,calle,Mira antes de cruzar la {{calle}}.,frequency;generated;spanish
+422,2,calle,¿En qué {{calle}} vives?,frequency;generated;spanish
+422,3,calle,La {{calle}} está cerrada.,frequency;generated;spanish
+423,1,cara,Lávate la {{cara}}.,frequency;generated;spanish
+423,2,cara,La camisa es demasiado {{cara}}.,frequency;generated;spanish
+423,3,cara,No le vi la {{cara}}.,frequency;generated;spanish
+424,1,línea,Dibuja una {{línea}} recta.,frequency;generated;spanish
+424,2,línea,¿Qué {{línea}} de autobús tomo?,frequency;generated;spanish
+424,3,línea,Puedes reservar en {{línea}}.,frequency;generated;spanish
+425,1,mundial,Es un problema {{mundial}}.,frequency;generated;spanish
+425,2,mundial,Vimos la final del {{mundial}}.,frequency;generated;spanish
+425,3,mundial,La cantante tiene fama {{mundial}}.,frequency;generated;spanish
+426,1,obra,La {{obra}} de teatro empieza pronto.,frequency;generated;spanish
+426,2,obra,Mi calle está en {{obra}}.,frequency;generated;spanish
+426,3,obra,Es una {{obra}} de arte.,frequency;generated;spanish
+427,1,ojos,Cierra los {{ojos}}.,frequency;generated;spanish
+427,2,ojos,Tienes los {{ojos}} rojos.,frequency;generated;spanish
+427,3,ojos,No podía creer lo que veían mis {{ojos}}.,frequency;generated;spanish
+428,1,pensar,Necesito tiempo para {{pensar}}.,frequency;generated;spanish
+428,2,pensar,No puedo dejar de {{pensar}} en ti.,frequency;generated;spanish
+428,3,pensar,Es mejor {{pensar}} antes de hablar.,frequency;generated;spanish
+429,1,servicios,El hotel ofrece varios {{servicios}}.,frequency;generated;spanish
+429,2,servicios,El alquiler incluye los {{servicios}} básicos.,frequency;generated;spanish
+429,3,servicios,La ciudad necesita mejores {{servicios}} de salud.,frequency;generated;spanish
+430,1,sociales,No uso redes {{sociales}}.,frequency;generated;spanish
+430,2,sociales,Estudia ciencias {{sociales}}.,frequency;generated;spanish
+430,3,sociales,Participa en actividades {{sociales}}.,frequency;generated;spanish
+431,1,allí,Mi abuela vive {{allí}}.,frequency;generated;spanish
+431,2,allí,Dejé las llaves {{allí}}.,frequency;generated;spanish
+431,3,allí,Desde {{allí}} se ve el mar.,frequency;generated;spanish
+432,1,atención,Presta {{atención}} a la clase.,frequency;generated;spanish
+432,2,atención,Gracias por tu {{atención}}.,frequency;generated;spanish
+432,3,atención,El color llamó mi {{atención}}.,frequency;generated;spanish
+433,1,debería,Creo que {{debería}} descansar.,frequency;generated;spanish
+433,2,debería,El tren {{debería}} llegar pronto.,frequency;generated;spanish
+433,3,debería,¿Qué {{debería}} hacer?,frequency;generated;spanish
+434,1,escuela,Mi hijo va a la {{escuela}}.,frequency;generated;spanish
+434,2,escuela,La {{escuela}} queda cerca de casa.,frequency;generated;spanish
+434,3,escuela,Hoy no hay {{escuela}}.,frequency;generated;spanish
+435,1,julio,Mi cumpleaños es en {{julio}}.,frequency;generated;spanish
+435,2,julio,Viajamos a finales de {{julio}}.,frequency;generated;spanish
+435,3,julio,El curso empieza el primero de {{julio}}.,frequency;generated;spanish
+436,1,pueda,Te ayudaré cuando {{pueda}}.,frequency;generated;spanish
+436,2,pueda,Espero que {{pueda}} venir.,frequency;generated;spanish
+436,3,pueda,Busco a alguien que {{pueda}} arreglarlo.,frequency;generated;spanish
+437,1,quieren,Mis hijos {{quieren}} un perro.,frequency;generated;spanish
+437,2,quieren,¿Qué {{quieren}} comer?,frequency;generated;spanish
+437,3,quieren,No {{quieren}} irse todavía.,frequency;generated;spanish
+438,1,respecto,No sé nada al {{respecto}}.,frequency;generated;spanish
+438,2,respecto,El precio bajó {{respecto}} al año pasado.,frequency;generated;spanish
+438,3,respecto,¿Qué piensas al {{respecto}}?,frequency;generated;spanish
+439,1,segunda,Vivo en la {{segunda}} casa.,frequency;generated;spanish
+439,2,segunda,Es la {{segunda}} vez que llamo.,frequency;generated;spanish
+439,3,segunda,Compré una bicicleta de {{segunda}} mano.,frequency;generated;spanish
+440,1,siento,Lo {{siento}} mucho.,frequency;generated;spanish
+440,2,siento,Me {{siento}} mejor.,frequency;generated;spanish
+440,3,siento,{{Siento}} frío en las manos.,frequency;generated;spanish
+441,1,ve,No se {{ve}} nada.,frequency;generated;spanish
+441,2,ve,Mi abuelo {{ve}} la televisión.,frequency;generated;spanish
+441,3,ve,{{Ve}} a casa y descansa.,frequency;generated;spanish
+442,1,vivir,Quiero {{vivir}} cerca del mar.,frequency;generated;spanish
+442,2,vivir,Es difícil {{vivir}} sin agua.,frequency;generated;spanish
+442,3,vivir,¿Con quién vas a {{vivir}}?,frequency;generated;spanish
+443,1,capital,Lima es la {{capital}} de Perú.,frequency;generated;spanish
+443,2,capital,Visitamos la {{capital}} en tren.,frequency;generated;spanish
+443,3,capital,Necesita {{capital}} para abrir una tienda.,frequency;generated;spanish
+444,1,casos,"En algunos {{casos}}, es gratis.",frequency;generated;spanish
+444,2,casos,Hay dos {{casos}} nuevos de gripe.,frequency;generated;spanish
+444,3,casos,Estudiamos varios {{casos}} en clase.,frequency;generated;spanish
+445,1,libre,¿Está {{libre}} esta silla?,frequency;generated;spanish
+445,2,libre,Mañana tengo el día {{libre}}.,frequency;generated;spanish
+445,3,libre,El pájaro es {{libre}}.,frequency;generated;spanish
+446,1,luz,Enciende la {{luz}}.,frequency;generated;spanish
+446,2,luz,Entró {{luz}} por la ventana.,frequency;generated;spanish
+446,3,luz,Se fue la {{luz}} en todo el barrio.,frequency;generated;spanish
+447,1,mejores,Somos {{mejores}} amigos.,frequency;generated;spanish
+447,2,mejores,Hoy tengo {{mejores}} noticias.,frequency;generated;spanish
+447,3,mejores,Estos zapatos son {{mejores}} para correr.,frequency;generated;spanish
+448,1,población,La {{población}} está creciendo.,frequency;generated;spanish
+448,2,población,La mitad de la {{población}} vive cerca del río.,frequency;generated;spanish
+448,3,población,Es una {{población}} pequeña.,frequency;generated;spanish
+449,1,quienes,Ellos son {{quienes}} me ayudaron.,frequency;generated;spanish
+449,2,quienes,Hay {{quienes}} prefieren caminar.,frequency;generated;spanish
+449,3,quienes,Gracias a {{quienes}} vinieron.,frequency;generated;spanish
+450,1,relación,Tengo una buena {{relación}} con mi hermana.,frequency;generated;spanish
+450,2,relación,¿Qué {{relación}} tiene eso con mi pregunta?,frequency;generated;spanish
+450,3,relación,Su {{relación}} terminó el año pasado.,frequency;generated;spanish
+451,1,sabes,¿{{Sabes}} cocinar?,frequency;generated;spanish
+451,2,sabes,Tú {{sabes}} lo que pasó.,frequency;generated;spanish
+451,3,sabes,Ya {{sabes}} dónde encontrarme.,frequency;generated;spanish
+452,1,suerte,¡Buena {{suerte}} en el examen!,frequency;generated;spanish
+452,2,suerte,"Por {{suerte}}, no llovió.",frequency;generated;spanish
+452,3,suerte,Tuve la {{suerte}} de conocerla.,frequency;generated;spanish
+453,1,varias,He venido {{varias}} veces.,frequency;generated;spanish
+453,2,varias,Tengo {{varias}} preguntas.,frequency;generated;spanish
+453,3,varias,Pasaron {{varias}} semanas.,frequency;generated;spanish
+454,1,bastante,Dormí {{bastante}} bien.,frequency;generated;spanish
+454,2,bastante,Ya comí {{bastante}}.,frequency;generated;spanish
+454,3,bastante,El autobús está {{bastante}} lleno.,frequency;generated;spanish
+455,1,cultura,Me interesa la {{cultura}} local.,frequency;generated;spanish
+455,2,cultura,La comida es parte de nuestra {{cultura}}.,frequency;generated;spanish
+455,3,cultura,Visitamos la casa de la {{cultura}}.,frequency;generated;spanish
+456,1,debido,No fui {{debido}} a la lluvia.,frequency;generated;spanish
+456,2,debido,He {{debido}} cancelar el viaje.,frequency;generated;spanish
+456,3,debido,El ruido es {{debido}} a las obras.,frequency;generated;spanish
+457,1,difícil,El examen fue {{difícil}}.,frequency;generated;spanish
+457,2,difícil,Es {{difícil}} decir que no.,frequency;generated;spanish
+457,3,difícil,Hoy tuve un día {{difícil}}.,frequency;generated;spanish
+458,1,dio,Mi madre me {{dio}} un regalo.,frequency;generated;spanish
+458,2,dio,Le {{dio}} miedo el ruido.,frequency;generated;spanish
+458,3,dio,El reloj {{dio}} las doce.,frequency;generated;spanish
+459,1,estaban,Los niños {{estaban}} dormidos.,frequency;generated;spanish
+459,2,estaban,Mis llaves {{estaban}} en la mesa.,frequency;generated;spanish
+459,3,estaban,Ellos {{estaban}} hablando de ti.,frequency;generated;spanish
+460,1,fotos,¿Puedo tomar {{fotos}} aquí?,frequency;generated;spanish
+460,2,fotos,Te mandé las {{fotos}}.,frequency;generated;spanish
+460,3,fotos,Miramos {{fotos}} de cuando éramos niños.,frequency;generated;spanish
+461,1,fuerte,El viento sopla {{fuerte}}.,frequency;generated;spanish
+461,2,fuerte,Mi hermano es muy {{fuerte}}.,frequency;generated;spanish
+461,3,fuerte,Dame un abrazo {{fuerte}}.,frequency;generated;spanish
+462,1,fácil,Es {{fácil}} llegar.,frequency;generated;spanish
+462,2,fácil,No fue una decisión {{fácil}}.,frequency;generated;spanish
+462,3,fácil,Este libro es {{fácil}} de leer.,frequency;generated;spanish
+463,1,habla,Mi hermana {{habla}} francés.,frequency;generated;spanish
+463,2,habla,El bebé todavía no {{habla}}.,frequency;generated;spanish
+463,3,habla,"{{Habla}} más despacio, por favor.",frequency;generated;spanish
+464,1,miedo,Tengo {{miedo}} a las alturas.,frequency;generated;spanish
+464,2,miedo,Ese ruido me dio {{miedo}}.,frequency;generated;spanish
+464,3,miedo,No tengas {{miedo}} de preguntar.,frequency;generated;spanish
+465,1,minutos,Llegaré en diez {{minutos}}.,frequency;generated;spanish
+465,2,minutos,Faltan cinco {{minutos}} para salir.,frequency;generated;spanish
+465,3,minutos,Calienta la sopa dos {{minutos}}.,frequency;generated;spanish
+466,1,música,Me gusta la {{música}} tranquila.,frequency;generated;spanish
+466,2,música,"Baja la {{música}}, por favor.",frequency;generated;spanish
+466,3,música,Mi hermano estudia {{música}}.,frequency;generated;spanish
+467,1,poner,Voy a {{poner}} la mesa.,frequency;generated;spanish
+467,2,poner,¿Dónde puedo {{poner}} mi bolsa?,frequency;generated;spanish
+467,3,poner,Tienes que {{poner}} atención.,frequency;generated;spanish
+468,1,pregunta,Tengo una {{pregunta}}.,frequency;generated;spanish
+468,2,pregunta,No entendí la {{pregunta}}.,frequency;generated;spanish
+468,3,pregunta,Esa es una buena {{pregunta}}.,frequency;generated;spanish
+469,1,rey,El {{rey}} vive en un palacio.,frequency;generated;spanish
+469,2,rey,El {{rey}} recibió a los visitantes.,frequency;generated;spanish
+469,3,rey,"En ajedrez, hay que proteger al {{rey}}.",frequency;generated;spanish
+470,1,apoyo,Gracias por tu {{apoyo}}.,frequency;generated;spanish
+470,2,apoyo,Necesito {{apoyo}} para caminar.,frequency;generated;spanish
+470,3,apoyo,Mi familia me da mucho {{apoyo}}.,frequency;generated;spanish
+471,1,dado,Me han {{dado}} un premio.,frequency;generated;spanish
+471,2,dado,Lanza el {{dado}}.,frequency;generated;spanish
+471,3,dado,Eso se da por {{dado}}.,frequency;generated;spanish
+472,1,deja,Mi madre me {{deja}} salir.,frequency;generated;spanish
+472,2,deja,El tren nos {{deja}} cerca.,frequency;generated;spanish
+472,3,deja,{{Deja}} la puerta abierta.,frequency;generated;spanish
+473,1,demasiado,Hace {{demasiado}} calor.,frequency;generated;spanish
+473,2,demasiado,Comí {{demasiado}}.,frequency;generated;spanish
+473,3,demasiado,Ese vestido cuesta {{demasiado}}.,frequency;generated;spanish
+474,1,espero,Te {{espero}} en la puerta.,frequency;generated;spanish
+474,2,espero,{{Espero}} que estés bien.,frequency;generated;spanish
+474,3,espero,No {{espero}} una respuesta hoy.,frequency;generated;spanish
+475,1,fuerza,Empuja con {{fuerza}}.,frequency;generated;spanish
+475,2,fuerza,No tengo {{fuerza}} para levantarlo.,frequency;generated;spanish
+475,3,fuerza,La unión hace la {{fuerza}}.,frequency;generated;spanish
+476,1,iba,"De niño, {{iba}} al parque.",frequency;generated;spanish
+476,2,iba,Te {{iba}} a llamar.,frequency;generated;spanish
+476,3,iba,El autobús {{iba}} lleno.,frequency;generated;spanish
+477,1,manos,Lávate las {{manos}}.,frequency;generated;spanish
+477,2,manos,Tengo las {{manos}} frías.,frequency;generated;spanish
+477,3,manos,Lo hizo con sus propias {{manos}}.,frequency;generated;spanish
+478,1,mayo,Nos casamos en {{mayo}}.,frequency;generated;spanish
+478,2,mayo,El curso termina a finales de {{mayo}}.,frequency;generated;spanish
+478,3,mayo,Mi cumpleaños es el dos de {{mayo}}.,frequency;generated;spanish
+479,1,mucha,Tengo {{mucha}} hambre.,frequency;generated;spanish
+479,2,mucha,Aquí vive {{mucha}} gente.,frequency;generated;spanish
+479,3,mucha,La planta necesita {{mucha}} luz.,frequency;generated;spanish
+480,1,oficial,Todavía no es {{oficial}}.,frequency;generated;spanish
+480,2,oficial,Necesito un documento {{oficial}}.,frequency;generated;spanish
+480,3,oficial,El {{oficial}} nos pidió los pasaportes.,frequency;generated;spanish
+481,1,propio,Tengo mi {{propio}} negocio.,frequency;generated;spanish
+481,2,propio,Usa tu {{propio}} vaso.,frequency;generated;spanish
+481,3,propio,Cada persona tiene su {{propio}} ritmo.,frequency;generated;spanish
+482,1,buenas,Tengo {{buenas}} noticias.,frequency;generated;spanish
+482,2,buenas,Estas manzanas están {{buenas}}.,frequency;generated;spanish
+482,3,buenas,Hay {{buenas}} razones para esperar.,frequency;generated;spanish
+483,1,control,Perdí el {{control}} del auto.,frequency;generated;spanish
+483,2,control,Todo está bajo {{control}}.,frequency;generated;spanish
+483,3,control,¿Dónde está el {{control}} remoto?,frequency;generated;spanish
+484,1,deben,Los niños {{deben}} dormir más.,frequency;generated;spanish
+484,2,deben,Me {{deben}} veinte pesos.,frequency;generated;spanish
+484,3,deben,Esas llaves {{deben}} ser tuyas.,frequency;generated;spanish
+485,1,empresas,Hay varias {{empresas}} en este edificio.,frequency;generated;spanish
+485,2,empresas,Las {{empresas}} buscan empleados.,frequency;generated;spanish
+485,3,empresas,Dos {{empresas}} ofrecen el mismo servicio.,frequency;generated;spanish
+486,1,encontrar,No puedo {{encontrar}} mis llaves.,frequency;generated;spanish
+486,2,encontrar,Espero {{encontrar}} trabajo pronto.,frequency;generated;spanish
+486,3,encontrar,¿Dónde puedo {{encontrar}} una farmacia?,frequency;generated;spanish
+487,1,inglés,¿Hablas {{inglés}}?,frequency;generated;spanish
+487,2,inglés,Mi profesor es {{inglés}}.,frequency;generated;spanish
+487,3,inglés,El menú está en {{inglés}}.,frequency;generated;spanish
+488,1,marzo,Las clases empiezan en {{marzo}}.,frequency;generated;spanish
+488,2,marzo,Nací en {{marzo}}.,frequency;generated;spanish
+488,3,marzo,Hasta {{marzo}} hace calor aquí.,frequency;generated;spanish
+489,1,peor,Hoy me siento {{peor}}.,frequency;generated;spanish
+489,2,peor,Es el {{peor}} día para viajar.,frequency;generated;spanish
+489,3,peor,La situación podría ser {{peor}}.,frequency;generated;spanish
+490,1,serie,Estamos viendo una {{serie}}.,frequency;generated;spanish
+490,2,serie,Hubo una {{serie}} de errores.,frequency;generated;spanish
+490,3,serie,Anota el número de {{serie}}.,frequency;generated;spanish
+491,1,sur,Viajamos al {{sur}}.,frequency;generated;spanish
+491,2,sur,El viento viene del {{sur}}.,frequency;generated;spanish
+491,3,sur,Mi familia vive en el {{sur}} del país.,frequency;generated;spanish
+492,1,trabajar,Empiezo a {{trabajar}} mañana.,frequency;generated;spanish
+492,2,trabajar,No puedo {{trabajar}} con tanto ruido.,frequency;generated;spanish
+492,3,trabajar,Me gusta {{trabajar}} en equipo.,frequency;generated;spanish
+493,1,última,Es la {{última}} vez que te lo pido.,frequency;generated;spanish
+493,2,última,Baja en la {{última}} parada.,frequency;generated;spanish
+493,3,última,Compré la {{última}} entrada.,frequency;generated;spanish
+494,1,edad,¿Qué {{edad}} tienes?,frequency;generated;spanish
+494,2,edad,Tenemos la misma {{edad}}.,frequency;generated;spanish
+494,3,edad,"A mi {{edad}}, prefiero descansar.",frequency;generated;spanish
+495,1,futuro,Quiero viajar en el {{futuro}}.,frequency;generated;spanish
+495,2,futuro,Pienso mucho en mi {{futuro}}.,frequency;generated;spanish
+495,3,futuro,Ese será nuestro {{futuro}} hogar.,frequency;generated;spanish
+496,1,justicia,La familia pide {{justicia}}.,frequency;generated;spanish
+496,2,justicia,Es una cuestión de {{justicia}}.,frequency;generated;spanish
+496,3,justicia,Queremos {{justicia}} para todos.,frequency;generated;spanish
+497,1,libertad,El pájaro recuperó su {{libertad}}.,frequency;generated;spanish
+497,2,libertad,Tienes {{libertad}} para elegir.,frequency;generated;spanish
+497,3,libertad,La {{libertad}} es importante.,frequency;generated;spanish
+498,1,nuestras,Estas son {{nuestras}} maletas.,frequency;generated;spanish
+498,2,nuestras,Hablemos de {{nuestras}} opciones.,frequency;generated;spanish
+498,3,nuestras,Las bicicletas son {{nuestras}}.,frequency;generated;spanish
+499,1,pesar,"A {{pesar}} de la lluvia, salimos.",frequency;generated;spanish
+499,2,pesar,Voy a {{pesar}} la fruta.,frequency;generated;spanish
+499,3,pesar,Expresó su {{pesar}} por la pérdida.,frequency;generated;spanish
+500,1,tampoco,Yo {{tampoco}} tengo hambre.,frequency;generated;spanish
+500,2,tampoco,No vino Ana ni {{tampoco}} Luis.,frequency;generated;spanish
+500,3,tampoco,Eso {{tampoco}} funciona.,frequency;generated;spanish

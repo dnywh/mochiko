@@ -1,4 +1,103 @@
 rank,variant,word,sentence,tags
+1,1,die,Ich sehe {{die}} Frau.,frequency;generated;german
+1,2,die,Mach bitte {{die}} Tür zu.,frequency;generated;german
+1,3,die,Wo sind {{die}} Schlüssel?,frequency;generated;german
+2,1,der,Das ist {{der}} Mann.,frequency;generated;german
+2,2,der,Ich helfe {{der}} Frau.,frequency;generated;german
+2,3,der,Heute ist {{der}} erste Schultag.,frequency;generated;german
+3,1,und,Anna {{und}} Paul lernen Deutsch.,frequency;generated;german
+3,2,und,Komm rein {{und}} setz dich.,frequency;generated;german
+3,3,und,Ich kaufe Brot {{und}} Käse.,frequency;generated;german
+4,1,in,Das Buch liegt {{in}} der Tasche.,frequency;generated;german
+4,2,in,Wir fahren {{in}} die Stadt.,frequency;generated;german
+4,3,in,Ich komme {{in}} zehn Minuten.,frequency;generated;german
+5,1,das,Ich lese {{das}} Buch.,frequency;generated;german
+5,2,das,Ist {{das}} dein Fahrrad?,frequency;generated;german
+5,3,das,"Ich glaube, {{das}} stimmt.",frequency;generated;german
+6,1,ich,Heute lerne {{ich}} Deutsch.,frequency;generated;german
+6,2,ich,Darf {{ich}} hier sitzen?,frequency;generated;german
+6,3,ich,Das mache {{ich}} selbst.,frequency;generated;german
+7,1,ist,Das {{ist}} gut.,frequency;generated;german
+7,2,ist,Meine Schwester {{ist}} Ärztin.,frequency;generated;german
+7,3,ist,Wo {{ist}} mein Handy?,frequency;generated;german
+8,1,nicht,Das ist {{nicht}} schwer.,frequency;generated;german
+8,2,nicht,Ich kenne ihn {{nicht}}.,frequency;generated;german
+8,3,nicht,Komm bitte {{nicht}} zu spät.,frequency;generated;german
+9,1,zu,Ich gehe {{zu}} dir.,frequency;generated;german
+9,2,zu,Der Kaffee ist {{zu}} heiß.,frequency;generated;german
+9,3,zu,Ich habe keine Zeit {{zu}} kochen.,frequency;generated;german
+10,1,den,Ich sehe {{den}} Hund.,frequency;generated;german
+10,2,den,Gib mir bitte {{den}} Stift.,frequency;generated;german
+10,3,den,Wir fahren mit {{den}} Kindern ans Meer.,frequency;generated;german
+11,1,von,Das Geschenk ist {{von}} dir.,frequency;generated;german
+11,2,von,Ich komme gerade {{von}} der Arbeit.,frequency;generated;german
+11,3,von,Das ist ein Freund {{von}} mir.,frequency;generated;german
+12,1,mit,Ich komme {{mit}} dir.,frequency;generated;german
+12,2,mit,Wir fahren {{mit}} dem Bus.,frequency;generated;german
+12,3,mit,Ich hätte gern Kaffee {{mit}} Milch.,frequency;generated;german
+13,1,es,Heute ist {{es}} kalt.,frequency;generated;german
+13,2,es,Mir geht {{es}} gut.,frequency;generated;german
+13,3,es,Gibt {{es}} hier einen Supermarkt?,frequency;generated;german
+14,1,ein,Das ist {{ein}} Buch.,frequency;generated;german
+14,2,ein,Ich brauche {{ein}} Glas Wasser.,frequency;generated;german
+14,3,ein,Hier wohnt {{ein}} guter Freund.,frequency;generated;german
+15,1,auf,Das Buch liegt {{auf}} dem Tisch.,frequency;generated;german
+15,2,auf,Ich warte {{auf}} den Bus.,frequency;generated;german
+15,3,auf,Mach bitte das Fenster {{auf}}.,frequency;generated;german
+16,1,für,Das Geschenk ist {{für}} dich.,frequency;generated;german
+16,2,für,Danke {{für}} deine Hilfe.,frequency;generated;german
+16,3,für,Ich bleibe {{für}} eine Woche.,frequency;generated;german
+17,1,im,Wir sind {{im}} Park.,frequency;generated;german
+17,2,im,{{Im}} Winter schneit es oft.,frequency;generated;german
+17,3,im,Er liest {{im}} Bett.,frequency;generated;german
+18,1,sie,Ich sehe {{sie}} heute.,frequency;generated;german
+18,2,sie,Morgen kommt {{sie}} vorbei.,frequency;generated;german
+18,3,sie,"Sind das deine Schuhe? Ja, {{sie}} sind neu.",frequency;generated;german
+19,1,eine,Ich habe {{eine}} Katze.,frequency;generated;german
+19,2,eine,Wir warten schon {{eine}} Stunde.,frequency;generated;german
+19,3,eine,Hast du {{eine}} Frage?,frequency;generated;german
+20,1,sich,Er wäscht {{sich}} jeden Morgen.,frequency;generated;german
+20,2,sich,Sie freut {{sich}} auf morgen.,frequency;generated;german
+20,3,sich,Das hört {{sich}} gut an.,frequency;generated;german
+21,1,auch,Ich komme {{auch}} mit.,frequency;generated;german
+21,2,auch,Mein Bruder spricht {{auch}} Spanisch.,frequency;generated;german
+21,3,auch,Das gilt {{auch}} für dich.,frequency;generated;german
+22,1,dem,Ich helfe {{dem}} Mann.,frequency;generated;german
+22,2,dem,Das Buch liegt auf {{dem}} Tisch.,frequency;generated;german
+22,3,dem,Ich spiele mit {{dem}} Hund.,frequency;generated;german
+23,1,des,Die Farbe {{des}} Autos ist rot.,frequency;generated;german
+23,2,des,Das ist der Anfang {{des}} Films.,frequency;generated;german
+23,3,des,Die Tür {{des}} Hauses ist offen.,frequency;generated;german
+24,1,als,Er arbeitet {{als}} Lehrer.,frequency;generated;german
+24,2,als,Mein Bruder ist älter {{als}} ich.,frequency;generated;german
+24,3,als,{{Als}} Kind wohnte ich am Meer.,frequency;generated;german
+25,1,er,Heute kommt {{er}} nach Hause.,frequency;generated;german
+25,2,er,Hat {{er}} schon gegessen?,frequency;generated;german
+25,3,er,Das hat {{er}} selbst gemacht.,frequency;generated;german
+26,1,an,Das Bild hängt {{an}} der Wand.,frequency;generated;german
+26,2,an,Ich denke oft {{an}} dich.,frequency;generated;german
+26,3,an,Ruf mich morgen {{an}}.,frequency;generated;german
+27,1,dass,"Ich weiß, {{dass}} du kommst.",frequency;generated;german
+27,2,dass,"Ich hoffe, {{dass}} es klappt.",frequency;generated;german
+27,3,dass,"Gut, {{dass}} du da bist.",frequency;generated;german
+28,1,so,Das ist {{so}} einfach.,frequency;generated;german
+28,2,so,Mach es {{so}} wie ich.,frequency;generated;german
+28,3,so,Warum bist du {{so}} müde?,frequency;generated;german
+29,1,bei,Ich bin {{bei}} meiner Freundin.,frequency;generated;german
+29,2,bei,{{Bei}} Regen bleiben wir drinnen.,frequency;generated;german
+29,3,bei,Kannst du mir {{bei}} der Arbeit helfen?,frequency;generated;german
+30,1,wie,Sie singt {{wie}} ihre Mutter.,frequency;generated;german
+30,2,wie,"Ich weiß nicht, {{wie}} das geht.",frequency;generated;german
+30,3,wie,{{Wie}} spät ist es?,frequency;generated;german
+31,1,aber,"Ich bin müde, {{aber}} glücklich.",frequency;generated;german
+31,2,aber,"Das ist schön, {{aber}} teuer.",frequency;generated;german
+31,3,aber,"Ich würde kommen, {{aber}} ich muss arbeiten.",frequency;generated;german
+32,1,aus,Ich komme {{aus}} Berlin.,frequency;generated;german
+32,2,aus,Der Tisch ist {{aus}} Holz.,frequency;generated;german
+32,3,aus,Mach bitte das Licht {{aus}}.,frequency;generated;german
+33,1,hat,Er {{hat}} einen Hund.,frequency;generated;german
+33,2,hat,Sie {{hat}} heute Geburtstag.,frequency;generated;german
+33,3,hat,Wer {{hat}} das gesagt?,frequency;generated;german
 34,1,sind,Wir {{sind}} heute zu Hause.,frequency;generated;german
 34,2,sind,Die Äpfel {{sind}} frisch.,frequency;generated;german
 34,3,sind,Meine Freunde {{sind}} schon da.,frequency;generated;german
@@ -89,3 +188,1314 @@ rank,variant,word,sentence,tags
 63,1,sein,Heute möchte ich allein {{sein}}.,frequency;generated;german
 63,2,sein,Er möchte Lehrer {{sein}}.,frequency;generated;german
 63,3,sein,Jeder darf anders {{sein}}.,frequency;generated;german
+64,1,vor,Ich warte {{vor}} der Tür.,frequency;generated;german
+64,2,vor,Wir essen {{vor}} dem Film.,frequency;generated;german
+64,3,vor,Er kam {{vor}} einer Stunde.,frequency;generated;german
+65,1,mal,Komm {{mal}} her.,frequency;generated;german
+65,2,mal,Ich war schon {{mal}} hier.,frequency;generated;german
+65,3,mal,Schau {{mal}} aus dem Fenster.,frequency;generated;german
+66,1,zur,Ich gehe {{zur}} Schule.,frequency;generated;german
+66,2,zur,Das passt {{zur}} Suppe.,frequency;generated;german
+66,3,zur,Wir haben zwei Zimmer {{zur}} Auswahl.,frequency;generated;german
+67,1,durch,Wir laufen {{durch}} den Park.,frequency;generated;german
+67,2,durch,Ich sehe dich {{durch}} das Fenster.,frequency;generated;german
+67,3,durch,Das habe ich {{durch}} Übung gelernt.,frequency;generated;german
+68,1,hier,Ich wohne {{hier}}.,frequency;generated;german
+68,2,hier,Kann ich {{hier}} bezahlen?,frequency;generated;german
+68,3,hier,Von {{hier}} sieht man das Meer.,frequency;generated;german
+69,1,mich,Kannst du {{mich}} hören?,frequency;generated;german
+69,2,mich,Ich freue {{mich}} auf dich.,frequency;generated;german
+69,3,mich,Das ist für {{mich}}.,frequency;generated;german
+70,1,bis,Ich arbeite {{bis}} sechs.,frequency;generated;german
+70,2,bis,Wir fahren {{bis}} zum Bahnhof.,frequency;generated;german
+70,3,bis,"Warte, {{bis}} ich zurück bin.",frequency;generated;german
+71,1,doch,Komm {{doch}} mit!,frequency;generated;german
+71,2,doch,Das stimmt {{doch}} gar nicht.,frequency;generated;german
+71,3,doch,"Du kommst {{doch}} morgen, oder?",frequency;generated;german
+72,1,ihr,Wie geht es {{ihr}}?,frequency;generated;german
+72,2,ihr,Ist das {{ihr}} Hund?,frequency;generated;german
+72,3,ihr,Habt {{ihr}} Hunger?,frequency;generated;german
+73,1,immer,Er kommt {{immer}} zu spät.,frequency;generated;german
+73,2,immer,Die Tage werden {{immer}} wärmer.,frequency;generated;german
+73,3,immer,Ich werde dich {{immer}} lieben.,frequency;generated;german
+74,1,jetzt,Wir müssen {{jetzt}} gehen.,frequency;generated;german
+74,2,jetzt,Bis {{jetzt}} hat niemand angerufen.,frequency;generated;german
+74,3,jetzt,Was machen wir {{jetzt}}?,frequency;generated;german
+75,1,diese,Ich nehme {{diese}} Jacke.,frequency;generated;german
+75,2,diese,{{Diese}} Woche habe ich frei.,frequency;generated;german
+75,3,diese,Kennst du {{diese}} Leute?,frequency;generated;german
+76,1,wurde,Mir {{wurde}} plötzlich kalt.,frequency;generated;german
+76,2,wurde,Das Haus {{wurde}} verkauft.,frequency;generated;german
+76,3,wurde,Meine Schwester {{wurde}} Ärztin.,frequency;generated;german
+77,1,wieder,"Schön, dich {{wieder}} zu sehen.",frequency;generated;german
+77,2,wieder,Es regnet schon {{wieder}}.,frequency;generated;german
+77,3,wieder,Wann kommst du {{wieder}}?,frequency;generated;german
+78,1,keine,Ich habe {{keine}} Zeit.,frequency;generated;german
+78,2,keine,Das sind {{keine}} Äpfel.,frequency;generated;german
+78,3,keine,Mach dir {{keine}} Sorgen.,frequency;generated;german
+79,1,alle,Sind {{alle}} da?,frequency;generated;german
+79,2,alle,Ich putze {{alle}} Fenster.,frequency;generated;german
+79,3,alle,Der Bus fährt {{alle}} zehn Minuten.,frequency;generated;german
+80,1,sehr,Ich freue mich {{sehr}}.,frequency;generated;german
+80,2,sehr,Die Suppe ist {{sehr}} heiß.,frequency;generated;german
+80,3,sehr,Du sprichst {{sehr}} gut Deutsch.,frequency;generated;german
+81,1,können,Wir {{können}} zusammen kochen.,frequency;generated;german
+81,2,können,Hier {{können}} Kinder spielen.,frequency;generated;german
+81,3,können,Wann {{können}} wir anfangen?,frequency;generated;german
+82,1,muss,Ich {{muss}} morgen arbeiten.,frequency;generated;german
+82,2,muss,Das {{muss}} dein Bruder sein.,frequency;generated;german
+82,3,muss,Der Hund {{muss}} raus.,frequency;generated;german
+83,1,uns,Kommst du zu {{uns}}?,frequency;generated;german
+83,2,uns,Wir sehen {{uns}} morgen.,frequency;generated;german
+83,3,uns,Das gehört {{uns}}.,frequency;generated;german
+84,1,bin,Ich {{bin}} müde.,frequency;generated;german
+84,2,bin,Heute {{bin}} ich früh aufgestanden.,frequency;generated;german
+84,3,bin,Um acht {{bin}} ich zu Hause.,frequency;generated;german
+85,1,unter,Die Katze liegt {{unter}} dem Bett.,frequency;generated;german
+85,2,unter,Kinder {{unter}} sechs zahlen nichts.,frequency;generated;german
+85,3,unter,Das bleibt {{unter}} uns.,frequency;generated;german
+86,1,vom,Ich komme {{vom}} Arzt.,frequency;generated;german
+86,2,vom,Das Dach {{vom}} Haus ist rot.,frequency;generated;german
+86,3,vom,Nimm die Tasche {{vom}} Tisch.,frequency;generated;german
+87,1,gut,Das riecht {{gut}}.,frequency;generated;german
+87,2,gut,Geht es dir {{gut}}?,frequency;generated;german
+87,3,gut,Du kannst {{gut}} schwimmen.,frequency;generated;german
+88,1,gibt,Hier {{gibt}} es frisches Brot.,frequency;generated;german
+88,2,gibt,Sie {{gibt}} mir einen Stift.,frequency;generated;german
+88,3,gibt,Was {{gibt}} es zum Essen?,frequency;generated;german
+89,1,hatte,Ich {{hatte}} gestern Fieber.,frequency;generated;german
+89,2,hatte,Sie {{hatte}} den Bus verpasst.,frequency;generated;german
+89,3,hatte,Er {{hatte}} keine Lust.,frequency;generated;german
+90,1,ihre,Das ist {{ihre}} Tasche.,frequency;generated;german
+90,2,ihre,Anna besucht {{ihre}} Eltern.,frequency;generated;german
+90,3,ihre,Ich kenne {{ihre}} Adresse nicht.,frequency;generated;german
+91,1,dieser,Mit {{dieser}} Karte kannst du zahlen.,frequency;generated;german
+91,2,dieser,{{Dieser}} Film ist lustig.,frequency;generated;german
+91,3,dieser,In {{dieser}} Stadt kenne ich niemanden.,frequency;generated;german
+92,1,gegen,Wir spielen {{gegen}} die Nachbarn.,frequency;generated;german
+92,2,gegen,Ich komme {{gegen}} acht.,frequency;generated;german
+92,3,gegen,Die Leiter steht {{gegen}} die Wand.,frequency;generated;german
+93,1,seine,Er sucht {{seine}} Brille.,frequency;generated;german
+93,2,seine,Das sind {{seine}} Kinder.,frequency;generated;german
+93,3,seine,Ich mag {{seine}} Stimme.,frequency;generated;german
+94,1,alles,Ist {{alles}} in Ordnung?,frequency;generated;german
+94,2,alles,Ich habe {{alles}} verstanden.,frequency;generated;german
+94,3,alles,Du kannst nicht {{alles}} tragen.,frequency;generated;german
+95,1,also,"Es regnet, {{also}} bleiben wir hier.",frequency;generated;german
+95,2,also,Du bist {{also}} der neue Nachbar.,frequency;generated;german
+95,3,also,Was machen wir {{also}}?,frequency;generated;german
+96,1,geht,Wie {{geht}} es dir?,frequency;generated;german
+96,2,geht,Mein Sohn {{geht}} zur Schule.,frequency;generated;german
+96,3,geht,Das Licht {{geht}} nicht.,frequency;generated;german
+97,1,viel,Ich habe {{viel}} gelernt.,frequency;generated;german
+97,2,viel,Das kostet zu {{viel}}.,frequency;generated;german
+97,3,viel,Heute ist es {{viel}} wärmer.,frequency;generated;german
+98,1,zeit,Hast du {{zeit}}?,frequency;generated;german
+98,2,zeit,Die {{Zeit}} vergeht schnell.,frequency;generated;german
+98,3,zeit,Es ist {{Zeit}} fürs Bett.,frequency;generated;german
+99,1,ab,Der Laden ist {{ab}} neun offen.,frequency;generated;german
+99,2,ab,Wir fahren morgen {{ab}}.,frequency;generated;german
+99,3,ab,Nimm bitte den Hut {{ab}}.,frequency;generated;german
+100,1,ganz,Das Haus ist {{ganz}} neu.,frequency;generated;german
+100,2,ganz,Ich bin nicht {{ganz}} sicher.,frequency;generated;german
+100,3,ganz,Iss den Apfel {{ganz}}.,frequency;generated;german
+101,1,machen,Was möchtest du {{machen}}?,frequency;generated;german
+101,2,machen,Wir {{machen}} eine Pause.,frequency;generated;german
+101,3,machen,Fehler {{machen}} ist normal.,frequency;generated;german
+102,1,denn,Was ist {{denn}} los?,frequency;generated;german
+102,2,denn,"Ich bleibe, {{denn}} es regnet.",frequency;generated;german
+102,3,denn,Wo wohnst du {{denn}}?,frequency;generated;german
+103,1,meine,Das ist {{meine}} Mutter.,frequency;generated;german
+103,2,meine,Ich suche {{meine}} Schuhe.,frequency;generated;german
+103,3,meine,Ich {{meine}} es ernst.,frequency;generated;german
+104,1,damit,Nimm das Messer; {{damit}} geht es leichter.,frequency;generated;german
+104,2,damit,"Ich lerne, {{damit}} ich die Prüfung bestehe.",frequency;generated;german
+104,3,damit,Bist du {{damit}} zufrieden?,frequency;generated;german
+105,1,dir,Wie geht es {{dir}}?,frequency;generated;german
+105,2,dir,Das gehört {{dir}}.,frequency;generated;german
+105,3,dir,Ich komme mit {{dir}}.,frequency;generated;german
+106,1,will,Ich {{will}} nach Hause.,frequency;generated;german
+106,2,will,Was {{will}} der Hund?,frequency;generated;german
+106,3,will,Sie {{will}} Ärztin werden.,frequency;generated;german
+107,1,einfach,Die Aufgabe ist {{einfach}}.,frequency;generated;german
+107,2,einfach,Komm {{einfach}} vorbei.,frequency;generated;german
+107,3,einfach,Das schmeckt {{einfach}} gut.,frequency;generated;german
+108,1,ohne,Ich trinke Kaffee {{ohne}} Zucker.,frequency;generated;german
+108,2,ohne,Geh nicht {{ohne}} mich.,frequency;generated;german
+108,3,ohne,Er kam {{ohne}} Jacke.,frequency;generated;german
+109,1,weil,"Ich esse, {{weil}} ich Hunger habe.",frequency;generated;german
+109,2,weil,"Sie lacht, {{weil}} der Film lustig ist.",frequency;generated;german
+109,3,weil,"Wir warten, {{weil}} der Zug spät kommt.",frequency;generated;german
+110,1,beim,Wir reden {{beim}} Essen.,frequency;generated;german
+110,2,beim,Ich bin {{beim}} Arzt.,frequency;generated;german
+110,3,beim,Hilfst du mir {{beim}} Kochen?,frequency;generated;german
+111,1,etwas,Möchtest du {{etwas}} trinken?,frequency;generated;german
+111,2,etwas,Es ist {{etwas}} kalt.,frequency;generated;german
+111,3,etwas,Ich habe {{etwas}} für dich.,frequency;generated;german
+112,1,waren,Wir {{waren}} gestern im Kino.,frequency;generated;german
+112,2,waren,Die Äpfel {{waren}} teuer.,frequency;generated;german
+112,3,waren,Wo {{waren}} meine Schlüssel?,frequency;generated;german
+113,1,zwei,Ich habe {{zwei}} Brüder.,frequency;generated;german
+113,2,zwei,Der Zug fährt um {{zwei}}.,frequency;generated;german
+113,3,zwei,Wir bleiben {{zwei}} Tage.,frequency;generated;german
+114,1,mein,Das ist {{mein}} Fahrrad.,frequency;generated;german
+114,2,mein,Wo ist {{mein}} Handy?,frequency;generated;german
+114,3,mein,Dieser Platz ist {{mein}} Lieblingsplatz.,frequency;generated;german
+115,1,eines,Das ist die Tasche {{eines}} Freundes.,frequency;generated;german
+115,2,eines,Ich nehme {{eines}} von diesen Büchern.,frequency;generated;german
+115,3,eines,{{Eines}} Tages möchte ich am Meer wohnen.,frequency;generated;german
+116,1,kein,Ich habe {{kein}} Auto.,frequency;generated;german
+116,2,kein,Das ist {{kein}} Problem.,frequency;generated;german
+116,3,kein,Hier fährt {{kein}} Bus.,frequency;generated;german
+117,1,seit,Ich wohne {{seit}} Mai hier.,frequency;generated;german
+117,2,seit,Wir warten {{seit}} einer Stunde.,frequency;generated;german
+117,3,seit,{{Seit}} gestern bin ich krank.,frequency;generated;german
+118,1,soll,Was {{soll}} ich tun?,frequency;generated;german
+118,2,soll,Ich {{soll}} dich grüßen.,frequency;generated;german
+118,3,soll,Morgen {{soll}} es regnen.,frequency;generated;german
+119,1,selbst,Das habe ich {{selbst}} gemacht.,frequency;generated;german
+119,2,selbst,Du musst {{selbst}} entscheiden.,frequency;generated;german
+119,3,selbst,{{Selbst}} mein Opa benutzt das Internet.,frequency;generated;german
+120,1,wo,"Weißt du, {{wo}} Anna ist?",frequency;generated;german
+120,2,wo,{{Wo}} wohnst du?,frequency;generated;german
+120,3,wo,"Das ist das Café, {{wo}} wir uns trafen.",frequency;generated;german
+121,1,dich,Ich rufe {{dich}} morgen an.,frequency;generated;german
+121,2,dich,Das Geschenk ist für {{dich}}.,frequency;generated;german
+121,3,dich,Setz {{dich}} bitte.,frequency;generated;german
+122,1,menschen,Hier wohnen viele {{Menschen}}.,frequency;generated;german
+122,2,menschen,Diese {{Menschen}} brauchen Hilfe.,frequency;generated;german
+122,3,menschen,Ich lerne gern neue {{Menschen}} kennen.,frequency;generated;german
+123,1,heute,Ich habe {{heute}} frei.,frequency;generated;german
+123,2,heute,Was essen wir {{heute}}?,frequency;generated;german
+123,3,heute,Ab {{heute}} rauche ich nicht mehr.,frequency;generated;german
+124,1,kommt,Wann {{kommt}} der Bus?,frequency;generated;german
+124,2,kommt,Sie {{kommt}} aus Spanien.,frequency;generated;german
+124,3,kommt,Das {{kommt}} darauf an.,frequency;generated;german
+125,1,nichts,Ich habe {{nichts}} gehört.,frequency;generated;german
+125,2,nichts,Das macht {{nichts}}.,frequency;generated;german
+125,3,nichts,Im Kühlschrank ist {{nichts}} mehr.,frequency;generated;german
+126,1,nun,Was machen wir {{nun}}?,frequency;generated;german
+126,2,nun,Ich muss {{nun}} gehen.,frequency;generated;german
+126,3,nun,Du bist {{nun}} schon eine Woche hier.,frequency;generated;german
+127,1,würde,Ich {{würde}} gern mitkommen.,frequency;generated;german
+127,2,würde,Was {{würde}} das kosten?,frequency;generated;german
+127,3,würde,An deiner Stelle {{würde}} ich warten.,frequency;generated;german
+128,1,leben,Wir {{leben}} auf dem Land.,frequency;generated;german
+128,2,leben,Das {{Leben}} ist schön.,frequency;generated;german
+128,3,leben,Ich möchte gesund {{leben}}.,frequency;generated;german
+129,1,wer,{{Wer}} hat angerufen?,frequency;generated;german
+129,2,wer,"Ich weiß nicht, {{wer}} das ist.",frequency;generated;german
+129,3,wer,{{Wer}} möchte noch Suppe?,frequency;generated;german
+130,1,macht,Was {{macht}} dein Bruder?,frequency;generated;german
+130,2,macht,Das {{macht}} mir Spaß.,frequency;generated;german
+130,3,macht,Sie {{macht}} das Fenster auf.,frequency;generated;german
+131,1,anderen,Frag einen {{anderen}} Arzt.,frequency;generated;german
+131,2,anderen,Die {{anderen}} warten draußen.,frequency;generated;german
+131,3,anderen,Ich wohne auf der {{anderen}} Straßenseite.,frequency;generated;german
+132,1,ihm,Ich helfe {{ihm}}.,frequency;generated;german
+132,2,ihm,Kommst du mit {{ihm}}?,frequency;generated;german
+132,3,ihm,Das gehört {{ihm}}.,frequency;generated;german
+133,1,jahr,Dieses {{Jahr}} lerne ich Deutsch.,frequency;generated;german
+133,2,jahr,Wir fahren einmal im {{Jahr}} ans Meer.,frequency;generated;german
+133,3,jahr,Das Baby ist ein {{Jahr}} alt.,frequency;generated;german
+134,1,ob,"Ich weiß nicht, {{ob}} sie kommt.",frequency;generated;german
+134,2,ob,"Frag, {{ob}} noch Brot da ist.",frequency;generated;german
+134,3,ob,"Es ist egal, {{ob}} es regnet.",frequency;generated;german
+135,1,ihn,Ich kenne {{ihn}} gut.,frequency;generated;german
+135,2,ihn,Ruf {{ihn}} bitte an.,frequency;generated;german
+135,3,ihn,Wir warten auf {{ihn}}.,frequency;generated;german
+136,1,jahren,Ich wohne seit drei {{Jahren}} hier.,frequency;generated;german
+136,2,jahren,Vor zehn {{Jahren}} war das ein Kino.,frequency;generated;german
+136,3,jahren,In zwei {{Jahren}} bin ich fertig.,frequency;generated;german
+137,1,seiner,Er hilft {{seiner}} Mutter.,frequency;generated;german
+137,2,seiner,Das Fahrrad gehört {{seiner}} Schwester.,frequency;generated;german
+137,3,seiner,Ich wohne in {{seiner}} Straße.,frequency;generated;german
+138,1,viele,Wie {{viele}} Äpfel brauchst du?,frequency;generated;german
+138,2,viele,Ich habe {{viele}} Freunde hier.,frequency;generated;german
+138,3,viele,{{Viele}} kommen mit dem Bus.,frequency;generated;german
+139,1,zwischen,Setz dich {{zwischen}} uns.,frequency;generated;german
+139,2,zwischen,Der Laden liegt {{zwischen}} Bank und Schule.,frequency;generated;german
+139,3,zwischen,Ich komme {{zwischen}} acht und neun.,frequency;generated;german
+140,1,jahre,Zwei {{Jahre}} sind schnell vergangen.,frequency;generated;german
+140,2,jahre,Meine Tochter ist fünf {{Jahre}} alt.,frequency;generated;german
+140,3,jahre,Die letzten zwei {{Jahre}} waren schön.,frequency;generated;german
+141,1,wäre,Das {{wäre}} toll.,frequency;generated;german
+141,2,wäre,Ohne dich {{wäre}} ich allein.,frequency;generated;german
+141,3,wäre,"Wenn ich reich {{wäre}}, würde ich reisen.",frequency;generated;german
+142,1,diesem,Mit {{diesem}} Bus kommst du zum Bahnhof.,frequency;generated;german
+142,2,diesem,In {{diesem}} Jahr regnet es viel.,frequency;generated;german
+142,3,diesem,Ich helfe {{diesem}} Mann.,frequency;generated;german
+143,1,dieses,Ich lese {{dieses}} Buch.,frequency;generated;german
+143,2,dieses,{{Dieses}} Mal komme ich mit.,frequency;generated;german
+143,3,dieses,Die Farbe {{dieses}} Autos gefällt mir.,frequency;generated;german
+144,1,wurden,Die Kinder {{wurden}} müde.,frequency;generated;german
+144,2,wurden,Alle Fenster {{wurden}} geputzt.,frequency;generated;german
+144,3,wurden,Wann {{wurden}} die Häuser gebaut?,frequency;generated;german
+145,1,dabei,Bist du morgen {{dabei}}?,frequency;generated;german
+145,2,dabei,Ich habe kein Geld {{dabei}}.,frequency;generated;german
+145,3,dabei,"Pass auf, dass du dich {{dabei}} nicht verletzt.",frequency;generated;german
+146,1,dort,Meine Eltern wohnen {{dort}}.,frequency;generated;german
+146,2,dort,Stell die Tasche {{dort}} hin.,frequency;generated;german
+146,3,dort,Von {{dort}} sieht man die Berge.,frequency;generated;german
+147,1,müssen,Wir {{müssen}} jetzt gehen.,frequency;generated;german
+147,2,müssen,Kinder {{müssen}} genug schlafen.,frequency;generated;german
+147,3,müssen,Warum {{müssen}} wir warten?,frequency;generated;german
+148,1,gerade,Ich koche {{gerade}}.,frequency;generated;german
+148,2,gerade,Die Linie ist nicht {{gerade}}.,frequency;generated;german
+148,3,gerade,Er ist {{gerade}} angekommen.,frequency;generated;german
+149,1,neue,Ich habe eine {{neue}} Jacke.,frequency;generated;german
+149,2,neue,Hier entstehen {{neue}} Häuser.,frequency;generated;german
+149,3,neue,Die {{neue}} Lehrerin ist nett.,frequency;generated;german
+150,1,sondern,"Das ist kein Tee, {{sondern}} Kaffee.",frequency;generated;german
+150,2,sondern,"Ich fahre nicht, {{sondern}} gehe zu Fuß.",frequency;generated;german
+150,3,sondern,"Nicht ich, {{sondern}} Anna hat gewonnen.",frequency;generated;german
+151,1,erst,Es ist {{erst}} sieben.,frequency;generated;german
+151,2,erst,Ich esse {{erst}} später.,frequency;generated;german
+151,3,erst,Lies {{erst}} die Frage.,frequency;generated;german
+152,1,ersten,Ich nehme den {{ersten}} Zug.,frequency;generated;german
+152,2,ersten,Am {{ersten}} Tag war ich nervös.,frequency;generated;german
+152,3,ersten,Das ist zum {{ersten}} Mal passiert.,frequency;generated;german
+153,1,ihrer,Sie fährt mit {{ihrer}} Schwester.,frequency;generated;german
+153,2,ihrer,Das Auto gehört {{ihrer}} Mutter.,frequency;generated;german
+153,3,ihrer,Er wohnt in {{ihrer}} Nähe.,frequency;generated;german
+154,1,lassen,Kannst du die Tür offen {{lassen}}?,frequency;generated;german
+154,2,lassen,Wir {{lassen}} das Auto zu Hause.,frequency;generated;german
+154,3,lassen,Ich möchte meine Haare schneiden {{lassen}}.,frequency;generated;german
+155,1,sollte,Ich {{sollte}} mehr schlafen.,frequency;generated;german
+155,2,sollte,Man {{sollte}} nicht mit vollem Mund sprechen.,frequency;generated;german
+155,3,sollte,Der Zug {{sollte}} bald kommen.,frequency;generated;german
+156,1,andere,Ich möchte eine {{andere}} Farbe.,frequency;generated;german
+156,2,andere,Das {{andere}} Zimmer ist größer.,frequency;generated;german
+156,3,andere,"Manche lesen, {{andere}} hören Musik.",frequency;generated;german
+157,1,hast,{{Hast}} du Hunger?,frequency;generated;german
+157,2,hast,Wo {{hast}} du das gekauft?,frequency;generated;german
+157,3,hast,Heute {{hast}} du frei.,frequency;generated;german
+158,1,warum,{{Warum}} lachst du?,frequency;generated;german
+158,2,warum,"Ich verstehe nicht, {{warum}} er geht.",frequency;generated;german
+158,3,warum,"Sag mir, {{warum}} du traurig bist.",frequency;generated;german
+159,1,weiß,Ich {{weiß}} die Antwort.,frequency;generated;german
+159,2,weiß,Die Wand ist {{weiß}}.,frequency;generated;german
+159,3,weiß,"Niemand {{weiß}}, wo er wohnt.",frequency;generated;german
+160,1,weiter,Gehen wir {{weiter}}.,frequency;generated;german
+160,2,weiter,Das hilft mir nicht {{weiter}}.,frequency;generated;german
+160,3,weiter,Ich wohne etwas {{weiter}} weg.,frequency;generated;german
+161,1,wirklich,Ist das {{wirklich}} wahr?,frequency;generated;german
+161,2,wirklich,Das schmeckt {{wirklich}} gut.,frequency;generated;german
+161,3,wirklich,Ich weiß es {{wirklich}} nicht.,frequency;generated;german
+162,1,ihnen,Ich helfe {{ihnen}} beim Umzug.,frequency;generated;german
+162,2,ihnen,Die Kinder schlafen; sei leise bei {{ihnen}}.,frequency;generated;german
+162,3,ihnen,Das Auto gehört {{ihnen}}.,frequency;generated;german
+163,1,ihren,Sie sucht {{ihren}} Schlüssel.,frequency;generated;german
+163,2,ihren,Er spielt mit {{ihren}} Kindern.,frequency;generated;german
+163,3,ihren,Anna besucht {{ihren}} Vater.,frequency;generated;german
+164,1,mann,Dieser {{Mann}} ist mein Nachbar.,frequency;generated;german
+164,2,mann,Mein {{Mann}} kocht gern.,frequency;generated;german
+164,3,mann,Frag den {{Mann}} an der Kasse.,frequency;generated;german
+165,1,wohl,Er kommt {{wohl}} später.,frequency;generated;german
+165,2,wohl,Fühlst du dich {{wohl}}?,frequency;generated;german
+165,3,wohl,Das wird {{wohl}} stimmen.,frequency;generated;german
+166,1,drei,Ich habe {{drei}} Fragen.,frequency;generated;german
+166,2,drei,Wir treffen uns um {{drei}}.,frequency;generated;german
+166,3,drei,Das Kind wird {{drei}}.,frequency;generated;german
+167,1,seinen,Er sucht {{seinen}} Hund.,frequency;generated;german
+167,2,seinen,Sie spielt mit {{seinen}} Kindern.,frequency;generated;german
+167,3,seinen,Ich kenne {{seinen}} Namen.,frequency;generated;german
+168,1,vielleicht,{{Vielleicht}} regnet es morgen.,frequency;generated;german
+168,2,vielleicht,Kannst du mir {{vielleicht}} helfen?,frequency;generated;german
+168,3,vielleicht,Ich komme {{vielleicht}} etwas später.,frequency;generated;german
+169,1,dazu,Möchtest du Brot {{dazu}}?,frequency;generated;german
+169,2,dazu,Was sagst du {{dazu}}?,frequency;generated;german
+169,3,dazu,Ich habe keine Zeit {{dazu}}.,frequency;generated;german
+170,1,diesen,Ich nehme {{diesen}} Pullover.,frequency;generated;german
+170,2,diesen,Mit {{diesen}} Schuhen kann ich gut laufen.,frequency;generated;german
+170,3,diesen,In {{diesen}} Tagen ist viel los.,frequency;generated;german
+171,1,euch,Wie geht es {{euch}}?,frequency;generated;german
+171,2,euch,Ich freue mich auf {{euch}}.,frequency;generated;german
+171,3,euch,Setzt {{euch}} bitte.,frequency;generated;german
+172,1,kommen,Wann kannst du {{kommen}}?,frequency;generated;german
+172,2,kommen,Meine Eltern {{kommen}} morgen.,frequency;generated;german
+172,3,kommen,Woher {{kommen}} diese Geräusche?,frequency;generated;german
+173,1,wollen,Wir {{wollen}} ans Meer fahren.,frequency;generated;german
+173,2,wollen,Was {{wollen}} die Kinder?,frequency;generated;german
+173,3,wollen,Sie {{wollen}} nicht warten.,frequency;generated;german
+174,1,bitte,"Ein Wasser, {{bitte}}.",frequency;generated;german
+174,2,bitte,Komm {{bitte}} herein.,frequency;generated;german
+174,3,bitte,Ich {{bitte}} dich um Hilfe.,frequency;generated;german
+175,1,hätte,Ich {{hätte}} gern einen Tee.,frequency;generated;german
+175,2,hätte,Ohne dich {{hätte}} ich das vergessen.,frequency;generated;german
+175,3,hätte,"Wenn ich Zeit {{hätte}}, käme ich mit.",frequency;generated;german
+176,1,sei,{{Sei}} bitte leise.,frequency;generated;german
+176,2,sei,"Er sagt, er {{sei}} krank.",frequency;generated;german
+176,3,sei,{{Sei}} vorsichtig auf der Treppe.,frequency;generated;german
+177,1,könnte,Das {{könnte}} stimmen.,frequency;generated;german
+177,2,könnte,Ich {{könnte}} dir morgen helfen.,frequency;generated;german
+177,3,könnte,Es {{könnte}} heute schneien.,frequency;generated;german
+178,1,sehen,Ich kann dich nicht {{sehen}}.,frequency;generated;german
+178,2,sehen,Wir {{sehen}} uns morgen.,frequency;generated;german
+178,3,sehen,Möchtest du die Fotos {{sehen}}?,frequency;generated;german
+179,1,sowie,Bring Brot {{sowie}} etwas Käse mit.,frequency;generated;german
+179,2,sowie,Der Preis enthält Essen {{sowie}} Getränke.,frequency;generated;german
+179,3,sowie,Eltern {{sowie}} Kinder sind eingeladen.,frequency;generated;german
+180,1,tag,Ich wünsche dir einen schönen {{Tag}}.,frequency;generated;german
+180,2,tag,Ich arbeite jeden {{Tag}}.,frequency;generated;german
+180,3,tag,Wir bleiben nur einen {{Tag}}.,frequency;generated;german
+181,1,dafür,Danke {{dafür}}.,frequency;generated;german
+181,2,dafür,"Ich bin {{dafür}}, dass wir bleiben.",frequency;generated;german
+181,3,dafür,Hast du genug Geld {{dafür}}?,frequency;generated;german
+182,1,ins,Wir gehen {{ins}} Kino.,frequency;generated;german
+182,2,ins,Leg das Buch {{ins}} Regal.,frequency;generated;german
+182,3,ins,Ich gehe jetzt {{ins}} Bett.,frequency;generated;german
+183,1,sagen,Was möchtest du {{sagen}}?,frequency;generated;german
+183,2,sagen,Kannst du mir den Weg {{sagen}}?,frequency;generated;german
+183,3,sagen,"Alle {{sagen}}, dass es gut ist.",frequency;generated;german
+184,1,steht,Das Glas {{steht}} auf dem Tisch.,frequency;generated;german
+184,2,steht,Was {{steht}} auf dem Schild?,frequency;generated;german
+184,3,steht,Die Tür {{steht}} offen.,frequency;generated;german
+185,1,während,Ich lese {{während}} der Fahrt.,frequency;generated;german
+185,2,während,"Warte hier, {{während}} ich bezahle.",frequency;generated;german
+185,3,während,Bitte sei {{während}} des Films leise.,frequency;generated;german
+186,1,bereits,Ich habe {{bereits}} bezahlt.,frequency;generated;german
+186,2,bereits,Es ist {{bereits}} dunkel.,frequency;generated;german
+186,3,bereits,Wir kennen uns {{bereits}}.,frequency;generated;german
+187,1,deutschen,Ich lese einen {{deutschen}} Text.,frequency;generated;german
+187,2,deutschen,Wir sprechen mit den {{deutschen}} Gästen.,frequency;generated;german
+187,3,deutschen,Die {{deutschen}} Wörter sind manchmal lang.,frequency;generated;german
+188,1,ende,Am {{Ende}} hat sie gewonnen.,frequency;generated;german
+188,2,ende,Das {{Ende}} des Films war traurig.,frequency;generated;german
+188,3,ende,Bis {{Ende}} Mai bleibe ich hier.,frequency;generated;german
+189,1,nie,Ich war noch {{nie}} dort.,frequency;generated;german
+189,2,nie,Sie kommt {{nie}} zu spät.,frequency;generated;german
+189,3,nie,Das vergesse ich {{nie}}.,frequency;generated;german
+190,1,uhr,Es ist acht {{Uhr}}.,frequency;generated;german
+190,2,uhr,Meine {{Uhr}} geht falsch.,frequency;generated;german
+190,3,uhr,Die {{Uhr}} hängt an der Wand.,frequency;generated;german
+191,1,weg,Der {{Weg}} ist lang.,frequency;generated;german
+191,2,weg,Meine Tasche ist {{weg}}.,frequency;generated;german
+191,3,weg,Geh bitte nicht {{weg}}.,frequency;generated;german
+192,1,wegen,Wir bleiben {{wegen}} des Regens hier.,frequency;generated;german
+192,2,wegen,Ich rufe {{wegen}} der Wohnung an.,frequency;generated;german
+192,3,wegen,{{Wegen}} dir habe ich gelacht.,frequency;generated;german
+193,1,besser,Heute geht es mir {{besser}}.,frequency;generated;german
+193,2,besser,Das kann ich {{besser}}.,frequency;generated;german
+193,3,besser,Dieser Weg ist {{besser}} für Fahrräder.,frequency;generated;german
+194,1,einmal,Ich war {{einmal}} in Wien.,frequency;generated;german
+194,2,einmal,Sag das bitte noch {{einmal}}.,frequency;generated;german
+194,3,einmal,Wir treffen uns {{einmal}} pro Woche.,frequency;generated;german
+195,1,frau,Diese {{Frau}} ist Ärztin.,frequency;generated;german
+195,2,frau,Meine {{Frau}} kommt gleich.,frequency;generated;german
+195,3,frau,"Guten Morgen, {{Frau}} Müller.",frequency;generated;german
+196,1,stadt,Ich wohne in einer kleinen {{Stadt}}.,frequency;generated;german
+196,2,stadt,Wir fahren in die {{Stadt}}.,frequency;generated;german
+196,3,stadt,Die {{Stadt}} baut eine Schule.,frequency;generated;german
+197,1,welt,Die {{Welt}} ist groß.,frequency;generated;german
+197,2,welt,Das Baby kam gestern zur {{Welt}}.,frequency;generated;german
+197,3,welt,Er reist um die {{Welt}}.,frequency;generated;german
+198,1,gehen,Wir {{gehen}} zu Fuß.,frequency;generated;german
+198,2,gehen,Wie soll das {{gehen}}?,frequency;generated;german
+198,3,gehen,Ich muss jetzt {{gehen}}.,frequency;generated;german
+199,1,gemacht,Was hast du gestern {{gemacht}}?,frequency;generated;german
+199,2,gemacht,Der Tisch ist aus Holz {{gemacht}}.,frequency;generated;german
+199,3,gemacht,Das hast du gut {{gemacht}}.,frequency;generated;german
+200,1,genau,Das kostet {{genau}} zehn Euro.,frequency;generated;german
+200,2,genau,Wo {{genau}} wohnst du?,frequency;generated;german
+200,3,genau,Hör bitte {{genau}} zu.,frequency;generated;german
+201,1,danke,"Sag auch {{danke}}, wenn dir jemand hilft.",frequency;generated;german
+201,2,danke,"Nein, {{danke}}, ich bin satt.",frequency;generated;german
+201,3,danke,Ich {{danke}} dir für deine Geduld.,frequency;generated;german
+202,1,gar,Das ist {{gar}} nicht schwer.,frequency;generated;german
+202,2,gar,Ich habe {{gar}} nichts gehört.,frequency;generated;german
+202,3,gar,Ist das Fleisch schon {{gar}}?,frequency;generated;german
+203,1,konnte,Ich {{konnte}} gestern nicht kommen.,frequency;generated;german
+203,2,konnte,Als Kind {{konnte}} sie gut schwimmen.,frequency;generated;german
+203,3,konnte,Niemand {{konnte}} die Tür öffnen.,frequency;generated;german
+204,1,leute,Hier sind viele {{Leute}}.,frequency;generated;german
+204,2,leute,Die {{Leute}} warten auf den Bus.,frequency;generated;german
+204,3,leute,Ich kenne nette {{Leute}} im Haus.,frequency;generated;german
+205,1,neuen,Ich brauche einen {{neuen}} Pass.,frequency;generated;german
+205,2,neuen,Mit den {{neuen}} Schuhen laufe ich gut.,frequency;generated;german
+205,3,neuen,Wir wohnen im {{neuen}} Haus.,frequency;generated;german
+206,1,seinem,Er fährt mit {{seinem}} Bruder.,frequency;generated;german
+206,2,seinem,Das Spielzeug gehört {{seinem}} Kind.,frequency;generated;german
+206,3,seinem,Sie wohnt neben {{seinem}} Haus.,frequency;generated;german
+207,1,unsere,Das ist {{unsere}} Wohnung.,frequency;generated;german
+207,2,unsere,Wir suchen {{unsere}} Katze.,frequency;generated;german
+207,3,unsere,{{Unsere}} Kinder spielen zusammen.,frequency;generated;german
+208,1,dies,Ist {{dies}} dein Stift?,frequency;generated;german
+208,2,dies,Ich möchte {{dies}} noch sagen.,frequency;generated;german
+208,3,dies,{{Dies}} ist der letzte Versuch.,frequency;generated;german
+209,1,etwa,Das dauert {{etwa}} zehn Minuten.,frequency;generated;german
+209,2,etwa,Hast du {{etwa}} meinen Kuchen gegessen?,frequency;generated;german
+209,3,etwa,Es kostet {{etwa}} zwanzig Euro.,frequency;generated;german
+210,1,jeder,Hier kennt {{jeder}} jeden.,frequency;generated;german
+210,2,jeder,{{Jeder}} Tag ist anders.,frequency;generated;german
+210,3,jeder,In {{jeder}} Tasche ist ein Buch.,frequency;generated;german
+211,1,natürlich,Du kannst {{natürlich}} mitkommen.,frequency;generated;german
+211,2,natürlich,Die Farbe wirkt {{natürlich}}.,frequency;generated;german
+211,3,natürlich,Das habe ich {{natürlich}} vergessen!,frequency;generated;german
+212,1,bist,Wo {{bist}} du?,frequency;generated;german
+212,2,bist,Heute {{bist}} du früh dran.,frequency;generated;german
+212,3,bist,{{Bist}} du schon fertig?,frequency;generated;german
+213,1,gute,Das ist eine {{gute}} Idee.,frequency;generated;german
+213,2,gute,Ich habe {{gute}} Nachrichten.,frequency;generated;german
+213,3,gute,Ich wünsche dir eine {{gute}} Nacht.,frequency;generated;german
+214,1,recht,Du hast {{recht}}.,frequency;generated;german
+214,2,recht,Das ist mir {{recht}}.,frequency;generated;german
+214,3,recht,Es ist {{recht}} kalt heute.,frequency;generated;german
+215,1,finden,Ich kann meine Brille nicht {{finden}}.,frequency;generated;german
+215,2,finden,Wie {{finden}} wir den Bahnhof?,frequency;generated;german
+215,3,finden,Viele {{finden}} den Film gut.,frequency;generated;german
+216,1,geben,Kannst du mir Wasser {{geben}}?,frequency;generated;german
+216,2,geben,Wir {{geben}} ihm einen Schlüssel.,frequency;generated;german
+216,3,geben,Es wird bald Regen {{geben}}.,frequency;generated;german
+217,1,kinder,Die {{Kinder}} spielen draußen.,frequency;generated;german
+217,2,kinder,Hast du {{Kinder}}?,frequency;generated;german
+217,3,kinder,Dieses Buch ist für {{Kinder}}.,frequency;generated;german
+218,1,werde,Ich {{werde}} morgen anrufen.,frequency;generated;german
+218,2,werde,Bald {{werde}} ich dreißig.,frequency;generated;german
+218,3,werde,Ich {{werde}} langsam müde.,frequency;generated;german
+219,1,geld,Ich habe kein {{Geld}} dabei.,frequency;generated;german
+219,2,geld,Wir sparen {{Geld}} für eine Reise.,frequency;generated;german
+219,3,geld,Wie viel {{Geld}} brauchst du?,frequency;generated;german
+220,1,gleich,Ich komme {{gleich}}.,frequency;generated;german
+220,2,gleich,Die beiden Taschen sind {{gleich}}.,frequency;generated;german
+220,3,gleich,Das ist mir {{gleich}}.,frequency;generated;german
+221,1,keinen,Ich habe {{keinen}} Hunger.,frequency;generated;german
+221,2,keinen,Hier gibt es {{keinen}} Aufzug.,frequency;generated;german
+221,3,keinen,Ich kenne {{keinen}} von ihnen.,frequency;generated;german
+222,1,lange,Wie {{lange}} bleibst du?,frequency;generated;german
+222,2,lange,Ich habe {{lange}} gewartet.,frequency;generated;german
+222,3,lange,Die {{lange}} Hose ist zu warm.,frequency;generated;german
+223,1,sagt,Was {{sagt}} der Arzt?,frequency;generated;german
+223,2,sagt,Meine Mutter {{sagt}} immer die Wahrheit.,frequency;generated;german
+223,3,sagt,"Er {{sagt}}, dass er später kommt.",frequency;generated;german
+224,1,teil,Ich habe nur einen {{Teil}} gelesen.,frequency;generated;german
+224,2,teil,Das ist ein {{Teil}} meines Plans.,frequency;generated;german
+224,3,teil,Sie nimmt am Kurs {{teil}}.,frequency;generated;german
+225,1,allem,Ich esse vor {{allem}} Gemüse.,frequency;generated;german
+225,2,allem,Trotz {{allem}} war es schön.,frequency;generated;german
+225,3,allem,Mit {{allem}} zusammen kostet es zehn Euro.,frequency;generated;german
+226,1,beiden,Die {{beiden}} sind Geschwister.,frequency;generated;german
+226,2,beiden,Ich schreibe mit {{beiden}} Händen.,frequency;generated;german
+226,3,beiden,Welches der {{beiden}} Bücher willst du?,frequency;generated;german
+227,1,davon,Ich nehme zwei {{davon}}.,frequency;generated;german
+227,2,davon,Ich habe nichts {{davon}} gehört.,frequency;generated;german
+227,3,davon,Was hältst du {{davon}}?,frequency;generated;german
+228,1,eigentlich,Was machst du {{eigentlich}} beruflich?,frequency;generated;german
+228,2,eigentlich,Ich wollte {{eigentlich}} zu Hause bleiben.,frequency;generated;german
+228,3,eigentlich,Das ist {{eigentlich}} ganz einfach.,frequency;generated;german
+229,1,fast,Ich bin {{fast}} fertig.,frequency;generated;german
+229,2,fast,Wir sehen uns {{fast}} jeden Tag.,frequency;generated;german
+229,3,fast,Das Glas ist {{fast}} leer.,frequency;generated;german
+230,1,richtig,Ist die Antwort {{richtig}}?,frequency;generated;german
+230,2,richtig,Heute ist es {{richtig}} kalt.,frequency;generated;german
+230,3,richtig,Das fühlt sich {{richtig}} an.,frequency;generated;german
+231,1,tun,Was kann ich für dich {{tun}}?,frequency;generated;german
+231,2,tun,Das hat nichts mit dir zu {{tun}}.,frequency;generated;german
+231,3,tun,Meine Füße {{tun}} weh.,frequency;generated;german
+232,1,arbeit,Ich suche {{Arbeit}}.,frequency;generated;german
+232,2,arbeit,Die {{Arbeit}} macht mir Spaß.,frequency;generated;german
+232,3,arbeit,Nach der {{Arbeit}} gehe ich schwimmen.,frequency;generated;german
+233,1,denen,"Das sind Freunde, mit {{denen}} ich wohne.",frequency;generated;german
+233,2,denen,"Die Kinder, {{denen}} ich helfe, sind nett.",frequency;generated;german
+233,3,denen,"Das sind die Bücher, von {{denen}} ich erzählt habe.",frequency;generated;german
+234,1,deutsche,Ich lerne {{deutsche}} Wörter.,frequency;generated;german
+234,2,deutsche,Die {{deutsche}} Küche kenne ich kaum.,frequency;generated;german
+234,3,deutsche,Meine {{deutsche}} Freundin kommt morgen.,frequency;generated;german
+235,1,erste,Sie ist die {{erste}} Besucherin.,frequency;generated;german
+235,2,erste,Nimm die {{erste}} Straße links.,frequency;generated;german
+235,3,erste,Die {{erste}} Stunde ist kostenlos.,frequency;generated;german
+236,1,frage,Ich habe eine {{Frage}}.,frequency;generated;german
+236,2,frage,Das ist eine gute {{Frage}}.,frequency;generated;german
+236,3,frage,Ich {{frage}} morgen den Arzt.,frequency;generated;german
+237,1,meiner,Ich helfe {{meiner}} Schwester.,frequency;generated;german
+237,2,meiner,Das ist das Auto {{meiner}} Mutter.,frequency;generated;german
+237,3,meiner,In {{meiner}} Tasche liegt ein Buch.,frequency;generated;german
+238,1,sieht,Das Essen {{sieht}} gut aus.,frequency;generated;german
+238,2,sieht,Er {{sieht}} ohne Brille nichts.,frequency;generated;german
+238,3,sieht,Sie {{sieht}} ihren Vater selten.,frequency;generated;german
+239,1,zurück,Wann kommst du {{zurück}}?,frequency;generated;german
+239,2,zurück,Gib mir den Stift {{zurück}}.,frequency;generated;german
+239,3,zurück,Geh einen Schritt {{zurück}}.,frequency;generated;german
+240,1,deine,Ist das {{deine}} Tasche?,frequency;generated;german
+240,2,deine,Ich mag {{deine}} Schuhe.,frequency;generated;german
+240,3,deine,Ich brauche {{deine}} Hilfe.,frequency;generated;german
+241,1,jedoch,"Ich komme, {{jedoch}} etwas später.",frequency;generated;german
+241,2,jedoch,"Das ist schön, {{jedoch}} teuer.",frequency;generated;german
+241,3,jedoch,Er hat {{jedoch}} keine Zeit.,frequency;generated;german
+242,1,klar,Ist alles {{klar}}?,frequency;generated;german
+242,2,klar,Das Wasser ist {{klar}}.,frequency;generated;german
+242,3,klar,{{Klar}} kannst du bleiben!,frequency;generated;german
+243,1,paar,Warte ein {{paar}} Minuten.,frequency;generated;german
+243,2,paar,Ich brauche ein {{Paar}} Schuhe.,frequency;generated;german
+243,3,paar,Die beiden sind ein {{Paar}}.,frequency;generated;german
+244,1,große,Ich habe eine {{große}} Familie.,frequency;generated;german
+244,2,große,Das ist eine {{große}} Hilfe.,frequency;generated;german
+244,3,große,Die {{große}} Tasche ist schwer.,frequency;generated;german
+245,1,großen,Wir wohnen in einem {{großen}} Haus.,frequency;generated;german
+245,2,großen,Ich nehme den {{großen}} Teller.,frequency;generated;german
+245,3,großen,Die {{großen}} Fenster lassen viel Licht herein.,frequency;generated;german
+246,1,liegt,Das Buch {{liegt}} auf dem Bett.,frequency;generated;german
+246,2,liegt,Der Ort {{liegt}} am Meer.,frequency;generated;german
+246,3,liegt,Woran {{liegt}} das?,frequency;generated;german
+247,1,welche,{{Welche}} Jacke nimmst du?,frequency;generated;german
+247,2,welche,"Ich weiß nicht, {{welche}} Größe ich brauche.",frequency;generated;german
+247,3,welche,Hast du Stifte? Ich habe {{welche}}.,frequency;generated;german
+248,1,wissen,Das möchte ich {{wissen}}.,frequency;generated;german
+248,2,wissen,Wir {{wissen}} den Weg.,frequency;generated;german
+248,3,wissen,Gut zu {{wissen}}!,frequency;generated;german
+249,1,zusammen,Wir kochen {{zusammen}}.,frequency;generated;german
+249,2,zusammen,Das kostet {{zusammen}} zehn Euro.,frequency;generated;german
+249,3,zusammen,Gehören diese Teile {{zusammen}}?,frequency;generated;german
+250,1,einige,Ich habe {{einige}} Fragen.,frequency;generated;german
+250,2,einige,{{Einige}} Gäste sind schon da.,frequency;generated;german
+250,3,einige,Wir bleiben {{einige}} Tage.,frequency;generated;german
+251,1,fall,Auf jeden {{Fall}} komme ich.,frequency;generated;german
+251,2,fall,Für den {{Fall}} habe ich einen Schirm.,frequency;generated;german
+251,3,fall,Das war ein schwerer {{Fall}}.,frequency;generated;german
+252,1,gab,Sie {{gab}} mir einen Apfel.,frequency;generated;german
+252,2,gab,Früher {{gab}} es hier ein Kino.,frequency;generated;german
+252,3,gab,Es {{gab}} keine Probleme.,frequency;generated;german
+253,1,kannst,{{Kannst}} du schwimmen?,frequency;generated;german
+253,2,kannst,Hier {{kannst}} du sitzen.,frequency;generated;german
+253,3,kannst,Wann {{kannst}} du kommen?,frequency;generated;german
+254,1,sicher,Bist du {{sicher}}?,frequency;generated;german
+254,2,sicher,Hier bist du {{sicher}}.,frequency;generated;german
+254,3,sicher,Er kommt {{sicher}} bald.,frequency;generated;german
+255,1,frauen,Diese {{Frauen}} arbeiten im Krankenhaus.,frequency;generated;german
+255,2,frauen,In unserer Gruppe sind fünf {{Frauen}}.,frequency;generated;german
+255,3,frauen,Die {{Frauen}} spielen Fußball.,frequency;generated;german
+256,1,ihrem,Sie hilft {{ihrem}} Kind.,frequency;generated;german
+256,2,ihrem,Er fährt mit {{ihrem}} Auto.,frequency;generated;german
+256,3,ihrem,In {{ihrem}} Garten wachsen Rosen.,frequency;generated;german
+257,1,kam,Er {{kam}} gestern an.,frequency;generated;german
+257,2,kam,Woher {{kam}} das Geräusch?,frequency;generated;german
+257,3,kam,Die Hilfe {{kam}} rechtzeitig.,frequency;generated;german
+258,1,allen,Ich danke {{allen}}.,frequency;generated;german
+258,2,allen,Von {{allen}} Farben mag ich Blau am liebsten.,frequency;generated;german
+258,3,allen,Mit {{allen}} zusammen sind wir zehn.,frequency;generated;german
+259,1,darauf,Ich freue mich {{darauf}}.,frequency;generated;german
+259,2,darauf,Der Tisch ist neu; stell nichts {{darauf}}.,frequency;generated;german
+259,3,darauf,Es kommt {{darauf}} an.,frequency;generated;german
+260,1,hatten,Wir {{hatten}} gestern Besuch.,frequency;generated;german
+260,2,hatten,Sie {{hatten}} den Zug verpasst.,frequency;generated;german
+260,3,hatten,Alle {{hatten}} großen Hunger.,frequency;generated;german
+261,1,letzten,Ich nehme den {{letzten}} Bus.,frequency;generated;german
+261,2,letzten,In den {{letzten}} Tagen hat es geregnet.,frequency;generated;german
+261,3,letzten,Am {{letzten}} Abend gingen wir essen.,frequency;generated;german
+262,1,meinen,Ich suche {{meinen}} Schlüssel.,frequency;generated;german
+262,2,meinen,Was {{meinen}} sie damit?,frequency;generated;german
+262,3,meinen,Ich wohne bei {{meinen}} Eltern.,frequency;generated;german
+263,1,nein,Sie hat {{nein}} gesagt.,frequency;generated;german
+263,2,nein,"{{Nein}} danke, ich möchte nichts.",frequency;generated;german
+263,3,nein,Warum sagst du immer {{nein}}?,frequency;generated;german
+264,1,schön,Der Garten ist {{schön}}.,frequency;generated;german
+264,2,schön,{{Schön}} dich zu sehen!,frequency;generated;german
+264,3,schön,Schlaf {{schön}}.,frequency;generated;german
+265,1,sogar,Es hat {{sogar}} geschneit.,frequency;generated;german
+265,2,sogar,Er hat {{sogar}} meinen Namen vergessen.,frequency;generated;german
+265,3,sogar,Das versteht {{sogar}} ein Kind.,frequency;generated;german
+266,1,vielen,{{Vielen}} Dank für deine Hilfe.,frequency;generated;german
+266,2,vielen,Ich wohne seit {{vielen}} Jahren hier.,frequency;generated;german
+266,3,vielen,Er spricht mit {{vielen}} Leuten.,frequency;generated;german
+267,1,worden,Das Haus ist verkauft {{worden}}.,frequency;generated;german
+267,2,worden,Ich bin gestern angerufen {{worden}}.,frequency;generated;german
+267,3,worden,Die Tür ist geöffnet {{worden}}.,frequency;generated;german
+268,1,zwar,"Es ist {{zwar}} kalt, aber sonnig.",frequency;generated;german
+268,2,zwar,"Ich komme, und {{zwar}} morgen.",frequency;generated;german
+268,3,zwar,"Er ist {{zwar}} jung, aber erfahren.",frequency;generated;german
+269,1,allerdings,Das stimmt {{allerdings}}.,frequency;generated;german
+269,2,allerdings,"Ich helfe dir, {{allerdings}} erst morgen.",frequency;generated;german
+269,3,allerdings,"Das ist schön, {{allerdings}} nicht billig.",frequency;generated;german
+270,1,art,Welche {{Art}} von Musik magst du?,frequency;generated;german
+270,2,art,Ich mag seine ruhige {{Art}}.,frequency;generated;german
+270,3,art,Das ist eine seltene {{Art}} Vogel.,frequency;generated;german
+271,1,schnell,Komm bitte {{schnell}}.,frequency;generated;german
+271,2,schnell,Der Zug ist sehr {{schnell}}.,frequency;generated;german
+271,3,schnell,Das ging aber {{schnell}}!,frequency;generated;german
+272,1,sollen,Was {{sollen}} wir machen?,frequency;generated;german
+272,2,sollen,Die Kinder {{sollen}} schlafen.,frequency;generated;german
+272,3,sollen,Morgen {{sollen}} die Gäste kommen.,frequency;generated;german
+273,1,darf,{{Darf}} ich hier sitzen?,frequency;generated;german
+273,2,darf,Man {{darf}} hier nicht rauchen.,frequency;generated;german
+273,3,darf,Das {{darf}} nicht passieren.,frequency;generated;german
+274,1,jeden,Ich laufe {{jeden}} Morgen.,frequency;generated;german
+274,2,jeden,Hier kennt sie {{jeden}}.,frequency;generated;german
+274,3,jeden,Auf {{jeden}} Fall komme ich.,frequency;generated;german
+275,1,jemand,Ist {{jemand}} zu Hause?,frequency;generated;german
+275,2,jemand,Kann mir {{jemand}} helfen?,frequency;generated;german
+275,3,jemand,"Ich suche {{jemand}}, der Spanisch spricht.",frequency;generated;german
+276,1,später,Wir sehen uns {{später}}.,frequency;generated;german
+276,2,später,Zwei Stunden {{später}} kam er.,frequency;generated;german
+276,3,später,Ich möchte {{später}} Arzt werden.,frequency;generated;german
+277,1,stehen,Die Gläser {{stehen}} im Schrank.,frequency;generated;german
+277,2,stehen,Wir {{stehen}} seit einer Stunde hier.,frequency;generated;german
+277,3,stehen,Bleib bitte {{stehen}}.,frequency;generated;german
+278,1,wollte,Ich {{wollte}} dich anrufen.,frequency;generated;german
+278,2,wollte,Sie {{wollte}} als Kind Ärztin werden.,frequency;generated;german
+278,3,wollte,Niemand {{wollte}} den Kuchen.,frequency;generated;german
+279,1,ganze,Die {{ganze}} Familie ist da.,frequency;generated;german
+279,2,ganze,Ich habe die {{ganze}} Nacht gelesen.,frequency;generated;german
+279,3,ganze,Das ist eine {{ganze}} Menge.,frequency;generated;german
+280,1,gerne,Ich helfe dir {{gerne}}.,frequency;generated;german
+280,2,gerne,Ich koche {{gerne}}.,frequency;generated;german
+280,3,gerne,"Möchtest du mitkommen? Ja, {{gerne}}.",frequency;generated;german
+281,1,möchte,Ich {{möchte}} einen Kaffee.,frequency;generated;german
+281,2,möchte,Wer {{möchte}} anfangen?,frequency;generated;german
+281,3,möchte,Sie {{möchte}} nicht darüber reden.,frequency;generated;german
+282,1,seite,Lies die nächste {{Seite}}.,frequency;generated;german
+282,2,seite,Ich schlafe auf der {{Seite}}.,frequency;generated;german
+282,3,seite,Ich bin auf deiner {{Seite}}.,frequency;generated;german
+283,1,spiel,Das {{Spiel}} beginnt um acht.,frequency;generated;german
+283,2,spiel,Kennst du dieses {{Spiel}}?,frequency;generated;german
+283,3,spiel,Es ist nur ein {{Spiel}}.,frequency;generated;german
+284,1,weitere,Hast du {{weitere}} Fragen?,frequency;generated;german
+284,2,weitere,Wir bleiben zwei {{weitere}} Tage.,frequency;generated;german
+284,3,weitere,{{Weitere}} Gäste kommen später.,frequency;generated;german
+285,1,wenig,Ich habe {{wenig}} Zeit.,frequency;generated;german
+285,2,wenig,Sprich ein {{wenig}} langsamer.,frequency;generated;german
+285,3,wenig,Heute habe ich zu {{wenig}} gegessen.,frequency;generated;german
+286,1,heißt,Wie {{heißt}} du?,frequency;generated;german
+286,2,heißt,Was {{heißt}} dieses Wort?,frequency;generated;german
+286,3,heißt,"Das {{heißt}}, wir müssen warten.",frequency;generated;german
+287,1,liebe,Ich {{liebe}} dich.,frequency;generated;german
+287,2,liebe,"Vielen Dank, {{liebe}} Anna.",frequency;generated;german
+287,3,liebe,Sie kocht mit viel {{Liebe}}.,frequency;generated;german
+288,1,oft,Ich gehe {{oft}} spazieren.,frequency;generated;german
+288,2,oft,Wie {{oft}} kommt der Bus?,frequency;generated;german
+288,3,oft,Das passiert mir {{oft}}.,frequency;generated;german
+289,1,sagte,Sie {{sagte}} nichts.,frequency;generated;german
+289,2,sagte,"Er {{sagte}}, dass er krank sei.",frequency;generated;german
+289,3,sagte,Was {{sagte}} der Arzt?,frequency;generated;german
+290,1,fragen,Darf ich dich etwas {{fragen}}?,frequency;generated;german
+290,2,fragen,Wir müssen nach dem Weg {{fragen}}.,frequency;generated;german
+290,3,fragen,Hast du noch {{Fragen}}?,frequency;generated;german
+291,1,land,Ich wohne auf dem {{Land}}.,frequency;generated;german
+291,2,land,Aus welchem {{Land}} kommst du?,frequency;generated;german
+291,3,land,Das Schiff ist nah am {{Land}}.,frequency;generated;german
+292,1,neben,Setz dich {{neben}} mich.,frequency;generated;german
+292,2,neben,Die Bank liegt {{neben}} der Post.,frequency;generated;german
+292,3,neben,{{Neben}} der Arbeit lerne ich Deutsch.,frequency;generated;german
+293,1,statt,Ich nehme Tee {{statt}} Kaffee.,frequency;generated;german
+293,2,statt,Der Kurs findet morgen {{statt}}.,frequency;generated;german
+293,3,statt,"Ich laufe, {{statt}} den Bus zu nehmen.",frequency;generated;german
+294,1,dein,Ist das {{dein}} Fahrrad?,frequency;generated;german
+294,2,dein,Wie heißt {{dein}} Bruder?,frequency;generated;german
+294,3,dein,{{Dein}} Essen wird kalt.,frequency;generated;german
+295,1,gehört,Wem {{gehört}} diese Tasche?,frequency;generated;german
+295,2,gehört,Ich habe nichts {{gehört}}.,frequency;generated;german
+295,3,gehört,Das {{gehört}} nicht hierher.,frequency;generated;german
+296,1,lässt,Sie {{lässt}} die Tür offen.,frequency;generated;german
+296,2,lässt,Das {{lässt}} sich ändern.,frequency;generated;german
+296,3,lässt,Er {{lässt}} mich nicht schlafen.,frequency;generated;german
+297,1,platz,Ist hier noch {{Platz}}?,frequency;generated;german
+297,2,platz,Wir treffen uns auf dem {{Platz}}.,frequency;generated;german
+297,3,platz,Setz dich auf meinen {{Platz}}.,frequency;generated;german
+298,1,besonders,Heute ist es {{besonders}} warm.,frequency;generated;german
+298,2,besonders,Ich mag {{besonders}} den Garten.,frequency;generated;german
+298,3,besonders,Das ist etwas ganz {{besonders}} Schönes.,frequency;generated;german
+299,1,geschichte,Erzähl mir eine {{Geschichte}}.,frequency;generated;german
+299,2,geschichte,Ich studiere {{Geschichte}}.,frequency;generated;german
+299,3,geschichte,Die {{Geschichte}} endet gut.,frequency;generated;german
+300,1,nehmen,Wir {{nehmen}} den Bus.,frequency;generated;german
+300,2,nehmen,Darf ich den Stuhl {{nehmen}}?,frequency;generated;german
+300,3,nehmen,Du musst die Tablette morgens {{nehmen}}.,frequency;generated;german
+301,1,darüber,Ich möchte nicht {{darüber}} reden.,frequency;generated;german
+301,2,darüber,Das Bett ist hier; das Bild hängt {{darüber}}.,frequency;generated;german
+301,3,darüber,Ich freue mich {{darüber}}.,frequency;generated;german
+302,1,deren,"Das ist Anna, {{deren}} Bruder ich kenne.",frequency;generated;german
+302,2,deren,"Hier wohnen Kinder, {{deren}} Eltern arbeiten.",frequency;generated;german
+302,3,deren,"Das ist die Firma, {{deren}} Chef er ist.",frequency;generated;german
+303,1,hin,Wo gehst du {{hin}}?,frequency;generated;german
+303,2,hin,Stell die Tasche {{hin}}.,frequency;generated;german
+303,3,hin,Schau genau {{hin}}.,frequency;generated;german
+304,1,vier,Wir sind {{vier}} Personen.,frequency;generated;german
+304,2,vier,Der Tisch hat {{vier}} Beine.,frequency;generated;german
+304,3,vier,Um {{vier}} bin ich fertig.,frequency;generated;german
+305,1,gesagt,Das habe ich nicht {{gesagt}}.,frequency;generated;german
+305,2,gesagt,Wer hat dir das {{gesagt}}?,frequency;generated;german
+305,3,gesagt,Er hat kein Wort {{gesagt}}.,frequency;generated;german
+306,1,guten,Ich wünsche dir einen {{guten}} Morgen.,frequency;generated;german
+306,2,guten,Er hat einen {{guten}} Arzt.,frequency;generated;german
+306,3,guten,Mit {{guten}} Freunden macht es Spaß.,frequency;generated;german
+307,1,kurz,Der Film ist {{kurz}}.,frequency;generated;german
+307,2,kurz,Kannst du {{kurz}} warten?,frequency;generated;german
+307,3,kurz,Wir kamen {{kurz}} nach acht.,frequency;generated;german
+308,1,meinem,Ich helfe {{meinem}} Bruder.,frequency;generated;german
+308,2,meinem,Das liegt in {{meinem}} Zimmer.,frequency;generated;german
+308,3,meinem,Ich fahre mit {{meinem}} Fahrrad.,frequency;generated;german
+309,1,morgen,Ich komme {{morgen}}.,frequency;generated;german
+309,2,morgen,Guten {{Morgen}}!,frequency;generated;german
+309,3,morgen,Bis {{morgen}} muss es fertig sein.,frequency;generated;german
+310,1,sonst,Was brauchst du {{sonst}} noch?,frequency;generated;german
+310,2,sonst,"Beeil dich, {{sonst}} verpassen wir den Zug.",frequency;generated;german
+310,3,sonst,Heute ist es ruhiger als {{sonst}}.,frequency;generated;german
+311,1,unser,Das ist {{unser}} Hund.,frequency;generated;german
+311,2,unser,{{Unser}} Zug kommt gleich.,frequency;generated;german
+311,3,unser,Hier beginnt {{unser}} Weg.,frequency;generated;german
+312,1,bekommen,Ich habe einen Brief {{bekommen}}.,frequency;generated;german
+312,2,bekommen,Wo kann ich Wasser {{bekommen}}?,frequency;generated;german
+312,3,bekommen,Die Kinder {{bekommen}} Hunger.,frequency;generated;german
+313,1,euro,Das kostet zehn {{Euro}}.,frequency;generated;german
+313,2,euro,Ich habe nur einen {{Euro}}.,frequency;generated;german
+313,3,euro,Der Preis ist in {{Euro}} angegeben.,frequency;generated;german
+314,1,gesehen,Hast du meine Brille {{gesehen}}?,frequency;generated;german
+314,2,gesehen,Ich habe gestern einen Film {{gesehen}}.,frequency;generated;german
+314,3,gesehen,So etwas habe ich noch nie {{gesehen}}.,frequency;generated;german
+315,1,kleine,Das ist meine {{kleine}} Schwester.,frequency;generated;german
+315,2,kleine,Ich brauche eine {{kleine}} Pause.,frequency;generated;german
+315,3,kleine,Hier spielen {{kleine}} Kinder.,frequency;generated;german
+316,1,spielen,Die Kinder {{spielen}} draußen.,frequency;generated;german
+316,2,spielen,Kannst du Klavier {{spielen}}?,frequency;generated;german
+316,3,spielen,Wir {{spielen}} heute gegen unsere Nachbarn.,frequency;generated;german
+317,1,weniger,Heute ist {{weniger}} los.,frequency;generated;german
+317,2,weniger,Ich möchte {{weniger}} arbeiten.,frequency;generated;german
+317,3,weniger,Nimm etwas {{weniger}} Salz.,frequency;generated;german
+318,1,familie,Meine {{Familie}} wohnt weit weg.,frequency;generated;german
+318,2,familie,Wir essen mit der ganzen {{Familie}}.,frequency;generated;german
+318,3,familie,Wie geht es deiner {{Familie}}?,frequency;generated;german
+319,1,ging,Ich {{ging}} gestern zu Fuß.,frequency;generated;german
+319,2,ging,Das {{ging}} sehr schnell.,frequency;generated;german
+319,3,ging,Früher {{ging}} es mir besser.,frequency;generated;german
+320,1,haus,Unser {{Haus}} ist alt.,frequency;generated;german
+320,2,haus,Ich bleibe heute im {{Haus}}.,frequency;generated;german
+320,3,haus,Vor dem {{Haus}} steht ein Baum.,frequency;generated;german
+321,1,sollten,Wir {{sollten}} jetzt gehen.,frequency;generated;german
+321,2,sollten,Die Kinder {{sollten}} mehr schlafen.,frequency;generated;german
+321,3,sollten,Hier {{sollten}} keine Autos parken.,frequency;generated;german
+322,1,arbeiten,Wo möchtest du {{arbeiten}}?,frequency;generated;german
+322,2,arbeiten,Wir {{arbeiten}} zusammen.,frequency;generated;german
+322,3,arbeiten,Heute muss ich nicht {{arbeiten}}.,frequency;generated;german
+323,1,bild,Das {{Bild}} hängt schief.,frequency;generated;german
+323,2,bild,Male ein {{Bild}}.,frequency;generated;german
+323,3,bild,Auf dem {{Bild}} ist meine Familie.,frequency;generated;german
+324,1,bleibt,Er {{bleibt}} heute zu Hause.,frequency;generated;german
+324,2,bleibt,Das Fenster {{bleibt}} zu.,frequency;generated;german
+324,3,bleibt,Wie viel Zeit {{bleibt}} uns?,frequency;generated;german
+325,1,eigenen,Ich habe meinen {{eigenen}} Schlüssel.,frequency;generated;german
+325,2,eigenen,Er wohnt im {{eigenen}} Haus.,frequency;generated;german
+325,3,eigenen,Sie fahren mit ihren {{eigenen}} Rädern.,frequency;generated;german
+326,1,je,Warst du {{je}} hier?,frequency;generated;german
+326,2,je,"{{Je}} früher, desto besser.",frequency;generated;german
+326,3,je,Die Kinder bekommen {{je}} zwei Äpfel.,frequency;generated;german
+327,1,möglich,Ist das {{möglich}}?,frequency;generated;german
+327,2,möglich,Komm so bald wie {{möglich}}.,frequency;generated;german
+327,3,möglich,"Es ist {{möglich}}, dass es regnet.",frequency;generated;german
+328,1,weit,Wie {{weit}} ist es noch?,frequency;generated;german
+328,2,weit,Ich wohne {{weit}} weg.,frequency;generated;german
+328,3,weit,Die Hose ist zu {{weit}}.,frequency;generated;german
+329,1,deshalb,"Ich bin krank, {{deshalb}} bleibe ich hier.",frequency;generated;german
+329,2,deshalb,Der Bus fiel aus; {{deshalb}} komme ich später.,frequency;generated;german
+329,3,deshalb,Genau {{deshalb}} habe ich gefragt.,frequency;generated;german
+330,1,eben,Ich habe ihn {{eben}} gesehen.,frequency;generated;german
+330,2,eben,Das ist {{eben}} so.,frequency;generated;german
+330,3,eben,Der Boden ist nicht {{eben}}.,frequency;generated;german
+331,1,gewesen,Bist du schon dort {{gewesen}}?,frequency;generated;german
+331,2,gewesen,Das wäre schön {{gewesen}}.,frequency;generated;german
+331,3,gewesen,Sie ist krank {{gewesen}}.,frequency;generated;german
+332,1,glaube,Ich {{glaube}} dir.,frequency;generated;german
+332,2,glaube,"Ich {{glaube}}, es regnet.",frequency;generated;german
+332,3,glaube,Der {{Glaube}} gibt ihm Kraft.,frequency;generated;german
+333,1,minuten,Warte fünf {{Minuten}}.,frequency;generated;german
+333,2,minuten,Der Film dauert neunzig {{Minuten}}.,frequency;generated;german
+333,3,minuten,Es fehlen nur noch zwei {{Minuten}}.,frequency;generated;german
+334,1,polizei,Ruf die {{Polizei}}!,frequency;generated;german
+334,2,polizei,Meine Schwester arbeitet bei der {{Polizei}}.,frequency;generated;german
+334,3,polizei,Die {{Polizei}} hat das Fahrrad gefunden.,frequency;generated;german
+335,1,außerdem,Ich brauche {{außerdem}} Milch.,frequency;generated;german
+335,2,außerdem,"Es regnet, und {{außerdem}} ist es kalt.",frequency;generated;german
+335,3,außerdem,Was möchtest du {{außerdem}} wissen?,frequency;generated;german
+336,1,beide,Wir sind {{beide}} müde.,frequency;generated;german
+336,2,beide,Nimm {{beide}} Taschen.,frequency;generated;german
+336,3,beide,Ich mag {{beide}} Farben.,frequency;generated;german
+337,1,findet,Wo {{findet}} der Kurs statt?,frequency;generated;german
+337,2,findet,Sie {{findet}} ihren Schlüssel nicht.,frequency;generated;german
+337,3,findet,Er {{findet}} das lustig.,frequency;generated;german
+338,1,ganzen,Ich habe den {{ganzen}} Tag gearbeitet.,frequency;generated;german
+338,2,ganzen,Wir teilen den Kuchen mit der {{ganzen}} Familie.,frequency;generated;german
+338,3,ganzen,Sie hat den {{ganzen}} Apfel gegessen.,frequency;generated;german
+339,1,leider,Ich habe {{leider}} keine Zeit.,frequency;generated;german
+339,2,leider,Das weiß ich {{leider}} nicht.,frequency;generated;german
+339,3,leider,Der Zug fällt {{leider}} aus.,frequency;generated;german
+340,1,musste,Ich {{musste}} gestern arbeiten.,frequency;generated;german
+340,2,musste,Sie {{musste}} lange warten.,frequency;generated;german
+340,3,musste,Er {{musste}} laut lachen.,frequency;generated;german
+341,1,online,Ich kaufe die Karten {{online}}.,frequency;generated;german
+341,2,online,Bist du gerade {{online}}?,frequency;generated;german
+341,3,online,Der Kurs findet {{online}} statt.,frequency;generated;german
+342,1,stellen,Kannst du die Tasche hierher {{stellen}}?,frequency;generated;german
+342,2,stellen,Darf ich eine Frage {{stellen}}?,frequency;generated;german
+342,3,stellen,Wir {{stellen}} den Tisch ans Fenster.,frequency;generated;german
+343,1,tage,Wir bleiben drei {{Tage}}.,frequency;generated;german
+343,2,tage,Die {{Tage}} werden länger.,frequency;generated;german
+343,3,tage,Einige {{Tage}} war ich krank.,frequency;generated;german
+344,1,unternehmen,Das {{Unternehmen}} sucht Mitarbeiter.,frequency;generated;german
+344,2,unternehmen,Was wollen wir morgen {{unternehmen}}?,frequency;generated;german
+344,3,unternehmen,Mein Bruder hat ein eigenes {{Unternehmen}}.,frequency;generated;german
+345,1,woche,Diese {{Woche}} habe ich frei.,frequency;generated;german
+345,2,woche,Wir fahren einmal pro {{Woche}} einkaufen.,frequency;generated;german
+345,3,woche,In einer {{Woche}} komme ich zurück.,frequency;generated;german
+346,1,würden,Wir {{würden}} gern bleiben.,frequency;generated;german
+346,2,würden,Was {{würden}} die Kinder sagen?,frequency;generated;german
+346,3,würden,Ohne Auto {{würden}} wir länger brauchen.,frequency;generated;german
+347,1,besten,Das sind meine {{besten}} Freunde.,frequency;generated;german
+347,2,besten,Am {{besten}} rufst du an.,frequency;generated;german
+347,3,besten,Sie hat den {{besten}} Kuchen gebacken.,frequency;generated;german
+348,1,bleiben,Wir {{bleiben}} heute zu Hause.,frequency;generated;german
+348,2,bleiben,Kannst du kurz hier {{bleiben}}?,frequency;generated;german
+348,3,bleiben,Es wird kalt {{bleiben}}.,frequency;generated;german
+349,1,daher,Ich bin müde; {{daher}} mache ich eine Pause.,frequency;generated;german
+349,2,daher,Das Geräusch kommt {{daher}}.,frequency;generated;german
+349,3,daher,Der Laden ist zu; {{daher}} gehen wir weiter.,frequency;generated;german
+350,1,grund,Was ist der {{Grund}}?,frequency;generated;german
+350,2,grund,Ohne {{Grund}} weint er nicht.,frequency;generated;german
+350,3,grund,Der Stein liegt auf dem {{Grund}} des Sees.,frequency;generated;german
+351,1,kaum,Ich kann dich {{kaum}} hören.,frequency;generated;german
+351,2,kaum,Es ist {{kaum}} noch Brot da.,frequency;generated;german
+351,3,kaum,"{{Kaum}} war ich da, begann es zu regnen.",frequency;generated;german
+352,1,namen,Wie schreibt man deinen {{Namen}}?,frequency;generated;german
+352,2,namen,Ich kenne die {{Namen}} aller Kinder.,frequency;generated;german
+352,3,namen,Sie sucht einen {{Namen}} für ihr Baby.,frequency;generated;german
+353,1,problem,Ich habe ein {{Problem}}.,frequency;generated;german
+353,2,problem,"Kein {{Problem}}, ich helfe dir.",frequency;generated;german
+353,3,problem,Das {{Problem}} ist gelöst.,frequency;generated;german
+354,1,daran,Denk bitte {{daran}}.,frequency;generated;german
+354,2,daran,Was ist {{daran}} so lustig?,frequency;generated;german
+354,3,daran,Ich erinnere mich {{daran}}.,frequency;generated;german
+355,1,halt,Dann nehmen wir {{halt}} den Bus.,frequency;generated;german
+355,2,halt,{{Halt}} bitte meine Tasche.,frequency;generated;german
+355,3,halt,Die Schuhe geben guten {{Halt}}.,frequency;generated;german
+356,1,nacht,Gute {{Nacht}}!,frequency;generated;german
+356,2,nacht,Ich habe die ganze {{Nacht}} gelesen.,frequency;generated;german
+356,3,nacht,In der {{Nacht}} war es kalt.,frequency;generated;german
+357,1,neu,Mein Handy ist {{neu}}.,frequency;generated;german
+357,2,neu,Bist du {{neu}} hier?,frequency;generated;german
+357,3,neu,Wir müssen das {{neu}} machen.,frequency;generated;german
+358,1,stand,Er {{stand}} vor der Tür.,frequency;generated;german
+358,2,stand,Was {{stand}} in dem Brief?,frequency;generated;german
+358,3,stand,Wir kaufen Obst am {{Stand}}.,frequency;generated;german
+359,1,stunden,Die Fahrt dauert zwei {{Stunden}}.,frequency;generated;german
+359,2,stunden,Ich habe acht {{Stunden}} geschlafen.,frequency;generated;german
+359,3,stunden,Es sind noch drei {{Stunden}} bis zum Start.,frequency;generated;german
+360,1,thema,Das ist ein wichtiges {{Thema}}.,frequency;generated;german
+360,2,thema,Wechseln wir das {{Thema}}.,frequency;generated;german
+360,3,thema,Welches {{Thema}} hat dein Buch?,frequency;generated;german
+361,1,beispiel,Kannst du ein {{Beispiel}} nennen?,frequency;generated;german
+361,2,beispiel,"Ich mag Obst, zum {{Beispiel}} Äpfel.",frequency;generated;german
+361,3,beispiel,Das ist ein gutes {{Beispiel}} dafür.,frequency;generated;german
+362,1,genug,Ich habe {{genug}} gegessen.,frequency;generated;german
+362,2,genug,Ist das Wasser warm {{genug}}?,frequency;generated;german
+362,3,genug,Wir haben {{genug}} Zeit.,frequency;generated;german
+363,1,allein,Ich wohne {{allein}}.,frequency;generated;german
+363,2,allein,Lass mich bitte nicht {{allein}}.,frequency;generated;german
+363,3,allein,Das kann ich {{allein}} machen.,frequency;generated;german
+364,1,dessen,"Das ist Paul, {{dessen}} Hund weggelaufen ist.",frequency;generated;german
+364,2,dessen,"Ich kenne den Mann, {{dessen}} Auto hier steht.",frequency;generated;german
+364,3,dessen,"Das ist das Haus, {{dessen}} Dach rot ist.",frequency;generated;german
+365,1,direkt,Der Bus fährt {{direkt}} zum Bahnhof.,frequency;generated;german
+365,2,direkt,Ich wohne {{direkt}} neben der Schule.,frequency;generated;german
+365,3,direkt,Frag ihn {{direkt}}.,frequency;generated;german
+366,1,echt,Ist der Ring {{echt}}?,frequency;generated;german
+366,2,echt,Das war {{echt}} nett.,frequency;generated;german
+366,3,echt,Ich bin {{echt}} müde.,frequency;generated;german
+367,1,halten,Kannst du kurz die Tasche {{halten}}?,frequency;generated;german
+367,2,halten,Die Busse {{halten}} hier.,frequency;generated;german
+367,3,halten,Wir müssen unser Versprechen {{halten}}.,frequency;generated;german
+368,1,kleinen,Ich habe einen {{kleinen}} Hund.,frequency;generated;german
+368,2,kleinen,Wir wohnen in einer {{kleinen}} Wohnung.,frequency;generated;german
+368,3,kleinen,Die {{kleinen}} Kinder schlafen.,frequency;generated;german
+369,1,schule,Mein Sohn geht zur {{Schule}}.,frequency;generated;german
+369,2,schule,Die {{Schule}} beginnt um acht.,frequency;generated;german
+369,3,schule,Heute fällt die {{Schule}} aus.,frequency;generated;german
+370,1,solche,Ich mag {{solche}} Filme.,frequency;generated;german
+370,2,solche,Wo kann man {{solche}} Schuhe kaufen?,frequency;generated;german
+370,3,solche,Eine {{solche}} Frage ist schwer.,frequency;generated;german
+371,1,zeigt,Sie {{zeigt}} mir den Weg.,frequency;generated;german
+371,2,zeigt,Die Uhr {{zeigt}} acht.,frequency;generated;german
+371,3,zeigt,Das Bild {{zeigt}} einen Wald.,frequency;generated;german
+372,1,überhaupt,Hast du {{überhaupt}} Zeit?,frequency;generated;german
+372,2,überhaupt,Das gefällt mir {{überhaupt}} nicht.,frequency;generated;german
+372,3,überhaupt,Wie geht das {{überhaupt}}?,frequency;generated;german
+373,1,anders,Heute siehst du {{anders}} aus.,frequency;generated;german
+373,2,anders,Ich würde das {{anders}} machen.,frequency;generated;german
+373,3,anders,Jeder Mensch ist {{anders}}.,frequency;generated;german
+374,1,essen,Was möchtest du {{essen}}?,frequency;generated;german
+374,2,essen,Das {{Essen}} ist fertig.,frequency;generated;german
+374,3,essen,Wir {{essen}} um sieben.,frequency;generated;german
+375,1,lang,Die Straße ist zwei Kilometer {{lang}}.,frequency;generated;german
+375,2,lang,Ich habe eine Stunde {{lang}} gewartet.,frequency;generated;german
+375,3,lang,Der Film ist zu {{lang}}.,frequency;generated;german
+376,1,abend,Heute {{Abend}} kommen Freunde.,frequency;generated;german
+376,2,abend,Ich wünsche dir einen schönen {{Abend}}.,frequency;generated;german
+376,3,abend,Am {{Abend}} lese ich gern.,frequency;generated;german
+377,1,dank,{{Dank}} dir bin ich pünktlich.,frequency;generated;german
+377,2,dank,Vielen {{Dank}}!,frequency;generated;german
+377,3,dank,Ich bin gesund {{dank}} der Behandlung.,frequency;generated;german
+378,1,ebenfalls,Ich komme {{ebenfalls}} mit.,frequency;generated;german
+378,2,ebenfalls,Ich wünsche dir {{ebenfalls}} alles Gute.,frequency;generated;german
+378,3,ebenfalls,Meine Schwester lebt {{ebenfalls}} hier.,frequency;generated;german
+379,1,eher,Ich trinke {{eher}} Tee als Kaffee.,frequency;generated;german
+379,2,eher,Komm bitte etwas {{eher}}.,frequency;generated;german
+379,3,eher,Das ist {{eher}} unwahrscheinlich.,frequency;generated;german
+380,1,hinter,Der Garten liegt {{hinter}} dem Haus.,frequency;generated;german
+380,2,hinter,Stell dich {{hinter}} mich.,frequency;generated;german
+380,3,hinter,Was steckt {{hinter}} dieser Idee?,frequency;generated;german
+381,1,mag,Ich {{mag}} dich.,frequency;generated;german
+381,2,mag,Sie {{mag}} keinen Kaffee.,frequency;generated;german
+381,3,mag,Das {{mag}} stimmen.,frequency;generated;german
+382,1,musik,Ich höre gern {{Musik}}.,frequency;generated;german
+382,2,musik,Mach die {{Musik}} bitte leiser.,frequency;generated;german
+382,3,musik,Mein Bruder studiert {{Musik}}.,frequency;generated;german
+383,1,pro,Das kostet zehn Euro {{pro}} Person.,frequency;generated;german
+383,2,pro,Ich laufe dreimal {{pro}} Woche.,frequency;generated;german
+383,3,pro,Du bekommst zwei Punkte {{pro}} Antwort.,frequency;generated;german
+384,1,wasser,Ich hätte gern ein Glas {{Wasser}}.,frequency;generated;german
+384,2,wasser,Das {{Wasser}} ist kalt.,frequency;generated;german
+384,3,wasser,Die Pflanze braucht {{Wasser}}.,frequency;generated;german
+385,1,alten,Ich besuche meinen {{alten}} Freund.,frequency;generated;german
+385,2,alten,Wir wohnen in einem {{alten}} Haus.,frequency;generated;german
+385,3,alten,Was machst du mit den {{alten}} Schuhen?,frequency;generated;german
+386,1,bald,Bis {{bald}}!,frequency;generated;german
+386,2,bald,Der Zug kommt {{bald}}.,frequency;generated;german
+386,3,bald,"Ich hoffe, du wirst {{bald}} gesund.",frequency;generated;german
+387,1,erhalten,Ich habe deinen Brief {{erhalten}}.,frequency;generated;german
+387,2,erhalten,Das alte Haus bleibt {{erhalten}}.,frequency;generated;german
+387,3,erhalten,Die Kinder {{erhalten}} ein Geschenk.,frequency;generated;german
+388,1,junge,Der {{Junge}} spielt im Garten.,frequency;generated;german
+388,2,junge,Eine {{junge}} Frau hilft mir.,frequency;generated;german
+388,3,junge,Mein Bruder ist noch ein kleiner {{Junge}}.,frequency;generated;german
+389,1,lieber,Ich trinke {{lieber}} Tee.,frequency;generated;german
+389,2,lieber,Bleib {{lieber}} zu Hause.,frequency;generated;german
+389,3,lieber,Er ist ein {{lieber}} Mensch.,frequency;generated;german
+390,1,nachdem,"Ich gehe, {{nachdem}} ich gegessen habe.",frequency;generated;german
+390,2,nachdem,"{{Nachdem}} es geregnet hatte, kam die Sonne.",frequency;generated;german
+390,3,nachdem,"Sie rief an, {{nachdem}} sie angekommen war.",frequency;generated;german
+391,1,ort,Das ist ein schöner {{Ort}}.,frequency;generated;german
+391,2,ort,Wir treffen uns am gleichen {{Ort}}.,frequency;generated;german
+391,3,ort,In diesem {{Ort}} gibt es keinen Bahnhof.,frequency;generated;german
+392,1,sofort,Ich komme {{sofort}}.,frequency;generated;german
+392,2,sofort,Ruf {{sofort}} einen Arzt.,frequency;generated;german
+392,3,sofort,Ich habe ihn {{sofort}} erkannt.,frequency;generated;german
+393,1,zweiten,Ich wohne im {{zweiten}} Stock.,frequency;generated;german
+393,2,zweiten,Am {{zweiten}} Tag regnete es.,frequency;generated;german
+393,3,zweiten,Nimm den {{zweiten}} Weg links.,frequency;generated;german
+394,1,aller,Das ist das Beste {{aller}} Zeiten.,frequency;generated;german
+394,2,aller,Trotz {{aller}} Probleme bleiben wir.,frequency;generated;german
+394,3,aller,Die Namen {{aller}} Gäste stehen hier.,frequency;generated;german
+395,1,auto,Mein {{Auto}} ist kaputt.,frequency;generated;german
+395,2,auto,Wir fahren mit dem {{Auto}}.,frequency;generated;german
+395,3,auto,Wo hast du das {{Auto}} geparkt?,frequency;generated;german
+396,1,bringen,Kannst du Brot {{bringen}}?,frequency;generated;german
+396,2,bringen,Wir {{bringen}} die Kinder zur Schule.,frequency;generated;german
+396,3,bringen,Was soll das {{bringen}}?,frequency;generated;german
+397,1,danach,"Erst essen wir, {{danach}} gehen wir.",frequency;generated;german
+397,2,danach,Ich frage {{danach}}.,frequency;generated;german
+397,3,danach,Kurz {{danach}} kam der Bus.,frequency;generated;german
+398,1,deutlich,Sprich bitte {{deutlich}}.,frequency;generated;german
+398,2,deutlich,Heute ist es {{deutlich}} kälter.,frequency;generated;german
+398,3,deutlich,Ich habe es {{deutlich}} gesehen.,frequency;generated;german
+399,1,finde,Ich {{finde}} meinen Schlüssel nicht.,frequency;generated;german
+399,2,finde,Ich {{finde}} den Film gut.,frequency;generated;german
+399,3,finde,Wo {{finde}} ich einen Arzt?,frequency;generated;german
+400,1,hand,Gib mir deine {{Hand}}.,frequency;generated;german
+400,2,hand,Das ist von {{Hand}} gemacht.,frequency;generated;german
+400,3,hand,Ich halte das Glas in der {{Hand}}.,frequency;generated;german
+401,1,jede,Ich laufe {{jede}} Woche.,frequency;generated;german
+401,2,jede,{{Jede}} Hilfe ist willkommen.,frequency;generated;german
+401,3,jede,Sie kennt {{jede}} Straße hier.,frequency;generated;german
+402,1,kopf,Mir tut der {{Kopf}} weh.,frequency;generated;german
+402,2,kopf,Pass auf deinen {{Kopf}} auf.,frequency;generated;german
+402,3,kopf,Ich kann nicht im {{Kopf}} rechnen.,frequency;generated;german
+403,1,männer,Diese {{Männer}} sind Brüder.,frequency;generated;german
+403,2,männer,Hier arbeiten zehn {{Männer}}.,frequency;generated;german
+403,3,männer,Die {{Männer}} kochen heute.,frequency;generated;german
+404,1,nächsten,Wir nehmen den {{nächsten}} Zug.,frequency;generated;german
+404,2,nächsten,Am {{nächsten}} Tag war ich gesund.,frequency;generated;german
+404,3,nächsten,Bis {{nächsten}} Montag!,frequency;generated;german
+405,1,unserer,In {{unserer}} Straße stehen Bäume.,frequency;generated;german
+405,2,unserer,Das ist das Auto {{unserer}} Mutter.,frequency;generated;german
+405,3,unserer,Er hilft {{unserer}} Tochter.,frequency;generated;german
+406,1,damals,Ich war {{damals}} zehn.,frequency;generated;german
+406,2,damals,Seit {{damals}} kenne ich ihn.,frequency;generated;german
+406,3,damals,{{Damals}} gab es hier keinen Bahnhof.,frequency;generated;german
+407,1,endlich,Du bist {{endlich}} da!,frequency;generated;german
+407,2,endlich,Ich habe {{endlich}} Urlaub.,frequency;generated;german
+407,3,endlich,Wann hört es {{endlich}} auf zu regnen?,frequency;generated;german
+408,1,fünf,Ich habe {{fünf}} Euro.,frequency;generated;german
+408,2,fünf,Der Bus kommt in {{fünf}} Minuten.,frequency;generated;german
+408,3,fünf,Wir treffen uns um {{fünf}}.,frequency;generated;german
+409,1,gefunden,Ich habe meine Brille {{gefunden}}.,frequency;generated;german
+409,2,gefunden,Hast du Arbeit {{gefunden}}?,frequency;generated;german
+409,3,gefunden,Wir haben eine Lösung {{gefunden}}.,frequency;generated;german
+410,1,gilt,Das Angebot {{gilt}} bis morgen.,frequency;generated;german
+410,2,gilt,Diese Regel {{gilt}} für alle.,frequency;generated;german
+410,3,gilt,Sein Wort {{gilt}}.,frequency;generated;german
+411,1,person,Das kostet zehn Euro pro {{Person}}.,frequency;generated;german
+411,2,person,Ich kenne diese {{Person}} nicht.,frequency;generated;german
+411,3,person,Eine {{Person}} fehlt noch.,frequency;generated;german
+412,1,schwer,Die Tasche ist {{schwer}}.,frequency;generated;german
+412,2,schwer,Der Test war {{schwer}}.,frequency;generated;german
+412,3,schwer,"Es fällt mir {{schwer}}, Nein zu sagen.",frequency;generated;german
+413,1,wichtig,Das ist {{wichtig}}.,frequency;generated;german
+413,2,wichtig,Du bist mir {{wichtig}}.,frequency;generated;german
+413,3,wichtig,"Es ist {{wichtig}}, genug zu trinken.",frequency;generated;german
+414,1,zeigen,Kannst du mir den Weg {{zeigen}}?,frequency;generated;german
+414,2,zeigen,Ich möchte dir etwas {{zeigen}}.,frequency;generated;german
+414,3,zeigen,Die Bilder {{zeigen}} unsere Reise.,frequency;generated;german
+415,1,egal,Das ist mir {{egal}}.,frequency;generated;german
+415,2,egal,"Du kannst kommen, {{egal}} wann.",frequency;generated;german
+415,3,egal,"Es ist {{egal}}, ob es regnet.",frequency;generated;german
+416,1,gesellschaft,Ich freue mich über deine {{Gesellschaft}}.,frequency;generated;german
+416,2,gesellschaft,Wir leben in einer freien {{Gesellschaft}}.,frequency;generated;german
+416,3,gesellschaft,In {{Gesellschaft}} schmeckt es besser.,frequency;generated;german
+417,1,hoch,Der Berg ist {{hoch}}.,frequency;generated;german
+417,2,hoch,Die Miete ist zu {{hoch}}.,frequency;generated;german
+417,3,hoch,Heb den Arm {{hoch}}.,frequency;generated;german
+418,1,letzte,Das ist die {{letzte}} Frage.,frequency;generated;german
+418,2,letzte,{{Letzte}} Woche war ich krank.,frequency;generated;german
+418,3,letzte,Ich nehme das {{letzte}} Stück.,frequency;generated;german
+419,1,stark,Mein Bruder ist {{stark}}.,frequency;generated;german
+419,2,stark,Der Kaffee ist zu {{stark}}.,frequency;generated;german
+419,3,stark,Es regnet {{stark}}.,frequency;generated;german
+420,1,alter,Wie ist dein {{Alter}}?,frequency;generated;german
+420,2,alter,Das ist ein {{alter}} Freund.,frequency;generated;german
+420,3,alter,Im {{Alter}} braucht man oft Hilfe.,frequency;generated;german
+421,1,anfang,Am {{Anfang}} war es schwer.,frequency;generated;german
+421,2,anfang,Das ist erst der {{Anfang}}.,frequency;generated;german
+421,3,anfang,Ich komme {{Anfang}} Mai.,frequency;generated;german
+422,1,gegenüber,Die Bank liegt {{gegenüber}} der Post.,frequency;generated;german
+422,2,gegenüber,Er sitzt mir {{gegenüber}}.,frequency;generated;german
+422,3,gegenüber,Sei den Gästen {{gegenüber}} freundlich.,frequency;generated;german
+423,1,kind,Das {{Kind}} schläft.,frequency;generated;german
+423,2,kind,Als {{Kind}} lebte ich hier.,frequency;generated;german
+423,3,kind,Wir erwarten ein {{Kind}}.,frequency;generated;german
+424,1,oben,Das Bad ist {{oben}}.,frequency;generated;german
+424,2,oben,Schau nach {{oben}}.,frequency;generated;german
+424,3,oben,Von {{oben}} sieht man alles.,frequency;generated;german
+425,1,rund,Der Tisch ist {{rund}}.,frequency;generated;german
+425,2,rund,Das dauert {{rund}} eine Stunde.,frequency;generated;german
+425,3,rund,Wir laufen {{rund}} um den See.,frequency;generated;german
+426,1,straße,Überquere die {{Straße}} vorsichtig.,frequency;generated;german
+426,2,straße,In welcher {{Straße}} wohnst du?,frequency;generated;german
+426,3,straße,Die {{Straße}} ist gesperrt.,frequency;generated;german
+427,1,bekannt,Das Gesicht kommt mir {{bekannt}} vor.,frequency;generated;german
+427,2,bekannt,Die Stadt ist für ihren Käse {{bekannt}}.,frequency;generated;german
+427,3,bekannt,Das ist schon lange {{bekannt}}.,frequency;generated;german
+428,1,bisher,{{Bisher}} hat niemand angerufen.,frequency;generated;german
+428,2,bisher,Mir gefällt es {{bisher}} gut.,frequency;generated;german
+428,3,bisher,Es ist wärmer als {{bisher}}.,frequency;generated;german
+429,1,eltern,Meine {{Eltern}} wohnen weit weg.,frequency;generated;german
+429,2,eltern,Wie geht es deinen {{Eltern}}?,frequency;generated;german
+429,3,eltern,Wir werden bald {{Eltern}}.,frequency;generated;german
+430,1,gott,Meine Oma glaubt an {{Gott}}.,frequency;generated;german
+430,2,gott,Zeus war ein {{Gott}}.,frequency;generated;german
+430,3,gott,Er dankt {{Gott}} für das Essen.,frequency;generated;german
+431,1,hätten,Wir {{hätten}} gern zwei Karten.,frequency;generated;german
+431,2,hätten,Ohne dich {{hätten}} wir uns verirrt.,frequency;generated;german
+431,3,hätten,"Wenn wir Zeit {{hätten}}, blieben wir.",frequency;generated;german
+432,1,los,Was ist {{los}}?,frequency;generated;german
+432,2,los,Wir fahren jetzt {{los}}.,frequency;generated;german
+432,3,los,Hier ist heute viel {{los}}.,frequency;generated;german
+433,1,mutter,Meine {{Mutter}} ist Ärztin.,frequency;generated;german
+433,2,mutter,Ruf deine {{Mutter}} an.,frequency;generated;german
+433,3,mutter,Die {{Mutter}} hält ihr Baby.,frequency;generated;german
+434,1,wochen,In zwei {{Wochen}} komme ich zurück.,frequency;generated;german
+434,2,wochen,Seit drei {{Wochen}} lerne ich Deutsch.,frequency;generated;german
+434,3,wochen,Wir haben mehrere {{Wochen}} gewartet.,frequency;generated;german
+435,1,augen,Mach die {{Augen}} zu.,frequency;generated;german
+435,2,augen,Meine {{Augen}} sind müde.,frequency;generated;german
+435,3,augen,Sie hat blaue {{Augen}}.,frequency;generated;german
+436,1,beste,Sie ist meine {{beste}} Freundin.,frequency;generated;german
+436,2,beste,Das ist die {{beste}} Lösung.,frequency;generated;german
+436,3,beste,Ich wünsche dir das {{Beste}}.,frequency;generated;german
+437,1,braucht,Die Pflanze {{braucht}} Wasser.,frequency;generated;german
+437,2,braucht,Er {{braucht}} eine Stunde.,frequency;generated;german
+437,3,braucht,Man {{braucht}} hier kein Auto.,frequency;generated;german
+438,1,denke,Ich {{denke}} an dich.,frequency;generated;german
+438,2,denke,"Ich {{denke}}, das stimmt.",frequency;generated;german
+438,3,denke,So {{denke}} ich auch.,frequency;generated;german
+439,1,gruppe,Unsere {{Gruppe}} ist klein.,frequency;generated;german
+439,2,gruppe,Wir reisen in einer {{Gruppe}}.,frequency;generated;german
+439,3,gruppe,Jede {{Gruppe}} bekommt einen Tisch.,frequency;generated;german
+440,1,her,Komm bitte {{her}}.,frequency;generated;german
+440,2,her,Das ist lange {{her}}.,frequency;generated;german
+440,3,her,Wo kommst du {{her}}?,frequency;generated;german
+441,1,meisten,Die {{meisten}} Gäste sind da.,frequency;generated;german
+441,2,meisten,Ich mag Blau am {{meisten}}.,frequency;generated;german
+441,3,meisten,Das kostet die {{meisten}} Leute viel Zeit.,frequency;generated;german
+442,1,millionen,Hier leben zwei {{Millionen}} Menschen.,frequency;generated;german
+442,2,millionen,Das kostet {{Millionen}} von Euro.,frequency;generated;german
+442,3,millionen,Am Himmel sind {{Millionen}} Sterne.,frequency;generated;german
+443,1,schreiben,Kannst du mir {{schreiben}}?,frequency;generated;german
+443,2,schreiben,Wir {{schreiben}} morgen einen Test.,frequency;generated;german
+443,3,schreiben,Wir {{schreiben}} eine Einkaufsliste.,frequency;generated;german
+444,1,treffen,Wir {{treffen}} uns am Bahnhof.,frequency;generated;german
+444,2,treffen,Ich möchte eine Entscheidung {{treffen}}.,frequency;generated;german
+444,3,treffen,Vielleicht {{treffen}} wir Anna im Park.,frequency;generated;german
+445,1,trotzdem,Es regnet; ich gehe {{trotzdem}} raus.,frequency;generated;german
+445,2,trotzdem,"Ich bin müde, komme aber {{trotzdem}}.",frequency;generated;german
+445,3,trotzdem,Danke {{trotzdem}} für deine Hilfe.,frequency;generated;german
+446,1,artikel,Ich lese einen {{Artikel}}.,frequency;generated;german
+446,2,artikel,Dieser {{Artikel}} ist ausverkauft.,frequency;generated;german
+446,3,artikel,Welchen {{Artikel}} hat dieses Wort?,frequency;generated;german
+447,1,bestimmt,Er kommt {{bestimmt}} bald.,frequency;generated;german
+447,2,bestimmt,Das ist für dich {{bestimmt}}.,frequency;generated;german
+447,3,bestimmt,Der Preis wird morgen {{bestimmt}}.,frequency;generated;german
+448,1,deutsch,Ich lerne {{deutsch}}.,frequency;generated;german
+448,2,deutsch,Kannst du das auf {{Deutsch}} sagen?,frequency;generated;german
+448,3,deutsch,Wir sprechen zu Hause {{deutsch}}.,frequency;generated;german
+449,1,folge,Ich {{folge}} dir.,frequency;generated;german
+449,2,folge,Wir sehen die nächste {{Folge}}.,frequency;generated;german
+449,3,folge,Der Fehler hatte eine schlimme {{Folge}}.,frequency;generated;german
+450,1,glück,Viel {{Glück}}!,frequency;generated;german
+450,2,glück,Zum {{Glück}} ist nichts passiert.,frequency;generated;german
+450,3,glück,Ich hatte {{Glück}} mit dem Wetter.,frequency;generated;german
+451,1,herr,"Guten Morgen, {{Herr}} Müller.",frequency;generated;german
+451,2,herr,Dieser {{Herr}} möchte bezahlen.,frequency;generated;german
+451,3,herr,Ist {{Herr}} Weber da?,frequency;generated;german
+452,1,hilfe,Ich brauche {{Hilfe}}.,frequency;generated;german
+452,2,hilfe,Danke für deine {{Hilfe}}.,frequency;generated;german
+452,3,hilfe,Ruf um {{Hilfe}}!,frequency;generated;german
+453,1,leicht,Die Tasche ist {{leicht}}.,frequency;generated;german
+453,2,leicht,Das ist {{leicht}} zu verstehen.,frequency;generated;german
+453,3,leicht,Mir ist {{leicht}} übel.,frequency;generated;german
+454,1,mehrere,Ich habe {{mehrere}} Fragen.,frequency;generated;german
+454,2,mehrere,Hier wohnen {{mehrere}} Familien.,frequency;generated;german
+454,3,mehrere,Wir haben {{mehrere}} Stunden gewartet.,frequency;generated;german
+455,1,niemand,Hier ist {{niemand}}.,frequency;generated;german
+455,2,niemand,Ich kenne {{niemand}} in der Stadt.,frequency;generated;german
+455,3,niemand,Das hat {{niemand}} gesagt.,frequency;generated;german
+456,1,politik,Wir reden über {{Politik}}.,frequency;generated;german
+456,2,politik,Sie interessiert sich für {{Politik}}.,frequency;generated;german
+456,3,politik,Die Firma ändert ihre {{Politik}}.,frequency;generated;german
+457,1,sache,Das ist eine gute {{Sache}}.,frequency;generated;german
+457,2,sache,Ich muss dir eine {{Sache}} sagen.,frequency;generated;german
+457,3,sache,Das ist nicht meine {{Sache}}.,frequency;generated;german
+458,1,scheint,Die Sonne {{scheint}}.,frequency;generated;german
+458,2,scheint,Er {{scheint}} müde zu sein.,frequency;generated;german
+458,3,scheint,Das {{scheint}} zu funktionieren.,frequency;generated;german
+459,1,zunächst,{{Zunächst}} müssen wir bezahlen.,frequency;generated;german
+459,2,zunächst,Ich bleibe {{zunächst}} hier.,frequency;generated;german
+459,3,zunächst,Das klingt {{zunächst}} einfach.,frequency;generated;german
+460,1,alte,Das ist meine {{alte}} Schule.,frequency;generated;german
+460,2,alte,Die {{alte}} Frau lächelt.,frequency;generated;german
+460,3,alte,Ich sammle {{alte}} Bücher.,frequency;generated;german
+461,1,bisschen,Warte ein {{bisschen}}.,frequency;generated;german
+461,2,bisschen,Ich spreche ein {{bisschen}} Deutsch.,frequency;generated;german
+461,3,bisschen,Nimm ein {{bisschen}} Salz.,frequency;generated;german
+462,1,denken,Was {{denken}} die anderen?,frequency;generated;german
+462,2,denken,Wir {{denken}} oft an dich.,frequency;generated;german
+462,3,denken,"Vergiss nicht, an die Schlüssel zu {{denken}}.",frequency;generated;german
+463,1,fand,Ich {{fand}} den Film gut.,frequency;generated;german
+463,2,fand,Sie {{fand}} Geld auf der Straße.,frequency;generated;german
+463,3,fand,Der Kurs {{fand}} gestern statt.,frequency;generated;german
+464,1,film,Der {{Film}} beginnt um acht.,frequency;generated;german
+464,2,film,Kennst du diesen {{Film}}?,frequency;generated;german
+464,3,film,Wir drehen einen kurzen {{Film}}.,frequency;generated;german
+465,1,internet,Das {{Internet}} funktioniert nicht.,frequency;generated;german
+465,2,internet,Ich habe es im {{Internet}} gekauft.,frequency;generated;german
+465,3,internet,Hier gibt es kein {{Internet}}.,frequency;generated;german
+466,1,laut,Die Musik ist zu {{laut}}.,frequency;generated;german
+466,2,laut,Lies bitte {{laut}} vor.,frequency;generated;german
+466,3,laut,{{Laut}} Wetterbericht regnet es morgen.,frequency;generated;german
+467,1,lesen,Ich möchte ein Buch {{lesen}}.,frequency;generated;german
+467,2,lesen,Kannst du das {{lesen}}?,frequency;generated;german
+467,3,lesen,Wir {{lesen}} jeden Abend.,frequency;generated;german
+468,1,oh,"{{Oh}}, das tut mir leid!",frequency;generated;german
+468,2,oh,"{{Oh}} nein, der Bus ist weg!",frequency;generated;german
+468,3,oh,"{{Oh}}, wie schön!",frequency;generated;german
+469,1,personen,Der Tisch ist für vier {{Personen}}.,frequency;generated;german
+469,2,personen,Hier dürfen zehn {{Personen}} rein.,frequency;generated;german
+469,3,personen,Zwei {{Personen}} fehlen noch.,frequency;generated;german
+470,1,regierung,Die {{Regierung}} baut neue Schulen.,frequency;generated;german
+470,2,regierung,Die {{Regierung}} hat sich geändert.,frequency;generated;german
+470,3,regierung,Viele sind mit der {{Regierung}} unzufrieden.,frequency;generated;german
+471,1,richtung,In welche {{Richtung}} müssen wir gehen?,frequency;generated;german
+471,2,richtung,Der Bus fährt {{richtung}} Bahnhof.,frequency;generated;german
+471,3,richtung,Das ist die falsche {{Richtung}}.,frequency;generated;german
+472,1,schließlich,Wir sind {{schließlich}} angekommen.,frequency;generated;german
+472,2,schließlich,Ich muss gehen; es ist {{schließlich}} spät.,frequency;generated;german
+472,3,schließlich,"Erst suchten wir, {{schließlich}} fragten wir nach.",frequency;generated;german
+473,1,stellt,Sie {{stellt}} das Glas auf den Tisch.,frequency;generated;german
+473,2,stellt,Er {{stellt}} viele Fragen.,frequency;generated;german
+473,3,stellt,Wer {{stellt}} die Stühle bereit?,frequency;generated;german
+474,1,team,Unser {{Team}} hat gewonnen.,frequency;generated;german
+474,2,team,Ich arbeite gern im {{Team}}.,frequency;generated;german
+474,3,team,Das {{Team}} sucht neue Spieler.,frequency;generated;german
+475,1,buch,Ich lese ein {{Buch}}.,frequency;generated;german
+475,2,buch,Gib das {{Buch}} zurück.,frequency;generated;german
+475,3,buch,Worum geht es in dem {{Buch}}?,frequency;generated;german
+476,1,dinge,Pack deine {{Dinge}} ein.,frequency;generated;german
+476,2,dinge,Es gibt wichtigere {{Dinge}}.,frequency;generated;german
+476,3,dinge,Ich muss noch drei {{Dinge}} erledigen.,frequency;generated;german
+477,1,dürfen,Wir {{dürfen}} hier parken.,frequency;generated;german
+477,2,dürfen,Kinder {{dürfen}} kostenlos rein.,frequency;generated;german
+477,3,dürfen,Das hättest du nicht sagen {{dürfen}}.,frequency;generated;german
+478,1,früher,Ich habe {{früher}} hier gewohnt.,frequency;generated;german
+478,2,früher,Komm bitte etwas {{früher}}.,frequency;generated;german
+478,3,früher,{{Früher}} gab es kein Internet.,frequency;generated;german
+479,1,geworden,Es ist kalt {{geworden}}.,frequency;generated;german
+479,2,geworden,Sie ist Ärztin {{geworden}}.,frequency;generated;german
+479,3,geworden,Du bist groß {{geworden}}.,frequency;generated;german
+480,1,prozent,Zehn {{Prozent}} der Gäste fehlen.,frequency;generated;german
+480,2,prozent,Der Preis steigt um zwei {{Prozent}}.,frequency;generated;german
+480,3,prozent,Ich bin hundert {{Prozent}} sicher.,frequency;generated;german
+481,1,sohn,Mein {{Sohn}} ist fünf.,frequency;generated;german
+481,2,sohn,Wie heißt dein {{Sohn}}?,frequency;generated;german
+481,3,sohn,Das ist der {{Sohn}} meiner Nachbarin.,frequency;generated;german
+482,1,spaß,Viel {{Spaß}} beim Schwimmen!,frequency;generated;german
+482,2,spaß,Das macht mir {{Spaß}}.,frequency;generated;german
+482,3,spaß,Es war nur {{Spaß}}.,frequency;generated;german
+483,1,stelle,An deiner {{Stelle}} würde ich warten.,frequency;generated;german
+483,2,stelle,Ich suche eine neue {{Stelle}}.,frequency;generated;german
+483,3,stelle,Ich {{stelle}} die Tasche hier ab.,frequency;generated;german
+484,1,wort,Ich verstehe dieses {{Wort}} nicht.,frequency;generated;german
+484,2,wort,Gib mir dein {{Wort}}.,frequency;generated;german
+484,3,wort,Er hat kein {{Wort}} gesagt.,frequency;generated;german
+485,1,bereich,Dieser {{Bereich}} ist gesperrt.,frequency;generated;german
+485,2,bereich,Sie arbeitet im {{Bereich}} Gesundheit.,frequency;generated;german
+485,3,bereich,In diesem {{Bereich}} gibt es kein Netz.,frequency;generated;german
+486,1,besteht,Der Tisch {{besteht}} aus Holz.,frequency;generated;german
+486,2,besteht,Unser Team {{besteht}} aus fünf Personen.,frequency;generated;german
+486,3,besteht,Sie {{besteht}} die Prüfung.,frequency;generated;german
+487,1,bringt,Er {{bringt}} frisches Brot.,frequency;generated;german
+487,2,bringt,Was {{bringt}} dir das?,frequency;generated;german
+487,3,bringt,Sie {{bringt}} ihr Kind ins Bett.,frequency;generated;german
+488,1,ernst,Ich meine es {{ernst}}.,frequency;generated;german
+488,2,ernst,Die Lage ist {{ernst}}.,frequency;generated;german
+488,3,ernst,"Das ist kein Spaß, das ist {{Ernst}}.",frequency;generated;german
+489,1,groß,Mein Bruder ist {{groß}}.,frequency;generated;german
+489,2,groß,Die Schuhe sind zu {{groß}}.,frequency;generated;german
+489,3,groß,Wie {{groß}} ist deine Wohnung?,frequency;generated;german
+490,1,mensch,Er ist ein guter {{Mensch}}.,frequency;generated;german
+490,2,mensch,Jeder {{Mensch}} ist anders.,frequency;generated;german
+490,3,mensch,Kein {{Mensch}} kann alles wissen.,frequency;generated;german
+491,1,mädchen,Das {{Mädchen}} liest ein Buch.,frequency;generated;german
+491,2,mädchen,Wir bekommen ein {{Mädchen}}.,frequency;generated;german
+491,3,mädchen,Die beiden {{Mädchen}} spielen zusammen.,frequency;generated;german
+492,1,vater,Mein {{Vater}} kocht gern.,frequency;generated;german
+492,2,vater,Er ist gerade {{Vater}} geworden.,frequency;generated;german
+492,3,vater,Wie geht es deinem {{Vater}}?,frequency;generated;german
+493,1,zukunft,Ich denke an meine {{Zukunft}}.,frequency;generated;german
+493,2,zukunft,In {{Zukunft}} komme ich früher.,frequency;generated;german
+493,3,zukunft,Wir planen unsere {{Zukunft}}.,frequency;generated;german
+494,1,all,Woher kommt {{all}} das Wasser?,frequency;generated;german
+494,2,all,Wo warst du {{all}} die Jahre?,frequency;generated;german
+494,3,all,Das Schiff fliegt ins {{All}}.,frequency;generated;german
+495,1,darum,Ich bin müde; {{darum}} gehe ich.,frequency;generated;german
+495,2,darum,Ich kümmere mich {{darum}}.,frequency;generated;german
+495,3,darum,"Es geht {{darum}}, dass alle mitmachen.",frequency;generated;german
+496,1,eigene,Das ist meine {{eigene}} Idee.,frequency;generated;german
+496,2,eigene,Wir haben eine {{eigene}} Wohnung.,frequency;generated;german
+496,3,eigene,Jeder hat {{eigene}} Wünsche.,frequency;generated;german
+497,1,fahren,Wir {{fahren}} morgen ans Meer.,frequency;generated;german
+497,2,fahren,Kannst du Auto {{fahren}}?,frequency;generated;german
+497,3,fahren,Die Busse {{fahren}} heute nicht.,frequency;generated;german
+498,1,fest,Halt dich {{fest}}.,frequency;generated;german
+498,2,fest,Der Termin steht {{fest}}.,frequency;generated;german
+498,3,fest,Morgen feiern wir ein {{Fest}}.,frequency;generated;german
+499,1,form,Der Kuchen hat eine runde {{Form}}.,frequency;generated;german
+499,2,form,Ich bin wieder in {{Form}}.,frequency;generated;german
+499,3,form,Fülle die {{form}} mit Wasser.,frequency;generated;german
+500,1,frei,Ist dieser Platz {{frei}}?,frequency;generated;german
+500,2,frei,Morgen habe ich {{frei}}.,frequency;generated;german
+500,3,frei,Der Vogel ist wieder {{frei}}.,frequency;generated;german

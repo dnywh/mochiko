@@ -85,10 +85,16 @@ Preview the next governed Spanish and German slices:
 PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py
 ```
 
-The consolidated runner preserves filtered `wordfreq` order, checks for Mochi
+The consolidated runner uses the learner filter in `scripts/learner_frequency.py`,
+preserving prepared rank identities and the remaining `wordfreq` order. It checks for Mochi
 review activity in the prior 24 hours, and creates three independently reviewed
 sentence cards for each new word. Spanish adds one word per day. German adds up
 to three words per day. Both stop at rank 500.
+
+Both sentence banks are stocked through learner rank 500. The filter skips
+listed names, acronyms, foreign tokens and isolated letters after the preserved
+prefix, and restores standard German spelling. See the workflow for the fixed
+rank boundaries and historical-entry policy.
 
 Apply and publish the prepared slices:
 

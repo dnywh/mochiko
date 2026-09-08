@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-from wordfreq import top_n_list
+from learner_frequency import top_learner_words
 
 from daily_spanish_frequency import (
     card_sentence,
@@ -31,19 +31,7 @@ TAGS = "frequency;generated;german"
 
 
 def top_german_words(limit: int) -> list[str]:
-    if limit < 0:
-        raise ValueError("limit must be non-negative")
-    if limit == 0:
-        return []
-    candidate_limit = limit
-    while True:
-        candidates = top_n_list("de", candidate_limit)
-        words = [word for word in candidates if word.isalpha()]
-        if len(words) >= limit:
-            return words[:limit]
-        if len(candidates) < candidate_limit:
-            raise ValueError(f"wordfreq returned only {len(words)} German word tokens")
-        candidate_limit *= 2
+    return top_learner_words("de", limit)
 
 
 def read_source_rows() -> list[dict[str, str]]:
