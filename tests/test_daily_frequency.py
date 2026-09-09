@@ -4,6 +4,8 @@ import tempfile
 import unittest
 from datetime import datetime
 from pathlib import Path
+from subprocess import CompletedProcess
+from unittest.mock import patch
 from zoneinfo import ZoneInfo
 
 
@@ -57,6 +59,25 @@ class DailyFrequencyTests(unittest.TestCase):
             daily.validate_sentence("aber", "{{aber}} und {{aber}}")
         with self.assertRaises(ValueError):
             daily.validate_sentence("sein", "Das muss {{sein}} Schlüssel sein.")
+
+    def test_local_publish_commits_without_push(self):
+        calls = []
+
+        def fake_git(*args, **kwargs):
+            calls.append(args)
+            if args[:3] == ("diff", "--cached", "--name-only"):
+                output = "languages/es/frequency.csv\n"
+            elif args == ("rev-parse", "--short", "HEAD"):
+                output = "abc1234\n"
+            else:
+                output = ""
+            return CompletedProcess(["git", *args], 0, output, "")
+
+        with patch.object(daily, "git", side_effect=fake_git):
+            commit, push = daily.publish("2026-09-10", push=False)
+
+        self.assertEqual((commit, push), ("abc1234", "skipped"))
+        self.assertNotIn(("push", "origin", "main"), calls)
 
 
 if __name__ == "__main__":

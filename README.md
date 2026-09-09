@@ -102,6 +102,13 @@ Apply and publish the prepared slices:
 PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py --apply --publish
 ```
 
+For restricted scheduled environments, keep the local guarded commit while
+avoiding nested Git network operations:
+
+```sh
+PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py --apply --publish --skip-fetch --skip-push
+```
+
 Validate both sentence banks entirely offline:
 
 ```sh

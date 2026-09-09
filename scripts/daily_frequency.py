@@ -343,18 +343,21 @@ def append_source(language: Language, rows: list[dict[str, str]]) -> None:
     write_rows(language.source, normalised)
 
 
-def publish(date: str) -> str:
+def publish(date: str, push: bool = True) -> tuple[str, str]:
     allowed = [str(language.source) for language in LANGUAGES]
     git("diff", "--check", "--", *allowed)
     git("add", *allowed)
     staged = git("diff", "--cached", "--name-only").stdout.splitlines()
     if not staged:
-        return "no source changes"
+        return "no source changes", "not needed"
     if set(staged) - set(allowed):
         raise RuntimeError(f"Refusing unexpected staged files: {staged}")
     git("commit", "-m", f"daily frequency cards: {date}")
+    commit = git("rev-parse", "--short", "HEAD").stdout.strip()
+    if not push:
+        return commit, "skipped"
     git("push", "origin", "main")
-    return git("rev-parse", "--short", "HEAD").stdout.strip()
+    return commit, "pushed"
 
 
 def main() -> None:
@@ -362,12 +365,15 @@ def main() -> None:
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--publish", action="store_true")
     parser.add_argument("--skip-fetch", action="store_true")
+    parser.add_argument("--skip-push", action="store_true")
     parser.add_argument("--validate-banks", action="store_true")
     parser.add_argument("--api-base", default="https://app.mochi.cards/api")
     parser.add_argument("--require-recent-study-hours", type=int, default=24)
     args = parser.parse_args()
     if args.publish and not args.apply:
         raise SystemExit("--publish requires --apply")
+    if args.skip_push and not args.publish:
+        raise SystemExit("--skip-push requires --publish")
 
     if args.validate_banks:
         for language in LANGUAGES:
@@ -418,8 +424,16 @@ def main() -> None:
         ranks = sorted({int(row["rank"]) for row in rows})
         results.append(f"{language.name}: ranks {ranks[0]}-{ranks[-1]}, created {created}, skipped {skipped}")
 
-    commit = publish(now.date().isoformat()) if args.publish else "not requested"
-    print(json.dumps({"status": "ok", "results": results, "commit": commit}, ensure_ascii=False))
+    if args.publish:
+        commit, push = publish(now.date().isoformat(), push=not args.skip_push)
+    else:
+        commit, push = "not requested", "not requested"
+    print(
+        json.dumps(
+            {"status": "ok", "results": results, "commit": commit, "push": push},
+            ensure_ascii=False,
+        )
+    )
 
 
 if __name__ == "__main__":

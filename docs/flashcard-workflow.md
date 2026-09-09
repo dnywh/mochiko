@@ -107,12 +107,16 @@ completes the tagged trio.
 Use `scripts/daily_frequency.py`. `--validate-banks` checks prepared rows without
 Git or Mochi access. A run without `--apply` performs a governed live preview.
 `--apply --publish` performs the single-snapshot write and guarded publication.
+Scheduled environments that cannot grant network access to Git subprocesses use
+`--skip-fetch --skip-push`. This still creates a guarded local commit, leaving
+remote synchronisation for an interactive session.
 
 ### Scheduled source version control
 
 After a governed run successfully creates cards and updates either frequency
 source, the automation commits only the changed Spanish and German frequency
-CSVs directly to `main`, then pushes `main` to `origin`. Sentence banks are
+CSVs directly to `main`. Interactive runs may push `main` to `origin`; the
+restricted scheduled run skips that network step. Sentence banks are
 replenished separately and are not changed by the scheduled run. It does not create a PR.
 Skipped runs create no commit. Scratch files under `work/`, credentials, and
 unrelated worktree changes must never be staged. A commit or push failure is
