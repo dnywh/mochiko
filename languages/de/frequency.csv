@@ -13,10 +13,19 @@ rank,variant,word,sentence,tags
 4,3,in,Ich komme {{in}} zehn Minuten.,frequency;generated;german
 5,1,das,Ich lese {{das}} Buch.,frequency;generated;german
 5,2,das,Ist {{das}} dein Fahrrad?,frequency;generated;german
+5,3,das,"Ich glaube, {{das}} stimmt.",frequency;generated;german
 6,1,ich,Heute lerne {{ich}} Deutsch.,frequency;generated;german
+6,2,ich,Darf {{ich}} hier sitzen?,frequency;generated;german
+6,3,ich,Das mache {{ich}} selbst.,frequency;generated;german
 7,1,ist,Das {{ist}} gut.,frequency;generated;german
+7,2,ist,Meine Schwester {{ist}} Ärztin.,frequency;generated;german
+7,3,ist,Wo {{ist}} mein Handy?,frequency;generated;german
 8,1,nicht,Das ist {{nicht}} schwer.,frequency;generated;german
+8,2,nicht,Ich kenne ihn {{nicht}}.,frequency;generated;german
+8,3,nicht,Komm bitte {{nicht}} zu spät.,frequency;generated;german
 9,1,zu,Ich gehe {{zu}} dir.,frequency;generated;german
+9,2,zu,Der Kaffee ist {{zu}} heiß.,frequency;generated;german
+9,3,zu,Ich habe keine Zeit {{zu}} kochen.,frequency;generated;german
 10,1,den,Ich sehe {{den}} Hund.,frequency;generated;german
 11,1,von,Das Geschenk ist {{von}} dir.,frequency;generated;german
 12,1,mit,Ich komme {{mit}} dir.,frequency;generated;german
