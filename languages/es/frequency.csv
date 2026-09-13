@@ -9,7 +9,10 @@ rank,variant,word,sentence,tags
 3,2,que,El pan {{que}} compré está fresco.,frequency;generated;spanish
 3,3,que,Espero {{que}} estés bien.,frequency;generated;spanish
 4,1,el,Leo {{el}} libro.,frequency;generated;rank-001-020
+4,2,el,Me duele {{el}} brazo.,frequency;generated;spanish
+4,3,el,Hoy es {{el}} cumpleaños de Ana.,frequency;generated;spanish
 5,1,en,Vivo {{en}} Lima.,frequency;generated;rank-001-020
+5,2,en,Nos vemos {{en}} diez minutos.,frequency;generated;spanish
 6,1,y,Ana {{y}} Luis comen.,frequency;generated;rank-001-020
 7,1,a,Voy {{a}} casa.,frequency;generated;rank-001-020
 8,1,los,Veo {{los}} niños.,frequency;generated;rank-001-020

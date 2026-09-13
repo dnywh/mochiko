@@ -27,10 +27,19 @@ rank,variant,word,sentence,tags
 9,2,zu,Der Kaffee ist {{zu}} heiß.,frequency;generated;german
 9,3,zu,Ich habe keine Zeit {{zu}} kochen.,frequency;generated;german
 10,1,den,Ich sehe {{den}} Hund.,frequency;generated;german
+10,2,den,Gib mir bitte {{den}} Stift.,frequency;generated;german
+10,3,den,Wir fahren mit {{den}} Kindern ans Meer.,frequency;generated;german
 11,1,von,Das Geschenk ist {{von}} dir.,frequency;generated;german
+11,2,von,Ich komme gerade {{von}} der Arbeit.,frequency;generated;german
+11,3,von,Das ist ein Freund {{von}} mir.,frequency;generated;german
 12,1,mit,Ich komme {{mit}} dir.,frequency;generated;german
+12,2,mit,Wir fahren {{mit}} dem Bus.,frequency;generated;german
+12,3,mit,Ich hätte gern Kaffee {{mit}} Milch.,frequency;generated;german
 13,1,es,Heute ist {{es}} kalt.,frequency;generated;german
+13,2,es,Mir geht {{es}} gut.,frequency;generated;german
+13,3,es,Gibt {{es}} hier einen Supermarkt?,frequency;generated;german
 14,1,ein,Das ist {{ein}} Buch.,frequency;generated;german
+14,2,ein,Ich brauche {{ein}} Glas Wasser.,frequency;generated;german
 15,1,auf,Das Buch liegt {{auf}} dem Tisch.,frequency;generated;german
 16,1,für,Das Geschenk ist {{für}} dich.,frequency;generated;german
 17,1,im,Wir sind {{im}} Park.,frequency;generated;german
