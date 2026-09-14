@@ -40,10 +40,19 @@ rank,variant,word,sentence,tags
 13,3,es,Gibt {{es}} hier einen Supermarkt?,frequency;generated;german
 14,1,ein,Das ist {{ein}} Buch.,frequency;generated;german
 14,2,ein,Ich brauche {{ein}} Glas Wasser.,frequency;generated;german
+14,3,ein,Hier wohnt {{ein}} guter Freund.,frequency;generated;german
 15,1,auf,Das Buch liegt {{auf}} dem Tisch.,frequency;generated;german
+15,2,auf,Ich warte {{auf}} den Bus.,frequency;generated;german
+15,3,auf,Mach bitte das Fenster {{auf}}.,frequency;generated;german
 16,1,für,Das Geschenk ist {{für}} dich.,frequency;generated;german
+16,2,für,Danke {{für}} deine Hilfe.,frequency;generated;german
+16,3,für,Ich bleibe {{für}} eine Woche.,frequency;generated;german
 17,1,im,Wir sind {{im}} Park.,frequency;generated;german
+17,2,im,{{Im}} Winter schneit es oft.,frequency;generated;german
+17,3,im,Er liest {{im}} Bett.,frequency;generated;german
 18,1,sie,Ich sehe {{sie}} heute.,frequency;generated;german
+18,2,sie,Morgen kommt {{sie}} vorbei.,frequency;generated;german
+18,3,sie,"Sind das deine Schuhe? Ja, {{sie}} sind neu.",frequency;generated;german
 19,1,eine,Ich habe {{eine}} Katze.,frequency;generated;german
 20,1,sich,Er wäscht {{sich}} jeden Morgen.,frequency;generated;german
 21,1,auch,Ich komme {{auch}} mit.,frequency;generated;german
