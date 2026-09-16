@@ -54,10 +54,19 @@ rank,variant,word,sentence,tags
 18,2,sie,Morgen kommt {{sie}} vorbei.,frequency;generated;german
 18,3,sie,"Sind das deine Schuhe? Ja, {{sie}} sind neu.",frequency;generated;german
 19,1,eine,Ich habe {{eine}} Katze.,frequency;generated;german
+19,2,eine,Wir warten schon {{eine}} Stunde.,frequency;generated;german
+19,3,eine,Hast du {{eine}} Frage?,frequency;generated;german
 20,1,sich,Er wäscht {{sich}} jeden Morgen.,frequency;generated;german
+20,2,sich,Sie freut {{sich}} auf morgen.,frequency;generated;german
+20,3,sich,Das hört {{sich}} gut an.,frequency;generated;german
 21,1,auch,Ich komme {{auch}} mit.,frequency;generated;german
+21,2,auch,Mein Bruder spricht {{auch}} Spanisch.,frequency;generated;german
+21,3,auch,Das gilt {{auch}} für dich.,frequency;generated;german
 22,1,dem,Ich helfe {{dem}} Mann.,frequency;generated;german
+22,2,dem,Das Buch liegt auf {{dem}} Tisch.,frequency;generated;german
+22,3,dem,Ich spiele mit {{dem}} Hund.,frequency;generated;german
 23,1,des,Die Farbe {{des}} Autos ist rot.,frequency;generated;german
+23,2,des,Das ist der Anfang {{des}} Films.,frequency;generated;german
 24,1,als,Er arbeitet {{als}} Lehrer.,frequency;generated;german
 25,1,er,Heute kommt {{er}} nach Hause.,frequency;generated;german
 26,1,an,Das Bild hängt {{an}} der Wand.,frequency;generated;german

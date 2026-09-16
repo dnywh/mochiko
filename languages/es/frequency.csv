@@ -18,7 +18,10 @@ rank,variant,word,sentence,tags
 6,2,y,Abre la puerta {{y}} pasa.,frequency;generated;spanish
 6,3,y,Quiero pan {{y}} queso.,frequency;generated;spanish
 7,1,a,Voy {{a}} casa.,frequency;generated;rank-001-020
+7,2,a,Llamé {{a}} mi madre.,frequency;generated;spanish
+7,3,a,Aprendo {{a}} cocinar.,frequency;generated;spanish
 8,1,los,Veo {{los}} niños.,frequency;generated;rank-001-020
+8,2,los,Lávate {{los}} dientes.,frequency;generated;spanish
 9,1,no,Yo {{no}} quiero café.,frequency;generated;rank-001-020
 10,1,un,Tengo {{un}} perro.,frequency;generated;rank-001-020
 11,1,se,Ella {{se}} lava las manos.,frequency;generated;rank-001-020
