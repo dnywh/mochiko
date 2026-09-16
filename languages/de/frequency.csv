@@ -67,10 +67,19 @@ rank,variant,word,sentence,tags
 22,3,dem,Ich spiele mit {{dem}} Hund.,frequency;generated;german
 23,1,des,Die Farbe {{des}} Autos ist rot.,frequency;generated;german
 23,2,des,Das ist der Anfang {{des}} Films.,frequency;generated;german
+23,3,des,Die Tür {{des}} Hauses ist offen.,frequency;generated;german
 24,1,als,Er arbeitet {{als}} Lehrer.,frequency;generated;german
+24,2,als,Mein Bruder ist älter {{als}} ich.,frequency;generated;german
+24,3,als,{{Als}} Kind wohnte ich am Meer.,frequency;generated;german
 25,1,er,Heute kommt {{er}} nach Hause.,frequency;generated;german
+25,2,er,Hat {{er}} schon gegessen?,frequency;generated;german
+25,3,er,Das hat {{er}} selbst gemacht.,frequency;generated;german
 26,1,an,Das Bild hängt {{an}} der Wand.,frequency;generated;german
+26,2,an,Ich denke oft {{an}} dich.,frequency;generated;german
+26,3,an,Ruf mich morgen {{an}}.,frequency;generated;german
 27,1,dass,"Ich weiß, {{dass}} du kommst.",frequency;generated;german
+27,2,dass,"Ich hoffe, {{dass}} es klappt.",frequency;generated;german
+27,3,dass,"Gut, {{dass}} du da bist.",frequency;generated;german
 28,1,so,Das ist {{so}} einfach.,frequency;generated;german
 29,1,bei,Ich bin {{bei}} meiner Freundin.,frequency;generated;german
 30,1,wie,Sie singt {{wie}} ihre Mutter.,frequency;generated;german

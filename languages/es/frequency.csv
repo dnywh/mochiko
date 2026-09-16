@@ -22,7 +22,10 @@ rank,variant,word,sentence,tags
 7,3,a,Aprendo {{a}} cocinar.,frequency;generated;spanish
 8,1,los,Veo {{los}} niños.,frequency;generated;rank-001-020
 8,2,los,Lávate {{los}} dientes.,frequency;generated;spanish
+8,3,los,Trabajo {{los}} martes.,frequency;generated;spanish
 9,1,no,Yo {{no}} quiero café.,frequency;generated;rank-001-020
+9,2,no,Hoy {{no}} tengo hambre.,frequency;generated;spanish
+9,3,no,¿Por qué {{no}} vienes?,frequency;generated;spanish
 10,1,un,Tengo {{un}} perro.,frequency;generated;rank-001-020
 11,1,se,Ella {{se}} lava las manos.,frequency;generated;rank-001-020
 12,1,por,Camino {{por}} el parque.,frequency;generated;rank-001-020
