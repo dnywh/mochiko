@@ -81,10 +81,19 @@ rank,variant,word,sentence,tags
 27,2,dass,"Ich hoffe, {{dass}} es klappt.",frequency;generated;german
 27,3,dass,"Gut, {{dass}} du da bist.",frequency;generated;german
 28,1,so,Das ist {{so}} einfach.,frequency;generated;german
+28,2,so,Mach es {{so}} wie ich.,frequency;generated;german
+28,3,so,Warum bist du {{so}} müde?,frequency;generated;german
 29,1,bei,Ich bin {{bei}} meiner Freundin.,frequency;generated;german
+29,2,bei,{{Bei}} Regen bleiben wir drinnen.,frequency;generated;german
+29,3,bei,Kannst du mir {{bei}} der Arbeit helfen?,frequency;generated;german
 30,1,wie,Sie singt {{wie}} ihre Mutter.,frequency;generated;german
+30,2,wie,"Ich weiß nicht, {{wie}} das geht.",frequency;generated;german
+30,3,wie,{{Wie}} spät ist es?,frequency;generated;german
 31,1,aber,"Ich bin müde, {{aber}} glücklich.",frequency;generated;german
+31,2,aber,"Das ist schön, {{aber}} teuer.",frequency;generated;german
+31,3,aber,"Ich würde kommen, {{aber}} ich muss arbeiten.",frequency;generated;german
 32,1,aus,Ich komme {{aus}} Berlin.,frequency;generated;german
+32,2,aus,Der Tisch ist {{aus}} Holz.,frequency;generated;german
 33,1,hat,Er {{hat}} einen Hund.,frequency;generated;german
 34,1,sind,Wir {{sind}} heute zu Hause.,frequency;generated;german
 34,2,sind,Die Äpfel {{sind}} frisch.,frequency;generated;german

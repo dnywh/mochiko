@@ -27,7 +27,10 @@ rank,variant,word,sentence,tags
 9,2,no,Hoy {{no}} tengo hambre.,frequency;generated;spanish
 9,3,no,¿Por qué {{no}} vienes?,frequency;generated;spanish
 10,1,un,Tengo {{un}} perro.,frequency;generated;rank-001-020
+10,2,un,Llegó hace {{un}} minuto.,frequency;generated;spanish
+10,3,un,¿Hay {{un}} baño cerca?,frequency;generated;spanish
 11,1,se,Ella {{se}} lava las manos.,frequency;generated;rank-001-020
+11,2,se,Aquí {{se}} vende pan.,frequency;generated;spanish
 12,1,por,Camino {{por}} el parque.,frequency;generated;rank-001-020
 13,1,es,Madrid {{es}} grande.,frequency;generated;rank-001-020
 14,1,del,Vengo {{del}} mercado.,frequency;generated;rank-001-020
