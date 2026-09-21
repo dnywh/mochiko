@@ -31,7 +31,10 @@ rank,variant,word,sentence,tags
 10,3,un,¿Hay {{un}} baño cerca?,frequency;generated;spanish
 11,1,se,Ella {{se}} lava las manos.,frequency;generated;rank-001-020
 11,2,se,Aquí {{se}} vende pan.,frequency;generated;spanish
+11,3,se,Mi hermano {{se}} llama Luis.,frequency;generated;spanish
 12,1,por,Camino {{por}} el parque.,frequency;generated;rank-001-020
+12,2,por,Gracias {{por}} venir.,frequency;generated;spanish
+12,3,por,Pagamos diez pesos {{por}} persona.,frequency;generated;spanish
 13,1,es,Madrid {{es}} grande.,frequency;generated;rank-001-020
 14,1,del,Vengo {{del}} mercado.,frequency;generated;rank-001-020
 15,1,las,Veo {{las}} flores rojas.,frequency;generated;rank-001-020

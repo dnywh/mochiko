@@ -94,7 +94,10 @@ rank,variant,word,sentence,tags
 31,3,aber,"Ich würde kommen, {{aber}} ich muss arbeiten.",frequency;generated;german
 32,1,aus,Ich komme {{aus}} Berlin.,frequency;generated;german
 32,2,aus,Der Tisch ist {{aus}} Holz.,frequency;generated;german
+32,3,aus,Mach bitte das Licht {{aus}}.,frequency;generated;german
 33,1,hat,Er {{hat}} einen Hund.,frequency;generated;german
+33,2,hat,Sie {{hat}} heute Geburtstag.,frequency;generated;german
+33,3,hat,Wer {{hat}} das gesagt?,frequency;generated;german
 34,1,sind,Wir {{sind}} heute zu Hause.,frequency;generated;german
 34,2,sind,Die Äpfel {{sind}} frisch.,frequency;generated;german
 34,3,sind,Meine Freunde {{sind}} schon da.,frequency;generated;german
@@ -149,3 +152,9 @@ rank,variant,word,sentence,tags
 51,1,einer,Ich spreche mit {{einer}} Freundin.,frequency;generated;german
 51,2,einer,Das ist das Fahrrad {{einer}} Kollegin.,frequency;generated;german
 51,3,einer,Sie wohnt in {{einer}} kleinen Stadt.,frequency;generated;german
+52,1,zum,Wir gehen {{zum}} Bahnhof.,frequency;generated;german
+52,2,zum,Er kommt {{zum}} Abendessen.,frequency;generated;german
+52,3,zum,Ich brauche Milch {{zum}} Kochen.,frequency;generated;german
+53,1,kann,Sie {{kann}} sehr gut schwimmen.,frequency;generated;german
+53,2,kann,Heute {{kann}} ich länger bleiben.,frequency;generated;german
+53,3,kann,Das {{kann}} nicht stimmen.,frequency;generated;german
