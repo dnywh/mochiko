@@ -111,6 +111,10 @@ Scheduled environments that cannot grant network access to Git subprocesses use
 `--skip-fetch --skip-push`. This still creates a guarded local commit, leaving
 remote synchronisation for an interactive session.
 
+Cursor cloud daily schedule setup (prompt, cron, secrets, owner clicks) lives in
+`docs/daily-cloud-automation.md`. Prefer that over local Codex once the
+automation is active.
+
 ### Scheduled source version control
 
 After a governed run successfully creates cards and updates either frequency

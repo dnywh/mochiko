@@ -42,6 +42,7 @@ At a high level, formal/reusable decks live in this repo under `languages/<langu
 - `templates/mochiko_language_with_audio.md` - source for the recommended Mochiko template.
 - `templates/mochiko_german_with_audio.md` - source for the German audio template.
 - `docs/flashcard-workflow.md` - detailed workflow and guardrails.
+- `docs/daily-cloud-automation.md` - Cursor cloud daily frequency schedule prompt and setup.
 - `skills/mochiko-flashcards/` - repo-shared agent skill for portable guidance in Codex and similar AI coding tools.
 
 Spanish and German frequency cards each use one long-lived `Frequency` deck,
@@ -108,6 +109,10 @@ avoiding nested Git network operations:
 ```sh
 PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py --apply --publish --skip-fetch --skip-push
 ```
+
+For the Cursor cloud daily schedule that replaces local Codex, see
+[docs/daily-cloud-automation.md](docs/daily-cloud-automation.md). That path uses
+full `--apply --publish` (with fetch and push).
 
 Validate both sentence banks entirely offline:
 
