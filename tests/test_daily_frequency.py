@@ -60,6 +60,32 @@ class DailyFrequencyTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             daily.validate_sentence("sein", "Das muss {{sein}} Schlüssel sein.")
 
+    def test_recent_activity_reads_nested_mochi_review_dates(self):
+        now = datetime(2026, 9, 21, 15, tzinfo=ZoneInfo("Australia/Melbourne"))
+        cards = [
+            {
+                "reviews": [
+                    {
+                        "date": {"date": "2026-09-20T00:00:00.000Z"},
+                        "due": {"date": "2026-09-21T00:00:00.000Z"},
+                        "remembered?": True,
+                    }
+                ]
+            }
+        ]
+        recent, count, latest = daily.recent_activity(cards, 24, now)
+        self.assertTrue(recent)
+        self.assertEqual(count, 1)
+        self.assertEqual(latest, "2026-09-20")
+
+    def test_recent_activity_reports_old_review_day_without_passing(self):
+        now = datetime(2026, 9, 21, 15, tzinfo=ZoneInfo("Australia/Melbourne"))
+        cards = [{"reviews": [{"date": {"date": "2026-09-01T00:00:00.000Z"}}]}]
+        recent, count, latest = daily.recent_activity(cards, 24, now)
+        self.assertFalse(recent)
+        self.assertEqual(count, 1)
+        self.assertEqual(latest, "2026-09-01")
+
     def test_local_publish_commits_without_push(self):
         calls = []
 

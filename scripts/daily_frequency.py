@@ -191,6 +191,23 @@ def card_deck_id(card: dict) -> str | None:
     return None
 
 
+def review_day(review: object):
+    """Read a Mochi review day.
+
+    List-card JSON nests the timestamp as {"date": {"date": "<iso>"}}.
+    Passing the whole review to parse_api_day drops every day.
+    """
+    if not isinstance(review, dict):
+        return None
+    raw = review.get("date")
+    if isinstance(raw, dict):
+        return parse_api_day(raw)
+    if isinstance(raw, str):
+        parsed = parse_api_date({"date": raw})
+        return parsed.date() if parsed else None
+    return None
+
+
 def recent_activity(cards: list[dict], hours: int, now: datetime) -> tuple[bool, int, str | None]:
     since = now - timedelta(hours=hours)
     latest = None
@@ -202,7 +219,7 @@ def recent_activity(cards: list[dict], hours: int, now: datetime) -> tuple[bool,
             continue
         for review in reviews:
             count += 1
-            day = parse_api_day(review if isinstance(review, dict) else None)
+            day = review_day(review)
             if day and (latest is None or day > latest):
                 latest = day
             if day and day >= since.date():
