@@ -87,6 +87,7 @@ The scheduled run must:
 
 - process Spanish before German in strict frequency-rank order
 - continue only when Mochi shows review activity within the prior 24 hours
+- read each review timestamp in Australia/Melbourne, because Mochi often stores the start of a local study day as a UTC instant on the previous calendar date
 - treat newly synced review records as recent when Mochi's day-level dates are unreliable
 - fetch Mochi cards once and reuse that snapshot for gates and duplicate checks
 - add one Spanish word and up to three German words per day

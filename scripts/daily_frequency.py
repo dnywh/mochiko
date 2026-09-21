@@ -15,7 +15,6 @@ from daily_spanish_frequency import (
     load_state,
     mochi_api_key,
     parse_api_date,
-    parse_api_day,
     post_json,
     write_state,
 )
@@ -192,20 +191,26 @@ def card_deck_id(card: dict) -> str | None:
 
 
 def review_day(review: object):
-    """Read a Mochi review day.
+    """Calendar day of a Mochi review in Melbourne.
 
     List-card JSON nests the timestamp as {"date": {"date": "<iso>"}}.
-    Passing the whole review to parse_api_day drops every day.
+    Mochi often stores the start of a local study day as a UTC instant on
+    the previous calendar date, so the UTC date is not the study day.
     """
     if not isinstance(review, dict):
         return None
     raw = review.get("date")
     if isinstance(raw, dict):
-        return parse_api_day(raw)
-    if isinstance(raw, str):
+        parsed = parse_api_date(raw)
+    elif isinstance(raw, str):
         parsed = parse_api_date({"date": raw})
-        return parsed.date() if parsed else None
-    return None
+    else:
+        parsed = None
+    if parsed is None:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=ZoneInfo("UTC"))
+    return parsed.astimezone(MELBOURNE).date()
 
 
 def recent_activity(cards: list[dict], hours: int, now: datetime) -> tuple[bool, int, str | None]:

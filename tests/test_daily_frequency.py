@@ -78,13 +78,22 @@ class DailyFrequencyTests(unittest.TestCase):
         self.assertEqual(count, 1)
         self.assertEqual(latest, "2026-09-20")
 
+    def test_local_midnight_utc_counts_as_melbourne_study_day(self):
+        # Sunday 00:00 in Melbourne is Saturday 14:00 UTC.
+        now = datetime(2026, 9, 21, 15, tzinfo=ZoneInfo("Australia/Melbourne"))
+        cards = [{"reviews": [{"date": {"date": "2026-09-19T14:00:00.000Z"}}]}]
+        recent, count, latest = daily.recent_activity(cards, 24, now)
+        self.assertTrue(recent)
+        self.assertEqual(count, 1)
+        self.assertEqual(latest, "2026-09-20")
+
     def test_recent_activity_reports_old_review_day_without_passing(self):
         now = datetime(2026, 9, 21, 15, tzinfo=ZoneInfo("Australia/Melbourne"))
-        cards = [{"reviews": [{"date": {"date": "2026-09-01T00:00:00.000Z"}}]}]
+        cards = [{"reviews": [{"date": {"date": "2026-09-19T00:00:00.000Z"}}]}]
         recent, count, latest = daily.recent_activity(cards, 24, now)
         self.assertFalse(recent)
         self.assertEqual(count, 1)
-        self.assertEqual(latest, "2026-09-01")
+        self.assertEqual(latest, "2026-09-19")
 
     def test_local_publish_commits_without_push(self):
         calls = []
