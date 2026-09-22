@@ -120,6 +120,12 @@ Validate both sentence banks entirely offline:
 PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py --validate-banks
 ```
 
+Inspect the live Mochi review gate without writing cards:
+
+```sh
+PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py --diagnose-activity
+```
+
 ## Installing the agent skill
 
 The repo-shared skill lives at `skills/mochiko-flashcards/`. In Codex, install it by symlinking the repo copy into your skills directory, then restart Codex:

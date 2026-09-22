@@ -87,6 +87,19 @@ class DailyFrequencyTests(unittest.TestCase):
         self.assertEqual(count, 1)
         self.assertEqual(latest, "2026-09-20")
 
+    def test_morning_run_needs_yesterdays_melbourne_day(self):
+        now = datetime(2026, 9, 22, 7, tzinfo=ZoneInfo("Australia/Melbourne"))
+        stale = [{"id": "a", "reviews": [{"date": {"date": "2026-09-20T00:00:00.000Z"}}]}]
+        recent, _, latest = daily.recent_activity(stale, 24, now)
+        self.assertFalse(recent)
+        self.assertEqual(latest, "2026-09-20")
+        snapshot = daily.activity_snapshot(stale, 24, now)
+        self.assertEqual(snapshot["threshold_day"], "2026-09-21")
+        fresh = [{"id": "b", "reviews": [{"date": {"date": "2026-09-21T12:00:00.000Z"}}]}]
+        recent, _, latest = daily.recent_activity(fresh, 24, now)
+        self.assertTrue(recent)
+        self.assertEqual(latest, "2026-09-21")
+
     def test_recent_activity_reports_old_review_day_without_passing(self):
         now = datetime(2026, 9, 21, 15, tzinfo=ZoneInfo("Australia/Melbourne"))
         cards = [{"reviews": [{"date": {"date": "2026-09-19T00:00:00.000Z"}}]}]

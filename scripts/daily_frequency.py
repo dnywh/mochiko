@@ -213,23 +213,81 @@ def review_day(review: object):
     return parsed.astimezone(MELBOURNE).date()
 
 
-def recent_activity(cards: list[dict], hours: int, now: datetime) -> tuple[bool, int, str | None]:
+def review_timestamp(review: object) -> datetime | None:
+    if not isinstance(review, dict):
+        return None
+    raw = review.get("date")
+    if isinstance(raw, dict):
+        parsed = parse_api_date(raw)
+    elif isinstance(raw, str):
+        parsed = parse_api_date({"date": raw})
+    else:
+        parsed = None
+    if parsed is None:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=ZoneInfo("UTC"))
+    return parsed.astimezone(MELBOURNE)
+
+
+def activity_snapshot(
+    cards: list[dict], hours: int, now: datetime
+) -> dict[str, object]:
     since = now - timedelta(hours=hours)
+    threshold = since.date()
     latest = None
     count = 0
-    recent = False
+    cards_with_reviews = 0
+    day_counts: dict[str, int] = {}
+    recent_samples: list[dict[str, str]] = []
     for card in cards:
         reviews = card.get("reviews")
-        if not isinstance(reviews, list):
+        if not isinstance(reviews, list) or not reviews:
             continue
+        cards_with_reviews += 1
         for review in reviews:
             count += 1
-            day = review_day(review)
-            if day and (latest is None or day > latest):
+            stamp = review_timestamp(review)
+            if stamp is None:
+                continue
+            day = stamp.date()
+            day_key = day.isoformat()
+            day_counts[day_key] = day_counts.get(day_key, 0) + 1
+            if latest is None or day > latest:
                 latest = day
-            if day and day >= since.date():
-                recent = True
-    return recent, count, latest.isoformat() if latest else None
+            recent_samples.append(
+                {
+                    "card_id": str(card.get("id") or ""),
+                    "utc": stamp.astimezone(ZoneInfo("UTC")).isoformat(),
+                    "melbourne": stamp.isoformat(),
+                    "melbourne_day": day_key,
+                }
+            )
+    recent_samples.sort(key=lambda item: item["melbourne"], reverse=True)
+    top_days = sorted(day_counts.items(), key=lambda item: item[0], reverse=True)[:7]
+    return {
+        "now_melbourne": now.isoformat(),
+        "hours": hours,
+        "since_melbourne": since.isoformat(),
+        "threshold_day": threshold.isoformat(),
+        "card_count": len(cards),
+        "cards_with_reviews": cards_with_reviews,
+        "review_count": count,
+        "latest_review_day": latest.isoformat() if latest else None,
+        "gate_passes_on_day": bool(latest and latest >= threshold),
+        "top_melbourne_days": top_days,
+        "newest_reviews": recent_samples[:5],
+    }
+
+
+def recent_activity(cards: list[dict], hours: int, now: datetime) -> tuple[bool, int, str | None]:
+    snapshot = activity_snapshot(cards, hours, now)
+    latest = snapshot["latest_review_day"]
+    return (
+        bool(snapshot["gate_passes_on_day"]),
+        int(snapshot["review_count"]),
+        latest if isinstance(latest, str) else None,
+    )
 
 
 def observe_activity(count: int, hours: int, now: datetime) -> bool:
@@ -389,6 +447,11 @@ def main() -> None:
     parser.add_argument("--skip-fetch", action="store_true")
     parser.add_argument("--skip-push", action="store_true")
     parser.add_argument("--validate-banks", action="store_true")
+    parser.add_argument(
+        "--diagnose-activity",
+        action="store_true",
+        help="Print a Mochi review-activity snapshot and exit without writing cards.",
+    )
     parser.add_argument("--api-base", default="https://app.mochi.cards/api")
     parser.add_argument("--require-recent-study-hours", type=int, default=24)
     args = parser.parse_args()
@@ -404,21 +467,38 @@ def main() -> None:
         print(json.dumps({"status": "ok", "banks": "valid"}))
         return
 
-    git_preflight(fetch=not args.skip_fetch)
     api_key = mochi_api_key()
     if not api_key:
         raise SystemExit("Blocked: MOCHI_API_KEY is unavailable.")
 
+    if args.diagnose_activity:
+        cards = iter_cards(args.api_base, api_key)
+        now = datetime.now(MELBOURNE)
+        snapshot = activity_snapshot(cards, args.require_recent_study_hours, now)
+        print(json.dumps({"status": "ok", "activity": snapshot}, ensure_ascii=False))
+        return
+
+    git_preflight(fetch=not args.skip_fetch)
     cards = iter_cards(args.api_base, api_key)
     now = datetime.now(MELBOURNE)
-    recent, review_count, latest = recent_activity(
-        cards, args.require_recent_study_hours, now
-    )
+    snapshot = activity_snapshot(cards, args.require_recent_study_hours, now)
+    recent = bool(snapshot["gate_passes_on_day"])
+    review_count = int(snapshot["review_count"])
+    latest = snapshot["latest_review_day"]
     recently_increased = observe_activity(
         review_count, args.require_recent_study_hours, now
     )
     if not recent and not recently_increased:
-        raise SystemExit(f"Blocked: no recent Mochi review activity. Latest review day: {latest}.")
+        raise SystemExit(
+            "Blocked: no recent Mochi review activity. "
+            f"Latest review day: {latest}. "
+            f"Threshold day: {snapshot['threshold_day']}. "
+            f"Now: {snapshot['now_melbourne']}. "
+            f"Reviews scanned: {review_count} across "
+            f"{snapshot['cards_with_reviews']} cards. "
+            "Cloud runs have no durable review-count baseline, so only "
+            "Melbourne calendar days from the live API can open the gate."
+        )
 
     results = []
     for language in LANGUAGES:

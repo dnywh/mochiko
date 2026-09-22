@@ -94,7 +94,7 @@ Steps
 2. Confirm MOCHI_API_KEY is set in the environment (print only whether it is set, never the value). If missing, stop and report.
 3. Run:
    PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py --apply --publish
-4. Treat a clean skip/block from the script (no recent review activity, nothing to publish, banks complete) as success: summarise in one or two lines and exit without git changes.
+4. Treat a clean skip/block from the script (no recent review activity, nothing to publish, banks complete) as success: summarise in one or two lines and exit without git changes. If the study gate blocked, also run `PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py --diagnose-activity` and include the JSON snapshot in the summary so missing Melbourne review days are obvious.
 5. On success with publishes, the script itself commits and pushes main when --publish is set. If the script created cards but did not push, commit only the changed frequency CSV paths with message like "daily frequency cards: YYYY-MM-DD" and push origin main.
 6. End with a short summary: skipped or which language ranks were created, and the commit SHA if any.
 ```
