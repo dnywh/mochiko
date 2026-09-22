@@ -25,6 +25,12 @@ MELBOURNE = ZoneInfo("Australia/Melbourne")
 CAP_RANK = 500
 VARIANTS_PER_WORD = 3
 SOURCE_FIELDS = ["rank", "variant", "word", "sentence", "tags"]
+# Mochi's list-cards endpoint reports review history at day granularity and lags
+# real time by roughly a day, so the newest available review day is normally a
+# day older than an actual overnight study session. Allow that reporting lag when
+# deciding whether recent study opened the gate; without it a learner who studies
+# daily is wrongly treated as inactive.
+REVIEW_REPORTING_LAG_DAYS = 1
 
 
 @dataclass(frozen=True)
@@ -235,6 +241,7 @@ def activity_snapshot(
 ) -> dict[str, object]:
     since = now - timedelta(hours=hours)
     threshold = since.date()
+    gate_threshold = threshold - timedelta(days=REVIEW_REPORTING_LAG_DAYS)
     latest = None
     count = 0
     cards_with_reviews = 0
@@ -270,11 +277,13 @@ def activity_snapshot(
         "hours": hours,
         "since_melbourne": since.isoformat(),
         "threshold_day": threshold.isoformat(),
+        "reporting_lag_days": REVIEW_REPORTING_LAG_DAYS,
+        "gate_threshold_day": gate_threshold.isoformat(),
         "card_count": len(cards),
         "cards_with_reviews": cards_with_reviews,
         "review_count": count,
         "latest_review_day": latest.isoformat() if latest else None,
-        "gate_passes_on_day": bool(latest and latest >= threshold),
+        "gate_passes_on_day": bool(latest and latest >= gate_threshold),
         "top_melbourne_days": top_days,
         "newest_reviews": recent_samples[:5],
     }
@@ -493,6 +502,8 @@ def main() -> None:
             "Blocked: no recent Mochi review activity. "
             f"Latest review day: {latest}. "
             f"Threshold day: {snapshot['threshold_day']}. "
+            f"Gate threshold day (incl. {snapshot['reporting_lag_days']}-day "
+            f"reporting lag): {snapshot['gate_threshold_day']}. "
             f"Now: {snapshot['now_melbourne']}. "
             f"Reviews scanned: {review_count} across "
             f"{snapshot['cards_with_reviews']} cards. "

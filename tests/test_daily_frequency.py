@@ -87,26 +87,34 @@ class DailyFrequencyTests(unittest.TestCase):
         self.assertEqual(count, 1)
         self.assertEqual(latest, "2026-09-20")
 
-    def test_morning_run_needs_yesterdays_melbourne_day(self):
+    def test_morning_run_allows_mochi_reporting_lag(self):
         now = datetime(2026, 9, 22, 7, tzinfo=ZoneInfo("Australia/Melbourne"))
-        stale = [{"id": "a", "reviews": [{"date": {"date": "2026-09-20T00:00:00.000Z"}}]}]
-        recent, _, latest = daily.recent_activity(stale, 24, now)
-        self.assertFalse(recent)
-        self.assertEqual(latest, "2026-09-20")
-        snapshot = daily.activity_snapshot(stale, 24, now)
+        snapshot = daily.activity_snapshot([], 24, now)
         self.assertEqual(snapshot["threshold_day"], "2026-09-21")
+        self.assertEqual(snapshot["gate_threshold_day"], "2026-09-20")
+        # A review reported yesterday clearly opens the gate.
         fresh = [{"id": "b", "reviews": [{"date": {"date": "2026-09-21T12:00:00.000Z"}}]}]
         recent, _, latest = daily.recent_activity(fresh, 24, now)
         self.assertTrue(recent)
         self.assertEqual(latest, "2026-09-21")
+        # Mochi's day-level history lags ~1 day, so the reporting-lag day still counts.
+        lagged = [{"id": "a", "reviews": [{"date": {"date": "2026-09-20T00:00:00.000Z"}}]}]
+        recent, _, latest = daily.recent_activity(lagged, 24, now)
+        self.assertTrue(recent)
+        self.assertEqual(latest, "2026-09-20")
+        # A day older than the reporting-lag window does not open the gate.
+        stale = [{"id": "c", "reviews": [{"date": {"date": "2026-09-19T00:00:00.000Z"}}]}]
+        recent, _, latest = daily.recent_activity(stale, 24, now)
+        self.assertFalse(recent)
+        self.assertEqual(latest, "2026-09-19")
 
     def test_recent_activity_reports_old_review_day_without_passing(self):
         now = datetime(2026, 9, 21, 15, tzinfo=ZoneInfo("Australia/Melbourne"))
-        cards = [{"reviews": [{"date": {"date": "2026-09-19T00:00:00.000Z"}}]}]
+        cards = [{"reviews": [{"date": {"date": "2026-09-18T00:00:00.000Z"}}]}]
         recent, count, latest = daily.recent_activity(cards, 24, now)
         self.assertFalse(recent)
         self.assertEqual(count, 1)
-        self.assertEqual(latest, "2026-09-19")
+        self.assertEqual(latest, "2026-09-18")
 
     def test_local_publish_commits_without_push(self):
         calls = []

@@ -86,7 +86,7 @@ contexts. Replenishment does not itself create cards or modify applied sources.
 The scheduled run must:
 
 - process Spanish before German in strict frequency-rank order
-- continue only when Mochi shows review activity within the prior 24 hours
+- continue only when Mochi shows recent review activity, allowing for Mochi's day-level review history lagging real time by about a day
 - read each review timestamp in Australia/Melbourne, because Mochi often stores the start of a local study day as a UTC instant on the previous calendar date
 - treat newly synced review records as recent when Mochi's day-level dates are unreliable
 - fetch Mochi cards once and reuse that snapshot for gates and duplicate checks
