@@ -158,3 +158,21 @@ rank,variant,word,sentence,tags
 53,1,kann,Sie {{kann}} sehr gut schwimmen.,frequency;generated;german
 53,2,kann,Heute {{kann}} ich länger bleiben.,frequency;generated;german
 53,3,kann,Das {{kann}} nicht stimmen.,frequency;generated;german
+54,1,über,Das Bild hängt {{über}} dem Sofa.,frequency;generated;german
+54,2,über,Wir sprechen {{über}} den Urlaub.,frequency;generated;german
+54,3,über,Der Zug fährt {{über}} die Brücke.,frequency;generated;german
+55,1,da,Meine Schwester ist schon {{da}}.,frequency;generated;german
+55,2,da,Ich war gestern auch {{da}}.,frequency;generated;german
+55,3,da,Leg das Buch bitte {{da}} hin.,frequency;generated;german
+56,1,dann,Wir essen und gehen {{dann}} spazieren.,frequency;generated;german
+56,2,dann,Ruf mich bitte {{dann}} an.,frequency;generated;german
+56,3,dann,"Zuerst arbeiten wir, {{dann}} ruhen wir uns aus.",frequency;generated;german
+57,1,einem,Ich helfe {{einem}} alten Mann.,frequency;generated;german
+57,2,einem,Sie fährt mit {{einem}} kleinen Auto.,frequency;generated;german
+57,3,einem,Er wohnt in {{einem}} alten Haus.,frequency;generated;german
+58,1,schon,Ich bin {{schon}} fertig.,frequency;generated;german
+58,2,schon,Warst du {{schon}} in Wien?,frequency;generated;german
+58,3,schon,Der Bus ist {{schon}} weg.,frequency;generated;german
+59,1,habe,Ich {{habe}} heute frei.,frequency;generated;german
+59,2,habe,Morgen {{habe}} ich einen Termin.,frequency;generated;german
+59,3,habe,Ich {{habe}} deine Nachricht gelesen.,frequency;generated;german
