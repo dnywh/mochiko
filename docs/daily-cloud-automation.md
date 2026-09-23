@@ -29,12 +29,16 @@ this agent session). Behaviour rules remain in `docs/flashcard-workflow.md`.
 
 ## Recommended schedule
 
-- Cron (Melbourne): `0 21 * * *` with timezone `Australia/Melbourne`
-- Meaning: 21:00 Melbourne every day, after a typical study window so the
-  24-hour review gate can succeed.
+- Cron (Melbourne): `0 8 * * *` with timezone `Australia/Melbourne`
+- Meaning: 08:00 Melbourne every day. The live automation matches this.
 
 UTC equivalent varies with DST; prefer setting the timezone in the UI or
-`CRON_TZ=Australia/Melbourne 0 21 * * *` if the cron field accepts it.
+`CRON_TZ=Australia/Melbourne 0 8 * * *` if the cron field accepts it.
+
+Cursor may start the agent a few minutes after 08:00 (docs: scheduled
+triggers “may run with a delay but will not start before the indicated
+time”). That queue or capacity lag is not model runtime. Recent successful
+runs finished in about one minute of agent work once the pod existed.
 
 ## Secrets and environment
 
@@ -52,7 +56,7 @@ Do not commit `.env` or paste the API key into the automation prompt.
 
 1. Open [cursor.com/automations/new](https://cursor.com/automations/new).
 2. Name: `Mochiko daily frequency`.
-3. Trigger: Scheduled → cron `0 21 * * *`, timezone `Australia/Melbourne`.
+3. Trigger: Scheduled → cron `0 8 * * *`, timezone `Australia/Melbourne`.
 4. Repository: **single repo** `github.com/dnywh/mochiko`, branch `main`
    (scheduled triggers default to no repo; without this, the agent cannot push).
 5. Environment: the mochiko cloud environment above (not skip-install).
