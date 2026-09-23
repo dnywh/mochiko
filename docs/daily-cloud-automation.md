@@ -126,6 +126,7 @@ PYTHONPATH=work/python-packages python3 scripts/daily_frequency.py
 - If `main` gains branch protection that blocks the Cursor identity, publishes
   will create cards but fail to push CSVs (recoverable next run for cards;
   source drift needs a manual CSV commit).
-- Each run bills cloud-agent usage.
+- Each run bills cloud-agent usage (token counts while the agent runs, not
+  minutes spent waiting for the schedule to start).
 - Local Codex schedules should be disabled after the cloud automation is active
   to avoid double populate on the same day.
