@@ -45,7 +45,10 @@ rank,variant,word,sentence,tags
 15,2,las,Salimos a {{las}} ocho.,frequency;generated;spanish
 15,3,las,¿Dónde dejaste {{las}} llaves?,frequency;generated;spanish
 16,1,con,Estudio {{con}} Marta.,frequency;generated;rank-001-020
+16,2,con,Corto el pan {{con}} un cuchillo.,frequency;generated;spanish
+16,3,con,Quiero café {{con}} leche.,frequency;generated;spanish
 17,1,una,Quiero {{una}} manzana.,frequency;generated;rank-001-020
+17,2,una,Hay {{una}} farmacia cerca.,frequency;generated;spanish
 18,1,para,Este regalo es {{para}} ti.,frequency;generated;rank-001-020
 19,1,lo,No {{lo}} entiendo.,frequency;generated;rank-001-020
 20,1,su,Veo {{su}} casa pequeña.,frequency;generated;rank-001-020
