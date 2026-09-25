@@ -185,3 +185,12 @@ rank,variant,word,sentence,tags
 62,1,mir,Bitte gib {{mir}} das Buch.,frequency;generated;german
 62,2,mir,Das ist {{mir}} zu teuer.,frequency;generated;german
 62,3,mir,Meine Mutter hilft {{mir}} oft.,frequency;generated;german
+63,1,sein,Heute möchte ich allein {{sein}}.,frequency;generated;german
+63,2,sein,Er möchte Lehrer {{sein}}.,frequency;generated;german
+63,3,sein,Jeder darf anders {{sein}}.,frequency;generated;german
+64,1,vor,Ich warte {{vor}} der Tür.,frequency;generated;german
+64,2,vor,Wir essen {{vor}} dem Film.,frequency;generated;german
+64,3,vor,Er kam {{vor}} einer Stunde.,frequency;generated;german
+65,1,mal,Komm {{mal}} her.,frequency;generated;german
+65,2,mal,Ich war schon {{mal}} hier.,frequency;generated;german
+65,3,mal,Schau {{mal}} aus dem Fenster.,frequency;generated;german

@@ -49,7 +49,10 @@ rank,variant,word,sentence,tags
 16,3,con,Quiero café {{con}} leche.,frequency;generated;spanish
 17,1,una,Quiero {{una}} manzana.,frequency;generated;rank-001-020
 17,2,una,Hay {{una}} farmacia cerca.,frequency;generated;spanish
+17,3,una,Nos vemos en {{una}} hora.,frequency;generated;spanish
 18,1,para,Este regalo es {{para}} ti.,frequency;generated;rank-001-020
+18,2,para,Estudio {{para}} aprender.,frequency;generated;spanish
+18,3,para,El tren sale {{para}} Lima.,frequency;generated;spanish
 19,1,lo,No {{lo}} entiendo.,frequency;generated;rank-001-020
 20,1,su,Veo {{su}} casa pequeña.,frequency;generated;rank-001-020
 21,1,al,Voy {{al}} parque.,frequency;generated;rank-021-040
