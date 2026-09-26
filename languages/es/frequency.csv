@@ -54,7 +54,10 @@ rank,variant,word,sentence,tags
 18,2,para,Estudio {{para}} aprender.,frequency;generated;spanish
 18,3,para,El tren sale {{para}} Lima.,frequency;generated;spanish
 19,1,lo,No {{lo}} entiendo.,frequency;generated;rank-001-020
+19,2,lo,Ya {{lo}} compré.,frequency;generated;spanish
+19,3,lo,Eso es {{lo}} importante.,frequency;generated;spanish
 20,1,su,Veo {{su}} casa pequeña.,frequency;generated;rank-001-020
+20,2,su,Ana busca a {{su}} hermano.,frequency;generated;spanish
 21,1,al,Voy {{al}} parque.,frequency;generated;rank-021-040
 22,1,como,Trabajo {{como}} maestro.,frequency;generated;rank-021-040
 23,1,me,Ella {{me}} llama.,frequency;generated;rank-021-040

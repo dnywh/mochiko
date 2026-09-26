@@ -194,3 +194,12 @@ rank,variant,word,sentence,tags
 65,1,mal,Komm {{mal}} her.,frequency;generated;german
 65,2,mal,Ich war schon {{mal}} hier.,frequency;generated;german
 65,3,mal,Schau {{mal}} aus dem Fenster.,frequency;generated;german
+66,1,zur,Ich gehe {{zur}} Schule.,frequency;generated;german
+66,2,zur,Das passt {{zur}} Suppe.,frequency;generated;german
+66,3,zur,Wir haben zwei Zimmer {{zur}} Auswahl.,frequency;generated;german
+67,1,durch,Wir laufen {{durch}} den Park.,frequency;generated;german
+67,2,durch,Ich sehe dich {{durch}} das Fenster.,frequency;generated;german
+67,3,durch,Das habe ich {{durch}} Übung gelernt.,frequency;generated;german
+68,1,hier,Ich wohne {{hier}}.,frequency;generated;german
+68,2,hier,Kann ich {{hier}} bezahlen?,frequency;generated;german
+68,3,hier,Von {{hier}} sieht man das Meer.,frequency;generated;german
