@@ -58,7 +58,10 @@ rank,variant,word,sentence,tags
 19,3,lo,Eso es {{lo}} importante.,frequency;generated;spanish
 20,1,su,Veo {{su}} casa pequeña.,frequency;generated;rank-001-020
 20,2,su,Ana busca a {{su}} hermano.,frequency;generated;spanish
+20,3,su,El gato mueve {{su}} cola.,frequency;generated;spanish
 21,1,al,Voy {{al}} parque.,frequency;generated;rank-021-040
+21,2,al,Me lavo las manos {{al}} llegar.,frequency;generated;spanish
+21,3,al,Dale agua {{al}} perro.,frequency;generated;spanish
 22,1,como,Trabajo {{como}} maestro.,frequency;generated;rank-021-040
 23,1,me,Ella {{me}} llama.,frequency;generated;rank-021-040
 24,1,más,Quiero {{más}} agua.,frequency;generated;rank-021-040

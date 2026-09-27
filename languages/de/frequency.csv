@@ -203,3 +203,12 @@ rank,variant,word,sentence,tags
 68,1,hier,Ich wohne {{hier}}.,frequency;generated;german
 68,2,hier,Kann ich {{hier}} bezahlen?,frequency;generated;german
 68,3,hier,Von {{hier}} sieht man das Meer.,frequency;generated;german
+69,1,mich,Kannst du {{mich}} hören?,frequency;generated;german
+69,2,mich,Ich freue {{mich}} auf dich.,frequency;generated;german
+69,3,mich,Das ist für {{mich}}.,frequency;generated;german
+70,1,bis,Ich arbeite {{bis}} sechs.,frequency;generated;german
+70,2,bis,Wir fahren {{bis}} zum Bahnhof.,frequency;generated;german
+70,3,bis,"Warte, {{bis}} ich zurück bin.",frequency;generated;german
+71,1,doch,Komm {{doch}} mit!,frequency;generated;german
+71,2,doch,Das stimmt {{doch}} gar nicht.,frequency;generated;german
+71,3,doch,"Du kommst {{doch}} morgen, oder?",frequency;generated;german
