@@ -212,3 +212,12 @@ rank,variant,word,sentence,tags
 71,1,doch,Komm {{doch}} mit!,frequency;generated;german
 71,2,doch,Das stimmt {{doch}} gar nicht.,frequency;generated;german
 71,3,doch,"Du kommst {{doch}} morgen, oder?",frequency;generated;german
+72,1,ihr,Wie geht es {{ihr}}?,frequency;generated;german
+72,2,ihr,Ist das {{ihr}} Hund?,frequency;generated;german
+72,3,ihr,Habt {{ihr}} Hunger?,frequency;generated;german
+73,1,immer,Er kommt {{immer}} zu spät.,frequency;generated;german
+73,2,immer,Die Tage werden {{immer}} wärmer.,frequency;generated;german
+73,3,immer,Ich werde dich {{immer}} lieben.,frequency;generated;german
+74,1,jetzt,Wir müssen {{jetzt}} gehen.,frequency;generated;german
+74,2,jetzt,Bis {{jetzt}} hat niemand angerufen.,frequency;generated;german
+74,3,jetzt,Was machen wir {{jetzt}}?,frequency;generated;german

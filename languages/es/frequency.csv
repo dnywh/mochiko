@@ -63,7 +63,10 @@ rank,variant,word,sentence,tags
 21,2,al,Me lavo las manos {{al}} llegar.,frequency;generated;spanish
 21,3,al,Dale agua {{al}} perro.,frequency;generated;spanish
 22,1,como,Trabajo {{como}} maestro.,frequency;generated;rank-021-040
+22,2,como,Hazlo {{como}} te enseñé.,frequency;generated;spanish
+22,3,como,Tu casa es tan grande {{como}} esta.,frequency;generated;spanish
 23,1,me,Ella {{me}} llama.,frequency;generated;rank-021-040
+23,2,me,Hoy {{me}} siento mejor.,frequency;generated;spanish
 24,1,más,Quiero {{más}} agua.,frequency;generated;rank-021-040
 25,1,si,Voy {{si}} puedo.,frequency;generated;rank-021-040
 26,1,pero,"Quiero ir, {{pero}} no puedo.",frequency;generated;rank-021-040
