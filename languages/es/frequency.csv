@@ -67,7 +67,10 @@ rank,variant,word,sentence,tags
 22,3,como,Tu casa es tan grande {{como}} esta.,frequency;generated;spanish
 23,1,me,Ella {{me}} llama.,frequency;generated;rank-021-040
 23,2,me,Hoy {{me}} siento mejor.,frequency;generated;spanish
+23,3,me,¿{{Me}} guardas una silla?,frequency;generated;spanish
 24,1,más,Quiero {{más}} agua.,frequency;generated;rank-021-040
+24,2,más,Mi casa está {{más}} lejos.,frequency;generated;spanish
+24,3,más,¿Quién quiere {{más}} sopa?,frequency;generated;spanish
 25,1,si,Voy {{si}} puedo.,frequency;generated;rank-021-040
 26,1,pero,"Quiero ir, {{pero}} no puedo.",frequency;generated;rank-021-040
 27,1,te,Yo {{te}} veo.,frequency;generated;rank-021-040

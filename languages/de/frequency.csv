@@ -221,3 +221,12 @@ rank,variant,word,sentence,tags
 74,1,jetzt,Wir müssen {{jetzt}} gehen.,frequency;generated;german
 74,2,jetzt,Bis {{jetzt}} hat niemand angerufen.,frequency;generated;german
 74,3,jetzt,Was machen wir {{jetzt}}?,frequency;generated;german
+75,1,diese,Ich nehme {{diese}} Jacke.,frequency;generated;german
+75,2,diese,{{Diese}} Woche habe ich frei.,frequency;generated;german
+75,3,diese,Kennst du {{diese}} Leute?,frequency;generated;german
+76,1,wurde,Mir {{wurde}} plötzlich kalt.,frequency;generated;german
+76,2,wurde,Das Haus {{wurde}} verkauft.,frequency;generated;german
+76,3,wurde,Meine Schwester {{wurde}} Ärztin.,frequency;generated;german
+77,1,wieder,"Schön, dich {{wieder}} zu sehen.",frequency;generated;german
+77,2,wieder,Es regnet schon {{wieder}}.,frequency;generated;german
+77,3,wieder,Wann kommst du {{wieder}}?,frequency;generated;german
