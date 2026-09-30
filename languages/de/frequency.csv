@@ -230,3 +230,12 @@ rank,variant,word,sentence,tags
 77,1,wieder,"Schön, dich {{wieder}} zu sehen.",frequency;generated;german
 77,2,wieder,Es regnet schon {{wieder}}.,frequency;generated;german
 77,3,wieder,Wann kommst du {{wieder}}?,frequency;generated;german
+78,1,keine,Ich habe {{keine}} Zeit.,frequency;generated;german
+78,2,keine,Das sind {{keine}} Äpfel.,frequency;generated;german
+78,3,keine,Mach dir {{keine}} Sorgen.,frequency;generated;german
+79,1,alle,Sind {{alle}} da?,frequency;generated;german
+79,2,alle,Ich putze {{alle}} Fenster.,frequency;generated;german
+79,3,alle,Der Bus fährt {{alle}} zehn Minuten.,frequency;generated;german
+80,1,sehr,Ich freue mich {{sehr}}.,frequency;generated;german
+80,2,sehr,Die Suppe ist {{sehr}} heiß.,frequency;generated;german
+80,3,sehr,Du sprichst {{sehr}} gut Deutsch.,frequency;generated;german

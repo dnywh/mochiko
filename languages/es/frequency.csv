@@ -72,7 +72,10 @@ rank,variant,word,sentence,tags
 24,2,más,Mi casa está {{más}} lejos.,frequency;generated;spanish
 24,3,más,¿Quién quiere {{más}} sopa?,frequency;generated;spanish
 25,1,si,Voy {{si}} puedo.,frequency;generated;rank-021-040
+25,2,si,Avísame {{si}} necesitas ayuda.,frequency;generated;spanish
+25,3,si,No sé {{si}} queda pan.,frequency;generated;spanish
 26,1,pero,"Quiero ir, {{pero}} no puedo.",frequency;generated;rank-021-040
+26,2,pero,"Es pequeño, {{pero}} cómodo.",frequency;generated;spanish
 27,1,te,Yo {{te}} veo.,frequency;generated;rank-021-040
 28,1,o,Quiero té {{o}} café.,frequency;generated;rank-021-040
 29,1,mi,Esta es {{mi}} casa.,frequency;generated;rank-021-040
