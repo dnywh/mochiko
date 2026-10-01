@@ -76,7 +76,10 @@ rank,variant,word,sentence,tags
 25,3,si,No sé {{si}} queda pan.,frequency;generated;spanish
 26,1,pero,"Quiero ir, {{pero}} no puedo.",frequency;generated;rank-021-040
 26,2,pero,"Es pequeño, {{pero}} cómodo.",frequency;generated;spanish
+26,3,pero,"Te llamé, {{pero}} no contestaste.",frequency;generated;spanish
 27,1,te,Yo {{te}} veo.,frequency;generated;rank-021-040
+27,2,te,¿Cómo {{te}} llamas?,frequency;generated;spanish
+27,3,te,Mañana {{te}} traigo el libro.,frequency;generated;spanish
 28,1,o,Quiero té {{o}} café.,frequency;generated;rank-021-040
 29,1,mi,Esta es {{mi}} casa.,frequency;generated;rank-021-040
 30,1,le,Yo {{le}} doy agua.,frequency;generated;rank-021-040

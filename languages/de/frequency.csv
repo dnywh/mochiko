@@ -239,3 +239,12 @@ rank,variant,word,sentence,tags
 80,1,sehr,Ich freue mich {{sehr}}.,frequency;generated;german
 80,2,sehr,Die Suppe ist {{sehr}} heiß.,frequency;generated;german
 80,3,sehr,Du sprichst {{sehr}} gut Deutsch.,frequency;generated;german
+81,1,können,Wir {{können}} zusammen kochen.,frequency;generated;german
+81,2,können,Hier {{können}} Kinder spielen.,frequency;generated;german
+81,3,können,Wann {{können}} wir anfangen?,frequency;generated;german
+82,1,muss,Ich {{muss}} morgen arbeiten.,frequency;generated;german
+82,2,muss,Das {{muss}} dein Bruder sein.,frequency;generated;german
+82,3,muss,Der Hund {{muss}} raus.,frequency;generated;german
+83,1,uns,Kommst du zu {{uns}}?,frequency;generated;german
+83,2,uns,Wir sehen {{uns}} morgen.,frequency;generated;german
+83,3,uns,Das gehört {{uns}}.,frequency;generated;german
