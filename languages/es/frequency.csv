@@ -81,7 +81,10 @@ rank,variant,word,sentence,tags
 27,2,te,¿Cómo {{te}} llamas?,frequency;generated;spanish
 27,3,te,Mañana {{te}} traigo el libro.,frequency;generated;spanish
 28,1,o,Quiero té {{o}} café.,frequency;generated;rank-021-040
+28,2,o,¿Vienes solo {{o}} acompañado?,frequency;generated;spanish
+28,3,o,Llama hoy {{o}} escribe mañana.,frequency;generated;spanish
 29,1,mi,Esta es {{mi}} casa.,frequency;generated;rank-021-040
+29,2,mi,No encuentro {{mi}} teléfono.,frequency;generated;spanish
 30,1,le,Yo {{le}} doy agua.,frequency;generated;rank-021-040
 31,1,este,Uso {{este}} lápiz.,frequency;generated;rank-021-040
 32,1,sus,Veo {{sus}} libros.,frequency;generated;rank-021-040

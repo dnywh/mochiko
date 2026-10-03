@@ -248,3 +248,12 @@ rank,variant,word,sentence,tags
 83,1,uns,Kommst du zu {{uns}}?,frequency;generated;german
 83,2,uns,Wir sehen {{uns}} morgen.,frequency;generated;german
 83,3,uns,Das gehört {{uns}}.,frequency;generated;german
+84,1,bin,Ich {{bin}} müde.,frequency;generated;german
+84,2,bin,Heute {{bin}} ich früh aufgestanden.,frequency;generated;german
+84,3,bin,Um acht {{bin}} ich zu Hause.,frequency;generated;german
+85,1,unter,Die Katze liegt {{unter}} dem Bett.,frequency;generated;german
+85,2,unter,Kinder {{unter}} sechs zahlen nichts.,frequency;generated;german
+85,3,unter,Das bleibt {{unter}} uns.,frequency;generated;german
+86,1,vom,Ich komme {{vom}} Arzt.,frequency;generated;german
+86,2,vom,Das Dach {{vom}} Haus ist rot.,frequency;generated;german
+86,3,vom,Nimm die Tasche {{vom}} Tisch.,frequency;generated;german
