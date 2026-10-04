@@ -257,3 +257,12 @@ rank,variant,word,sentence,tags
 86,1,vom,Ich komme {{vom}} Arzt.,frequency;generated;german
 86,2,vom,Das Dach {{vom}} Haus ist rot.,frequency;generated;german
 86,3,vom,Nimm die Tasche {{vom}} Tisch.,frequency;generated;german
+87,1,gut,Das riecht {{gut}}.,frequency;generated;german
+87,2,gut,Geht es dir {{gut}}?,frequency;generated;german
+87,3,gut,Du kannst {{gut}} schwimmen.,frequency;generated;german
+88,1,gibt,Hier {{gibt}} es frisches Brot.,frequency;generated;german
+88,2,gibt,Sie {{gibt}} mir einen Stift.,frequency;generated;german
+88,3,gibt,Was {{gibt}} es zum Essen?,frequency;generated;german
+89,1,hatte,Ich {{hatte}} gestern Fieber.,frequency;generated;german
+89,2,hatte,Sie {{hatte}} den Bus verpasst.,frequency;generated;german
+89,3,hatte,Er {{hatte}} keine Lust.,frequency;generated;german
