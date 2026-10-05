@@ -266,3 +266,6 @@ rank,variant,word,sentence,tags
 89,1,hatte,Ich {{hatte}} gestern Fieber.,frequency;generated;german
 89,2,hatte,Sie {{hatte}} den Bus verpasst.,frequency;generated;german
 89,3,hatte,Er {{hatte}} keine Lust.,frequency;generated;german
+90,1,ihre,Das ist {{ihre}} Tasche.,frequency;generated;german
+90,2,ihre,Anna besucht {{ihre}} Eltern.,frequency;generated;german
+90,3,ihre,Ich kenne {{ihre}} Adresse nicht.,frequency;generated;german
