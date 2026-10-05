@@ -21,8 +21,8 @@ this agent session). Behaviour rules remain in `docs/flashcard-workflow.md`.
    blocked. Cursor cloud agents should fetch and push themselves.
 
 4. The script gates on Mochi review activity in the prior 24 hours (Melbourne
-   time), then may create up to one Spanish word and three German words (three
-   cloze cards each), append matching rows to `languages/*/frequency.csv`, and
+   time), then may create up to one Spanish card and three German cards, append
+   matching rows to `languages/*/frequency.csv`, and
    commit plus push only those CSV changes to `main`.
 5. Skipped days (no recent study, or nothing to publish) make no Mochi writes
    and no git commit.

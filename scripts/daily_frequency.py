@@ -41,7 +41,7 @@ class Language:
     bank: Path
     deck_id: str
     template_id: str
-    daily_word_cap: int
+    daily_card_cap: int
 
 
 LANGUAGES = (
@@ -52,7 +52,7 @@ LANGUAGES = (
         bank=Path("languages/es/frequency_sentence_bank.csv"),
         deck_id="K7f2W8MO",
         template_id="tq51slCp",
-        daily_word_cap=1,
+        daily_card_cap=1,
     ),
     Language(
         code="de",
@@ -61,7 +61,7 @@ LANGUAGES = (
         bank=Path("languages/de/frequency_sentence_bank.csv"),
         deck_id="r2i5qXk7",
         template_id="xo7aEe7Q",
-        daily_word_cap=3,
+        daily_card_cap=3,
     ),
 )
 
@@ -385,7 +385,7 @@ def approved_rows(
         (int(row["rank"]), int(row["variant"])) for row in selected
     }
     known_ranks = {rank for rank, _ in known_keys}
-    quota = max(0, daily_cap * VARIANTS_PER_WORD - cards_created_today(cards, language, now))
+    quota = max(0, daily_cap - cards_created_today(cards, language, now))
     for rank in range(1, CAP_RANK + 1):
         missing = [
             row for row in bank[(rank - 1) * VARIANTS_PER_WORD:rank * VARIANTS_PER_WORD]
@@ -513,7 +513,7 @@ def main() -> None:
 
     results = []
     for language in LANGUAGES:
-        rows = approved_rows(language, language.daily_word_cap, cards, now)
+        rows = approved_rows(language, language.daily_card_cap, cards, now)
         if not rows:
             variants = source_variants(language)
             complete = all(variants.get(rank) == {1, 2, 3} for rank in range(1, CAP_RANK + 1))

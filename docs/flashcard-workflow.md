@@ -90,7 +90,7 @@ The scheduled run must:
 - read each review timestamp in Australia/Melbourne, because Mochi often stores the start of a local study day as a UTC instant on the previous calendar date
 - treat newly synced review records as recent when Mochi's day-level dates are unreliable
 - fetch Mochi cards once and reuse that snapshot for gates and duplicate checks
-- add one Spanish word and up to three German words per day
+- add up to one Spanish card and three German cards per day (one new German word trio when starting a rank)
 - create exactly three separate sentence cards for each new word
 - vary each trio across useful grammatical, semantic, or conversational contexts
 - validate complete variants 1, 2, and 3 with exactly one cloze pair each

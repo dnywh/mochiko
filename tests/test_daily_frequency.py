@@ -15,6 +15,12 @@ import daily_frequency as daily
 
 
 class DailyFrequencyTests(unittest.TestCase):
+    def test_daily_card_caps(self):
+        spanish = next(language for language in daily.LANGUAGES if language.code == "es")
+        german = next(language for language in daily.LANGUAGES if language.code == "de")
+        self.assertEqual(spanish.daily_card_cap, 1)
+        self.assertEqual(german.daily_card_cap, 3)
+
     def test_committed_banks_contain_complete_valid_trios(self):
         for language in daily.LANGUAGES:
             rows = daily.read_rows(language.bank)
