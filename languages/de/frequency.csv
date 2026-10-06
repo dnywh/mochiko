@@ -269,3 +269,6 @@ rank,variant,word,sentence,tags
 90,1,ihre,Das ist {{ihre}} Tasche.,frequency;generated;german
 90,2,ihre,Anna besucht {{ihre}} Eltern.,frequency;generated;german
 90,3,ihre,Ich kenne {{ihre}} Adresse nicht.,frequency;generated;german
+91,1,dieser,Mit {{dieser}} Karte kannst du zahlen.,frequency;generated;german
+91,2,dieser,{{Dieser}} Film ist lustig.,frequency;generated;german
+91,3,dieser,In {{dieser}} Stadt kenne ich niemanden.,frequency;generated;german
