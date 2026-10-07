@@ -272,3 +272,6 @@ rank,variant,word,sentence,tags
 91,1,dieser,Mit {{dieser}} Karte kannst du zahlen.,frequency;generated;german
 91,2,dieser,{{Dieser}} Film ist lustig.,frequency;generated;german
 91,3,dieser,In {{dieser}} Stadt kenne ich niemanden.,frequency;generated;german
+92,1,gegen,Wir spielen {{gegen}} die Nachbarn.,frequency;generated;german
+92,2,gegen,Ich komme {{gegen}} acht.,frequency;generated;german
+92,3,gegen,Die Leiter steht {{gegen}} die Wand.,frequency;generated;german

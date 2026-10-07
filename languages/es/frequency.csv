@@ -93,6 +93,7 @@ rank,variant,word,sentence,tags
 31,2,este,Llueve mucho {{este}} mes.,frequency;generated;spanish
 31,3,este,¿Cuánto cuesta {{este}} sombrero?,frequency;generated;spanish
 32,1,sus,Veo {{sus}} libros.,frequency;generated;rank-021-040
+32,2,sus,Ana vino con {{sus}} hijos.,frequency;generated;spanish
 33,1,esta,Vivo en {{esta}} ciudad.,frequency;generated;rank-021-040
 34,1,todo,Leo {{todo}} el día.,frequency;generated;rank-021-040
 35,1,ya,Ella {{ya}} llegó.,frequency;generated;rank-021-040
