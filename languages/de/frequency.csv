@@ -275,3 +275,6 @@ rank,variant,word,sentence,tags
 92,1,gegen,Wir spielen {{gegen}} die Nachbarn.,frequency;generated;german
 92,2,gegen,Ich komme {{gegen}} acht.,frequency;generated;german
 92,3,gegen,Die Leiter steht {{gegen}} die Wand.,frequency;generated;german
+93,1,seine,Er sucht {{seine}} Brille.,frequency;generated;german
+93,2,seine,Das sind {{seine}} Kinder.,frequency;generated;german
+93,3,seine,Ich mag {{seine}} Stimme.,frequency;generated;german
