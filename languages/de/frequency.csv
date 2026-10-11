@@ -281,3 +281,6 @@ rank,variant,word,sentence,tags
 94,1,alles,Ist {{alles}} in Ordnung?,frequency;generated;german
 94,2,alles,Ich habe {{alles}} verstanden.,frequency;generated;german
 94,3,alles,Du kannst nicht {{alles}} tragen.,frequency;generated;german
+95,1,also,"Es regnet, {{also}} bleiben wir hier.",frequency;generated;german
+95,2,also,Du bist {{also}} der neue Nachbar.,frequency;generated;german
+95,3,also,Was machen wir {{also}}?,frequency;generated;german
