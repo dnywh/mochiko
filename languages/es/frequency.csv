@@ -100,6 +100,7 @@ rank,variant,word,sentence,tags
 33,3,esta,Volvemos {{esta}} noche.,frequency;generated;spanish
 34,1,todo,Leo {{todo}} el día.,frequency;generated;rank-021-040
 34,2,todo,Ya entendí {{todo}}.,frequency;generated;spanish
+34,3,todo,Guardé {{todo}} el dinero.,frequency;generated;spanish
 35,1,ya,Ella {{ya}} llegó.,frequency;generated;rank-021-040
 36,1,ha,Ella {{ha}} comido.,frequency;generated;rank-021-040
 37,1,cuando,Llámame {{cuando}} llegues.,frequency;generated;rank-021-040

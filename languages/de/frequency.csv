@@ -287,3 +287,6 @@ rank,variant,word,sentence,tags
 96,1,geht,Wie {{geht}} es dir?,frequency;generated;german
 96,2,geht,Mein Sohn {{geht}} zur Schule.,frequency;generated;german
 96,3,geht,Das Licht {{geht}} nicht.,frequency;generated;german
+97,1,viel,Ich habe {{viel}} gelernt.,frequency;generated;german
+97,2,viel,Das kostet zu {{viel}}.,frequency;generated;german
+97,3,viel,Heute ist es {{viel}} wärmer.,frequency;generated;german
