@@ -290,3 +290,6 @@ rank,variant,word,sentence,tags
 97,1,viel,Ich habe {{viel}} gelernt.,frequency;generated;german
 97,2,viel,Das kostet zu {{viel}}.,frequency;generated;german
 97,3,viel,Heute ist es {{viel}} wärmer.,frequency;generated;german
+98,1,zeit,Hast du {{zeit}}?,frequency;generated;german
+98,2,zeit,Die {{Zeit}} vergeht schnell.,frequency;generated;german
+98,3,zeit,Es ist {{Zeit}} fürs Bett.,frequency;generated;german
