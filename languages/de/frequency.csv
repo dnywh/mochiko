@@ -293,3 +293,6 @@ rank,variant,word,sentence,tags
 98,1,zeit,Hast du {{zeit}}?,frequency;generated;german
 98,2,zeit,Die {{Zeit}} vergeht schnell.,frequency;generated;german
 98,3,zeit,Es ist {{Zeit}} fürs Bett.,frequency;generated;german
+99,1,ab,Der Laden ist {{ab}} neun offen.,frequency;generated;german
+99,2,ab,Wir fahren morgen {{ab}}.,frequency;generated;german
+99,3,ab,Nimm bitte den Hut {{ab}}.,frequency;generated;german

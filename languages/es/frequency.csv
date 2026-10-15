@@ -103,6 +103,7 @@ rank,variant,word,sentence,tags
 34,3,todo,Guardé {{todo}} el dinero.,frequency;generated;spanish
 35,1,ya,Ella {{ya}} llegó.,frequency;generated;rank-021-040
 35,2,ya,No queda pan; {{ya}} se acabó.,frequency;generated;spanish
+35,3,ya,¿{{Ya}} terminaste la tarea?,frequency;generated;spanish
 36,1,ha,Ella {{ha}} comido.,frequency;generated;rank-021-040
 37,1,cuando,Llámame {{cuando}} llegues.,frequency;generated;rank-021-040
 38,1,yo,Lo hago {{yo}}.,frequency;generated;rank-021-040
