@@ -296,3 +296,6 @@ rank,variant,word,sentence,tags
 99,1,ab,Der Laden ist {{ab}} neun offen.,frequency;generated;german
 99,2,ab,Wir fahren morgen {{ab}}.,frequency;generated;german
 99,3,ab,Nimm bitte den Hut {{ab}}.,frequency;generated;german
+100,1,ganz,Das Haus ist {{ganz}} neu.,frequency;generated;german
+100,2,ganz,Ich bin nicht {{ganz}} sicher.,frequency;generated;german
+100,3,ganz,Iss den Apfel {{ganz}}.,frequency;generated;german
