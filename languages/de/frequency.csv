@@ -299,3 +299,6 @@ rank,variant,word,sentence,tags
 100,1,ganz,Das Haus ist {{ganz}} neu.,frequency;generated;german
 100,2,ganz,Ich bin nicht {{ganz}} sicher.,frequency;generated;german
 100,3,ganz,Iss den Apfel {{ganz}}.,frequency;generated;german
+101,1,machen,Was möchtest du {{machen}}?,frequency;generated;german
+101,2,machen,Wir {{machen}} eine Pause.,frequency;generated;german
+101,3,machen,Fehler {{machen}} ist normal.,frequency;generated;german

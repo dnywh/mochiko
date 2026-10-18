@@ -106,6 +106,7 @@ rank,variant,word,sentence,tags
 35,3,ya,¿{{Ya}} terminaste la tarea?,frequency;generated;spanish
 36,1,ha,Ella {{ha}} comido.,frequency;generated;rank-021-040
 36,2,ha,El tren {{ha}} salido.,frequency;generated;spanish
+36,3,ha,¿Quién {{ha}} llamado?,frequency;generated;spanish
 37,1,cuando,Llámame {{cuando}} llegues.,frequency;generated;rank-021-040
 38,1,yo,Lo hago {{yo}}.,frequency;generated;rank-021-040
 39,1,ser,Quiero {{ser}} médico.,frequency;generated;rank-021-040
