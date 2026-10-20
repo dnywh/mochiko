@@ -302,3 +302,6 @@ rank,variant,word,sentence,tags
 101,1,machen,Was möchtest du {{machen}}?,frequency;generated;german
 101,2,machen,Wir {{machen}} eine Pause.,frequency;generated;german
 101,3,machen,Fehler {{machen}} ist normal.,frequency;generated;german
+102,1,denn,Was ist {{denn}} los?,frequency;generated;german
+102,2,denn,"Ich bleibe, {{denn}} es regnet.",frequency;generated;german
+102,3,denn,Wo wohnst du {{denn}}?,frequency;generated;german
