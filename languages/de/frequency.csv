@@ -305,3 +305,6 @@ rank,variant,word,sentence,tags
 102,1,denn,Was ist {{denn}} los?,frequency;generated;german
 102,2,denn,"Ich bleibe, {{denn}} es regnet.",frequency;generated;german
 102,3,denn,Wo wohnst du {{denn}}?,frequency;generated;german
+103,1,meine,Das ist {{meine}} Mutter.,frequency;generated;german
+103,2,meine,Ich suche {{meine}} Schuhe.,frequency;generated;german
+103,3,meine,Ich {{meine}} es ernst.,frequency;generated;german

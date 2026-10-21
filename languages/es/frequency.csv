@@ -109,6 +109,7 @@ rank,variant,word,sentence,tags
 36,3,ha,¿Quién {{ha}} llamado?,frequency;generated;spanish
 37,1,cuando,Llámame {{cuando}} llegues.,frequency;generated;rank-021-040
 37,2,cuando,Me río {{cuando}} estoy nervioso.,frequency;generated;spanish
+37,3,cuando,Era pequeño {{cuando}} aprendí a nadar.,frequency;generated;spanish
 38,1,yo,Lo hago {{yo}}.,frequency;generated;rank-021-040
 39,1,ser,Quiero {{ser}} médico.,frequency;generated;rank-021-040
 40,1,son,Ellos {{son}} amigos.,frequency;generated;rank-021-040
