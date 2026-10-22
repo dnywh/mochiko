@@ -308,3 +308,6 @@ rank,variant,word,sentence,tags
 103,1,meine,Das ist {{meine}} Mutter.,frequency;generated;german
 103,2,meine,Ich suche {{meine}} Schuhe.,frequency;generated;german
 103,3,meine,Ich {{meine}} es ernst.,frequency;generated;german
+104,1,damit,Nimm das Messer; {{damit}} geht es leichter.,frequency;generated;german
+104,2,damit,"Ich lerne, {{damit}} ich die Prüfung bestehe.",frequency;generated;german
+104,3,damit,Bist du {{damit}} zufrieden?,frequency;generated;german
