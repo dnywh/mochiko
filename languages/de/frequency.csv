@@ -311,3 +311,6 @@ rank,variant,word,sentence,tags
 104,1,damit,Nimm das Messer; {{damit}} geht es leichter.,frequency;generated;german
 104,2,damit,"Ich lerne, {{damit}} ich die Prüfung bestehe.",frequency;generated;german
 104,3,damit,Bist du {{damit}} zufrieden?,frequency;generated;german
+105,1,dir,Wie geht es {{dir}}?,frequency;generated;german
+105,2,dir,Das gehört {{dir}}.,frequency;generated;german
+105,3,dir,Ich komme mit {{dir}}.,frequency;generated;german

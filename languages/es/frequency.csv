@@ -112,6 +112,7 @@ rank,variant,word,sentence,tags
 37,3,cuando,Era pequeño {{cuando}} aprendí a nadar.,frequency;generated;spanish
 38,1,yo,Lo hago {{yo}}.,frequency;generated;rank-021-040
 38,2,yo,Hoy cocino {{yo}}.,frequency;generated;spanish
+38,3,yo,¿Puedo ir {{yo}} también?,frequency;generated;spanish
 39,1,ser,Quiero {{ser}} médico.,frequency;generated;rank-021-040
 40,1,son,Ellos {{son}} amigos.,frequency;generated;rank-021-040
 41,1,sin,Tomo té {{sin}} azúcar.,frequency;generated;rank-041-060
