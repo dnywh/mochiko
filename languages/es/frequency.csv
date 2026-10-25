@@ -115,6 +115,7 @@ rank,variant,word,sentence,tags
 38,3,yo,¿Puedo ir {{yo}} también?,frequency;generated;spanish
 39,1,ser,Quiero {{ser}} médico.,frequency;generated;rank-021-040
 39,2,ser,Eso puede {{ser}} peligroso.,frequency;generated;spanish
+39,3,ser,Gracias por {{ser}} tan amable.,frequency;generated;spanish
 40,1,son,Ellos {{son}} amigos.,frequency;generated;rank-021-040
 41,1,sin,Tomo té {{sin}} azúcar.,frequency;generated;rank-041-060
 42,1,hay,En mi bolsa {{hay}} pan.,frequency;generated;rank-041-060

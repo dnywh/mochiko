@@ -317,3 +317,6 @@ rank,variant,word,sentence,tags
 106,1,will,Ich {{will}} nach Hause.,frequency;generated;german
 106,2,will,Was {{will}} der Hund?,frequency;generated;german
 106,3,will,Sie {{will}} Ärztin werden.,frequency;generated;german
+107,1,einfach,Die Aufgabe ist {{einfach}}.,frequency;generated;german
+107,2,einfach,Komm {{einfach}} vorbei.,frequency;generated;german
+107,3,einfach,Das schmeckt {{einfach}} gut.,frequency;generated;german
