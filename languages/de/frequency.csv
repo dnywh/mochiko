@@ -320,3 +320,6 @@ rank,variant,word,sentence,tags
 107,1,einfach,Die Aufgabe ist {{einfach}}.,frequency;generated;german
 107,2,einfach,Komm {{einfach}} vorbei.,frequency;generated;german
 107,3,einfach,Das schmeckt {{einfach}} gut.,frequency;generated;german
+108,1,ohne,Ich trinke Kaffee {{ohne}} Zucker.,frequency;generated;german
+108,2,ohne,Geh nicht {{ohne}} mich.,frequency;generated;german
+108,3,ohne,Er kam {{ohne}} Jacke.,frequency;generated;german
