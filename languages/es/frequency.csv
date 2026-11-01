@@ -118,6 +118,7 @@ rank,variant,word,sentence,tags
 39,3,ser,Gracias por {{ser}} tan amable.,frequency;generated;spanish
 40,1,son,Ellos {{son}} amigos.,frequency;generated;rank-021-040
 40,2,son,Las llaves {{son}} tuyas.,frequency;generated;spanish
+40,3,son,¿Cuántos {{son}} en tu familia?,frequency;generated;spanish
 41,1,sin,Tomo té {{sin}} azúcar.,frequency;generated;rank-041-060
 42,1,hay,En mi bolsa {{hay}} pan.,frequency;generated;rank-041-060
 43,1,está,Mi casa {{está}} cerca.,frequency;generated;rank-041-060
