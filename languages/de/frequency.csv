@@ -326,3 +326,6 @@ rank,variant,word,sentence,tags
 109,1,weil,"Ich esse, {{weil}} ich Hunger habe.",frequency;generated;german
 109,2,weil,"Sie lacht, {{weil}} der Film lustig ist.",frequency;generated;german
 109,3,weil,"Wir warten, {{weil}} der Zug spät kommt.",frequency;generated;german
+110,1,beim,Wir reden {{beim}} Essen.,frequency;generated;german
+110,2,beim,Ich bin {{beim}} Arzt.,frequency;generated;german
+110,3,beim,Hilfst du mir {{beim}} Kochen?,frequency;generated;german
