@@ -329,3 +329,6 @@ rank,variant,word,sentence,tags
 110,1,beim,Wir reden {{beim}} Essen.,frequency;generated;german
 110,2,beim,Ich bin {{beim}} Arzt.,frequency;generated;german
 110,3,beim,Hilfst du mir {{beim}} Kochen?,frequency;generated;german
+111,1,etwas,Möchtest du {{etwas}} trinken?,frequency;generated;german
+111,2,etwas,Es ist {{etwas}} kalt.,frequency;generated;german
+111,3,etwas,Ich habe {{etwas}} für dich.,frequency;generated;german
