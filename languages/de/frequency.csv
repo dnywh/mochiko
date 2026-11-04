@@ -332,3 +332,6 @@ rank,variant,word,sentence,tags
 111,1,etwas,Möchtest du {{etwas}} trinken?,frequency;generated;german
 111,2,etwas,Es ist {{etwas}} kalt.,frequency;generated;german
 111,3,etwas,Ich habe {{etwas}} für dich.,frequency;generated;german
+112,1,waren,Wir {{waren}} gestern im Kino.,frequency;generated;german
+112,2,waren,Die Äpfel {{waren}} teuer.,frequency;generated;german
+112,3,waren,Wo {{waren}} meine Schlüssel?,frequency;generated;german
