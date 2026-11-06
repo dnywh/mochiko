@@ -335,3 +335,6 @@ rank,variant,word,sentence,tags
 112,1,waren,Wir {{waren}} gestern im Kino.,frequency;generated;german
 112,2,waren,Die Äpfel {{waren}} teuer.,frequency;generated;german
 112,3,waren,Wo {{waren}} meine Schlüssel?,frequency;generated;german
+113,1,zwei,Ich habe {{zwei}} Brüder.,frequency;generated;german
+113,2,zwei,Der Zug fährt um {{zwei}}.,frequency;generated;german
+113,3,zwei,Wir bleiben {{zwei}} Tage.,frequency;generated;german

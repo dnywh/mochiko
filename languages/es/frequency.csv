@@ -124,6 +124,7 @@ rank,variant,word,sentence,tags
 41,3,sin,No puedo leer {{sin}} lentes.,frequency;generated;spanish
 42,1,hay,En mi bolsa {{hay}} pan.,frequency;generated;rank-041-060
 42,2,hay,¿{{Hay}} alguien en casa?,frequency;generated;spanish
+42,3,hay,No {{hay}} que correr.,frequency;generated;spanish
 43,1,está,Mi casa {{está}} cerca.,frequency;generated;rank-041-060
 44,1,fue,Ayer {{fue}} lunes.,frequency;generated;rank-041-060
 45,1,tu,Me gusta {{tu}} camisa.,frequency;generated;rank-041-060
