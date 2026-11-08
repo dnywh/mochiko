@@ -126,6 +126,7 @@ rank,variant,word,sentence,tags
 42,2,hay,¿{{Hay}} alguien en casa?,frequency;generated;spanish
 42,3,hay,No {{hay}} que correr.,frequency;generated;spanish
 43,1,está,Mi casa {{está}} cerca.,frequency;generated;rank-041-060
+43,2,está,La sopa {{está}} lista.,frequency;generated;spanish
 44,1,fue,Ayer {{fue}} lunes.,frequency;generated;rank-041-060
 45,1,tu,Me gusta {{tu}} camisa.,frequency;generated;rank-041-060
 46,1,muy,La sopa está {{muy}} caliente.,frequency;generated;rank-041-060

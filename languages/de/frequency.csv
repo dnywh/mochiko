@@ -338,3 +338,6 @@ rank,variant,word,sentence,tags
 113,1,zwei,Ich habe {{zwei}} Brüder.,frequency;generated;german
 113,2,zwei,Der Zug fährt um {{zwei}}.,frequency;generated;german
 113,3,zwei,Wir bleiben {{zwei}} Tage.,frequency;generated;german
+114,1,mein,Das ist {{mein}} Fahrrad.,frequency;generated;german
+114,2,mein,Wo ist {{mein}} Handy?,frequency;generated;german
+114,3,mein,Dieser Platz ist {{mein}} Lieblingsplatz.,frequency;generated;german
