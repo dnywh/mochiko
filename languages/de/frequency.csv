@@ -341,3 +341,6 @@ rank,variant,word,sentence,tags
 114,1,mein,Das ist {{mein}} Fahrrad.,frequency;generated;german
 114,2,mein,Wo ist {{mein}} Handy?,frequency;generated;german
 114,3,mein,Dieser Platz ist {{mein}} Lieblingsplatz.,frequency;generated;german
+115,1,eines,Das ist die Tasche {{eines}} Freundes.,frequency;generated;german
+115,2,eines,Ich nehme {{eines}} von diesen Büchern.,frequency;generated;german
+115,3,eines,{{Eines}} Tages möchte ich am Meer wohnen.,frequency;generated;german
