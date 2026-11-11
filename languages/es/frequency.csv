@@ -129,6 +129,7 @@ rank,variant,word,sentence,tags
 43,2,está,La sopa {{está}} lista.,frequency;generated;spanish
 43,3,está,¿Quién {{está}} tocando la puerta?,frequency;generated;spanish
 44,1,fue,Ayer {{fue}} lunes.,frequency;generated;rank-041-060
+44,2,fue,La cena {{fue}} deliciosa.,frequency;generated;spanish
 45,1,tu,Me gusta {{tu}} camisa.,frequency;generated;rank-041-060
 46,1,muy,La sopa está {{muy}} caliente.,frequency;generated;rank-041-060
 47,1,sobre,El libro está {{sobre}} la mesa.,frequency;generated;rank-041-060

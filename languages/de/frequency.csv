@@ -344,3 +344,6 @@ rank,variant,word,sentence,tags
 115,1,eines,Das ist die Tasche {{eines}} Freundes.,frequency;generated;german
 115,2,eines,Ich nehme {{eines}} von diesen Büchern.,frequency;generated;german
 115,3,eines,{{Eines}} Tages möchte ich am Meer wohnen.,frequency;generated;german
+116,1,kein,Ich habe {{kein}} Auto.,frequency;generated;german
+116,2,kein,Das ist {{kein}} Problem.,frequency;generated;german
+116,3,kein,Hier fährt {{kein}} Bus.,frequency;generated;german
