@@ -347,3 +347,6 @@ rank,variant,word,sentence,tags
 116,1,kein,Ich habe {{kein}} Auto.,frequency;generated;german
 116,2,kein,Das ist {{kein}} Problem.,frequency;generated;german
 116,3,kein,Hier fährt {{kein}} Bus.,frequency;generated;german
+117,1,seit,Ich wohne {{seit}} Mai hier.,frequency;generated;german
+117,2,seit,Wir warten {{seit}} einer Stunde.,frequency;generated;german
+117,3,seit,{{Seit}} gestern bin ich krank.,frequency;generated;german
