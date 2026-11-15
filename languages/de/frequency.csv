@@ -353,3 +353,6 @@ rank,variant,word,sentence,tags
 118,1,soll,Was {{soll}} ich tun?,frequency;generated;german
 118,2,soll,Ich {{soll}} dich grüßen.,frequency;generated;german
 118,3,soll,Morgen {{soll}} es regnen.,frequency;generated;german
+119,1,selbst,Das habe ich {{selbst}} gemacht.,frequency;generated;german
+119,2,selbst,Du musst {{selbst}} entscheiden.,frequency;generated;german
+119,3,selbst,{{Selbst}} mein Opa benutzt das Internet.,frequency;generated;german
