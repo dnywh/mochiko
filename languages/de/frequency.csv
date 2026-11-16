@@ -356,3 +356,6 @@ rank,variant,word,sentence,tags
 119,1,selbst,Das habe ich {{selbst}} gemacht.,frequency;generated;german
 119,2,selbst,Du musst {{selbst}} entscheiden.,frequency;generated;german
 119,3,selbst,{{Selbst}} mein Opa benutzt das Internet.,frequency;generated;german
+120,1,wo,"Weißt du, {{wo}} Anna ist?",frequency;generated;german
+120,2,wo,{{Wo}} wohnst du?,frequency;generated;german
+120,3,wo,"Das ist das Café, {{wo}} wir uns trafen.",frequency;generated;german

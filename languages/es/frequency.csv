@@ -135,6 +135,7 @@ rank,variant,word,sentence,tags
 45,2,tu,¿Cómo está {{tu}} abuela?,frequency;generated;spanish
 45,3,tu,Dejaste {{tu}} bolsa aquí.,frequency;generated;spanish
 46,1,muy,La sopa está {{muy}} caliente.,frequency;generated;rank-041-060
+46,2,muy,Mi hermana canta {{muy}} bien.,frequency;generated;spanish
 47,1,sobre,El libro está {{sobre}} la mesa.,frequency;generated;rank-041-060
 48,1,también,Yo {{también}} quiero agua.,frequency;generated;rank-041-060
 49,1,todos,Los niños están {{todos}} aquí.,frequency;generated;rank-041-060
