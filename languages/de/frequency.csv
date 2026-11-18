@@ -362,3 +362,6 @@ rank,variant,word,sentence,tags
 121,1,dich,Ich rufe {{dich}} morgen an.,frequency;generated;german
 121,2,dich,Das Geschenk ist für {{dich}}.,frequency;generated;german
 121,3,dich,Setz {{dich}} bitte.,frequency;generated;german
+122,1,menschen,Hier wohnen viele {{Menschen}}.,frequency;generated;german
+122,2,menschen,Diese {{Menschen}} brauchen Hilfe.,frequency;generated;german
+122,3,menschen,Ich lerne gern neue {{Menschen}} kennen.,frequency;generated;german
