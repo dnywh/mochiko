@@ -365,3 +365,6 @@ rank,variant,word,sentence,tags
 122,1,menschen,Hier wohnen viele {{Menschen}}.,frequency;generated;german
 122,2,menschen,Diese {{Menschen}} brauchen Hilfe.,frequency;generated;german
 122,3,menschen,Ich lerne gern neue {{Menschen}} kennen.,frequency;generated;german
+123,1,heute,Ich habe {{heute}} frei.,frequency;generated;german
+123,2,heute,Was essen wir {{heute}}?,frequency;generated;german
+123,3,heute,Ab {{heute}} rauche ich nicht mehr.,frequency;generated;german
