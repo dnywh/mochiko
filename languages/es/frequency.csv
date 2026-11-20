@@ -141,6 +141,7 @@ rank,variant,word,sentence,tags
 47,2,sobre,Hablamos {{sobre}} tu viaje.,frequency;generated;spanish
 47,3,sobre,Ponte el abrigo {{sobre}} la camisa.,frequency;generated;spanish
 48,1,también,Yo {{también}} quiero agua.,frequency;generated;rank-041-060
+48,2,también,El museo abre {{también}} los domingos.,frequency;generated;spanish
 49,1,todos,Los niños están {{todos}} aquí.,frequency;generated;rank-041-060
 50,1,eso,No entiendo {{eso}} todavía.,frequency;generated;rank-041-060
 51,1,tiene,Mi casa {{tiene}} patio.,frequency;generated;rank-041-060

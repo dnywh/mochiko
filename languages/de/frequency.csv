@@ -368,3 +368,6 @@ rank,variant,word,sentence,tags
 123,1,heute,Ich habe {{heute}} frei.,frequency;generated;german
 123,2,heute,Was essen wir {{heute}}?,frequency;generated;german
 123,3,heute,Ab {{heute}} rauche ich nicht mehr.,frequency;generated;german
+124,1,kommt,Wann {{kommt}} der Bus?,frequency;generated;german
+124,2,kommt,Sie {{kommt}} aus Spanien.,frequency;generated;german
+124,3,kommt,Das {{kommt}} darauf an.,frequency;generated;german
