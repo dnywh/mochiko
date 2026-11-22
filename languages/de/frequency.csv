@@ -371,3 +371,6 @@ rank,variant,word,sentence,tags
 124,1,kommt,Wann {{kommt}} der Bus?,frequency;generated;german
 124,2,kommt,Sie {{kommt}} aus Spanien.,frequency;generated;german
 124,3,kommt,Das {{kommt}} darauf an.,frequency;generated;german
+125,1,nichts,Ich habe {{nichts}} gehört.,frequency;generated;german
+125,2,nichts,Das macht {{nichts}}.,frequency;generated;german
+125,3,nichts,Im Kühlschrank ist {{nichts}} mehr.,frequency;generated;german
