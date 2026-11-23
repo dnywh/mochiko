@@ -374,3 +374,6 @@ rank,variant,word,sentence,tags
 125,1,nichts,Ich habe {{nichts}} gehört.,frequency;generated;german
 125,2,nichts,Das macht {{nichts}}.,frequency;generated;german
 125,3,nichts,Im Kühlschrank ist {{nichts}} mehr.,frequency;generated;german
+126,1,nun,Was machen wir {{nun}}?,frequency;generated;german
+126,2,nun,Ich muss {{nun}} gehen.,frequency;generated;german
+126,3,nun,Du bist {{nun}} schon eine Woche hier.,frequency;generated;german
