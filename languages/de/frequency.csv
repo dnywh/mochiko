@@ -377,3 +377,6 @@ rank,variant,word,sentence,tags
 126,1,nun,Was machen wir {{nun}}?,frequency;generated;german
 126,2,nun,Ich muss {{nun}} gehen.,frequency;generated;german
 126,3,nun,Du bist {{nun}} schon eine Woche hier.,frequency;generated;german
+127,1,würde,Ich {{würde}} gern mitkommen.,frequency;generated;german
+127,2,würde,Was {{würde}} das kosten?,frequency;generated;german
+127,3,würde,An deiner Stelle {{würde}} ich warten.,frequency;generated;german
