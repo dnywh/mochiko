@@ -383,3 +383,6 @@ rank,variant,word,sentence,tags
 128,1,leben,Wir {{leben}} auf dem Land.,frequency;generated;german
 128,2,leben,Das {{Leben}} ist schön.,frequency;generated;german
 128,3,leben,Ich möchte gesund {{leben}}.,frequency;generated;german
+129,1,wer,{{Wer}} hat angerufen?,frequency;generated;german
+129,2,wer,"Ich weiß nicht, {{wer}} das ist.",frequency;generated;german
+129,3,wer,{{Wer}} möchte noch Suppe?,frequency;generated;german

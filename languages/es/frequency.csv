@@ -148,6 +148,7 @@ rank,variant,word,sentence,tags
 49,3,todos,Hay comida para {{todos}}.,frequency;generated;spanish
 50,1,eso,No entiendo {{eso}} todavía.,frequency;generated;rank-041-060
 50,2,eso,¿Cuánto cuesta {{eso}}?,frequency;generated;spanish
+50,3,eso,Por {{eso}} llegué tarde.,frequency;generated;spanish
 51,1,tiene,Mi casa {{tiene}} patio.,frequency;generated;rank-041-060
 52,1,nos,El perro {{nos}} sigue.,frequency;generated;rank-041-060
 53,1,porque,No voy {{porque}} llueve.,frequency;generated;rank-041-060
