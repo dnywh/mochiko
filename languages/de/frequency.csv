@@ -386,3 +386,6 @@ rank,variant,word,sentence,tags
 129,1,wer,{{Wer}} hat angerufen?,frequency;generated;german
 129,2,wer,"Ich weiß nicht, {{wer}} das ist.",frequency;generated;german
 129,3,wer,{{Wer}} möchte noch Suppe?,frequency;generated;german
+130,1,macht,Was {{macht}} dein Bruder?,frequency;generated;german
+130,2,macht,Das {{macht}} mir Spaß.,frequency;generated;german
+130,3,macht,Sie {{macht}} das Fenster auf.,frequency;generated;german

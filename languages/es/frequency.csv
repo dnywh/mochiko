@@ -150,6 +150,7 @@ rank,variant,word,sentence,tags
 50,2,eso,¿Cuánto cuesta {{eso}}?,frequency;generated;spanish
 50,3,eso,Por {{eso}} llegué tarde.,frequency;generated;spanish
 51,1,tiene,Mi casa {{tiene}} patio.,frequency;generated;rank-041-060
+51,2,tiene,El bebé {{tiene}} sueño.,frequency;generated;spanish
 52,1,nos,El perro {{nos}} sigue.,frequency;generated;rank-041-060
 53,1,porque,No voy {{porque}} llueve.,frequency;generated;rank-041-060
 54,1,qué,No sé {{qué}} quieres.,frequency;generated;rank-041-060
